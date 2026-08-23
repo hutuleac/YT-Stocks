@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research: Bitcoin Just Had Its Biggest Week In History</title>
+<style>
+:root{
+  --ink:#20231f; --muted:#6b6f66; --line:#e4e2d8; --card:#fffdf8; --bg:#efece2;
+  --brand:#8a5a2e; --serif:'Iowan Old Style','Palatino Linotype',Georgia,serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size:clamp(15px,1.05vw,18px);line-height:1.7;-webkit-font-smoothing:antialiased;}
+.page{max-width:1600px;width:100%;margin:0 auto;background:var(--card);box-shadow:0 0 0 1px var(--line);}
+.hero{padding:clamp(18px,2.4vw,34px) clamp(18px,4vw,56px) clamp(14px,1.8vw,22px);border-bottom:1px solid var(--line);}
+.kicker{font-family:var(--serif);font-style:italic;font-size:clamp(13px,1vw,16px);color:var(--brand);margin-bottom:10px;}
+.backlink{margin-bottom:12px;}
+.backlink a{font-size:clamp(12.5px,.95vw,14px);color:var(--muted);text-decoration:none;border:1px solid var(--line);
+  border-radius:20px;padding:5px 14px;transition:color .15s,border-color .15s;}
+.backlink a:hover{color:var(--brand);border-color:var(--brand);}
+.hero h1{font-family:var(--serif);margin:0 0 14px;font-size:clamp(24px,3.4vw,42px);line-height:1.15;
+  letter-spacing:-.01em;font-weight:600;color:#171916;max-width:42ch;}
+.byline{border-top:1px solid var(--line);padding-top:12px;color:var(--muted);font-size:clamp(13px,1vw,15px);line-height:1.6;}
+.byline b{color:var(--ink);font-weight:600;}
+.stats-line{font-family:var(--serif);font-style:italic;color:var(--brand);font-size:clamp(12.5px,.95vw,14.5px);margin-top:4px;}
+.stats-line a{color:var(--brand);}
+.inner{padding:10px clamp(18px,4vw,56px) 48px;}
+section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
+.sec-eye{font-family:var(--serif);font-style:italic;font-size:14px;color:var(--brand);margin-bottom:4px;}
+.sec h2{font-family:var(--serif);margin:0;font-size:clamp(20px,2vw,26px);font-weight:600;color:#171916;
+  border-bottom:2px solid var(--brand);display:inline-block;padding-bottom:5px;}
+.card{background:#fbf7ef;border:1px solid var(--line);border-radius:14px;padding:clamp(18px,3vw,28px);}
+.snap{list-style:none;margin:0;padding:0;}
+.snap li{padding:12px 0;border-bottom:1px solid var(--line);line-height:1.6;font-size:clamp(14.5px,.95vw,16.5px);}
+.snap li:last-child{border-bottom:none}
+.theme{padding:36px 0;border-bottom:1px solid var(--line);}
+.theme-badgerow{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin-bottom:10px;}
+.badge{display:inline-block;padding:5px 13px;border-radius:3px;font-size:12px;font-weight:700;
+  white-space:nowrap;letter-spacing:.03em;text-transform:uppercase;color:#fffdf8;}
+.theme-status{font-family:var(--serif);font-style:italic;font-size:13.5px;color:var(--muted);}
+.theme h2{font-family:var(--serif);margin:0 0 20px;font-size:clamp(20px,2.2vw,28px);font-weight:600;
+  color:#171916;line-height:1.25;max-width:32ch;padding-left:16px;}
+.theme-body{display:flex;flex-wrap:wrap;gap:28px;}
+.theme-main{flex:3 1 400px;min-width:0;}
+.theme-side{flex:2 1 260px;min-width:0;}
+.lead{margin:0 0 18px;font-size:clamp(16px,1.15vw,19px);line-height:1.6;color:#171916;font-weight:600;max-width:70ch;}
+.bullets{list-style:none;margin:0 0 22px;padding:0;max-width:76ch;}
+.bullets li{position:relative;padding:9px 0 9px 20px;border-bottom:1px solid var(--line);
+  font-size:clamp(14px,.95vw,15.5px);line-height:1.65;color:#2c2f28;}
+.bullets li .dot{position:absolute;left:0;top:16px;width:7px;height:7px;border-radius:50%;}
+.sidecard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:14px 16px 14px 26px;max-width:76ch;margin:0 0 18px;}
+.sidecard:last-child{margin-bottom:0;}
+.sidecard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;
+  background:var(--sc-accent);}
+.sidecard .lbl{font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--sc-accent);margin-bottom:8px;}
+.sidecard.quote{font-family:var(--serif);font-style:italic;font-size:clamp(15px,1.1vw,18px);
+  line-height:1.5;color:#2c2f28;}
+.sidecard.quote .lbl{font-family:-apple-system,sans-serif;font-style:normal;}
+.sidecard.quote cite{display:block;font-family:-apple-system,sans-serif;font-style:normal;font-size:13px;
+  color:var(--muted);margin-top:9px;}
+.sidecard .txt{font-size:14.5px;line-height:1.55;color:#3a3d35;}
+.namechip{padding:0 0 10px;margin:0 0 10px;border-bottom:1px solid var(--line);}
+.namechip:last-child{padding-bottom:0;margin-bottom:0;border-bottom:none;}
+.namechip b{display:block;font-weight:600;font-size:14.5px;color:#171916;}
+.namechip span{font-size:13px;color:#4a4d44;line-height:1.5;}
+.icard{display:flex;gap:14px;align-items:flex-start;background:#fffefb;border:1px solid var(--line);
+  border-radius:12px;padding:14px 16px;margin:11px 0;}
+.icard .ic{flex:none;width:30px;height:30px;border-radius:6px;display:grid;place-items:center;
+  font-size:14px;background:#f4e9db;line-height:1;}
+.icard .title{font-weight:600;font-size:clamp(14px,.95vw,15.5px);color:#171916;line-height:1.42;margin-bottom:5px;}
+.icard .tag{display:inline-block;font-family:var(--serif);font-style:italic;font-size:13px;font-weight:600;color:var(--brand);}
+.icard .detail{font-size:13.5px;color:#4a4d44;line-height:1.55;margin-top:4px;}
+.riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px 14px 28px;margin:11px 0;}
+.riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskcard .txt{font-weight:500;font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;}
+.gloss{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:6px 30px;}
+.gloss div{padding:9px 0;border-bottom:1px solid var(--line);font-size:13.8px;line-height:1.55;}
+.gloss b{font-family:var(--serif);color:#171916;}
+.empty{color:var(--muted);font-style:italic;font-size:14.5px;}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="hero">
+    <div class="backlink"><a href="index.html">&#8592; All Research Briefs</a></div>
+    <div class="kicker">A YouTube Research Brief</div>
+    <h1>Bitcoin Just Had Its Biggest Week In History</h1>
+    <div class="byline">
+      Channel: <b>Anthony Pompliano</b> &middot; Speaker: <b>Anthony Pompliano, Jordi Visser</b> &middot; <b>2026-08-22</b>
+      <div class="stats-line">5 threads · Bitcoin's 7-sigma week and why Visser calls it the purest AI trade, public-company multiple compression, portfolio allocation math, the Stripe/Ramp router land grab, and a Bayesian-thinking detour on why smart people believe false things &middot; <a href="https://youtu.be/fhZiG-Uzs1c" target="_blank" rel="noopener">Watch on YouTube &#8599;</a></div>
+    </div>
+  </header>
+  <div class="inner">
+    <section class="sec">
+      <div class="sec-eye">The one-paragraph takeaway</div>
+      <h2>Video Snapshot</h2>
+      <div class="card" style="margin-top:16px;"><ol class="snap"><li>Bitcoin rallied 22-23% in 7 days — a seven-standard-deviation weekly move Visser says has only happened twice before (Apr 2019, Jan 2023), both times followed by large rallies once price held above the 200-day moving average.</li><li>Catalyst: Treasury's Scott Bessent intervened in the yen (first intervention since 1998) plus a debt-buyback language change — read as the government signaling it wants yields contained and is running the system hot.</li><li>Visser's core thesis: Bitcoin is 'the purest AI trade' — a hedge against the abundance/deflation AI creates, since it's the one asset with effectively no competition, unlike AI models, stablecoins, or public companies facing margin compression.</li><li>Public-market case study: Nvidia is up ~80% since June 2024, but the entire gain happened in just 4 of those 24 months — the rest was sideways chop driven by competition fears, which Visser expects to spread across the whole AI trade via multiple compression.</li><li>Stripe acquired Open Router this week and Ramp launched router.com — both fintechs racing to own the 'model router' layer that decides which AI query goes to which model.</li><li>Portfolio framework: size a Bitcoin allocation to your probability estimate — think there's a 20% chance the thesis is right, hold ~20% of savings in it; younger investors should skew higher since Bitcoin is framed as a time/abundance hedge.</li><li>A long Bayesian-thinking detour: why a highly educated person can hold confidently false beliefs (narrow media diet, PTSD-like belief reinforcement), and why constantly updating your worldview is now a survival skill rather than a nice-to-have.</li><li>Moderna's stock more than doubled in a day on mRNA melanoma vaccine phase 3 news — cited as proof biotech isn't a dead 'no-growth' sector once AI (AlphaFold 3-era tools) starts compressing drug development timelines.</li></ol></div>
+    </section>
+
+    
+<section class="theme" id="seven-sigma-week">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#3f6b2e;">High conviction</span>
+    <span class="theme-status">BITCOIN +22-23% IN 7 DAYS</span>
+  </div>
+  <h2 style="border-left:4px solid #3f6b2e;">A seven-sigma week, and Visser says the tape just confirmed the bull case</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**Bitcoin's move this week was a seven-standard-deviation event — statistically rare enough that Visser treats it as the market speaking, not noise.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#3f6b2e;"></span>Move measured via 60-day realized volatility (23) applied to the weekly return; only three weeks in the last decade have topped 5 sigma, and this one hit 7.</li><li><span class="dot" style="background:#3f6b2e;"></span>The two prior &gt;5-sigma weeks (April 2019, January 2023) both coincided with Bitcoin breaking and holding above its 200-day moving average, followed by large rallies — Visser's personal rule is to turn bullish once that break happens, without trying to call the exact bottom.</li><li><span class="dot" style="background:#3f6b2e;"></span>Catalyst chain: Scott Bessent's yen intervention (first since 1998, aimed at keeping yields from rising), a quarterly refunding language change, then this week's debt-buyback shift.</li><li><span class="dot" style="background:#3f6b2e;"></span>Bitcoin had already been 'acting better' through bad news — a wallet hack, Michael Saylor selling Bitcoin, the Clarity Act stalling — which Visser reads as the tape quietly telling you something had changed before the price move confirmed it.</li><li><span class="dot" style="background:#3f6b2e;"></span>Glassnode co-founder Raphael found ~14 prior 5-sigma-plus moves where the average 6-month forward return was 80% appreciation — a data point Visser flags as directionally useful, not a promise.</li><li><span class="dot" style="background:#3f6b2e;"></span>Confirming flows: one of the biggest ETF inflow weeks since Bitcoin's all-time high, plus a Stan Druckenmiller 13F showing new buying into crypto, Bitcoin miners, and Hyperliquid-adjacent exposure.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#3f6b2e;"><div class="lbl">Pull quote</div>&#8220;The tape doesn't lie... I've said, I'm going to keep quiet on Bitcoin until the tape tells me that it's time to be loud again. It's time.&#8221;<cite>— Jordi Visser</cite></div>
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>Bitcoin (BTC)</b><span>7-sigma weekly move, broke above the 200-day moving average</span></div><div class="namechip"><b>Glassnode</b><span>co-founder Raphael's sigma-move forward-return study cited</span></div></div>
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">Visser explicitly rejects the four-year-cycle framework even while noting this move rhymes with two prior cycle-turn moments — he's using the sigma/200-day signal, not calendar timing.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="purest-ai-trade">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#3f6b2e;">High conviction</span>
+    <span class="theme-status">CORE THESIS</span>
+  </div>
+  <h2 style="border-left:4px solid #3f6b2e;">Bitcoin as 'the purest AI trade' — a hedge against abundance, not a bet on AI</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**Visser's framing: AI is a deflationary, hyper-competitive force that erodes growth everywhere except in the one asset with no competitor.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#3f6b2e;"></span>Cites Marc Andreessen's January 2014 essay 'Why Bitcoin Matters,' which called it the third most important innovation in computer history and predicted a 20-year adoption arc to 2034 — a timeline Visser notes lines up with AGI expectations.</li><li><span class="dot" style="background:#3f6b2e;"></span>AI-driven abundance means hyper-competition happening in days or hours instead of months; Visser points to Anthropic's own ARR debate ($65B vs $75B chatter) as an example of growth-rate anxiety even at a company still growing fast.</li><li><span class="dot" style="background:#3f6b2e;"></span>Borrows Peter Thiel's 'competition is for losers' framing: Bitcoin, unlike stablecoins or tokenized securities, has no direct competitor; Visser puts a number on the pace of that compression too — digital agents run constantly and are effectively squeezing a year of work into about 70 days.</li><li><span class="dot" style="background:#3f6b2e;"></span>Nvidia case study: up ~80% compounded since June 2024, but the entire gain landed in only 4 of those 24 months, sideways the rest of the time — a lagging stock despite strong earnings prints, which Visser blames on rising competition fears rather than fundamentals.</li><li><span class="dot" style="background:#3f6b2e;"></span>Volatility comparison: Micron's 60-day realized volatility (~120) runs about 4x Bitcoin's (~24) — Visser's point is that a 'safe' industrial name is now less stable than the asset people call risky.</li><li><span class="dot" style="background:#3f6b2e;"></span>His own portfolio has rotated toward the scarcity trade — heavier in Eli Lilly, silver, and Bitcoin, while trimming (not exiting) infrastructure names; he still holds some Marvell and recently bought Micron on the dip.</li><li><span class="dot" style="background:#3f6b2e;"></span>Silver gets framed as 'the AI mineral' — both a monetary/gold-adjacent asset and an industrial input in shortage, which is why he sees gold, silver, and Bitcoin rising together now as a scarcity trade, not just a dollar-debasement trade.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#3f6b2e;"><div class="lbl">Pull quote</div>&#8220;Bitcoin needs to be in people's portfolio because it is a hedge against abundance. It cannot be destroyed because it is built on beliefs.&#8221;<cite>— Jordi Visser</cite></div>
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>Nvidia (NVDA)</b><span>up ~80% since June 2024 but entire gain in 4 of 24 months</span></div><div class="namechip"><b>Micron (MU)</b><span>bought on the dip; realized vol ~4x Bitcoin's</span></div><div class="namechip"><b>Marvell (MRVL)</b><span>still held as an infrastructure position</span></div><div class="namechip"><b>Eli Lilly (LLY)</b><span>part of Visser's rotation into the scarcity/application-layer trade</span></div><div class="namechip"><b>Bitcoin (BTC)</b><span>core scarcity-trade holding, the 'purest AI trade'</span></div><div class="namechip"><b>Silver</b><span>framed as 'the AI mineral' — monetary asset plus industrial shortage</span></div></div>
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">The thesis leans on 'humanoids coming' and terminal-value uncertainty for public companies 3-8 years out — a forecast, not a settled fact, that Visser uses to justify multiple compression across the AI trade.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="portfolio-allocation">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#93711b;">Framework, not a number</span>
+    <span class="theme-status">PERSONAL FINANCE</span>
+  </div>
+  <h2 style="border-left:4px solid #93711b;">How much Bitcoin? Size the position to your probability estimate</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**Visser rejects a single-number allocation rule in favor of a Bayesian, personalized-risk approach.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#93711b;"></span>Lays out the spectrum people actually hear: the cautious TV take (1-2%), the macro-view take (60% equities / 40% Bitcoin replacing bonds), and the maximalist take (100% of wealth).</li><li><span class="dot" style="background:#93711b;"></span>His own method uses an AI assistant ('Sylvia') to customize allocation to a person's risk appetite, spending needs, age, and health rather than a fixed rule.</li><li><span class="dot" style="background:#93711b;"></span>References Rick Edelman's argument that longer life expectancy (aided by health/AI advances) means people need more growth exposure and fewer bonds, not fewer.</li><li><span class="dot" style="background:#93711b;"></span>Core rule of thumb: allocate roughly the probability you assign to the thesis being right — 20% conviction means ~20% of savings, 5% conviction means ~5%.</li><li><span class="dot" style="background:#93711b;"></span>General skew: younger investors should hold more (Bitcoin as a 'time hedge' and abundance hedge), while older, already-wealthy investors should treat it as part of their growth bucket rather than the whole portfolio.</li><li><span class="dot" style="background:#93711b;"></span>Personally, Bitcoin was his largest single allocation until AI names briefly outperformed it; he now holds more in silver and precious metals but remains overweight the broader scarcity trade.</li></ul>
+    </div>
+    <div class="theme-side">
+      
+      
+      
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="stripe-ramp-router-war">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#93711b;">Contested</span>
+    <span class="theme-status">THIS WEEK'S M&amp;A</span>
+  </div>
+  <h2 style="border-left:4px solid #93711b;">Stripe and Ramp are racing to own the AI model-router layer</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**Stripe bought Open Router and Ramp launched router.com in the same week — both betting that controlling which model an AI query gets routed to is the real choke point.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#93711b;"></span>Open Router is an API that routes an AI query to whichever model fits, instead of a developer hard-coding to one model (Claude, GPT, etc.); Visser distinguishes plain routing access from the harder problem of an intelligence layer that decides which model a query actually needs.</li><li><span class="dot" style="background:#93711b;"></span>Cites Sylvia's own engineering approach: predicting the effort a query requires by reading just its first 500 characters, as an example of that intelligence layer.</li><li><span class="dot" style="background:#93711b;"></span>Ramp — framed as Stripe's closest competitor, even though they don't compete head-on — has evolved from a spend-management/card platform into what Visser calls 'an AI research lab with a finance layer on top.'</li><li><span class="dot" style="background:#93711b;"></span>Net effect for frontier labs: routing shifts volume toward cheaper open-source/challenger models, which reduces Anthropic's and OpenAI's *share* of the pie without necessarily shrinking their absolute revenue — Visser invokes Jevons paradox, since total usage keeps growing.</li><li><span class="dot" style="background:#93711b;"></span>He splits frontier-lab demand into two lanes: Fortune 500 buyers who avoid open source on liability/security grounds, versus 'highest IQ' users like hedge fund Millennium, which uses Anthropic rather than an open model like Kimi K3 for risk systems.</li><li><span class="dot" style="background:#93711b;"></span>Jason Calcanis (All-In Podcast) is cited on how much manual effort startups already spend stitching together open-source models with Anthropic just to control costs — the gap routers are meant to close.</li><li><span class="dot" style="background:#93711b;"></span>Visser likes Palantir for the orchestration/AI-sovereignty layer, arguing that as models scale toward what he calls '200 IQ / 2000 IQ' territory, frontier labs could end up more entangled with government, which would reshape how their terminal value gets priced.</li></ul>
+    </div>
+    <div class="theme-side">
+      
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>Stripe</b><span>acquired Open Router this week to own the model-routing layer</span></div><div class="namechip"><b>Ramp</b><span>launched router.com the same week, its own routing play</span></div><div class="namechip"><b>Anthropic</b><span>one of two frontier labs whose revenue share is exposed to routing</span></div><div class="namechip"><b>OpenAI</b><span>the other frontier lab exposed to the routing shift</span></div><div class="namechip"><b>Palantir (PLTR)</b><span>Visser likes it for the orchestration/AI-sovereignty layer</span></div></div>
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">The '$78 billion' figure Visser cites for Stripe's Open Router acquisition is his stated number in conversation, not a number this brief can verify from the transcript alone — treat it as his working figure.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="ai-labs-like-early-bitcoin">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#93711b;">Structural comparison</span>
+    <span class="theme-status">ADOPTION-CURVE PARALLEL</span>
+  </div>
+  <h2 style="border-left:4px solid #93711b;">Frontier AI labs are living through Bitcoin's 2010-2014 adoption fear cycle</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**Visser argues today's AI-lab anxiety (bubble talk, government scrutiny, existential fear) mirrors exactly what Bitcoin went through a decade ago — except Bitcoin's fear has now fully dissipated.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#93711b;"></span>Visser has an interview releasing in a few days with a University of Louisville computer science professor who coined the term 'AI safety' in 2011 — bullish on AI overall, but concerned about eventually losing control of the systems; also describes the professor as a committed Bitcoiner with little interest in the rest of crypto.</li><li><span class="dot" style="background:#93711b;"></span>Pompliano raises a live question about Anthropic's recent biotech-focused messaging: genuine conviction, or a PR move to preempt fear narratives about AI's downsides — and warns that if product roadmaps start being shaped by public perception, these companies could look very different in 12 months.</li><li><span class="dot" style="background:#93711b;"></span>Parallel drawn explicitly: frontier labs today show the same fast growth, bubble talk, and government intervention risk that Bitcoin carried in 2010-2014; Anthropic's jump from a small valuation to multiple trillions of dollars in about a year is called unprecedented.</li><li><span class="dot" style="background:#93711b;"></span>Visser: almost no fear remains around Bitcoin itself (no more 'will it get banned' debate — only the future price is debated), whereas AI companies still carry real fear about where the technology leads, even as growth keeps outperforming.</li><li><span class="dot" style="background:#93711b;"></span>Quantum computing is mentioned in passing as a risk to Bitcoin that Visser is still tracking, not dismissing.</li><li><span class="dot" style="background:#93711b;"></span>Ironic framing: AI-swarm hacking fears against the fiat/banking system, plus Bitcoin miners' compute becoming more valuable for AI workloads than for mining supply, both cut in Bitcoin's favor rather than against it.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#93711b;"><div class="lbl">Pull quote</div>&#8220;Almost nobody has a fear of Bitcoin right... the only thing that is debated is will it be worth more or less in the future.&#8221;<cite>— Jordi Visser</cite></div>
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>Anthropic</b><span>valuation jump from small to multiple trillions in ~a year, called unprecedented</span></div><div class="namechip"><b>Bitcoin (BTC)</b><span>fear has fully dissipated compared to lingering AI-existential fear</span></div></div>
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">The professor's identity is not confirmed in the transcript (auto-captions didn't render a clean name), so he's described by role rather than named.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="moderna-ai-drug-discovery">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#3f6b2e;">Confirmed event</span>
+    <span class="theme-status">STOCK MORE THAN DOUBLED IN A DAY</span>
+  </div>
+  <h2 style="border-left:4px solid #3f6b2e;">Moderna's mRNA cancer breakthrough shows biotech isn't the 'no-growth' sector people assumed</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**A phase 3 melanoma vaccine result more than doubled Moderna's stock in a day and kept climbing — evidence, in Visser's view, that AI-accelerated drug discovery is about to make pharma an unexpected AI winner.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#3f6b2e;"></span>Moderna stock more than doubled the day of the announcement, then was up another 16% the following Friday as the market worked out how real the phase 3 results were.</li><li><span class="dot" style="background:#3f6b2e;"></span>Pompliano notes most people had written Moderna off as coasting on legacy COVID-era assets, not as a source of cancer-treatment innovation — Martin Shkreli is cited as having voiced that same skepticism about the trial before the result landed.</li><li><span class="dot" style="background:#3f6b2e;"></span>AI's role: a reference to Moderna's Dave Johnson describing how machine learning helped the company design its COVID vaccine quickly; AlphaFold 3 is cited as the threshold moment for ML maturity in this space.</li><li><span class="dot" style="background:#3f6b2e;"></span>Visser's framing: AI should be able to carry drug candidates past Phase 2 — historically where many drugs die in the FDA approval process — and has been writing papers since last November arguing pharma/biotech will be among AI's biggest application-layer winners.</li><li><span class="dot" style="background:#3f6b2e;"></span>Healthcare has outperformed the S&amp;P by roughly 7-8% this year and hit new multi-year relative highs, despite being a traditionally rate-sensitive, defensive sector in a higher-rate year (still below its all-time highs).</li><li><span class="dot" style="background:#3f6b2e;"></span>Eli Lilly is cited alongside Moderna as a self-disrupting example — heavy AI/data-center investment with revenue growing 50% year-over-year at trillion-dollar scale.</li></ul>
+    </div>
+    <div class="theme-side">
+      
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>Moderna (MRNA)</b><span>stock more than doubled in a day on phase 3 melanoma vaccine news</span></div><div class="namechip"><b>Eli Lilly (LLY)</b><span>heavy AI/data-center investment, revenue +50% YoY at trillion-dollar scale</span></div></div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="bayesian-brain">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#93711b;">Mindset framework</span>
+    <span class="theme-status">WHY SMART PEOPLE BELIEVE FALSE THINGS</span>
+  </div>
+  <h2 style="border-left:4px solid #93711b;">Being 'overeducated' doesn't protect you from confidently believing false things</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**A detour into why a highly credentialed person can be badly wrong, and Visser's case for treating every belief as a bet you update, not a fixed conclusion.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#93711b;"></span>Trigger: energy trader John Arnold posted a chart showing 44% of people would support a nuclear plant near them versus just 15% for a data center — and roughly twice as many would back a coal plant near them over a data center.</li><li><span class="dot" style="background:#93711b;"></span>Visser's anecdote: a summer conversation in Maine with a highly educated, technical-degree graduate who confidently repeated false claims about data-center water use, sourced entirely from one TV news station; Visser contrasts this with everyday golf-course sprinkler water use as a sanity check.</li><li><span class="dot" style="background:#93711b;"></span>His diagnosis: repetitive, one-source information intake works like PTSD-style reinforcement — the brain starts treating a repeated narrative as true regardless of evidence, and confirmation bias does the rest.</li><li><span class="dot" style="background:#93711b;"></span>Personal framing for why he trusts podcasts/YouTube over single-source news: he's an introvert who deliberately seeks people who challenge his thinking rather than confirm it.</li><li><span class="dot" style="background:#93711b;"></span>Background: studied Freud, then Jung and Skinner, to understand his own upbringing (atheist father, devout Catholic mother); his father's core lesson was 'nothing you hear in life is true except 2+2=4' — everything else is someone's opinion to be weighed, not accepted.</li><li><span class="dot" style="background:#93711b;"></span>Cites Thomas Bayes and Annie Duke's 'Thinking in Bets' as the throughline (treat every choice — including this conversation — as a probabilistic bet you revise as new information arrives), plus a Daniel Pink book from around 2005-2006 (title not stated) on the shift from formulaic, mathematical thinking toward entrepreneurial, artistic thinking as the more valuable skill set.</li><li><span class="dot" style="background:#93711b;"></span>'Mental athlete' framing: entrepreneurial or fast-tech-adopting people must update their worldview roughly monthly to keep up, while a static 9-to-5 mindset can coast on assumptions that are years out of date — and Visser argues the old 'pick a job for 20 years' security model no longer exists, so learning to fail and rebuild fast matters more than getting it right the first time.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#93711b;"><div class="lbl">Pull quote</div>&#8220;Nothing you will hear in life is true except 2 plus 2 is four... everything you'll hear from a human being is someone's opinion.&#8221;<cite>— Jordi Visser, recalling his father's advice</cite></div>
+      
+      
+    </div>
+  </div>
+</section>
+
+
+    <section class="sec">
+      <div class="sec-eye">What to do with this</div>
+      <h2>Best Actionable Takeaways</h2>
+      <div style="margin-top:16px;"><div class="icard"><div class="ic">📈</div><div><div class="title">Watch the 200-day moving average, not the headline percentage — Visser's own rule for turning bullish on Bitcoin</div><div class="tag">Signal</div></div></div><div class="icard"><div class="ic">🧮</div><div><div class="title">Size any Bitcoin allocation to your honest probability estimate for the thesis, not a borrowed rule of thumb</div><div class="tag">Sizing</div></div></div><div class="icard"><div class="ic">🔍</div><div><div class="title">Track the Stripe/Ramp router land grab — it's a leading indicator for how much pricing power frontier labs keep</div><div class="tag">Watchlist</div></div></div><div class="icard"><div class="ic">🧠</div><div><div class="title">Treat your own views as bets to revise, not fixed conclusions — especially on fast-moving AI and crypto narratives</div><div class="tag">Mindset</div></div></div><div class="icard"><div class="ic">💊</div><div><div class="title">Don't write off pharma as a no-growth defensive sector — AI-accelerated discovery is an underpriced application-layer story</div><div class="tag">Sector</div></div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Where this could be wrong</div>
+      <h2>Risks &amp; Caveats on This Source</h2>
+      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">This is a single-guest conversation carrying forward-looking opinion and Visser's own trading positions (he discloses holdings in Micron, Marvell, Eli Lilly, silver, and Bitcoin) — these are his working views in real time, not audited research.</div></div><div class="riskcard"><div class="txt">The '$78 billion' Stripe/Open Router acquisition figure and the exact scale of the professor's AI safety credentials are as stated in conversation; auto-captions can mangle numbers and names, so treat unverifiable specifics as Visser's recollection rather than confirmed fact.</div></div><div class="riskcard"><div class="txt">Visser is a repeat guest with a standing bullish thesis on Bitcoin and is actively building paid subscriber content around this exact call — worth knowing before weighting his conviction.</div></div><div class="riskcard"><div class="txt">Two sponsor segments (Figure Markets crypto-backed loans; a testosterone supplement) were excluded entirely from this brief per standing policy.</div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Beyond the main threads</div>
+      <h2>Other Notable News</h2>
+      <div style="margin-top:16px;"><p class="empty">Nothing notable found in this category for this video.</p></div>
+    </section>
+
+    <section class="sec" style="border-bottom:none;">
+      <div class="sec-eye">Names and terms at a glance</div>
+      <h2>Glossary &amp; Entities</h2>
+      <div style="margin-top:16px;"><div class="gloss"><div><b>Sigma move / seven-sigma week</b> &mdash; A statistical measure of how many standard deviations a price move is from its normal range — a 7-sigma week is an extremely rare, outlier-sized move relative to recent realized volatility.</div><div><b>Open Router / model router</b> &mdash; Infrastructure that routes an AI query to whichever model (frontier or open-source) best fits its complexity and cost, instead of hard-coding to a single provider.</div><div><b>Jevons paradox</b> &mdash; The idea that making a resource more efficient to use can increase total consumption of it, rather than reduce demand — applied here to argue cheaper AI routing grows total AI usage rather than just cannibalizing frontier-lab revenue.</div><div><b>Terminal value</b> &mdash; The value assigned to a company's cash flows far into the future in a discounted-cash-flow model — central to Visser's argument that competition uncertainty is compressing valuation multiples across the AI trade.</div></div></div>
+    </section>
+  </div>
+</div>
+</body>
+</html>

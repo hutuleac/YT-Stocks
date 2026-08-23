@@ -1,0 +1,361 @@
+"""Data file for youtube-research-brief: Anthony Pompliano x Jordi Visser, Bitcoin Just Had Its
+Biggest Week In History (2026-08-22)."""
+
+META = {
+    "title": "Bitcoin Just Had Its Biggest Week In History",
+    "channel": "Anthony Pompliano",
+    "speakers": "Anthony Pompliano, Jordi Visser",
+    "date": "2026-08-22",
+    "video_url": "https://youtu.be/fhZiG-Uzs1c",
+    "thread_line": "5 threads · Bitcoin's 7-sigma week and why Visser calls it the purest AI trade, "
+                   "public-company multiple compression, portfolio allocation math, the Stripe/Ramp "
+                   "router land grab, and a Bayesian-thinking detour on why smart people believe false things",
+    "category": "market",
+}
+
+SNAPSHOT = [
+    "Bitcoin rallied 22-23% in 7 days — a seven-standard-deviation weekly move Visser says has "
+    "only happened twice before (Apr 2019, Jan 2023), both times followed by large rallies once "
+    "price held above the 200-day moving average.",
+    "Catalyst: Treasury's Scott Bessent intervened in the yen (first intervention since 1998) plus "
+    "a debt-buyback language change — read as the government signaling it wants yields contained "
+    "and is running the system hot.",
+    "Visser's core thesis: Bitcoin is 'the purest AI trade' — a hedge against the abundance/deflation "
+    "AI creates, since it's the one asset with effectively no competition, unlike AI models, "
+    "stablecoins, or public companies facing margin compression.",
+    "Public-market case study: Nvidia is up ~80% since June 2024, but the entire gain happened in "
+    "just 4 of those 24 months — the rest was sideways chop driven by competition fears, which "
+    "Visser expects to spread across the whole AI trade via multiple compression.",
+    "Stripe acquired Open Router this week and Ramp launched router.com — both fintechs racing to "
+    "own the 'model router' layer that decides which AI query goes to which model.",
+    "Portfolio framework: size a Bitcoin allocation to your probability estimate — think there's a "
+    "20% chance the thesis is right, hold ~20% of savings in it; younger investors should skew "
+    "higher since Bitcoin is framed as a time/abundance hedge.",
+    "A long Bayesian-thinking detour: why a highly educated person can hold confidently false beliefs "
+    "(narrow media diet, PTSD-like belief reinforcement), and why constantly updating your worldview "
+    "is now a survival skill rather than a nice-to-have.",
+    "Moderna's stock more than doubled in a day on mRNA melanoma vaccine phase 3 news — cited as proof "
+    "biotech isn't a dead 'no-growth' sector once AI (AlphaFold 3-era tools) starts compressing drug "
+    "development timelines.",
+]
+
+THEMES = [
+    {
+        "id": "seven-sigma-week",
+        "color": "green",
+        "badge": "High conviction",
+        "status": "BITCOIN +22-23% IN 7 DAYS",
+        "title": "A seven-sigma week, and Visser says the tape just confirmed the bull case",
+        "lead": "**Bitcoin's move this week was a seven-standard-deviation event — statistically rare enough "
+                "that Visser treats it as the market speaking, not noise.**",
+        "bullets": [
+            "Move measured via 60-day realized volatility (23) applied to the weekly return; only three "
+            "weeks in the last decade have topped 5 sigma, and this one hit 7.",
+            "The two prior >5-sigma weeks (April 2019, January 2023) both coincided with Bitcoin breaking "
+            "and holding above its 200-day moving average, followed by large rallies — Visser's personal "
+            "rule is to turn bullish once that break happens, without trying to call the exact bottom.",
+            "Catalyst chain: Scott Bessent's yen intervention (first since 1998, aimed at keeping yields "
+            "from rising), a quarterly refunding language change, then this week's debt-buyback shift.",
+            "Bitcoin had already been 'acting better' through bad news — a wallet hack, Michael Saylor "
+            "selling Bitcoin, the Clarity Act stalling — which Visser reads as the tape quietly telling "
+            "you something had changed before the price move confirmed it.",
+            "Glassnode co-founder Raphael found ~14 prior 5-sigma-plus moves where the average 6-month "
+            "forward return was 80% appreciation — a data point Visser flags as directionally useful, "
+            "not a promise.",
+            "Confirming flows: one of the biggest ETF inflow weeks since Bitcoin's all-time high, plus a "
+            "Stan Druckenmiller 13F showing new buying into crypto, Bitcoin miners, and Hyperliquid-adjacent "
+            "exposure.",
+        ],
+        "quote": {
+            "text": "The tape doesn't lie... I've said, I'm going to keep quiet on Bitcoin until the tape "
+                    "tells me that it's time to be loud again. It's time.",
+            "cite": "— Jordi Visser",
+        },
+        "watch": "Visser explicitly rejects the four-year-cycle framework even while noting this move rhymes "
+                 "with two prior cycle-turn moments — he's using the sigma/200-day signal, not calendar timing.",
+        "names": [
+            {"name": "Bitcoin (BTC)", "blurb": "7-sigma weekly move, broke above the 200-day moving average"},
+            {"name": "Glassnode", "blurb": "co-founder Raphael's sigma-move forward-return study cited"},
+        ],
+    },
+    {
+        "id": "purest-ai-trade",
+        "color": "green",
+        "badge": "High conviction",
+        "status": "CORE THESIS",
+        "title": "Bitcoin as 'the purest AI trade' — a hedge against abundance, not a bet on AI",
+        "lead": "**Visser's framing: AI is a deflationary, hyper-competitive force that erodes growth "
+                "everywhere except in the one asset with no competitor.**",
+        "bullets": [
+            "Cites Marc Andreessen's January 2014 essay 'Why Bitcoin Matters,' which called it the third "
+            "most important innovation in computer history and predicted a 20-year adoption arc to "
+            "2034 — a timeline Visser notes lines up with AGI expectations.",
+            "AI-driven abundance means hyper-competition happening in days or hours instead of months; "
+            "Visser points to Anthropic's own ARR debate ($65B vs $75B chatter) as an example of growth-rate "
+            "anxiety even at a company still growing fast.",
+            "Borrows Peter Thiel's 'competition is for losers' framing: Bitcoin, unlike stablecoins or "
+            "tokenized securities, has no direct competitor; Visser puts a number on the pace of that "
+            "compression too — digital agents run constantly and are effectively squeezing a year of work "
+            "into about 70 days.",
+            "Nvidia case study: up ~80% compounded since June 2024, but the entire gain landed in only 4 of "
+            "those 24 months, sideways the rest of the time — a lagging stock despite strong earnings prints, "
+            "which Visser blames on rising competition fears rather than fundamentals.",
+            "Volatility comparison: Micron's 60-day realized volatility (~120) runs about 4x Bitcoin's (~24) "
+            "— Visser's point is that a 'safe' industrial name is now less stable than the asset people call "
+            "risky.",
+            "His own portfolio has rotated toward the scarcity trade — heavier in Eli Lilly, silver, and "
+            "Bitcoin, while trimming (not exiting) infrastructure names; he still holds some Marvell and "
+            "recently bought Micron on the dip.",
+            "Silver gets framed as 'the AI mineral' — both a monetary/gold-adjacent asset and an industrial "
+            "input in shortage, which is why he sees gold, silver, and Bitcoin rising together now as a "
+            "scarcity trade, not just a dollar-debasement trade.",
+        ],
+        "quote": {
+            "text": "Bitcoin needs to be in people's portfolio because it is a hedge against abundance. It "
+                    "cannot be destroyed because it is built on beliefs.",
+            "cite": "— Jordi Visser",
+        },
+        "watch": "The thesis leans on 'humanoids coming' and terminal-value uncertainty for public companies "
+                 "3-8 years out — a forecast, not a settled fact, that Visser uses to justify multiple "
+                 "compression across the AI trade.",
+        "names": [
+            {"name": "Nvidia (NVDA)", "blurb": "up ~80% since June 2024 but entire gain in 4 of 24 months"},
+            {"name": "Micron (MU)", "blurb": "bought on the dip; realized vol ~4x Bitcoin's"},
+            {"name": "Marvell (MRVL)", "blurb": "still held as an infrastructure position"},
+            {"name": "Eli Lilly (LLY)", "blurb": "part of Visser's rotation into the scarcity/application-layer trade"},
+            {"name": "Bitcoin (BTC)", "blurb": "core scarcity-trade holding, the 'purest AI trade'"},
+            {"name": "Silver", "blurb": "framed as 'the AI mineral' — monetary asset plus industrial shortage"},
+        ],
+    },
+    {
+        "id": "portfolio-allocation",
+        "color": "amber",
+        "badge": "Framework, not a number",
+        "status": "PERSONAL FINANCE",
+        "title": "How much Bitcoin? Size the position to your probability estimate",
+        "lead": "**Visser rejects a single-number allocation rule in favor of a Bayesian, "
+                "personalized-risk approach.**",
+        "bullets": [
+            "Lays out the spectrum people actually hear: the cautious TV take (1-2%), the macro-view "
+            "take (60% equities / 40% Bitcoin replacing bonds), and the maximalist take (100% of wealth).",
+            "His own method uses an AI assistant ('Sylvia') to customize allocation to a person's risk "
+            "appetite, spending needs, age, and health rather than a fixed rule.",
+            "References Rick Edelman's argument that longer life expectancy (aided by health/AI advances) "
+            "means people need more growth exposure and fewer bonds, not fewer.",
+            "Core rule of thumb: allocate roughly the probability you assign to the thesis being right — "
+            "20% conviction means ~20% of savings, 5% conviction means ~5%.",
+            "General skew: younger investors should hold more (Bitcoin as a 'time hedge' and abundance "
+            "hedge), while older, already-wealthy investors should treat it as part of their growth "
+            "bucket rather than the whole portfolio.",
+            "Personally, Bitcoin was his largest single allocation until AI names briefly outperformed it; "
+            "he now holds more in silver and precious metals but remains overweight the broader scarcity trade.",
+        ],
+        "quote": None,
+        "watch": None,
+        "names": None,
+    },
+    {
+        "id": "stripe-ramp-router-war",
+        "color": "amber",
+        "badge": "Contested",
+        "status": "THIS WEEK'S M&A",
+        "title": "Stripe and Ramp are racing to own the AI model-router layer",
+        "lead": "**Stripe bought Open Router and Ramp launched router.com in the same week — both "
+                "betting that controlling which model an AI query gets routed to is the real choke point.**",
+        "bullets": [
+            "Open Router is an API that routes an AI query to whichever model fits, instead of a "
+            "developer hard-coding to one model (Claude, GPT, etc.); Visser distinguishes plain routing "
+            "access from the harder problem of an intelligence layer that decides which model a query "
+            "actually needs.",
+            "Cites Sylvia's own engineering approach: predicting the effort a query requires by reading "
+            "just its first 500 characters, as an example of that intelligence layer.",
+            "Ramp — framed as Stripe's closest competitor, even though they don't compete head-on — has "
+            "evolved from a spend-management/card platform into what Visser calls 'an AI research lab with "
+            "a finance layer on top.'",
+            "Net effect for frontier labs: routing shifts volume toward cheaper open-source/challenger "
+            "models, which reduces Anthropic's and OpenAI's *share* of the pie without necessarily shrinking "
+            "their absolute revenue — Visser invokes Jevons paradox, since total usage keeps growing.",
+            "He splits frontier-lab demand into two lanes: Fortune 500 buyers who avoid open source on "
+            "liability/security grounds, versus 'highest IQ' users like hedge fund Millennium, which uses "
+            "Anthropic rather than an open model like Kimi K3 for risk systems.",
+            "Jason Calcanis (All-In Podcast) is cited on how much manual effort startups already spend "
+            "stitching together open-source models with Anthropic just to control costs — the gap routers "
+            "are meant to close.",
+            "Visser likes Palantir for the orchestration/AI-sovereignty layer, arguing that as models scale "
+            "toward what he calls '200 IQ / 2000 IQ' territory, frontier labs could end up more entangled "
+            "with government, which would reshape how their terminal value gets priced.",
+        ],
+        "quote": None,
+        "watch": "The '$78 billion' figure Visser cites for Stripe's Open Router acquisition is his stated "
+                 "number in conversation, not a number this brief can verify from the transcript alone — "
+                 "treat it as his working figure.",
+        "names": [
+            {"name": "Stripe", "blurb": "acquired Open Router this week to own the model-routing layer"},
+            {"name": "Ramp", "blurb": "launched router.com the same week, its own routing play"},
+            {"name": "Anthropic", "blurb": "one of two frontier labs whose revenue share is exposed to routing"},
+            {"name": "OpenAI", "blurb": "the other frontier lab exposed to the routing shift"},
+            {"name": "Palantir (PLTR)", "blurb": "Visser likes it for the orchestration/AI-sovereignty layer"},
+        ],
+    },
+    {
+        "id": "ai-labs-like-early-bitcoin",
+        "color": "amber",
+        "badge": "Structural comparison",
+        "status": "ADOPTION-CURVE PARALLEL",
+        "title": "Frontier AI labs are living through Bitcoin's 2010-2014 adoption fear cycle",
+        "lead": "**Visser argues today's AI-lab anxiety (bubble talk, government scrutiny, existential "
+                "fear) mirrors exactly what Bitcoin went through a decade ago — except Bitcoin's fear has "
+                "now fully dissipated.**",
+        "bullets": [
+            "Visser has an interview releasing in a few days with a University of Louisville computer "
+            "science professor who coined the term 'AI safety' in 2011 — bullish on AI overall, but "
+            "concerned about eventually losing control of the systems; also describes the professor as a "
+            "committed Bitcoiner with little interest in the rest of crypto.",
+            "Pompliano raises a live question about Anthropic's recent biotech-focused messaging: genuine "
+            "conviction, or a PR move to preempt fear narratives about AI's downsides — and warns that if "
+            "product roadmaps start being shaped by public perception, these companies could look very "
+            "different in 12 months.",
+            "Parallel drawn explicitly: frontier labs today show the same fast growth, bubble talk, and "
+            "government intervention risk that Bitcoin carried in 2010-2014; Anthropic's jump from a small "
+            "valuation to multiple trillions of dollars in about a year is called unprecedented.",
+            "Visser: almost no fear remains around Bitcoin itself (no more 'will it get banned' debate — "
+            "only the future price is debated), whereas AI companies still carry real fear about where the "
+            "technology leads, even as growth keeps outperforming.",
+            "Quantum computing is mentioned in passing as a risk to Bitcoin that Visser is still tracking, "
+            "not dismissing.",
+            "Ironic framing: AI-swarm hacking fears against the fiat/banking system, plus Bitcoin miners' "
+            "compute becoming more valuable for AI workloads than for mining supply, both cut in Bitcoin's "
+            "favor rather than against it.",
+        ],
+        "quote": {
+            "text": "Almost nobody has a fear of Bitcoin right... the only thing that is debated is will it "
+                    "be worth more or less in the future.",
+            "cite": "— Jordi Visser",
+        },
+        "watch": "The professor's identity is not confirmed in the transcript (auto-captions didn't render "
+                 "a clean name), so he's described by role rather than named.",
+        "names": [
+            {"name": "Anthropic", "blurb": "valuation jump from small to multiple trillions in ~a year, called unprecedented"},
+            {"name": "Bitcoin (BTC)", "blurb": "fear has fully dissipated compared to lingering AI-existential fear"},
+        ],
+    },
+    {
+        "id": "moderna-ai-drug-discovery",
+        "color": "green",
+        "badge": "Confirmed event",
+        "status": "STOCK MORE THAN DOUBLED IN A DAY",
+        "title": "Moderna's mRNA cancer breakthrough shows biotech isn't the 'no-growth' sector people assumed",
+        "lead": "**A phase 3 melanoma vaccine result more than doubled Moderna's stock in a day and kept "
+                "climbing — evidence, in Visser's view, that AI-accelerated drug discovery is about to make "
+                "pharma an unexpected AI winner.**",
+        "bullets": [
+            "Moderna stock more than doubled the day of the announcement, then was up another 16% the "
+            "following Friday as the market worked out how real the phase 3 results were.",
+            "Pompliano notes most people had written Moderna off as coasting on legacy COVID-era assets, "
+            "not as a source of cancer-treatment innovation — Martin Shkreli is cited as having voiced that "
+            "same skepticism about the trial before the result landed.",
+            "AI's role: a reference to Moderna's Dave Johnson describing how machine learning helped the "
+            "company design its COVID vaccine quickly; AlphaFold 3 is cited as the threshold moment for ML "
+            "maturity in this space.",
+            "Visser's framing: AI should be able to carry drug candidates past Phase 2 — historically where "
+            "many drugs die in the FDA approval process — and has been writing papers since last November "
+            "arguing pharma/biotech will be among AI's biggest application-layer winners.",
+            "Healthcare has outperformed the S&P by roughly 7-8% this year and hit new multi-year relative "
+            "highs, despite being a traditionally rate-sensitive, defensive sector in a higher-rate year "
+            "(still below its all-time highs).",
+            "Eli Lilly is cited alongside Moderna as a self-disrupting example — heavy AI/data-center "
+            "investment with revenue growing 50% year-over-year at trillion-dollar scale.",
+        ],
+        "quote": None,
+        "watch": None,
+        "names": [
+            {"name": "Moderna (MRNA)", "blurb": "stock more than doubled in a day on phase 3 melanoma vaccine news"},
+            {"name": "Eli Lilly (LLY)", "blurb": "heavy AI/data-center investment, revenue +50% YoY at trillion-dollar scale"},
+        ],
+    },
+    {
+        "id": "bayesian-brain",
+        "color": "amber",
+        "badge": "Mindset framework",
+        "status": "WHY SMART PEOPLE BELIEVE FALSE THINGS",
+        "title": "Being 'overeducated' doesn't protect you from confidently believing false things",
+        "lead": "**A detour into why a highly credentialed person can be badly wrong, and Visser's case "
+                "for treating every belief as a bet you update, not a fixed conclusion.**",
+        "bullets": [
+            "Trigger: energy trader John Arnold posted a chart showing 44% of people would support a "
+            "nuclear plant near them versus just 15% for a data center — and roughly twice as many would "
+            "back a coal plant near them over a data center.",
+            "Visser's anecdote: a summer conversation in Maine with a highly educated, technical-degree "
+            "graduate who confidently repeated false claims about data-center water use, sourced entirely "
+            "from one TV news station; Visser contrasts this with everyday golf-course sprinkler water use "
+            "as a sanity check.",
+            "His diagnosis: repetitive, one-source information intake works like PTSD-style reinforcement — "
+            "the brain starts treating a repeated narrative as true regardless of evidence, and confirmation "
+            "bias does the rest.",
+            "Personal framing for why he trusts podcasts/YouTube over single-source news: he's an introvert "
+            "who deliberately seeks people who challenge his thinking rather than confirm it.",
+            "Background: studied Freud, then Jung and Skinner, to understand his own upbringing (atheist "
+            "father, devout Catholic mother); his father's core lesson was 'nothing you hear in life is "
+            "true except 2+2=4' — everything else is someone's opinion to be weighed, not accepted.",
+            "Cites Thomas Bayes and Annie Duke's 'Thinking in Bets' as the throughline (treat every choice "
+            "— including this conversation — as a probabilistic bet you revise as new information arrives), "
+            "plus a Daniel Pink book from around 2005-2006 (title not stated) on the shift from formulaic, "
+            "mathematical thinking toward entrepreneurial, artistic thinking as the more valuable skill set.",
+            "'Mental athlete' framing: entrepreneurial or fast-tech-adopting people must update their "
+            "worldview roughly monthly to keep up, while a static 9-to-5 mindset can coast on assumptions "
+            "that are years out of date — and Visser argues the old 'pick a job for 20 years' security model "
+            "no longer exists, so learning to fail and rebuild fast matters more than getting it right the "
+            "first time.",
+        ],
+        "quote": {
+            "text": "Nothing you will hear in life is true except 2 plus 2 is four... everything you'll hear "
+                    "from a human being is someone's opinion.",
+            "cite": "— Jordi Visser, recalling his father's advice",
+        },
+        "watch": None,
+        "names": None,
+    },
+]
+
+TAKEAWAYS = [
+    {"icon": "\U0001F4C8", "tag": "Signal", "title": "Watch the 200-day moving average, not the headline "
+     "percentage — Visser's own rule for turning bullish on Bitcoin"},
+    {"icon": "\U0001F9EE", "tag": "Sizing", "title": "Size any Bitcoin allocation to your honest probability "
+     "estimate for the thesis, not a borrowed rule of thumb"},
+    {"icon": "\U0001F50D", "tag": "Watchlist", "title": "Track the Stripe/Ramp router land grab — it's a "
+     "leading indicator for how much pricing power frontier labs keep"},
+    {"icon": "\U0001F9E0", "tag": "Mindset", "title": "Treat your own views as bets to revise, not fixed "
+     "conclusions — especially on fast-moving AI and crypto narratives"},
+    {"icon": "\U0001F48A", "tag": "Sector", "title": "Don't write off pharma as a no-growth defensive sector "
+     "— AI-accelerated discovery is an underpriced application-layer story"},
+]
+
+RISKS = [
+    "This is a single-guest conversation carrying forward-looking opinion and Visser's own trading "
+    "positions (he discloses holdings in Micron, Marvell, Eli Lilly, silver, and Bitcoin) — these are his "
+    "working views in real time, not audited research.",
+    "The '$78 billion' Stripe/Open Router acquisition figure and the exact scale of the professor's AI "
+    "safety credentials are as stated in conversation; auto-captions can mangle numbers and names, so "
+    "treat unverifiable specifics as Visser's recollection rather than confirmed fact.",
+    "Visser is a repeat guest with a standing bullish thesis on Bitcoin and is actively building paid "
+    "subscriber content around this exact call — worth knowing before weighting his conviction.",
+    "Two sponsor segments (Figure Markets crypto-backed loans; a testosterone supplement) were excluded "
+    "entirely from this brief per standing policy.",
+]
+
+OTHER_NEWS = []
+
+GLOSSARY = [
+    {"term": "Sigma move / seven-sigma week", "def": "A statistical measure of how many standard "
+     "deviations a price move is from its normal range — a 7-sigma week is an extremely rare, "
+     "outlier-sized move relative to recent realized volatility."},
+    {"term": "Open Router / model router", "def": "Infrastructure that routes an AI query to whichever "
+     "model (frontier or open-source) best fits its complexity and cost, instead of hard-coding to a "
+     "single provider."},
+    {"term": "Jevons paradox", "def": "The idea that making a resource more efficient to use can increase "
+     "total consumption of it, rather than reduce demand — applied here to argue cheaper AI routing grows "
+     "total AI usage rather than just cannibalizing frontier-lab revenue."},
+    {"term": "Terminal value", "def": "The value assigned to a company's cash flows far into the future in "
+     "a discounted-cash-flow model — central to Visser's argument that competition uncertainty is "
+     "compressing valuation multiples across the AI trade."},
+]

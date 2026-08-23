@@ -2,6 +2,136 @@
  "generated_from": "youtube-research-brief generate.py --reindex",
  "briefs": [
   {
+   "html": "anthony-pompliano_2026-08-22_bitcoin-just-had-its-biggest-week-in-history.html",
+   "title": "Bitcoin Just Had Its Biggest Week In History",
+   "channel": "Anthony Pompliano",
+   "date": "2026-08-22",
+   "speakers": "Anthony Pompliano, Jordi Visser",
+   "thread_line": "5 threads · Bitcoin's 7-sigma week and why Visser calls it the purest AI trade, public-company multiple compression, portfolio allocation math, the Stripe/Ramp router land grab, and a Bayesian-thinking detour on why smart people believe false things",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": "BTC",
+     "display": "Bitcoin",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Glassnode",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "MU",
+     "display": "Micron",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "MRVL",
+     "display": "Marvell",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "LLY",
+     "display": "Eli Lilly",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "BTC",
+     "display": "Bitcoin",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Silver",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Stripe",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Ramp",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "OpenAI",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "PLTR",
+     "display": "Palantir",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "Structural comparison",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "BTC",
+     "display": "Bitcoin",
+     "stance": "Structural comparison",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "MRNA",
+     "display": "Moderna",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "LLY",
+     "display": "Eli Lilly",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    }
+   ]
+  },
+  {
    "html": "peter-h-diamandis_2026-08-21_openai-pauses-frontier-training-elon-s-100x-prediction-lands-robot-beats-usain-bolt-ep-282.html",
    "title": "OpenAI Pauses Frontier Training, Elon's 100X Prediction Lands, Robot Beats Usain Bolt — EP#282",
    "channel": "Peter H. Diamandis",
