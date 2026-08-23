@@ -2,6 +2,52 @@
  "generated_from": "youtube-research-brief generate.py --reindex",
  "briefs": [
   {
+   "html": "the-iced-coffee-hour_2026-08-23_robinhood-ceo-s-shocking-prediction-on-stocks-the-ai-bubble-gambling-controversy.html",
+   "title": "Robinhood CEO's Shocking Prediction On Stocks, The AI Bubble, & Gambling Controversy",
+   "channel": "The Iced Coffee Hour",
+   "date": "2026-08-23",
+   "speakers": "Vlad Tenev, Graham Stephan, Jack Selby",
+   "thread_line": "5 threads · Robinhood's $125B AUM/ownership push, agentic AI trading via MCP, private markets democratization (Robinhood Ventures + Robinhood Chain), Korean-stock demand as a valuation alarm bell, and California's billionaire tax threat",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": "HOOD",
+     "display": "Robinhood",
+     "stance": "Confirmed growth",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "OpenAI",
+     "stance": "Structural bet",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "Structural bet",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Y Combinator",
+     "stance": "Structural bet",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Bitstamp",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    }
+   ]
+  },
+  {
    "html": "anthony-pompliano_2026-08-22_bitcoin-just-had-its-biggest-week-in-history.html",
    "title": "Bitcoin Just Had Its Biggest Week In History",
    "channel": "Anthony Pompliano",

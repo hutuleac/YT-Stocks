@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research: Robinhood CEO's Shocking Prediction On Stocks, The AI Bubble, &amp; Gambling Controversy</title>
+<style>
+:root{
+  --ink:#20231f; --muted:#6b6f66; --line:#e4e2d8; --card:#fffdf8; --bg:#efece2;
+  --brand:#8a5a2e; --serif:'Iowan Old Style','Palatino Linotype',Georgia,serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size:clamp(15px,1.05vw,18px);line-height:1.7;-webkit-font-smoothing:antialiased;}
+.page{max-width:1600px;width:100%;margin:0 auto;background:var(--card);box-shadow:0 0 0 1px var(--line);}
+.hero{padding:clamp(18px,2.4vw,34px) clamp(18px,4vw,56px) clamp(14px,1.8vw,22px);border-bottom:1px solid var(--line);}
+.kicker{font-family:var(--serif);font-style:italic;font-size:clamp(13px,1vw,16px);color:var(--brand);margin-bottom:10px;}
+.backlink{margin-bottom:12px;}
+.backlink a{font-size:clamp(12.5px,.95vw,14px);color:var(--muted);text-decoration:none;border:1px solid var(--line);
+  border-radius:20px;padding:5px 14px;transition:color .15s,border-color .15s;}
+.backlink a:hover{color:var(--brand);border-color:var(--brand);}
+.hero h1{font-family:var(--serif);margin:0 0 14px;font-size:clamp(24px,3.4vw,42px);line-height:1.15;
+  letter-spacing:-.01em;font-weight:600;color:#171916;max-width:42ch;}
+.byline{border-top:1px solid var(--line);padding-top:12px;color:var(--muted);font-size:clamp(13px,1vw,15px);line-height:1.6;}
+.byline b{color:var(--ink);font-weight:600;}
+.stats-line{font-family:var(--serif);font-style:italic;color:var(--brand);font-size:clamp(12.5px,.95vw,14.5px);margin-top:4px;}
+.stats-line a{color:var(--brand);}
+.inner{padding:10px clamp(18px,4vw,56px) 48px;}
+section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
+.sec-eye{font-family:var(--serif);font-style:italic;font-size:14px;color:var(--brand);margin-bottom:4px;}
+.sec h2{font-family:var(--serif);margin:0;font-size:clamp(20px,2vw,26px);font-weight:600;color:#171916;
+  border-bottom:2px solid var(--brand);display:inline-block;padding-bottom:5px;}
+.card{background:#fbf7ef;border:1px solid var(--line);border-radius:14px;padding:clamp(18px,3vw,28px);}
+.snap{list-style:none;margin:0;padding:0;}
+.snap li{padding:12px 0;border-bottom:1px solid var(--line);line-height:1.6;font-size:clamp(14.5px,.95vw,16.5px);}
+.snap li:last-child{border-bottom:none}
+.theme{padding:36px 0;border-bottom:1px solid var(--line);}
+.theme-badgerow{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin-bottom:10px;}
+.badge{display:inline-block;padding:5px 13px;border-radius:3px;font-size:12px;font-weight:700;
+  white-space:nowrap;letter-spacing:.03em;text-transform:uppercase;color:#fffdf8;}
+.theme-status{font-family:var(--serif);font-style:italic;font-size:13.5px;color:var(--muted);}
+.theme h2{font-family:var(--serif);margin:0 0 20px;font-size:clamp(20px,2.2vw,28px);font-weight:600;
+  color:#171916;line-height:1.25;max-width:32ch;padding-left:16px;}
+.theme-body{display:flex;flex-wrap:wrap;gap:28px;}
+.theme-main{flex:3 1 400px;min-width:0;}
+.theme-side{flex:2 1 260px;min-width:0;}
+.lead{margin:0 0 18px;font-size:clamp(16px,1.15vw,19px);line-height:1.6;color:#171916;font-weight:600;max-width:70ch;}
+.bullets{list-style:none;margin:0 0 22px;padding:0;max-width:76ch;}
+.bullets li{position:relative;padding:9px 0 9px 20px;border-bottom:1px solid var(--line);
+  font-size:clamp(14px,.95vw,15.5px);line-height:1.65;color:#2c2f28;}
+.bullets li .dot{position:absolute;left:0;top:16px;width:7px;height:7px;border-radius:50%;}
+.sidecard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:14px 16px 14px 26px;max-width:76ch;margin:0 0 18px;}
+.sidecard:last-child{margin-bottom:0;}
+.sidecard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;
+  background:var(--sc-accent);}
+.sidecard .lbl{font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--sc-accent);margin-bottom:8px;}
+.sidecard.quote{font-family:var(--serif);font-style:italic;font-size:clamp(15px,1.1vw,18px);
+  line-height:1.5;color:#2c2f28;}
+.sidecard.quote .lbl{font-family:-apple-system,sans-serif;font-style:normal;}
+.sidecard.quote cite{display:block;font-family:-apple-system,sans-serif;font-style:normal;font-size:13px;
+  color:var(--muted);margin-top:9px;}
+.sidecard .txt{font-size:14.5px;line-height:1.55;color:#3a3d35;}
+.namechip{padding:0 0 10px;margin:0 0 10px;border-bottom:1px solid var(--line);}
+.namechip:last-child{padding-bottom:0;margin-bottom:0;border-bottom:none;}
+.namechip b{display:block;font-weight:600;font-size:14.5px;color:#171916;}
+.namechip span{font-size:13px;color:#4a4d44;line-height:1.5;}
+.icard{display:flex;gap:14px;align-items:flex-start;background:#fffefb;border:1px solid var(--line);
+  border-radius:12px;padding:14px 16px;margin:11px 0;}
+.icard .ic{flex:none;width:30px;height:30px;border-radius:6px;display:grid;place-items:center;
+  font-size:14px;background:#f4e9db;line-height:1;}
+.icard .title{font-weight:600;font-size:clamp(14px,.95vw,15.5px);color:#171916;line-height:1.42;margin-bottom:5px;}
+.icard .tag{display:inline-block;font-family:var(--serif);font-style:italic;font-size:13px;font-weight:600;color:var(--brand);}
+.icard .detail{font-size:13.5px;color:#4a4d44;line-height:1.55;margin-top:4px;}
+.riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px 14px 28px;margin:11px 0;}
+.riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskcard .txt{font-weight:500;font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;}
+.gloss{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:6px 30px;}
+.gloss div{padding:9px 0;border-bottom:1px solid var(--line);font-size:13.8px;line-height:1.55;}
+.gloss b{font-family:var(--serif);color:#171916;}
+.empty{color:var(--muted);font-style:italic;font-size:14.5px;}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="hero">
+    <div class="backlink"><a href="index.html">&#8592; All Research Briefs</a></div>
+    <div class="kicker">A YouTube Research Brief</div>
+    <h1>Robinhood CEO's Shocking Prediction On Stocks, The AI Bubble, &amp; Gambling Controversy</h1>
+    <div class="byline">
+      Channel: <b>The Iced Coffee Hour</b> &middot; Speaker: <b>Vlad Tenev, Graham Stephan, Jack Selby</b> &middot; <b>2026-08-23</b>
+      <div class="stats-line">5 threads · Robinhood's $125B AUM/ownership push, agentic AI trading via MCP, private markets democratization (Robinhood Ventures + Robinhood Chain), Korean-stock demand as a valuation alarm bell, and California's billionaire tax threat &middot; <a href="https://youtu.be/KJ_dtGyqNP8" target="_blank" rel="noopener">Watch on YouTube &#8599;</a></div>
+    </div>
+  </header>
+  <div class="inner">
+    <section class="sec">
+      <div class="sec-eye">The one-paragraph takeaway</div>
+      <h2>Video Snapshot</h2>
+      <div class="card" style="margin-top:16px;"><ol class="snap"><li>Robinhood's assets under custody grew to $125B, up 50% in one year, driven by three pillars: serving active traders (now #1 in options market share), becoming a lifelong 'financial home' (Trump accounts, trusts, joint accounts, banking with a high direct-deposit attach rate), and new product categories (prediction markets, agentic trading, Robinhood Chain).</li><li>Robinhood launched agentic trading and an agentic card — any AI agent (Claude Code, Codex, etc.) can trade equities and soon options/crypto via an MCP server; over 100,000 accounts created so far.</li><li>Tenev is pushing hard into private markets: Robinhood Ventures Fund 1 (late-stage pre-IPO, holds OpenAI) and Fund 2 (seed/series A, partnered with Y Combinator) — both built only with the portfolio company's consent, unlike some competitors who don't ask first.</li><li>Robinhood Chain, launched weeks ago, is already top-5 in DEX volume — it lets non-US customers (120+ countries) hold tokenized stocks (Tesla, Nvidia) and trade/swap/lend/borrow them onchain like crypto, settled via the USDG stablecoin built with Paxos.</li><li>Tenev flags a valuation warning sign: a sudden spike in customer requests for Korean stocks (vs. none historically), plus hedge funds buying AI chips purely to resell at a markup rather than for use — a pattern he says is how fundamentally sound assets like chips can still get overheated.</li><li>A California billionaire wealth tax could force Tenev to sell Robinhood shares (most of his wealth is HOOD stock); he draws a parallel to Hollywood's decade-long exodus from policy own-goals and notes some wealthy taxpayers have already left the state pre-emptively.</li><li>Internally, Robinhood's AI adoption is 'close to 100%' among engineers — the job has shifted from writing/reviewing code to managing fleets of coding agents around the clock.</li><li>Personal notes: Tenev is long-term bullish on Bitcoin ('singular,' the original trusted brand) but won't give a price target; keeps a nightly journaling + physical-book wind-down routine instead of phone/Slack before bed; and predicts more software engineers and lawyers will exist in 2035, not fewer.</li></ol></div>
+    </section>
+
+    
+<section class="theme" id="ownership-mission">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#3f6b2e;">Confirmed growth</span>
+    <span class="theme-status">AUM $125B, +50% IN ONE YEAR</span>
+  </div>
+  <h2 style="border-left:4px solid #3f6b2e;">Robinhood's AUM hit $125B on a three-pillar ownership push</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**Tenev frames Robinhood's entire strategy around 'broad ownership' — and says AUM growth is just the scoreboard for how well that mission is landing.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#3f6b2e;"></span>US household equity ownership is ~65% today, up from the low 50s before Robinhood; Tenev's target is 95%+, aided by Trump accounts (every child born gets $1,000 from Treasury) and employer 401(k) auto-enrollment as 'default ownership' mechanisms.</li><li><span class="dot" style="background:#3f6b2e;"></span>Pillar 1 (active traders): Robinhood is now the #1 options platform by retail market share, with Q2 equities volume exceeding the 2021 GameStop-era peak; futures and prediction markets are also growing fast.</li><li><span class="dot" style="background:#3f6b2e;"></span>Pillar 2 (financial home for life): new trust accounts, joint accounts, and Robinhood banking (billions in assets, high direct-deposit attach rate) — deposit bonuses (seen up to 3%) help but are described as 'a minority' of AUM inflow.</li><li><span class="dot" style="background:#3f6b2e;"></span>The Permanent Day Trader (PDT) rule — restricting day trading below $25K in an account — was repealed; Tenev calls it a big win since it previously penalized smaller accounts and was easy to game by switching brokers.</li><li><span class="dot" style="background:#3f6b2e;"></span>Despite criticism that Robinhood pushes active trading/prediction markets, the product it actually incentivizes most directly is retirement: a 3% contribution match for Gold members.</li><li><span class="dot" style="background:#3f6b2e;"></span>Tenev's own critique of the growth: the app has gotten cluttered from rapid feature shipping (13+ account types at one point), forcing a redesign around universal tabs and heavier personalization, including letting users disable prediction markets entirely.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#3f6b2e;"><div class="lbl">Pull quote</div>&#8220;A future with relatively few owners is inherently fragile — can we actually make broad ownership a reality?&#8221;<cite>— Vlad Tenev</cite></div>
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>Robinhood (HOOD)</b><span>$125B AUM, +50% YoY; #1 US retail options platform</span></div></div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="agentic-trading">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#93711b;">Early-stage, unproven ROI</span>
+    <span class="theme-status">100,000+ AGENTIC ACCOUNTS CREATED</span>
+  </div>
+  <h2 style="border-left:4px solid #93711b;">AI agents can now trade on Robinhood directly — but Tenev won't say if they're profitable</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**Robinhood opened its platform to AI agents via an MCP server, but Tenev admits agents aren't trained for trading and often just refuse to trade.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#93711b;"></span>Launched agentic trading + an agentic card so tools like Claude Code or Codex can execute trades through Robinhood's MCP server; started with equities, expanded to options, crypto coming soon, plus a new tax-lot visibility feature.</li><li><span class="dot" style="background:#93711b;"></span>Over 100,000 people have created agentic accounts; Tenev says he doesn't closely track whether they're making or losing money, but volume is 'decent.'</li><li><span class="dot" style="background:#93711b;"></span>A real limitation: trading isn't well represented in agent training data (unlike coding), so agents frequently just decline to trade — Tenev jokes it's less about risk-avoidance and more that 'it just doesn't feel like it.'</li><li><span class="dot" style="background:#93711b;"></span>Tenev predicts fee compression for human financial advisors as AI blurs the line between cheap robo-advisory (~25 basis points) and full-service advice (~1%+), though he thinks humans stay relevant for fiduciary responsibility and the 'consigliere' emotional role.</li><li><span class="dot" style="background:#93711b;"></span>Graham shared a first-hand example: uploading his portfolio to Claude flagged a redundant high-expense-ratio fund vs. a near-identical lower-cost Vanguard fund, saving him about $16,000/year after a tax-loss-harvested swap.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#93711b;"><div class="lbl">Pull quote</div>&#8220;I don't think that trading activity is in the training data — you don't have agentic trading traces the way you'd have programming traces.&#8221;<cite>— Vlad Tenev</cite></div>
+      
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">Tenev explicitly says he doesn't track agentic-trader returns, so 'decent volume' is not evidence the agents are actually profitable for users.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="private-markets">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#3f6b2e;">Structural bet</span>
+    <span class="theme-status">RVI (PRE-IPO) + RV2 (SEED/SERIES A, W/ YC)</span>
+  </div>
+  <h2 style="border-left:4px solid #3f6b2e;">Robinhood Ventures is trying to make pre-IPO AI winners ownable by retail</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**Tenev's next frontier is private-market access, arguing AI's biggest winners (OpenAI, Anthropic) stay private and concentrated among a small circle of insiders.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#3f6b2e;"></span>Robinhood Ventures Fund 1 is a basket of late-stage, near-IPO private companies and holds a position in pre-IPO OpenAI — offered as a low-cost vehicle for retail exposure to companies otherwise reserved for accredited/institutional investors.</li><li><span class="dot" style="background:#3f6b2e;"></span>Robinhood Ventures Fund 2 goes the opposite direction: seed and Series A companies (tens of millions in valuation, not tens of billions), built in partnership with Y Combinator.</li><li><span class="dot" style="background:#3f6b2e;"></span>Robinhood's stated policy: it will not add a company to Robinhood Ventures without that company's consent — Tenev says some competitors instead create SPV/LP interests unilaterally and only later face companies publicly disavowing the listing.</li><li><span class="dot" style="background:#3f6b2e;"></span>Customer feedback is pushing Robinhood toward single-name private-company investing (not just baskets), which would require reform of accredited-investor rules that currently restrict direct private investment to high-net-worth individuals.</li><li><span class="dot" style="background:#3f6b2e;"></span>Tenev frames this as a cat-and-mouse game: broadening retail access to private deals doesn't eliminate the wealthy's access edge, since they simply move earlier — Fund 2's seed-stage focus is described as close to the earliest access retail can realistically get.</li></ul>
+    </div>
+    <div class="theme-side">
+      
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>OpenAI</b><span>held in Robinhood Ventures Fund 1's late-stage pre-IPO basket</span></div><div class="namechip"><b>Anthropic</b><span>cited alongside OpenAI as a private AI giant retail can't yet own directly</span></div><div class="namechip"><b>Y Combinator</b><span>partner on Robinhood Ventures Fund 2's seed/Series A program</span></div></div>
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">Tenev calls private-market ownership 'undiscovered' — he says it hasn't had its mass-market moment yet, so awareness/adoption, not just access, is still the bottleneck.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="robinhood-chain">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#3f6b2e;">Confirmed event</span>
+    <span class="theme-status">TOP-5 DEX VOLUME WITHIN WEEKS OF LAUNCH</span>
+  </div>
+  <h2 style="border-left:4px solid #3f6b2e;">Robinhood Chain turns stocks into onchain assets you can swap, lend, or send like crypto</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**Robinhood's own blockchain went live weeks ago and is already top-5 in DEX volume, letting non-US users treat tokenized stocks exactly like crypto.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#3f6b2e;"></span>Available in 120+ countries (not yet the US); customers can hold tokenized Tesla, Nvidia, and other stock tokens and send them peer-to-peer onchain, swap them in liquidity pools (Uniswap has active pools on the chain), or use them as collateral for lending/borrowing.</li><li><span class="dot" style="background:#3f6b2e;"></span>Settlement runs on USDG, a stablecoin Robinhood built with Paxos and other partners as the chain's core currency; developers have since built unanticipated products, like memecoin holders receiving airdropped stock tokens.</li><li><span class="dot" style="background:#3f6b2e;"></span>Tenev frames the US opportunity as much smaller than overseas: many countries lack functional banking, so tokenization is a huge leap, whereas the US already has Robinhood, making 24/7 tokenized trading a comparatively minor upgrade (his analogy: shaving a 2-hour train ride to 1 hour, not building rail where none existed).</li><li><span class="dot" style="background:#3f6b2e;"></span>The chain was also built with AI agents in mind, with APIs and command-line interfaces for agent-driven interaction, tying back into the agentic-trading push.</li></ul>
+    </div>
+    <div class="theme-side">
+      
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>Bitstamp</b><span>acquired by Robinhood; described as the longest continuously running crypto exchange</span></div></div>
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">Tax treatment of swapping stock tokens for crypto/other stock tokens varies by country and Tenev declined to generalize — this is not settled guidance, just a product capability.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="valuation-alarm-bells">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#93711b;">Contested</span>
+    <span class="theme-status">SPECULATIVE CHIP/ENERGY DEMAND FLAGGED</span>
+  </div>
+  <h2 style="border-left:4px solid #93711b;">A sudden spike in Korean-stock requests is Tenev's tell that speculation is creeping in</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**Tenev reads customer feature requests as a sentiment gauge, and a recent flood of demand for Korean stocks and AI-adjacent chips/energy names has him more cautious.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#93711b;"></span>For most of Robinhood's history, international stocks weren't even a top-10 feature request; in the last month or two, nearly every interview question became 'when are you adding Korean stocks' — a pattern shift Tenev calls an alarm bell, though he confirms Korean stocks are coming.</li><li><span class="dot" style="background:#93711b;"></span>On chips and energy: he says it's genuinely hard to tell if demand is fundamentals-driven (AI buildout) or speculative — citing anecdotes of hedge funds buying chips purely to resell at a markup, which is when even fundamentally sound assets can get overvalued.</li><li><span class="dot" style="background:#93711b;"></span>On market corrections generally, Tenev says he isn't worried because Robinhood's younger customer base has historically bought during crashes (e.g., 2020 COVID crash) rather than sold, treating drops as opportunities.</li><li><span class="dot" style="background:#93711b;"></span>A California billionaire wealth tax (annually taxing ~5% of net worth) is on the ballot via referendum; Tenev says most of his wealth is Robinhood stock, so passage would likely force him and similarly situated founders to sell shares.</li><li><span class="dot" style="background:#93711b;"></span>He compares the risk to Hollywood's decline — LA lost film production to Atlanta, Canada, and Eastern Europe over years of unfavorable policy, and he worries San Francisco's tech industry (which nearly saw a COVID-era exodus before AI revived it) could follow the same path; some wealthy taxpayers have already left California pre-emptively.</li></ul>
+    </div>
+    <div class="theme-side">
+      
+      
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">Tenev is explicit he won't give investment advice on chips/energy — this is presented as his read of customer-request patterns, not a call on where prices go next.</div></div>
+    </div>
+  </div>
+</section>
+
+
+    <section class="sec">
+      <div class="sec-eye">What to do with this</div>
+      <h2>Best Actionable Takeaways</h2>
+      <div style="margin-top:16px;"><div class="icard"><div class="ic">🤖</div><div><div class="title">If you use Claude/an AI agent, have it audit your portfolio for redundant high-fee funds before assuming your allocation is optimal.</div><div class="tag">AI tools</div></div></div><div class="icard"><div class="ic">💰</div><div><div class="title">Check whether your employer 401(k) match is fully captured — Tenev calls it the single biggest lever that moved US ownership rates historically.</div><div class="tag">Retirement</div></div></div><div class="icard"><div class="ic">🌎</div><div><div class="title">Track Robinhood Ventures Fund 2 (seed/Series A via YC) if you want early-stage private exposure without accredited-investor status.</div><div class="tag">Private markets</div></div></div><div class="icard"><div class="ic">📊</div><div><div class="title">Watch for sudden shifts in what average retail investors are asking for (e.g. a specific foreign market) as a rough, informal overheating indicator.</div><div class="tag">Sentiment signal</div></div></div><div class="icard"><div class="ic">🏛️</div><div><div class="title">If you hold concentrated founder/executive equity in a high-tax state, model a wealth-tax scenario now rather than after a referendum passes.</div><div class="tag">Policy risk</div></div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Where this could be wrong</div>
+      <h2>Risks &amp; Caveats on This Source</h2>
+      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">Tenev is the CEO of Robinhood promoting Robinhood's own products throughout (agentic trading, Robinhood Ventures, Robinhood Chain, banking) — treat growth figures and competitive claims as his framing, not independently audited numbers.</div></div><div class="riskcard"><div class="txt">Figures like the $125B AUM, 100,000+ agentic accounts, and 'close to 100%' internal AI adoption are self-reported in conversation, not pulled from a filed report.</div></div><div class="riskcard"><div class="txt">Auto-generated captions were used for this transcript; names of people, funds, and technical terms were cross-checked where possible but minor transcription errors may remain.</div></div><div class="riskcard"><div class="txt">Tenev repeatedly declines to give investment advice or price targets (Bitcoin, chips/energy) — his comments on those topics are framed as observations of customer behavior, not forecasts.</div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Beyond the main threads</div>
+      <h2>Other Notable News</h2>
+      <div style="margin-top:16px;"><div class="icard"><div class="ic">📉</div><div><div class="title">Tenev personally trades ETFs and crypto but is careful about individual stocks and can't freely trade his own Robinhood shares — his equity is administered under a 10b5-1 plan filed in advance because of material non-public information rules.</div><div class="tag">Personal</div><div class="detail"></div></div></div><div class="icard"><div class="ic">🎧</div><div><div class="title">Asked which podcasts/media do content best, Tenev pointed to Bloomberg (combining financial data with content/distribution) and Acquired (deep-dive company episodes) as differentiated formats — offered as a critique that Iced Coffee Hour could sharpen its own niche.</div><div class="tag">Reference</div><div class="detail"></div></div></div><div class="icard"><div class="ic">🔐</div><div><div class="title">Crypto custody security: Tenev describes 'defense in depth' — the bulk of customer crypto is kept in cold storage disconnected from the internet, with continuous penetration testing, internal red-teaming, and using AI tools themselves to simulate attacker behavior, since AI has made finding vulnerabilities far cheaper for attackers.</div><div class="tag">Security</div><div class="detail"></div></div></div><div class="icard"><div class="ic">🧮</div><div><div class="title">On raising his kids, Tenev says he still prioritizes math over social skills, arguing abstract math trains general problem-solving that transfers to business — a stance he contrasts with Peter Thiel's view that 'math people' now have the societal advantage that verbal/writing skills held for decades.</div><div class="tag">Personal</div><div class="detail"></div></div></div><div class="icard"><div class="ic">🩹</div><div><div class="title">Personal health routine: full-body MRI, regular blood testing, sauna/cold-plunge contrast therapy, and a nightly wind-down of journaling (10-15 min) plus reading a physical book instead of scrolling his phone/Slack before bed.</div><div class="tag">Personal</div><div class="detail"></div></div></div><div class="icard"><div class="ic">📈</div><div><div class="title">Two 'hot takes' for 2035: Tenev predicts there will be more software engineers and more lawyers in 2035 than today, contrary to the common AI-job-displacement narrative.</div><div class="tag">Prediction</div><div class="detail"></div></div></div></div>
+    </section>
+
+    <section class="sec" style="border-bottom:none;">
+      <div class="sec-eye">Names and terms at a glance</div>
+      <h2>Glossary &amp; Entities</h2>
+      <div style="margin-top:16px;"><div class="gloss"><div><b>PDT rule</b> &mdash; Pattern Day Trader rule — previously restricted day trading for accounts under $25,000; recently repealed.</div><div><b>MCP server</b> &mdash; Model Context Protocol server — the interface Robinhood built so external AI agents (Claude Code, Codex, etc.) can execute trades on a user's behalf.</div><div><b>AATS</b> &mdash; Robinhood's internal term for net new assets/deposits moving onto the platform, used to measure how much of that growth comes from deposit bonuses vs. organic activity.</div><div><b>TVL</b> &mdash; Total Value Locked — the dollar value of assets deposited in a blockchain's smart contracts/liquidity pools, used as a size metric for Robinhood Chain.</div><div><b>10b5-1 plan</b> &mdash; A pre-filed, scheduled trading plan that lets insiders (like Tenev) trade company stock legally despite potentially holding material non-public information.</div><div><b>USDG</b> &mdash; The stablecoin Robinhood built with Paxos and other partners as the core settlement currency of Robinhood Chain.</div></div></div>
+    </section>
+  </div>
+</div>
+</body>
+</html>
