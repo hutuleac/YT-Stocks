@@ -2,6 +2,136 @@
  "generated_from": "youtube-research-brief generate.py --reindex",
  "briefs": [
   {
+   "html": "jordi-visser_2026-08-23_the-ai-crypto-macro-nexus-point-why-bitcoin-matters-to-investors.html",
+   "title": "The AI Crypto Macro Nexus Point: Why Bitcoin Matters to Investors",
+   "channel": "Jordi Visser",
+   "date": "2026-08-23",
+   "speakers": "Jordi Visser",
+   "thread_line": "6 threads · Bitcoin's 7-sigma breakout as the 'purest AI trade,' the terminal-value-destruction thesis behind AI deflation, the Bessent/Warsh Fed pivot, why Visser says this isn't a bubble, his own portfolio rotation, and a Grokbot AI-agent workflow demo",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": "BTC",
+     "display": "Bitcoin",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "ETH",
+     "display": "Ethereum",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Silver",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "MSTR",
+     "display": "MicroStrategy",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "BTDR",
+     "display": "Bitdeer",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "RIOT",
+     "display": "Riot Platforms",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "HUT",
+     "display": "Hut 8",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "IREN",
+     "display": "IREN",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Stripe",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Adobe",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Coinbase",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "HOOD",
+     "display": "Robinhood",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Chainlink",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "MU",
+     "display": "Micron",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "LLY",
+     "display": "Eli Lilly",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    }
+   ]
+  },
+  {
    "html": "the-iced-coffee-hour_2026-08-23_robinhood-ceo-s-shocking-prediction-on-stocks-the-ai-bubble-gambling-controversy.html",
    "title": "Robinhood CEO's Shocking Prediction On Stocks, The AI Bubble, & Gambling Controversy",
    "channel": "The Iced Coffee Hour",
