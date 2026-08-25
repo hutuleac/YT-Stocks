@@ -2,6 +2,59 @@
  "generated_from": "youtube-research-brief generate.py --reindex",
  "briefs": [
   {
+   "html": "futureaza_2026-08-23_xai-just-built-what-jensen-didn-t-think-was-possible.html",
+   "title": "xAI Just Built What Jensen Didn't Think Was Possible",
+   "channel": "FutureAzA",
+   "date": "2026-08-23",
+   "speakers": "Brian (FutureAzA) with Jordan Giesige (The Limiting Factor)",
+   "thread_line": "6 threads · Colossus 2 buildout · compute payback math · Memphis power · demand durability · space-based compute · AI UX and robots",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "xAI",
+     "stance": "Confirmed build, revised layout",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "SpaceX",
+     "stance": "Confirmed build, revised layout",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Tesla",
+     "stance": "Confirmed build, revised layout",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Nvidia",
+     "stance": "Working model, aggressive assumptions",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Google",
+     "stance": "Working model, aggressive assumptions",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Unitree",
+     "stance": "Structural critique",
+     "conviction": null,
+     "color": "amber"
+    }
+   ]
+  },
+  {
    "html": "jordi-visser_2026-08-23_the-ai-crypto-macro-nexus-point-why-bitcoin-matters-to-investors.html",
    "title": "The AI Crypto Macro Nexus Point: Why Bitcoin Matters to Investors",
    "channel": "Jordi Visser",

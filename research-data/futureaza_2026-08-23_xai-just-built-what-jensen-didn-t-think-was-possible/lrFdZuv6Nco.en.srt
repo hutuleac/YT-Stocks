@@ -1,0 +1,8435 @@
+1
+00:00:00,000 --> 00:00:02,110
+
+With artificial intelligence, it seems
+
+2
+00:00:02,110 --> 00:00:02,120
+With artificial intelligence, it seems
+ 
+
+3
+00:00:02,120 --> 00:00:04,630
+With artificial intelligence, it seems
+really it's so good already, but
+
+4
+00:00:04,630 --> 00:00:04,640
+really it's so good already, but
+ 
+
+5
+00:00:04,640 --> 00:00:06,030
+really it's so good already, but
+compared to what it's going to be, I
+
+6
+00:00:06,030 --> 00:00:06,040
+compared to what it's going to be, I
+ 
+
+7
+00:00:06,040 --> 00:00:08,190
+compared to what it's going to be, I
+still see it as really stupid because
+
+8
+00:00:08,190 --> 00:00:08,200
+still see it as really stupid because
+ 
+
+9
+00:00:08,200 --> 00:00:10,390
+still see it as really stupid because
+it's it jumps to the wrong conclusions a
+
+10
+00:00:10,390 --> 00:00:10,400
+it's it jumps to the wrong conclusions a
+ 
+
+11
+00:00:10,400 --> 00:00:12,030
+it's it jumps to the wrong conclusions a
+lot of times when I'm using it. It
+
+12
+00:00:12,030 --> 00:00:12,040
+lot of times when I'm using it. It
+ 
+
+13
+00:00:12,040 --> 00:00:14,590
+lot of times when I'm using it. It
+doesn't ask me questions. It gives you
+
+14
+00:00:14,590 --> 00:00:14,600
+doesn't ask me questions. It gives you
+ 
+
+15
+00:00:14,600 --> 00:00:17,310
+doesn't ask me questions. It gives you
+responses that are way too verbose. And
+
+16
+00:00:17,310 --> 00:00:17,320
+responses that are way too verbose. And
+ 
+
+17
+00:00:17,320 --> 00:00:18,750
+responses that are way too verbose. And
+it's like, "No, that's not even what I
+
+18
+00:00:18,750 --> 00:00:18,760
+it's like, "No, that's not even what I
+ 
+
+19
+00:00:18,760 --> 00:00:20,070
+it's like, "No, that's not even what I
+asked and you just [music] wasted a
+
+20
+00:00:20,070 --> 00:00:20,080
+asked and you just [music] wasted a
+ 
+
+21
+00:00:20,080 --> 00:00:21,070
+asked and you just [music] wasted a
+million tokens."
+
+22
+00:00:21,070 --> 00:00:21,080
+million tokens."
+ 
+
+23
+00:00:21,080 --> 00:00:23,990
+million tokens."
+>> Terrestrial compute AI data, all very
+
+24
+00:00:23,990 --> 00:00:24,000
+>> Terrestrial compute AI data, all very
+ 
+
+25
+00:00:24,000 --> 00:00:25,630
+>> Terrestrial compute AI data, all very
+exciting. Heck, we might even talk about
+
+26
+00:00:25,630 --> 00:00:25,640
+exciting. Heck, we might even talk about
+ 
+
+27
+00:00:25,640 --> 00:00:27,150
+exciting. Heck, we might even talk about
+a little bit of space base because I've
+
+28
+00:00:27,150 --> 00:00:27,160
+a little bit of space base because I've
+ 
+
+29
+00:00:27,160 --> 00:00:29,350
+a little bit of space base because I've
+got one burning question that not too
+
+30
+00:00:29,350 --> 00:00:29,360
+got one burning question that not too
+ 
+
+31
+00:00:29,360 --> 00:00:30,790
+got one burning question that not too
+many people can answer. That's why I'm
+
+32
+00:00:30,790 --> 00:00:30,800
+many people can answer. That's why I'm
+ 
+
+33
+00:00:30,800 --> 00:00:32,910
+many people can answer. That's why I'm
+joined by Jordan Geisler from The
+
+34
+00:00:32,910 --> 00:00:32,920
+joined by Jordan Geisler from The
+ 
+
+35
+00:00:32,920 --> 00:00:34,705
+joined by Jordan Geisler from The
+Limiting Factor. You may know him
+
+36
+00:00:34,705 --> 00:00:34,715
+Limiting Factor. You may know him
+ 
+
+37
+00:00:34,715 --> 00:00:37,070
+Limiting Factor. You may know him
+[music] as the battery guru, the guy who
+
+38
+00:00:37,070 --> 00:00:37,080
+[music] as the battery guru, the guy who
+ 
+
+39
+00:00:37,080 --> 00:00:38,950
+[music] as the battery guru, the guy who
+reads all the white papers, the guy who
+
+40
+00:00:38,950 --> 00:00:38,960
+reads all the white papers, the guy who
+ 
+
+41
+00:00:38,960 --> 00:00:41,230
+reads all the white papers, the guy who
+understands the business so well that
+
+42
+00:00:41,230 --> 00:00:41,240
+understands the business so well that
+ 
+
+43
+00:00:41,240 --> 00:00:43,030
+understands the business so well that
+the battery engineers at Tesla I've
+
+44
+00:00:43,030 --> 00:00:43,040
+the battery engineers at Tesla I've
+ 
+
+45
+00:00:43,040 --> 00:00:45,390
+the battery engineers at Tesla I've
+spoken to said that he must have an
+
+46
+00:00:45,390 --> 00:00:45,400
+spoken to said that he must have an
+ 
+
+47
+00:00:45,400 --> 00:00:48,390
+spoken to said that he must have an
+inside man and he doesn't. He just knows
+
+48
+00:00:48,390 --> 00:00:48,400
+inside man and he doesn't. He just knows
+ 
+
+49
+00:00:48,400 --> 00:00:50,030
+inside man and he doesn't. He just knows
+how to read and [music] understand what
+
+50
+00:00:50,030 --> 00:00:50,040
+how to read and [music] understand what
+ 
+
+51
+00:00:50,040 --> 00:00:52,390
+how to read and [music] understand what
+he's reading. I got Jordan Geisler with
+
+52
+00:00:52,390 --> 00:00:52,400
+he's reading. I got Jordan Geisler with
+ 
+
+53
+00:00:52,400 --> 00:00:55,665
+he's reading. I got Jordan Geisler with
+me. I'm Brian. Welcome to Future Ozo.
+
+54
+00:00:55,665 --> 00:00:55,675
+me. I'm Brian. Welcome to Future Ozo.
+ 
+
+55
+00:00:55,675 --> 00:00:56,320
+me. I'm Brian. Welcome to Future Ozo.
+>> [music]
+
+56
+00:00:56,320 --> 00:00:56,330
+>> [music]
+ 
+
+57
+00:00:56,330 --> 00:00:59,550
+>> [music]
+[singing]
+
+58
+00:00:59,550 --> 00:00:59,560
+
+ 
+
+59
+00:00:59,560 --> 00:01:01,070
+
+>> So, Jordan, I don't know if you know
+
+60
+00:01:01,070 --> 00:01:01,080
+>> So, Jordan, I don't know if you know
+ 
+
+61
+00:01:01,080 --> 00:01:04,110
+>> So, Jordan, I don't know if you know
+this, but you have a channel on YouTube.
+
+62
+00:01:04,110 --> 00:01:04,120
+this, but you have a channel on YouTube.
+ 
+
+63
+00:01:04,120 --> 00:01:05,630
+this, but you have a channel on YouTube.
+Is that correct? Am I reading that
+
+64
+00:01:05,630 --> 00:01:05,640
+Is that correct? Am I reading that
+ 
+
+65
+00:01:05,640 --> 00:01:06,150
+Is that correct? Am I reading that
+right?
+
+66
+00:01:06,150 --> 00:01:06,160
+right?
+ 
+
+67
+00:01:06,160 --> 00:01:07,455
+right?
+>> That is right.
+
+68
+00:01:07,455 --> 00:01:07,465
+>> That is right.
+ 
+
+69
+00:01:07,465 --> 00:01:07,870
+>> That is right.
+>> [laughter]
+
+70
+00:01:07,870 --> 00:01:07,880
+>> [laughter]
+ 
+
+71
+00:01:07,880 --> 00:01:08,910
+>> [laughter]
+>> Look at those
+
+72
+00:01:08,910 --> 00:01:08,920
+>> Look at those
+ 
+
+73
+00:01:08,920 --> 00:01:11,230
+>> Look at those
+thumbnails. Join him. They are. They
+
+74
+00:01:11,230 --> 00:01:11,240
+thumbnails. Join him. They are. They
+ 
+
+75
+00:01:11,240 --> 00:01:12,750
+thumbnails. Join him. They are. They
+look really great. And if that's just
+
+76
+00:01:12,750 --> 00:01:12,760
+look really great. And if that's just
+ 
+
+77
+00:01:12,760 --> 00:01:14,590
+look really great. And if that's just
+not classy enough, you can also join him
+
+78
+00:01:14,590 --> 00:01:14,600
+not classy enough, you can also join him
+ 
+
+79
+00:01:14,600 --> 00:01:15,670
+not classy enough, you can also join him
+over on X.
+
+80
+00:01:15,670 --> 00:01:15,680
+over on X.
+ 
+
+81
+00:01:15,680 --> 00:01:17,280
+over on X.
+>> Much less classy.
+
+82
+00:01:17,280 --> 00:01:17,290
+>> Much less classy.
+ 
+
+83
+00:01:17,290 --> 00:01:18,910
+>> Much less classy.
+>> [laughter]
+
+84
+00:01:18,910 --> 00:01:18,920
+>> [laughter]
+ 
+
+85
+00:01:18,920 --> 00:01:20,710
+>> [laughter]
+>> I mean, the real problem is both of
+
+86
+00:01:20,710 --> 00:01:20,720
+>> I mean, the real problem is both of
+ 
+
+87
+00:01:20,720 --> 00:01:23,630
+>> I mean, the real problem is both of
+those places let anybody in.
+
+88
+00:01:23,630 --> 00:01:23,640
+those places let anybody in.
+ 
+
+89
+00:01:23,640 --> 00:01:25,910
+those places let anybody in.
+So, you did a fantastic video on
+
+90
+00:01:25,910 --> 00:01:25,920
+So, you did a fantastic video on
+ 
+
+91
+00:01:25,920 --> 00:01:27,670
+So, you did a fantastic video on
+terrestrial compute. You went back and
+
+92
+00:01:27,670 --> 00:01:27,680
+terrestrial compute. You went back and
+ 
+
+93
+00:01:27,680 --> 00:01:30,070
+terrestrial compute. You went back and
+looked at a video you'd made a year ago
+
+94
+00:01:30,070 --> 00:01:30,080
+looked at a video you'd made a year ago
+ 
+
+95
+00:01:30,080 --> 00:01:32,030
+looked at a video you'd made a year ago
+and said, "This is what I envision these
+
+96
+00:01:32,030 --> 00:01:32,040
+and said, "This is what I envision these
+ 
+
+97
+00:01:32,040 --> 00:01:34,590
+and said, "This is what I envision these
+three big dogs." We've already got one
+
+98
+00:01:34,590 --> 00:01:34,600
+three big dogs." We've already got one
+ 
+
+99
+00:01:34,600 --> 00:01:36,230
+three big dogs." We've already got one
+big dog. We're going to add two more big
+
+100
+00:01:36,230 --> 00:01:36,240
+big dog. We're going to add two more big
+ 
+
+101
+00:01:36,240 --> 00:01:39,150
+big dog. We're going to add two more big
+dogs. And in terms of where it would be
+
+102
+00:01:39,150 --> 00:01:39,160
+dogs. And in terms of where it would be
+ 
+
+103
+00:01:39,160 --> 00:01:41,550
+dogs. And in terms of where it would be
+located, where it would be situated, you
+
+104
+00:01:41,550 --> 00:01:41,560
+located, where it would be situated, you
+ 
+
+105
+00:01:41,560 --> 00:01:42,710
+located, where it would be situated, you
+were going on the best information
+
+106
+00:01:42,710 --> 00:01:42,720
+were going on the best information
+ 
+
+107
+00:01:42,720 --> 00:01:44,630
+were going on the best information
+available, but the best information
+
+108
+00:01:44,630 --> 00:01:44,640
+available, but the best information
+ 
+
+109
+00:01:44,640 --> 00:01:46,950
+available, but the best information
+available did not have a
+
+110
+00:01:46,950 --> 00:01:46,960
+available did not have a
+ 
+
+111
+00:01:46,960 --> 00:01:48,910
+available did not have a
+additional land yet, land that was added
+
+112
+00:01:48,910 --> 00:01:48,920
+additional land yet, land that was added
+ 
+
+113
+00:01:48,920 --> 00:01:51,910
+additional land yet, land that was added
+later. So, what we ended up seeing was
+
+114
+00:01:51,910 --> 00:01:51,920
+later. So, what we ended up seeing was
+ 
+
+115
+00:01:51,920 --> 00:01:53,270
+later. So, what we ended up seeing was
+Whoops.
+
+116
+00:01:53,270 --> 00:01:53,280
+Whoops.
+ 
+
+117
+00:01:53,280 --> 00:01:55,510
+Whoops.
+Seeing was this instead.
+
+118
+00:01:55,510 --> 00:01:55,520
+Seeing was this instead.
+ 
+
+119
+00:01:55,520 --> 00:01:56,150
+Seeing was this instead.
+Uh
+
+120
+00:01:56,150 --> 00:01:56,160
+Uh
+ 
+
+121
+00:01:56,160 --> 00:01:57,470
+Uh
+>> Uh, they got some land across the
+
+122
+00:01:57,470 --> 00:01:57,480
+>> Uh, they got some land across the
+ 
+
+123
+00:01:57,480 --> 00:02:00,590
+>> Uh, they got some land across the
+street, but harder over there,
+
+124
+00:02:00,590 --> 00:02:00,600
+street, but harder over there,
+ 
+
+125
+00:02:00,600 --> 00:02:02,630
+street, but harder over there,
+and what's all this where we may have
+
+126
+00:02:02,630 --> 00:02:02,640
+and what's all this where we may have
+ 
+
+127
+00:02:02,640 --> 00:02:04,430
+and what's all this where we may have
+believed the building could have gone?
+
+128
+00:02:04,430 --> 00:02:04,440
+believed the building could have gone?
+ 
+
+129
+00:02:04,440 --> 00:02:07,030
+believed the building could have gone?
+>> Uh, it looks like uh cooling and energy
+
+130
+00:02:07,030 --> 00:02:07,040
+>> Uh, it looks like uh cooling and energy
+ 
+
+131
+00:02:07,040 --> 00:02:09,270
+>> Uh, it looks like uh cooling and energy
+and battery related stuff, but there is
+
+132
+00:02:09,270 --> 00:02:09,280
+and battery related stuff, but there is
+ 
+
+133
+00:02:09,280 --> 00:02:11,150
+and battery related stuff, but there is
+that further to the left, it looks like
+
+134
+00:02:11,150 --> 00:02:11,160
+that further to the left, it looks like
+ 
+
+135
+00:02:11,160 --> 00:02:12,350
+that further to the left, it looks like
+they are going to be putting another
+
+136
+00:02:12,350 --> 00:02:12,360
+they are going to be putting another
+ 
+
+137
+00:02:12,360 --> 00:02:14,110
+they are going to be putting another
+building there, which is going to be the
+
+138
+00:02:14,110 --> 00:02:14,120
+building there, which is going to be the
+ 
+
+139
+00:02:14,120 --> 00:02:15,630
+building there, which is going to be the
+third building. I don't know if that's
+
+140
+00:02:15,630 --> 00:02:15,640
+third building. I don't know if that's
+ 
+
+141
+00:02:15,640 --> 00:02:17,030
+third building. I don't know if that's
+going to be enough to hit that full
+
+142
+00:02:17,030 --> 00:02:17,040
+going to be enough to hit that full
+ 
+
+143
+00:02:17,040 --> 00:02:19,270
+going to be enough to hit that full
+million that Elon originally said for
+
+144
+00:02:19,270 --> 00:02:19,280
+million that Elon originally said for
+ 
+
+145
+00:02:19,280 --> 00:02:21,630
+million that Elon originally said for
+Colossus 2, but it's three buildings
+
+146
+00:02:21,630 --> 00:02:21,640
+Colossus 2, but it's three buildings
+ 
+
+147
+00:02:21,640 --> 00:02:23,230
+Colossus 2, but it's three buildings
+just in a different layout than what I
+
+148
+00:02:23,230 --> 00:02:23,240
+just in a different layout than what I
+ 
+
+149
+00:02:23,240 --> 00:02:24,110
+just in a different layout than what I
+suggested.
+
+150
+00:02:24,110 --> 00:02:24,120
+suggested.
+ 
+
+151
+00:02:24,120 --> 00:02:26,510
+suggested.
+>> That is uh and you can correct my math
+
+152
+00:02:26,510 --> 00:02:26,520
+>> That is uh and you can correct my math
+ 
+
+153
+00:02:26,520 --> 00:02:29,590
+>> That is uh and you can correct my math
+here, but I what I'm seeing is a lot of
+
+154
+00:02:29,590 --> 00:02:29,600
+here, but I what I'm seeing is a lot of
+ 
+
+155
+00:02:29,600 --> 00:02:30,949
+here, but I what I'm seeing is a lot of
+batteries.
+
+156
+00:02:30,949 --> 00:02:30,959
+batteries.
+ 
+
+157
+00:02:30,959 --> 00:02:31,951
+batteries.
+>> Oh, yeah.
+
+158
+00:02:31,951 --> 00:02:31,961
+>> Oh, yeah.
+ 
+
+159
+00:02:31,961 --> 00:02:32,750
+>> Oh, yeah.
+>> [laughter]
+
+160
+00:02:32,750 --> 00:02:32,760
+>> [laughter]
+ 
+
+161
+00:02:32,760 --> 00:02:34,790
+>> [laughter]
+>> That's a lot of juice.
+
+162
+00:02:34,790 --> 00:02:34,800
+>> That's a lot of juice.
+ 
+
+163
+00:02:34,800 --> 00:02:36,590
+>> That's a lot of juice.
+>> This year alone
+
+164
+00:02:36,590 --> 00:02:36,600
+>> This year alone
+ 
+
+165
+00:02:36,600 --> 00:02:40,830
+>> This year alone
+SpaceX AI has spent $329
+
+166
+00:02:40,830 --> 00:02:40,840
+SpaceX AI has spent $329
+ 
+
+167
+00:02:40,840 --> 00:02:43,350
+SpaceX AI has spent $329
+million on Megapacks.
+
+168
+00:02:43,350 --> 00:02:43,360
+million on Megapacks.
+ 
+
+169
+00:02:43,360 --> 00:02:45,830
+million on Megapacks.
+And we do see heat exchangers and yes,
+
+170
+00:02:45,830 --> 00:02:45,840
+And we do see heat exchangers and yes,
+ 
+
+171
+00:02:45,840 --> 00:02:47,750
+And we do see heat exchangers and yes,
+other power-related things. On this
+
+172
+00:02:47,750 --> 00:02:47,760
+other power-related things. On this
+ 
+
+173
+00:02:47,760 --> 00:02:49,430
+other power-related things. On this
+third building, it could just be taller.
+
+174
+00:02:49,430 --> 00:02:49,440
+third building, it could just be taller.
+ 
+
+175
+00:02:49,440 --> 00:02:51,350
+third building, it could just be taller.
+I haven't seen it from the ground.
+
+176
+00:02:51,350 --> 00:02:51,360
+I haven't seen it from the ground.
+ 
+
+177
+00:02:51,360 --> 00:02:54,390
+I haven't seen it from the ground.
+Elon's companies will use vertical space
+
+178
+00:02:54,390 --> 00:02:54,400
+Elon's companies will use vertical space
+ 
+
+179
+00:02:54,400 --> 00:02:56,430
+Elon's companies will use vertical space
+when necessary,
+
+180
+00:02:56,430 --> 00:02:56,440
+when necessary,
+ 
+
+181
+00:02:56,440 --> 00:02:59,710
+when necessary,
+and maybe that's better. Uh
+
+182
+00:02:59,710 --> 00:02:59,720
+and maybe that's better. Uh
+ 
+
+183
+00:02:59,720 --> 00:03:01,509
+and maybe that's better. Uh
+tough to say. If you're running out of
+
+184
+00:03:01,509 --> 00:03:01,519
+tough to say. If you're running out of
+ 
+
+185
+00:03:01,519 --> 00:03:04,030
+tough to say. If you're running out of
+land, which no matter how much of it his
+
+186
+00:03:04,030 --> 00:03:04,040
+land, which no matter how much of it his
+ 
+
+187
+00:03:04,040 --> 00:03:05,949
+land, which no matter how much of it his
+companies acquire, he seems to always be
+
+188
+00:03:05,949 --> 00:03:05,959
+companies acquire, he seems to always be
+ 
+
+189
+00:03:05,959 --> 00:03:08,590
+companies acquire, he seems to always be
+running out of land. Uh so, my one
+
+190
+00:03:08,590 --> 00:03:08,600
+running out of land. Uh so, my one
+ 
+
+191
+00:03:08,600 --> 00:03:10,790
+running out of land. Uh so, my one
+question about space I wanted to ask
+
+192
+00:03:10,790 --> 00:03:10,800
+question about space I wanted to ask
+ 
+
+193
+00:03:10,800 --> 00:03:12,350
+question about space I wanted to ask
+because there's quite a bit of real
+
+194
+00:03:12,350 --> 00:03:12,360
+because there's quite a bit of real
+ 
+
+195
+00:03:12,360 --> 00:03:14,509
+because there's quite a bit of real
+estate up there at the moment.
+
+196
+00:03:14,509 --> 00:03:14,519
+estate up there at the moment.
+ 
+
+197
+00:03:14,519 --> 00:03:16,190
+estate up there at the moment.
+Uh a big
+
+198
+00:03:16,190 --> 00:03:16,200
+Uh a big
+ 
+
+199
+00:03:16,200 --> 00:03:18,470
+Uh a big
+satellite that does big compute that
+
+200
+00:03:18,470 --> 00:03:18,480
+satellite that does big compute that
+ 
+
+201
+00:03:18,480 --> 00:03:20,550
+satellite that does big compute that
+pulls a lot of juice,
+
+202
+00:03:20,550 --> 00:03:20,560
+pulls a lot of juice,
+ 
+
+203
+00:03:20,560 --> 00:03:21,630
+pulls a lot of juice,
+that's not going to need very much
+
+204
+00:03:21,630 --> 00:03:21,640
+that's not going to need very much
+ 
+
+205
+00:03:21,640 --> 00:03:23,350
+that's not going to need very much
+battery, is it?
+
+206
+00:03:23,350 --> 00:03:23,360
+battery, is it?
+ 
+
+207
+00:03:23,360 --> 00:03:25,350
+battery, is it?
+>> No. If you're in space and you have
+
+208
+00:03:25,350 --> 00:03:25,360
+>> No. If you're in space and you have
+ 
+
+209
+00:03:25,360 --> 00:03:28,150
+>> No. If you're in space and you have
+access to constant sun, if you're in
+
+210
+00:03:28,150 --> 00:03:28,160
+access to constant sun, if you're in
+ 
+
+211
+00:03:28,160 --> 00:03:30,670
+access to constant sun, if you're in
+that uh what is it? The type of orbit.
+
+212
+00:03:30,670 --> 00:03:30,680
+that uh what is it? The type of orbit.
+ 
+
+213
+00:03:30,680 --> 00:03:32,830
+that uh what is it? The type of orbit.
+It's escaping me right now, but it's
+
+214
+00:03:32,830 --> 00:03:32,840
+It's escaping me right now, but it's
+ 
+
+215
+00:03:32,840 --> 00:03:34,430
+It's escaping me right now, but it's
+sun-synchronous orbit, I think is the
+
+216
+00:03:34,430 --> 00:03:34,440
+sun-synchronous orbit, I think is the
+ 
+
+217
+00:03:34,440 --> 00:03:36,030
+sun-synchronous orbit, I think is the
+word for it, where you're constantly
+
+218
+00:03:36,030 --> 00:03:36,040
+word for it, where you're constantly
+ 
+
+219
+00:03:36,040 --> 00:03:38,710
+word for it, where you're constantly
+facing the sun. Uh the you won't need
+
+220
+00:03:38,710 --> 00:03:38,720
+facing the sun. Uh the you won't need
+ 
+
+221
+00:03:38,720 --> 00:03:40,509
+facing the sun. Uh the you won't need
+the batteries to cover periods where
+
+222
+00:03:40,509 --> 00:03:40,519
+the batteries to cover periods where
+ 
+
+223
+00:03:40,519 --> 00:03:42,229
+the batteries to cover periods where
+there's no sun. You need the batteries
+
+224
+00:03:42,229 --> 00:03:42,239
+there's no sun. You need the batteries
+ 
+
+225
+00:03:42,239 --> 00:03:44,470
+there's no sun. You need the batteries
+to provide extra juice when there's
+
+226
+00:03:44,470 --> 00:03:44,480
+to provide extra juice when there's
+ 
+
+227
+00:03:44,480 --> 00:03:46,790
+to provide extra juice when there's
+extra juice is needed for the compute.
+
+228
+00:03:46,790 --> 00:03:46,800
+extra juice is needed for the compute.
+ 
+
+229
+00:03:46,800 --> 00:03:48,270
+extra juice is needed for the compute.
+So, it's um
+
+230
+00:03:48,270 --> 00:03:48,280
+So, it's um
+ 
+
+231
+00:03:48,280 --> 00:03:50,949
+So, it's um
+not not what a lot of people think.
+
+232
+00:03:50,949 --> 00:03:50,959
+not not what a lot of people think.
+ 
+
+233
+00:03:50,959 --> 00:03:53,310
+not not what a lot of people think.
+>> Right. So, uh the battery is just to
+
+234
+00:03:53,310 --> 00:03:53,320
+>> Right. So, uh the battery is just to
+ 
+
+235
+00:03:53,320 --> 00:03:55,190
+>> Right. So, uh the battery is just to
+cover the night time and if you're in
+
+236
+00:03:55,190 --> 00:03:55,200
+cover the night time and if you're in
+ 
+
+237
+00:03:55,200 --> 00:03:56,870
+cover the night time and if you're in
+the correct orbit, there is no night
+
+238
+00:03:56,870 --> 00:03:56,880
+the correct orbit, there is no night
+ 
+
+239
+00:03:56,880 --> 00:03:58,430
+the correct orbit, there is no night
+time.
+
+240
+00:03:58,430 --> 00:03:58,440
+time.
+ 
+
+241
+00:03:58,440 --> 00:04:00,190
+time.
+>> Yeah. So, it's a different theory than
+
+242
+00:04:00,190 --> 00:04:00,200
+>> Yeah. So, it's a different theory than
+ 
+
+243
+00:04:00,200 --> 00:04:02,870
+>> Yeah. So, it's a different theory than
+why you need batteries on Earth. Well,
+
+244
+00:04:02,870 --> 00:04:02,880
+why you need batteries on Earth. Well,
+ 
+
+245
+00:04:02,880 --> 00:04:04,710
+why you need batteries on Earth. Well,
+here on Earth you need the battery.
+
+246
+00:04:04,710 --> 00:04:04,720
+here on Earth you need the battery.
+ 
+
+247
+00:04:04,720 --> 00:04:06,390
+here on Earth you need the battery.
+Yeah, there's a couple different reasons
+
+248
+00:04:06,390 --> 00:04:06,400
+Yeah, there's a couple different reasons
+ 
+
+249
+00:04:06,400 --> 00:04:09,150
+Yeah, there's a couple different reasons
+you need a batteries for data centers uh
+
+250
+00:04:09,150 --> 00:04:09,160
+you need a batteries for data centers uh
+ 
+
+251
+00:04:09,160 --> 00:04:11,630
+you need a batteries for data centers uh
+here on Earth. One of them is to cover
+
+252
+00:04:11,630 --> 00:04:11,640
+here on Earth. One of them is to cover
+ 
+
+253
+00:04:11,640 --> 00:04:14,270
+here on Earth. One of them is to cover
+night time and another one is to cover
+
+254
+00:04:14,270 --> 00:04:14,280
+night time and another one is to cover
+ 
+
+255
+00:04:14,280 --> 00:04:16,670
+night time and another one is to cover
+uh peak power usage. Whereas in space,
+
+256
+00:04:16,670 --> 00:04:16,680
+uh peak power usage. Whereas in space,
+ 
+
+257
+00:04:16,680 --> 00:04:17,789
+uh peak power usage. Whereas in space,
+you're just going to need it for one of
+
+258
+00:04:17,789 --> 00:04:17,799
+you're just going to need it for one of
+ 
+
+259
+00:04:17,799 --> 00:04:20,069
+you're just going to need it for one of
+those things whereas uh the peak power
+
+260
+00:04:20,069 --> 00:04:20,079
+those things whereas uh the peak power
+ 
+
+261
+00:04:20,079 --> 00:04:21,990
+those things whereas uh the peak power
+those bursts where you need a little bit
+
+262
+00:04:21,990 --> 00:04:22,000
+those bursts where you need a little bit
+ 
+
+263
+00:04:22,000 --> 00:04:23,190
+those bursts where you need a little bit
+of extra power.
+
+264
+00:04:23,190 --> 00:04:23,200
+of extra power.
+ 
+
+265
+00:04:23,200 --> 00:04:25,470
+of extra power.
+>> Now, uh anybody can build a data center,
+
+266
+00:04:25,470 --> 00:04:25,480
+>> Now, uh anybody can build a data center,
+ 
+
+267
+00:04:25,480 --> 00:04:27,030
+>> Now, uh anybody can build a data center,
+Jordan. You and I can build a data
+
+268
+00:04:27,030 --> 00:04:27,040
+Jordan. You and I can build a data
+ 
+
+269
+00:04:27,040 --> 00:04:27,950
+Jordan. You and I can build a data
+center.
+
+270
+00:04:27,950 --> 00:04:27,960
+center.
+ 
+
+271
+00:04:27,960 --> 00:04:31,110
+center.
+I think I can predict with 100% accuracy
+
+272
+00:04:31,110 --> 00:04:31,120
+I think I can predict with 100% accuracy
+ 
+
+273
+00:04:31,120 --> 00:04:33,830
+I think I can predict with 100% accuracy
+how well that would go. Not well is what
+
+274
+00:04:33,830 --> 00:04:33,840
+how well that would go. Not well is what
+ 
+
+275
+00:04:33,840 --> 00:04:36,190
+how well that would go. Not well is what
+I is what my build would be, but even
+
+276
+00:04:36,190 --> 00:04:36,200
+I is what my build would be, but even
+ 
+
+277
+00:04:36,200 --> 00:04:37,909
+I is what my build would be, but even
+people who think they know what they're
+
+278
+00:04:37,909 --> 00:04:37,919
+people who think they know what they're
+ 
+
+279
+00:04:37,919 --> 00:04:39,870
+people who think they know what they're
+doing often make mistakes.
+
+280
+00:04:39,870 --> 00:04:39,880
+doing often make mistakes.
+ 
+
+281
+00:04:39,880 --> 00:04:41,590
+doing often make mistakes.
+And very few companies have the ability
+
+282
+00:04:41,590 --> 00:04:41,600
+And very few companies have the ability
+ 
+
+283
+00:04:41,600 --> 00:04:44,230
+And very few companies have the ability
+to pull off things that the chip
+
+284
+00:04:44,230 --> 00:04:44,240
+to pull off things that the chip
+ 
+
+285
+00:04:44,240 --> 00:04:46,230
+to pull off things that the chip
+manufacturer themselves didn't see
+
+286
+00:04:46,230 --> 00:04:46,240
+manufacturer themselves didn't see
+ 
+
+287
+00:04:46,240 --> 00:04:47,909
+manufacturer themselves didn't see
+coming, the chip designers really.
+
+288
+00:04:47,909 --> 00:04:47,919
+coming, the chip designers really.
+ 
+
+289
+00:04:47,919 --> 00:04:49,590
+coming, the chip designers really.
+Nvidia did not believe you could get a
+
+290
+00:04:49,590 --> 00:04:49,600
+Nvidia did not believe you could get a
+ 
+
+291
+00:04:49,600 --> 00:04:53,270
+Nvidia did not believe you could get a
+coherent cluster of 100,000 plus
+
+292
+00:04:53,270 --> 00:04:53,280
+coherent cluster of 100,000 plus
+ 
+
+293
+00:04:53,280 --> 00:04:55,550
+coherent cluster of 100,000 plus
+uh and lo and behold they did. Do they
+
+294
+00:04:55,550 --> 00:04:55,560
+uh and lo and behold they did. Do they
+ 
+
+295
+00:04:55,560 --> 00:04:58,350
+uh and lo and behold they did. Do they
+have some competencies in deploying uh
+
+296
+00:04:58,350 --> 00:04:58,360
+have some competencies in deploying uh
+ 
+
+297
+00:04:58,360 --> 00:04:59,710
+have some competencies in deploying uh
+data centers?
+
+298
+00:04:59,710 --> 00:04:59,720
+data centers?
+ 
+
+299
+00:04:59,720 --> 00:05:01,070
+data centers?
+>> It sure looks like it based on the
+
+300
+00:05:01,070 --> 00:05:01,080
+>> It sure looks like it based on the
+ 
+
+301
+00:05:01,080 --> 00:05:04,550
+>> It sure looks like it based on the
+evidence. They're able to uh SpaceX/xAI
+
+302
+00:05:04,550 --> 00:05:04,560
+evidence. They're able to uh SpaceX/xAI
+ 
+
+303
+00:05:04,560 --> 00:05:07,070
+evidence. They're able to uh SpaceX/xAI
+formerly, they've proven to be able to
+
+304
+00:05:07,070 --> 00:05:07,080
+formerly, they've proven to be able to
+ 
+
+305
+00:05:07,080 --> 00:05:09,190
+formerly, they've proven to be able to
+deploy these data centers much faster
+
+306
+00:05:09,190 --> 00:05:09,200
+deploy these data centers much faster
+ 
+
+307
+00:05:09,200 --> 00:05:11,430
+deploy these data centers much faster
+than anybody else and that's not just
+
+308
+00:05:11,430 --> 00:05:11,440
+than anybody else and that's not just
+ 
+
+309
+00:05:11,440 --> 00:05:13,550
+than anybody else and that's not just
+the data at center itself, but all the
+
+310
+00:05:13,550 --> 00:05:13,560
+the data at center itself, but all the
+ 
+
+311
+00:05:13,560 --> 00:05:16,070
+the data at center itself, but all the
+supporting infrastructure for that. Uh
+
+312
+00:05:16,070 --> 00:05:16,080
+supporting infrastructure for that. Uh
+ 
+
+313
+00:05:16,080 --> 00:05:17,470
+supporting infrastructure for that. Uh
+they're stepping on some toes in the
+
+314
+00:05:17,470 --> 00:05:17,480
+they're stepping on some toes in the
+ 
+
+315
+00:05:17,480 --> 00:05:18,978
+they're stepping on some toes in the
+process.
+
+316
+00:05:18,978 --> 00:05:18,988
+process.
+ 
+
+317
+00:05:18,988 --> 00:05:20,430
+process.
+>> [laughter]
+
+318
+00:05:20,430 --> 00:05:20,440
+>> [laughter]
+ 
+
+319
+00:05:20,440 --> 00:05:24,110
+>> [laughter]
+>> But, um they seem to be uh uh just do it
+
+320
+00:05:24,110 --> 00:05:24,120
+>> But, um they seem to be uh uh just do it
+ 
+
+321
+00:05:24,120 --> 00:05:26,183
+>> But, um they seem to be uh uh just do it
+and then ask for forgiveness afterwards.
+
+322
+00:05:26,183 --> 00:05:26,193
+and then ask for forgiveness afterwards.
+ 
+
+323
+00:05:26,193 --> 00:05:27,030
+and then ask for forgiveness afterwards.
+[laughter]
+
+324
+00:05:27,030 --> 00:05:27,040
+[laughter]
+ 
+
+325
+00:05:27,040 --> 00:05:27,630
+[laughter]
+So,
+
+326
+00:05:27,630 --> 00:05:27,640
+So,
+ 
+
+327
+00:05:27,640 --> 00:05:29,950
+So,
+>> Yeah, I mean there's philosophical
+
+328
+00:05:29,950 --> 00:05:29,960
+>> Yeah, I mean there's philosophical
+ 
+
+329
+00:05:29,960 --> 00:05:32,670
+>> Yeah, I mean there's philosophical
+approaches that you can analyze, but I'm
+
+330
+00:05:32,670 --> 00:05:32,680
+approaches that you can analyze, but I'm
+ 
+
+331
+00:05:32,680 --> 00:05:35,150
+approaches that you can analyze, but I'm
+not here to do that. I'm just looking at
+
+332
+00:05:35,150 --> 00:05:35,160
+not here to do that. I'm just looking at
+ 
+
+333
+00:05:35,160 --> 00:05:38,670
+not here to do that. I'm just looking at
+the actual numbers and whatnot. Uh so,
+
+334
+00:05:38,670 --> 00:05:38,680
+the actual numbers and whatnot. Uh so,
+ 
+
+335
+00:05:38,680 --> 00:05:40,390
+the actual numbers and whatnot. Uh so,
+it seems that
+
+336
+00:05:40,390 --> 00:05:40,400
+it seems that
+ 
+
+337
+00:05:40,400 --> 00:05:42,710
+it seems that
+xAI overbuilt
+
+338
+00:05:42,710 --> 00:05:42,720
+xAI overbuilt
+ 
+
+339
+00:05:42,720 --> 00:05:44,110
+xAI overbuilt
+by a lot
+
+340
+00:05:44,110 --> 00:05:44,120
+by a lot
+ 
+
+341
+00:05:44,120 --> 00:05:46,630
+by a lot
+as evidenced by the fact that xAI runs
+
+342
+00:05:46,630 --> 00:05:46,640
+as evidenced by the fact that xAI runs
+ 
+
+343
+00:05:46,640 --> 00:05:47,798
+as evidenced by the fact that xAI runs
+just fine
+
+344
+00:05:47,798 --> 00:05:47,808
+just fine
+ 
+
+345
+00:05:47,808 --> 00:05:48,030
+just fine
+>> [snorts]
+
+346
+00:05:48,030 --> 00:05:48,040
+>> [snorts]
+ 
+
+347
+00:05:48,040 --> 00:05:51,030
+>> [snorts]
+>> and can lease out billions of dollars of
+
+348
+00:05:51,030 --> 00:05:51,040
+>> and can lease out billions of dollars of
+ 
+
+349
+00:05:51,040 --> 00:05:52,430
+>> and can lease out billions of dollars of
+compute.
+
+350
+00:05:52,430 --> 00:05:52,440
+compute.
+ 
+
+351
+00:05:52,440 --> 00:05:54,190
+compute.
+How did that happen? Why did that
+
+352
+00:05:54,190 --> 00:05:54,200
+How did that happen? Why did that
+ 
+
+353
+00:05:54,200 --> 00:05:55,110
+How did that happen? Why did that
+happen?
+
+354
+00:05:55,110 --> 00:05:55,120
+happen?
+ 
+
+355
+00:05:55,120 --> 00:05:57,190
+happen?
+>> It's extremely profitable. So, what
+
+356
+00:05:57,190 --> 00:05:57,200
+>> It's extremely profitable. So, what
+ 
+
+357
+00:05:57,200 --> 00:05:58,790
+>> It's extremely profitable. So, what
+they're doing is they're building the
+
+358
+00:05:58,790 --> 00:05:58,800
+they're doing is they're building the
+ 
+
+359
+00:05:58,800 --> 00:06:01,230
+they're doing is they're building the
+excess uh compute. They're They're
+
+360
+00:06:01,230 --> 00:06:01,240
+excess uh compute. They're They're
+ 
+
+361
+00:06:01,240 --> 00:06:02,870
+excess uh compute. They're They're
+building as much compute as they
+
+362
+00:06:02,870 --> 00:06:02,880
+building as much compute as they
+ 
+
+363
+00:06:02,880 --> 00:06:05,150
+building as much compute as they
+possibly can. They're using the compute
+
+364
+00:06:05,150 --> 00:06:05,160
+possibly can. They're using the compute
+ 
+
+365
+00:06:05,160 --> 00:06:07,950
+possibly can. They're using the compute
+they need for their uh internal needs,
+
+366
+00:06:07,950 --> 00:06:07,960
+they need for their uh internal needs,
+ 
+
+367
+00:06:07,960 --> 00:06:10,310
+they need for their uh internal needs,
+and then everything else they're selling
+
+368
+00:06:10,310 --> 00:06:10,320
+and then everything else they're selling
+ 
+
+369
+00:06:10,320 --> 00:06:11,990
+and then everything else they're selling
+to other people. And it's
+
+370
+00:06:11,990 --> 00:06:12,000
+to other people. And it's
+ 
+
+371
+00:06:12,000 --> 00:06:13,510
+to other people. And it's
+extraordinarily
+
+372
+00:06:13,510 --> 00:06:13,520
+extraordinarily
+ 
+
+373
+00:06:13,520 --> 00:06:15,870
+extraordinarily
+Basically, you can pay these data
+
+374
+00:06:15,870 --> 00:06:15,880
+Basically, you can pay these data
+ 
+
+375
+00:06:15,880 --> 00:06:17,350
+Basically, you can pay these data
+centers off. Whatever you build, you can
+
+376
+00:06:17,350 --> 00:06:17,360
+centers off. Whatever you build, you can
+ 
+
+377
+00:06:17,360 --> 00:06:19,150
+centers off. Whatever you build, you can
+pay it off within about a year.
+
+378
+00:06:19,150 --> 00:06:19,160
+pay it off within about a year.
+ 
+
+379
+00:06:19,160 --> 00:06:21,030
+pay it off within about a year.
+>> If I had told you before the earnings
+
+380
+00:06:21,030 --> 00:06:21,040
+>> If I had told you before the earnings
+ 
+
+381
+00:06:21,040 --> 00:06:23,630
+>> If I had told you before the earnings
+came out that they could pay it off in 2
+
+382
+00:06:23,630 --> 00:06:23,640
+came out that they could pay it off in 2
+ 
+
+383
+00:06:23,640 --> 00:06:25,750
+came out that they could pay it off in 2
+years, you might have thought I was a
+
+384
+00:06:25,750 --> 00:06:25,760
+years, you might have thought I was a
+ 
+
+385
+00:06:25,760 --> 00:06:27,350
+years, you might have thought I was a
+little crazy, right?
+
+386
+00:06:27,350 --> 00:06:27,360
+little crazy, right?
+ 
+
+387
+00:06:27,360 --> 00:06:29,110
+little crazy, right?
+>> If you're not following the space, then
+
+388
+00:06:29,110 --> 00:06:29,120
+>> If you're not following the space, then
+ 
+
+389
+00:06:29,120 --> 00:06:31,230
+>> If you're not following the space, then
+yeah, it's uh Well, if you would have
+
+390
+00:06:31,230 --> 00:06:31,240
+yeah, it's uh Well, if you would have
+ 
+
+391
+00:06:31,240 --> 00:06:33,030
+yeah, it's uh Well, if you would have
+told me earlier this year that they
+
+392
+00:06:33,030 --> 00:06:33,040
+told me earlier this year that they
+ 
+
+393
+00:06:33,040 --> 00:06:34,470
+told me earlier this year that they
+would be able to pay it off in a year,
+
+394
+00:06:34,470 --> 00:06:34,480
+would be able to pay it off in a year,
+ 
+
+395
+00:06:34,480 --> 00:06:38,310
+would be able to pay it off in a year,
+I'd be like, "Oh, mhm maybe." So, yeah,
+
+396
+00:06:38,310 --> 00:06:38,320
+I'd be like, "Oh, mhm maybe." So, yeah,
+ 
+
+397
+00:06:38,320 --> 00:06:40,750
+I'd be like, "Oh, mhm maybe." So, yeah,
+to your point, it's shocking.
+
+398
+00:06:40,750 --> 00:06:40,760
+to your point, it's shocking.
+ 
+
+399
+00:06:40,760 --> 00:06:42,470
+to your point, it's shocking.
+>> It's a shocking number.
+
+400
+00:06:42,470 --> 00:06:42,480
+>> It's a shocking number.
+ 
+
+401
+00:06:42,480 --> 00:06:44,590
+>> It's a shocking number.
+And if you look at just This is again,
+
+402
+00:06:44,590 --> 00:06:44,600
+And if you look at just This is again,
+ 
+
+403
+00:06:44,600 --> 00:06:46,909
+And if you look at just This is again,
+I'm showing slides from Jordan's video.
+
+404
+00:06:46,909 --> 00:06:46,919
+I'm showing slides from Jordan's video.
+ 
+
+405
+00:06:46,919 --> 00:06:50,390
+I'm showing slides from Jordan's video.
+You can go check it out, too. It's free.
+
+406
+00:06:50,390 --> 00:06:50,400
+You can go check it out, too. It's free.
+ 
+
+407
+00:06:50,400 --> 00:06:51,750
+You can go check it out, too. It's free.
+Uh but I got to check it out early
+
+408
+00:06:51,750 --> 00:06:51,760
+Uh but I got to check it out early
+ 
+
+409
+00:06:51,760 --> 00:06:53,550
+Uh but I got to check it out early
+because I'm a supporter on Patreon. If
+
+410
+00:06:53,550 --> 00:06:53,560
+because I'm a supporter on Patreon. If
+ 
+
+411
+00:06:53,560 --> 00:06:55,030
+because I'm a supporter on Patreon. If
+you love Jordan's work, you can support
+
+412
+00:06:55,030 --> 00:06:55,040
+you love Jordan's work, you can support
+ 
+
+413
+00:06:55,040 --> 00:06:56,750
+you love Jordan's work, you can support
+him on Patreon. He only makes a few
+
+414
+00:06:56,750 --> 00:06:56,760
+him on Patreon. He only makes a few
+ 
+
+415
+00:06:56,760 --> 00:06:58,710
+him on Patreon. He only makes a few
+videos a month because they're amazing.
+
+416
+00:06:58,710 --> 00:06:58,720
+videos a month because they're amazing.
+ 
+
+417
+00:06:58,720 --> 00:07:01,390
+videos a month because they're amazing.
+And trying to make them even even two a
+
+418
+00:07:01,390 --> 00:07:01,400
+And trying to make them even even two a
+ 
+
+419
+00:07:01,400 --> 00:07:03,870
+And trying to make them even even two a
+week would be prohibitive. You'd need a
+
+420
+00:07:03,870 --> 00:07:03,880
+week would be prohibitive. You'd need a
+ 
+
+421
+00:07:03,880 --> 00:07:05,630
+week would be prohibitive. You'd need a
+whole team. Well, what are we looking at
+
+422
+00:07:05,630 --> 00:07:05,640
+whole team. Well, what are we looking at
+ 
+
+423
+00:07:05,640 --> 00:07:08,070
+whole team. Well, what are we looking at
+here? This is some big numbers.
+
+424
+00:07:08,070 --> 00:07:08,080
+here? This is some big numbers.
+ 
+
+425
+00:07:08,080 --> 00:07:09,590
+here? This is some big numbers.
+>> Yeah, so it's just the These are the
+
+426
+00:07:09,590 --> 00:07:09,600
+>> Yeah, so it's just the These are the
+ 
+
+427
+00:07:09,600 --> 00:07:13,670
+>> Yeah, so it's just the These are the
+different companies that XAI/SpaceX
+
+428
+00:07:13,670 --> 00:07:13,680
+different companies that XAI/SpaceX
+ 
+
+429
+00:07:13,680 --> 00:07:15,670
+different companies that XAI/SpaceX
+has rented their compute out, too.
+
+430
+00:07:15,670 --> 00:07:15,680
+has rented their compute out, too.
+ 
+
+431
+00:07:15,680 --> 00:07:17,230
+has rented their compute out, too.
+>> But those are big companies. Surely,
+
+432
+00:07:17,230 --> 00:07:17,240
+>> But those are big companies. Surely,
+ 
+
+433
+00:07:17,240 --> 00:07:19,030
+>> But those are big companies. Surely,
+they could build it themselves even
+
+434
+00:07:19,030 --> 00:07:19,040
+they could build it themselves even
+ 
+
+435
+00:07:19,040 --> 00:07:19,750
+they could build it themselves even
+better.
+
+436
+00:07:19,750 --> 00:07:19,760
+better.
+ 
+
+437
+00:07:19,760 --> 00:07:20,909
+better.
+>> Yeah, they they just aren't getting
+
+438
+00:07:20,909 --> 00:07:20,919
+>> Yeah, they they just aren't getting
+ 
+
+439
+00:07:20,919 --> 00:07:22,870
+>> Yeah, they they just aren't getting
+enough, and uh
+
+440
+00:07:22,870 --> 00:07:22,880
+enough, and uh
+ 
+
+441
+00:07:22,880 --> 00:07:25,150
+enough, and uh
+SpaceX is able to build surplus to their
+
+442
+00:07:25,150 --> 00:07:25,160
+SpaceX is able to build surplus to their
+ 
+
+443
+00:07:25,160 --> 00:07:27,670
+SpaceX is able to build surplus to their
+needs, whereas everybody else Nobody
+
+444
+00:07:27,670 --> 00:07:27,680
+needs, whereas everybody else Nobody
+ 
+
+445
+00:07:27,680 --> 00:07:28,950
+needs, whereas everybody else Nobody
+else is able to do that.
+
+446
+00:07:28,950 --> 00:07:28,960
+else is able to do that.
+ 
+
+447
+00:07:28,960 --> 00:07:31,230
+else is able to do that.
+>> Ain't it crazy that that Google would
+
+448
+00:07:31,230 --> 00:07:31,240
+>> Ain't it crazy that that Google would
+ 
+
+449
+00:07:31,240 --> 00:07:34,710
+>> Ain't it crazy that that Google would
+come to you and ask to rent? Oh.
+
+450
+00:07:34,710 --> 00:07:34,720
+come to you and ask to rent? Oh.
+ 
+
+451
+00:07:34,720 --> 00:07:36,710
+come to you and ask to rent? Oh.
+>> Yeah. There's There's so many There's so
+
+452
+00:07:36,710 --> 00:07:36,720
+>> Yeah. There's There's so many There's so
+ 
+
+453
+00:07:36,720 --> 00:07:38,510
+>> Yeah. There's There's so many There's so
+many different levels to this game. So,
+
+454
+00:07:38,510 --> 00:07:38,520
+many different levels to this game. So,
+ 
+
+455
+00:07:38,520 --> 00:07:40,110
+many different levels to this game. So,
+it's You need a whole ecosystem of
+
+456
+00:07:40,110 --> 00:07:40,120
+it's You need a whole ecosystem of
+ 
+
+457
+00:07:40,120 --> 00:07:42,790
+it's You need a whole ecosystem of
+players to make the industry uh a really
+
+458
+00:07:42,790 --> 00:07:42,800
+players to make the industry uh a really
+ 
+
+459
+00:07:42,800 --> 00:07:45,070
+players to make the industry uh a really
+strong success in the United States. So,
+
+460
+00:07:45,070 --> 00:07:45,080
+strong success in the United States. So,
+ 
+
+461
+00:07:45,080 --> 00:07:46,470
+strong success in the United States. So,
+yeah, they they might compete on
+
+462
+00:07:46,470 --> 00:07:46,480
+yeah, they they might compete on
+ 
+
+463
+00:07:46,480 --> 00:07:49,790
+yeah, they they might compete on
+individual products, but if you have
+
+464
+00:07:49,790 --> 00:07:49,800
+individual products, but if you have
+ 
+
+465
+00:07:49,800 --> 00:07:51,270
+individual products, but if you have
+something that you can sell to somebody
+
+466
+00:07:51,270 --> 00:07:51,280
+something that you can sell to somebody
+ 
+
+467
+00:07:51,280 --> 00:07:53,510
+something that you can sell to somebody
+else and they need it, it's in the best
+
+468
+00:07:53,510 --> 00:07:53,520
+else and they need it, it's in the best
+ 
+
+469
+00:07:53,520 --> 00:07:56,110
+else and they need it, it's in the best
+interest of both parties. So, it's not
+
+470
+00:07:56,110 --> 00:07:56,120
+interest of both parties. So, it's not
+ 
+
+471
+00:07:56,120 --> 00:07:58,670
+interest of both parties. So, it's not
+as cutthroat as everybody thinks it is.
+
+472
+00:07:58,670 --> 00:07:58,680
+as cutthroat as everybody thinks it is.
+ 
+
+473
+00:07:58,680 --> 00:08:00,670
+as cutthroat as everybody thinks it is.
+They are competing fiercely, but they're
+
+474
+00:08:00,670 --> 00:08:00,680
+They are competing fiercely, but they're
+ 
+
+475
+00:08:00,680 --> 00:08:02,870
+They are competing fiercely, but they're
+also um
+
+476
+00:08:02,870 --> 00:08:02,880
+also um
+ 
+
+477
+00:08:02,880 --> 00:08:04,710
+also um
+taking advantage of the fact that
+
+478
+00:08:04,710 --> 00:08:04,720
+taking advantage of the fact that
+ 
+
+479
+00:08:04,720 --> 00:08:06,910
+taking advantage of the fact that
+there's other people in the ecosystem.
+
+480
+00:08:06,910 --> 00:08:06,920
+there's other people in the ecosystem.
+ 
+
+481
+00:08:06,920 --> 00:08:09,910
+there's other people in the ecosystem.
+>> Yes. And what I tell people is
+
+482
+00:08:09,910 --> 00:08:09,920
+>> Yes. And what I tell people is
+ 
+
+483
+00:08:09,920 --> 00:08:12,110
+>> Yes. And what I tell people is
+it's not enough that I can build a data
+
+484
+00:08:12,110 --> 00:08:12,120
+it's not enough that I can build a data
+ 
+
+485
+00:08:12,120 --> 00:08:14,710
+it's not enough that I can build a data
+center cheaper in a year.
+
+486
+00:08:14,710 --> 00:08:14,720
+center cheaper in a year.
+ 
+
+487
+00:08:14,720 --> 00:08:17,630
+center cheaper in a year.
+I need that compute today. I need need
+
+488
+00:08:17,630 --> 00:08:17,640
+I need that compute today. I need need
+ 
+
+489
+00:08:17,640 --> 00:08:19,510
+I need that compute today. I need need
+it. If I don't have it, I may not
+
+490
+00:08:19,510 --> 00:08:19,520
+it. If I don't have it, I may not
+ 
+
+491
+00:08:19,520 --> 00:08:21,990
+it. If I don't have it, I may not
+survive. Not every company is going to
+
+492
+00:08:21,990 --> 00:08:22,000
+survive. Not every company is going to
+ 
+
+493
+00:08:22,000 --> 00:08:23,990
+survive. Not every company is going to
+survive. You can't fall behind.
+
+494
+00:08:23,990 --> 00:08:24,000
+survive. You can't fall behind.
+ 
+
+495
+00:08:24,000 --> 00:08:25,830
+survive. You can't fall behind.
+>> If you're paying Yeah, to your point, if
+
+496
+00:08:25,830 --> 00:08:25,840
+>> If you're paying Yeah, to your point, if
+ 
+
+497
+00:08:25,840 --> 00:08:27,750
+>> If you're paying Yeah, to your point, if
+you're paying extra for it, it doesn't
+
+498
+00:08:27,750 --> 00:08:27,760
+you're paying extra for it, it doesn't
+ 
+
+499
+00:08:27,760 --> 00:08:29,630
+you're paying extra for it, it doesn't
+matter because you're
+
+500
+00:08:29,630 --> 00:08:29,640
+matter because you're
+ 
+
+501
+00:08:29,640 --> 00:08:31,390
+matter because you're
+it's critical to your survival and it's
+
+502
+00:08:31,390 --> 00:08:31,400
+it's critical to your survival and it's
+ 
+
+503
+00:08:31,400 --> 00:08:33,070
+it's critical to your survival and it's
+critical to your revenue. For instance,
+
+504
+00:08:33,070 --> 00:08:33,080
+critical to your revenue. For instance,
+ 
+
+505
+00:08:33,080 --> 00:08:34,950
+critical to your revenue. For instance,
+if something costs a dollar and you make
+
+506
+00:08:34,950 --> 00:08:34,960
+if something costs a dollar and you make
+ 
+
+507
+00:08:34,960 --> 00:08:37,029
+if something costs a dollar and you make
+$2 off of it, are you still going to pay
+
+508
+00:08:37,029 --> 00:08:37,039
+$2 off of it, are you still going to pay
+ 
+
+509
+00:08:37,039 --> 00:08:39,410
+$2 off of it, are you still going to pay
+a $1.50 for it? Probably.
+
+510
+00:08:39,410 --> 00:08:39,420
+a $1.50 for it? Probably.
+ 
+
+511
+00:08:39,420 --> 00:08:39,950
+a $1.50 for it? Probably.
+>> [laughter]
+
+512
+00:08:39,950 --> 00:08:39,960
+>> [laughter]
+ 
+
+513
+00:08:39,960 --> 00:08:40,990
+>> [laughter]
+>> Well,
+
+514
+00:08:40,990 --> 00:08:41,000
+>> Well,
+ 
+
+515
+00:08:41,000 --> 00:08:42,630
+>> Well,
+and that is a very good comparison
+
+516
+00:08:42,630 --> 00:08:42,640
+and that is a very good comparison
+ 
+
+517
+00:08:42,640 --> 00:08:44,190
+and that is a very good comparison
+because I can
+
+518
+00:08:44,190 --> 00:08:44,200
+because I can
+ 
+
+519
+00:08:44,200 --> 00:08:46,270
+because I can
+in a year's time, I can start selling it
+
+520
+00:08:46,270 --> 00:08:46,280
+in a year's time, I can start selling it
+ 
+
+521
+00:08:46,280 --> 00:08:49,110
+in a year's time, I can start selling it
+for a dollar. But I may be gone by then.
+
+522
+00:08:49,110 --> 00:08:49,120
+for a dollar. But I may be gone by then.
+ 
+
+523
+00:08:49,120 --> 00:08:52,150
+for a dollar. But I may be gone by then.
+And if I'm not actually It's like doing
+
+524
+00:08:52,150 --> 00:08:52,160
+And if I'm not actually It's like doing
+ 
+
+525
+00:08:52,160 --> 00:08:54,870
+And if I'm not actually It's like doing
+drop shipping. And so, if it's a $1.50
+
+526
+00:08:54,870 --> 00:08:54,880
+drop shipping. And so, if it's a $1.50
+ 
+
+527
+00:08:54,880 --> 00:08:57,790
+drop shipping. And so, if it's a $1.50
+and I don't have to do the work,
+
+528
+00:08:57,790 --> 00:08:57,800
+and I don't have to do the work,
+ 
+
+529
+00:08:57,800 --> 00:09:00,430
+and I don't have to do the work,
+I'm still making the 50 cents.
+
+530
+00:09:00,430 --> 00:09:00,440
+I'm still making the 50 cents.
+ 
+
+531
+00:09:00,440 --> 00:09:02,991
+I'm still making the 50 cents.
+I mean, that makes sense at that point.
+
+532
+00:09:02,991 --> 00:09:03,001
+I mean, that makes sense at that point.
+ 
+
+533
+00:09:03,001 --> 00:09:03,030
+I mean, that makes sense at that point.
+>> [snorts]
+
+534
+00:09:03,030 --> 00:09:03,040
+>> [snorts]
+ 
+
+535
+00:09:03,040 --> 00:09:05,630
+>> [snorts]
+>> Now, of course, uh because it is SpaceX,
+
+536
+00:09:05,630 --> 00:09:05,640
+>> Now, of course, uh because it is SpaceX,
+ 
+
+537
+00:09:05,640 --> 00:09:06,990
+>> Now, of course, uh because it is SpaceX,
+they're not going to grow anymore.
+
+538
+00:09:06,990 --> 00:09:07,000
+they're not going to grow anymore.
+ 
+
+539
+00:09:07,000 --> 00:09:09,070
+they're not going to grow anymore.
+They're they're done with that story.
+
+540
+00:09:09,070 --> 00:09:09,080
+They're they're done with that story.
+ 
+
+541
+00:09:09,080 --> 00:09:11,110
+They're they're done with that story.
+Wait, Hank Taipale I just noticed this,
+
+542
+00:09:11,110 --> 00:09:11,120
+Wait, Hank Taipale I just noticed this,
+ 
+
+543
+00:09:11,120 --> 00:09:14,150
+Wait, Hank Taipale I just noticed this,
+uh Memphis, what's going on there?
+
+544
+00:09:14,150 --> 00:09:14,160
+uh Memphis, what's going on there?
+ 
+
+545
+00:09:14,160 --> 00:09:17,150
+uh Memphis, what's going on there?
+>> Okay, there's a lot of And this
+
+546
+00:09:17,150 --> 00:09:17,160
+>> Okay, there's a lot of And this
+ 
+
+547
+00:09:17,160 --> 00:09:18,990
+>> Okay, there's a lot of And this
+I'm glad you asked this question because
+
+548
+00:09:18,990 --> 00:09:19,000
+I'm glad you asked this question because
+ 
+
+549
+00:09:19,000 --> 00:09:20,510
+I'm glad you asked this question because
+I made this video
+
+550
+00:09:20,510 --> 00:09:20,520
+I made this video
+ 
+
+551
+00:09:20,520 --> 00:09:23,150
+I made this video
+I put it out 3 weeks ago and it's
+
+552
+00:09:23,150 --> 00:09:23,160
+I put it out 3 weeks ago and it's
+ 
+
+553
+00:09:23,160 --> 00:09:24,870
+I put it out 3 weeks ago and it's
+already significantly changed since
+
+554
+00:09:24,870 --> 00:09:24,880
+already significantly changed since
+ 
+
+555
+00:09:24,880 --> 00:09:27,190
+already significantly changed since
+then. So, they have currently existing
+
+556
+00:09:27,190 --> 00:09:27,200
+then. So, they have currently existing
+ 
+
+557
+00:09:27,200 --> 00:09:30,829
+then. So, they have currently existing
+about 1.5 to 2 gigawatts of compute in
+
+558
+00:09:30,829 --> 00:09:30,839
+about 1.5 to 2 gigawatts of compute in
+ 
+
+559
+00:09:30,839 --> 00:09:32,430
+about 1.5 to 2 gigawatts of compute in
+Memphis, total.
+
+560
+00:09:32,430 --> 00:09:32,440
+Memphis, total.
+ 
+
+561
+00:09:32,440 --> 00:09:33,750
+Memphis, total.
+And
+
+562
+00:09:33,750 --> 00:09:33,760
+And
+ 
+
+563
+00:09:33,760 --> 00:09:36,350
+And
+at the time that I made this video, uh
+
+564
+00:09:36,350 --> 00:09:36,360
+at the time that I made this video, uh
+ 
+
+565
+00:09:36,360 --> 00:09:38,310
+at the time that I made this video, uh
+semi-analysis was estimated they had at
+
+566
+00:09:38,310 --> 00:09:38,320
+semi-analysis was estimated they had at
+ 
+
+567
+00:09:38,320 --> 00:09:41,350
+semi-analysis was estimated they had at
+least two gigawatts of power energy
+
+568
+00:09:41,350 --> 00:09:41,360
+least two gigawatts of power energy
+ 
+
+569
+00:09:41,360 --> 00:09:43,030
+least two gigawatts of power energy
+generation lined up beyond that. So, I
+
+570
+00:09:43,030 --> 00:09:43,040
+generation lined up beyond that. So, I
+ 
+
+571
+00:09:43,040 --> 00:09:45,150
+generation lined up beyond that. So, I
+just took that as a given, as a
+
+572
+00:09:45,150 --> 00:09:45,160
+just took that as a given, as a
+ 
+
+573
+00:09:45,160 --> 00:09:47,950
+just took that as a given, as a
+baseline. And, uh, yeah, that would mean
+
+574
+00:09:47,950 --> 00:09:47,960
+baseline. And, uh, yeah, that would mean
+ 
+
+575
+00:09:47,960 --> 00:09:50,470
+baseline. And, uh, yeah, that would mean
+doubling the compute next year if they
+
+576
+00:09:50,470 --> 00:09:50,480
+doubling the compute next year if they
+ 
+
+577
+00:09:50,480 --> 00:09:52,670
+doubling the compute next year if they
+installed another two gigawatts. But,
+
+578
+00:09:52,670 --> 00:09:52,680
+installed another two gigawatts. But,
+ 
+
+579
+00:09:52,680 --> 00:09:55,270
+installed another two gigawatts. But,
+what they said at the earnings call, of
+
+580
+00:09:55,270 --> 00:09:55,280
+what they said at the earnings call, of
+ 
+
+581
+00:09:55,280 --> 00:09:58,510
+what they said at the earnings call, of
+course, is that that could be 5 to 10
+
+582
+00:09:58,510 --> 00:09:58,520
+course, is that that could be 5 to 10
+ 
+
+583
+00:09:58,520 --> 00:10:03,070
+course, is that that could be 5 to 10
+gigawatts in total versus, um, four.
+
+584
+00:10:03,070 --> 00:10:03,080
+gigawatts in total versus, um, four.
+ 
+
+585
+00:10:03,080 --> 00:10:05,670
+gigawatts in total versus, um, four.
+So, significantly more ambitious than
+
+586
+00:10:05,670 --> 00:10:05,680
+So, significantly more ambitious than
+ 
+
+587
+00:10:05,680 --> 00:10:07,030
+So, significantly more ambitious than
+I'm when I put
+
+588
+00:10:07,030 --> 00:10:07,040
+I'm when I put
+ 
+
+589
+00:10:07,040 --> 00:10:09,030
+I'm when I put
+than what I put in this video.
+
+590
+00:10:09,030 --> 00:10:09,040
+than what I put in this video.
+ 
+
+591
+00:10:09,040 --> 00:10:12,270
+than what I put in this video.
+>> Yes. And, to give some scale to this, to
+
+592
+00:10:12,270 --> 00:10:12,280
+>> Yes. And, to give some scale to this, to
+ 
+
+593
+00:10:12,280 --> 00:10:14,910
+>> Yes. And, to give some scale to this, to
+the power consumption, because
+
+594
+00:10:14,910 --> 00:10:14,920
+the power consumption, because
+ 
+
+595
+00:10:14,920 --> 00:10:17,390
+the power consumption, because
+it's easy to, uh, just see big numbers
+
+596
+00:10:17,390 --> 00:10:17,400
+it's easy to, uh, just see big numbers
+ 
+
+597
+00:10:17,400 --> 00:10:18,870
+it's easy to, uh, just see big numbers
+and you know, I don't I don't know what
+
+598
+00:10:18,870 --> 00:10:18,880
+and you know, I don't I don't know what
+ 
+
+599
+00:10:18,880 --> 00:10:20,150
+and you know, I don't I don't know what
+it means.
+
+600
+00:10:20,150 --> 00:10:20,160
+it means.
+ 
+
+601
+00:10:20,160 --> 00:10:21,950
+it means.
+To give you an idea, uh, what we're
+
+602
+00:10:21,950 --> 00:10:21,960
+To give you an idea, uh, what we're
+ 
+
+603
+00:10:21,960 --> 00:10:23,430
+To give you an idea, uh, what we're
+looking at is
+
+604
+00:10:23,430 --> 00:10:23,440
+looking at is
+ 
+
+605
+00:10:23,440 --> 00:10:25,470
+looking at is
+a medium-size city of a half million
+
+606
+00:10:25,470 --> 00:10:25,480
+a medium-size city of a half million
+ 
+
+607
+00:10:25,480 --> 00:10:28,750
+a medium-size city of a half million
+people needs a peak capacity
+
+608
+00:10:28,750 --> 00:10:28,760
+people needs a peak capacity
+ 
+
+609
+00:10:28,760 --> 00:10:32,510
+people needs a peak capacity
+of 500 megawatts to 1.5 gigawatts.
+
+610
+00:10:32,510 --> 00:10:32,520
+of 500 megawatts to 1.5 gigawatts.
+ 
+
+611
+00:10:32,520 --> 00:10:34,830
+of 500 megawatts to 1.5 gigawatts.
+Uh, so, we're talking about little bit
+
+612
+00:10:34,830 --> 00:10:34,840
+Uh, so, we're talking about little bit
+ 
+
+613
+00:10:34,840 --> 00:10:37,430
+Uh, so, we're talking about little bit
+of power is one way to put it. Another
+
+614
+00:10:37,430 --> 00:10:37,440
+of power is one way to put it. Another
+ 
+
+615
+00:10:37,440 --> 00:10:40,790
+of power is one way to put it. Another
+way to put it is Memphis's entire power
+
+616
+00:10:40,790 --> 00:10:40,800
+way to put it is Memphis's entire power
+ 
+
+617
+00:10:40,800 --> 00:10:42,750
+way to put it is Memphis's entire power
+draw. Boy, that's too small to see.
+
+618
+00:10:42,750 --> 00:10:42,760
+draw. Boy, that's too small to see.
+ 
+
+619
+00:10:42,760 --> 00:10:45,270
+draw. Boy, that's too small to see.
+Memphis's entire power draw.
+
+620
+00:10:45,270 --> 00:10:45,280
+Memphis's entire power draw.
+ 
+
+621
+00:10:45,280 --> 00:10:48,590
+Memphis's entire power draw.
+Their record maximum hourly demand
+
+622
+00:10:48,590 --> 00:10:48,600
+Their record maximum hourly demand
+ 
+
+623
+00:10:48,600 --> 00:10:51,990
+Their record maximum hourly demand
+was 3 and 1/2 gigs. So, this data center
+
+624
+00:10:51,990 --> 00:10:52,000
+was 3 and 1/2 gigs. So, this data center
+ 
+
+625
+00:10:52,000 --> 00:10:54,750
+was 3 and 1/2 gigs. So, this data center
+will pull more power than the city it is
+
+626
+00:10:54,750 --> 00:10:54,760
+will pull more power than the city it is
+ 
+
+627
+00:10:54,760 --> 00:10:57,550
+will pull more power than the city it is
+next to, which is And if we're talking 6
+
+628
+00:10:57,550 --> 00:10:57,560
+next to, which is And if we're talking 6
+ 
+
+629
+00:10:57,560 --> 00:11:00,470
+next to, which is And if we're talking 6
+to 10, that's New York City.
+
+630
+00:11:00,470 --> 00:11:00,480
+to 10, that's New York City.
+ 
+
+631
+00:11:00,480 --> 00:11:04,710
+to 10, that's New York City.
+>> Yeah. That's, uh, 6 to 10 full-size
+
+632
+00:11:04,710 --> 00:11:04,720
+>> Yeah. That's, uh, 6 to 10 full-size
+ 
+
+633
+00:11:04,720 --> 00:11:06,132
+>> Yeah. That's, uh, 6 to 10 full-size
+nuclear reactors.
+
+634
+00:11:06,132 --> 00:11:06,142
+nuclear reactors.
+ 
+
+635
+00:11:06,142 --> 00:11:07,790
+nuclear reactors.
+>> [laughter]
+
+636
+00:11:07,790 --> 00:11:07,800
+>> [laughter]
+ 
+
+637
+00:11:07,800 --> 00:11:08,950
+>> [laughter]
+>> Yes.
+
+638
+00:11:08,950 --> 00:11:08,960
+>> Yes.
+ 
+
+639
+00:11:08,960 --> 00:11:10,150
+>> Yes.
+And they're going to be doing it with
+
+640
+00:11:10,150 --> 00:11:10,160
+And they're going to be doing it with
+ 
+
+641
+00:11:10,160 --> 00:11:11,829
+And they're going to be doing it with
+gas generation,
+
+642
+00:11:11,829 --> 00:11:11,839
+gas generation,
+ 
+
+643
+00:11:11,839 --> 00:11:14,270
+gas generation,
+uh, which is just, you know, dozens or
+
+644
+00:11:14,270 --> 00:11:14,280
+uh, which is just, you know, dozens or
+ 
+
+645
+00:11:14,280 --> 00:11:15,950
+uh, which is just, you know, dozens or
+hundreds of, uh,
+
+646
+00:11:15,950 --> 00:11:15,960
+hundreds of, uh,
+ 
+
+647
+00:11:15,960 --> 00:11:17,550
+hundreds of, uh,
+gas generators, depending on what type
+
+648
+00:11:17,550 --> 00:11:17,560
+gas generators, depending on what type
+ 
+
+649
+00:11:17,560 --> 00:11:18,950
+gas generators, depending on what type
+you're type you're talking about.
+
+650
+00:11:18,950 --> 00:11:18,960
+you're type you're talking about.
+ 
+
+651
+00:11:18,960 --> 00:11:20,350
+you're type you're talking about.
+>> Now, my question on those gas
+
+652
+00:11:20,350 --> 00:11:20,360
+>> Now, my question on those gas
+ 
+
+653
+00:11:20,360 --> 00:11:22,670
+>> Now, my question on those gas
+generators, with that many, will I hear
+
+654
+00:11:22,670 --> 00:11:22,680
+generators, with that many, will I hear
+ 
+
+655
+00:11:22,680 --> 00:11:25,310
+generators, with that many, will I hear
+them from Washington State?
+
+656
+00:11:25,310 --> 00:11:25,320
+them from Washington State?
+ 
+
+657
+00:11:25,320 --> 00:11:27,092
+them from Washington State?
+>> Maybe.
+
+658
+00:11:27,092 --> 00:11:27,102
+>> Maybe.
+ 
+
+659
+00:11:27,102 --> 00:11:28,270
+>> Maybe.
+>> [laughter]
+
+660
+00:11:28,270 --> 00:11:28,280
+>> [laughter]
+ 
+
+661
+00:11:28,280 --> 00:11:30,510
+>> [laughter]
+>> Not I mean, not that loud, but it will
+
+662
+00:11:30,510 --> 00:11:30,520
+>> Not I mean, not that loud, but it will
+ 
+
+663
+00:11:30,520 --> 00:11:32,430
+>> Not I mean, not that loud, but it will
+be substantial.
+
+664
+00:11:32,430 --> 00:11:32,440
+be substantial.
+ 
+
+665
+00:11:32,440 --> 00:11:33,630
+be substantial.
+>> Yeah, they're going to be throwing out a
+
+666
+00:11:33,630 --> 00:11:33,640
+>> Yeah, they're going to be throwing out a
+ 
+
+667
+00:11:33,640 --> 00:11:35,750
+>> Yeah, they're going to be throwing out a
+lot of heat, a lot of emissions, a lot
+
+668
+00:11:35,750 --> 00:11:35,760
+lot of heat, a lot of emissions, a lot
+ 
+
+669
+00:11:35,760 --> 00:11:38,430
+lot of heat, a lot of emissions, a lot
+of Yeah. So, that's that's some
+
+670
+00:11:38,430 --> 00:11:38,440
+of Yeah. So, that's that's some
+ 
+
+671
+00:11:38,440 --> 00:11:40,230
+of Yeah. So, that's that's some
+relationship management going on there.
+
+672
+00:11:40,230 --> 00:11:40,240
+relationship management going on there.
+ 
+
+673
+00:11:40,240 --> 00:11:41,670
+relationship management going on there.
+But, there it's natural gas, so it's
+
+674
+00:11:41,670 --> 00:11:41,680
+But, there it's natural gas, so it's
+ 
+
+675
+00:11:41,680 --> 00:11:44,110
+But, there it's natural gas, so it's
+better than what we had, you know, 20,
+
+676
+00:11:44,110 --> 00:11:44,120
+better than what we had, you know, 20,
+ 
+
+677
+00:11:44,120 --> 00:11:46,270
+better than what we had, you know, 20,
+30 years ago using coal generation and
+
+678
+00:11:46,270 --> 00:11:46,280
+30 years ago using coal generation and
+ 
+
+679
+00:11:46,280 --> 00:11:48,270
+30 years ago using coal generation and
+other other types of generation, so.
+
+680
+00:11:48,270 --> 00:11:48,280
+other other types of generation, so.
+ 
+
+681
+00:11:48,280 --> 00:11:49,990
+other other types of generation, so.
+>> Yeah. Uh
+
+682
+00:11:49,990 --> 00:11:50,000
+>> Yeah. Uh
+ 
+
+683
+00:11:50,000 --> 00:11:51,910
+>> Yeah. Uh
+now, there's
+
+684
+00:11:51,910 --> 00:11:51,920
+now, there's
+ 
+
+685
+00:11:51,920 --> 00:11:54,950
+now, there's
+big risk, big reward,
+
+686
+00:11:54,950 --> 00:11:54,960
+big risk, big reward,
+ 
+
+687
+00:11:54,960 --> 00:11:57,710
+big risk, big reward,
+big cost to deploy. Now, of course,
+
+688
+00:11:57,710 --> 00:11:57,720
+big cost to deploy. Now, of course,
+ 
+
+689
+00:11:57,720 --> 00:11:59,710
+big cost to deploy. Now, of course,
+XAI's going to be getting the best
+
+690
+00:11:59,710 --> 00:11:59,720
+XAI's going to be getting the best
+ 
+
+691
+00:11:59,720 --> 00:12:01,470
+XAI's going to be getting the best
+rates. And
+
+692
+00:12:01,470 --> 00:12:01,480
+rates. And
+ 
+
+693
+00:12:01,480 --> 00:12:03,470
+rates. And
+what Nvidia wants is these chips to get
+
+694
+00:12:03,470 --> 00:12:03,480
+what Nvidia wants is these chips to get
+ 
+
+695
+00:12:03,480 --> 00:12:05,590
+what Nvidia wants is these chips to get
+out there and get used.
+
+696
+00:12:05,590 --> 00:12:05,600
+out there and get used.
+ 
+
+697
+00:12:05,600 --> 00:12:06,150
+out there and get used.
+Uh
+
+698
+00:12:06,150 --> 00:12:06,160
+Uh
+ 
+
+699
+00:12:06,160 --> 00:12:07,550
+Uh
+they're getting the latest greatest.
+
+700
+00:12:07,550 --> 00:12:07,560
+they're getting the latest greatest.
+ 
+
+701
+00:12:07,560 --> 00:12:09,910
+they're getting the latest greatest.
+They're getting them in, it appears,
+
+702
+00:12:09,910 --> 00:12:09,920
+They're getting them in, it appears,
+ 
+
+703
+00:12:09,920 --> 00:12:11,633
+They're getting them in, it appears,
+reasonable quantity.
+
+704
+00:12:11,633 --> 00:12:11,643
+reasonable quantity.
+ 
+
+705
+00:12:11,643 --> 00:12:11,870
+reasonable quantity.
+>> [snorts]
+
+706
+00:12:11,870 --> 00:12:11,880
+>> [snorts]
+ 
+
+707
+00:12:11,880 --> 00:12:13,990
+>> [snorts]
+>> And as these other players say, "You
+
+708
+00:12:13,990 --> 00:12:14,000
+>> And as these other players say, "You
+ 
+
+709
+00:12:14,000 --> 00:12:15,070
+>> And as these other players say, "You
+know what? We're just going to rent
+
+710
+00:12:15,070 --> 00:12:15,080
+know what? We're just going to rent
+ 
+
+711
+00:12:15,080 --> 00:12:17,070
+know what? We're just going to rent
+instead of buy." Maybe they're dropping
+
+712
+00:12:17,070 --> 00:12:17,080
+instead of buy." Maybe they're dropping
+ 
+
+713
+00:12:17,080 --> 00:12:20,190
+instead of buy." Maybe they're dropping
+off the list. I would rather have
+
+714
+00:12:20,190 --> 00:12:20,200
+off the list. I would rather have
+ 
+
+715
+00:12:20,200 --> 00:12:22,230
+off the list. I would rather have
+I would rather have a handful of really
+
+716
+00:12:22,230 --> 00:12:22,240
+I would rather have a handful of really
+ 
+
+717
+00:12:22,240 --> 00:12:24,950
+I would rather have a handful of really
+big customers than 10 million small
+
+718
+00:12:24,950 --> 00:12:24,960
+big customers than 10 million small
+ 
+
+719
+00:12:24,960 --> 00:12:26,750
+big customers than 10 million small
+customers. It's just a lot easier to
+
+720
+00:12:26,750 --> 00:12:26,760
+customers. It's just a lot easier to
+ 
+
+721
+00:12:26,760 --> 00:12:28,030
+customers. It's just a lot easier to
+manage.
+
+722
+00:12:28,030 --> 00:12:28,040
+manage.
+ 
+
+723
+00:12:28,040 --> 00:12:29,830
+manage.
+Uh you can solve
+
+724
+00:12:29,830 --> 00:12:29,840
+Uh you can solve
+ 
+
+725
+00:12:29,840 --> 00:12:31,830
+Uh you can solve
+one problem one time instead of the same
+
+726
+00:12:31,830 --> 00:12:31,840
+one problem one time instead of the same
+ 
+
+727
+00:12:31,840 --> 00:12:35,070
+one problem one time instead of the same
+problem 10,000 times in terms of
+
+728
+00:12:35,070 --> 00:12:35,080
+problem 10,000 times in terms of
+ 
+
+729
+00:12:35,080 --> 00:12:37,590
+problem 10,000 times in terms of
+the money in it. Because it looks like
+
+730
+00:12:37,590 --> 00:12:37,600
+the money in it. Because it looks like
+ 
+
+731
+00:12:37,600 --> 00:12:39,270
+the money in it. Because it looks like
+as fast as they can build it, they can
+
+732
+00:12:39,270 --> 00:12:39,280
+as fast as they can build it, they can
+ 
+
+733
+00:12:39,280 --> 00:12:40,990
+as fast as they can build it, they can
+deploy it, and they can
+
+734
+00:12:40,990 --> 00:12:41,000
+deploy it, and they can
+ 
+
+735
+00:12:41,000 --> 00:12:43,030
+deploy it, and they can
+uh two customers, two paying customers.
+
+736
+00:12:43,030 --> 00:12:43,040
+uh two customers, two paying customers.
+ 
+
+737
+00:12:43,040 --> 00:12:45,030
+uh two customers, two paying customers.
+Let's talk about Let's talk about this
+
+738
+00:12:45,030 --> 00:12:45,040
+Let's talk about Let's talk about this
+ 
+
+739
+00:12:45,040 --> 00:12:46,470
+Let's talk about Let's talk about this
+number.
+
+740
+00:12:46,470 --> 00:12:46,480
+number.
+ 
+
+741
+00:12:46,480 --> 00:12:50,190
+number.
+Uh 72 billion a year potentially
+
+742
+00:12:50,190 --> 00:12:50,200
+Uh 72 billion a year potentially
+ 
+
+743
+00:12:50,200 --> 00:12:52,710
+Uh 72 billion a year potentially
+with 440,000
+
+744
+00:12:52,710 --> 00:12:52,720
+with 440,000
+ 
+
+745
+00:12:52,720 --> 00:12:55,030
+with 440,000
+GPUs. Uh how many
+
+746
+00:12:55,030 --> 00:12:55,040
+GPUs. Uh how many
+ 
+
+747
+00:12:55,040 --> 00:12:57,470
+GPUs. Uh how many
+locations is that?
+
+748
+00:12:57,470 --> 00:12:57,480
+locations is that?
+ 
+
+749
+00:12:57,480 --> 00:12:58,870
+locations is that?
+>> It depends if you're talking about
+
+750
+00:12:58,870 --> 00:12:58,880
+>> It depends if you're talking about
+ 
+
+751
+00:12:58,880 --> 00:13:00,750
+>> It depends if you're talking about
+buildings or locations, cuz right now
+
+752
+00:13:00,750 --> 00:13:00,760
+buildings or locations, cuz right now
+ 
+
+753
+00:13:00,760 --> 00:13:02,910
+buildings or locations, cuz right now
+there's just two locations, Colossus 1
+
+754
+00:13:02,910 --> 00:13:02,920
+there's just two locations, Colossus 1
+ 
+
+755
+00:13:02,920 --> 00:13:05,950
+there's just two locations, Colossus 1
+and Colossus 2. Colossus 1 is just one
+
+756
+00:13:05,950 --> 00:13:05,960
+and Colossus 2. Colossus 1 is just one
+ 
+
+757
+00:13:05,960 --> 00:13:07,870
+and Colossus 2. Colossus 1 is just one
+building, and Colossus 2 is two
+
+758
+00:13:07,870 --> 00:13:07,880
+building, and Colossus 2 is two
+ 
+
+759
+00:13:07,880 --> 00:13:10,710
+building, and Colossus 2 is two
+buildings, and um soon to be three.
+
+760
+00:13:10,710 --> 00:13:10,720
+buildings, and um soon to be three.
+ 
+
+761
+00:13:10,720 --> 00:13:13,030
+buildings, and um soon to be three.
+>> Mhm. Well, I [snorts] think uh
+
+762
+00:13:13,030 --> 00:13:13,040
+>> Mhm. Well, I [snorts] think uh
+ 
+
+763
+00:13:13,040 --> 00:13:15,950
+>> Mhm. Well, I [snorts] think uh
+adjacent is close enough. Uh
+
+764
+00:13:15,950 --> 00:13:15,960
+adjacent is close enough. Uh
+ 
+
+765
+00:13:15,960 --> 00:13:19,350
+adjacent is close enough. Uh
+yeah. So, do we know of other locations
+
+766
+00:13:19,350 --> 00:13:19,360
+yeah. So, do we know of other locations
+ 
+
+767
+00:13:19,360 --> 00:13:20,470
+yeah. So, do we know of other locations
+they're considering?
+
+768
+00:13:20,470 --> 00:13:20,480
+they're considering?
+ 
+
+769
+00:13:20,480 --> 00:13:23,070
+they're considering?
+>> My understanding is no, and I was
+
+770
+00:13:23,070 --> 00:13:23,080
+>> My understanding is no, and I was
+ 
+
+771
+00:13:23,080 --> 00:13:24,510
+>> My understanding is no, and I was
+reading some analysis this morning
+
+772
+00:13:24,510 --> 00:13:24,520
+reading some analysis this morning
+ 
+
+773
+00:13:24,520 --> 00:13:25,590
+reading some analysis this morning
+saying,
+
+774
+00:13:25,590 --> 00:13:25,600
+saying,
+ 
+
+775
+00:13:25,600 --> 00:13:27,870
+saying,
+"All right, if they want to build this
+
+776
+00:13:27,870 --> 00:13:27,880
+"All right, if they want to build this
+ 
+
+777
+00:13:27,880 --> 00:13:29,630
+"All right, if they want to build this
+additional compute next year, what
+
+778
+00:13:29,630 --> 00:13:29,640
+additional compute next year, what
+ 
+
+779
+00:13:29,640 --> 00:13:31,710
+additional compute next year, what
+they've said, we need they need to
+
+780
+00:13:31,710 --> 00:13:31,720
+they've said, we need they need to
+ 
+
+781
+00:13:31,720 --> 00:13:34,070
+they've said, we need they need to
+announce at least one more major site
+
+782
+00:13:34,070 --> 00:13:34,080
+announce at least one more major site
+ 
+
+783
+00:13:34,080 --> 00:13:35,630
+announce at least one more major site
+because it's getting pretty tight now at
+
+784
+00:13:35,630 --> 00:13:35,640
+because it's getting pretty tight now at
+ 
+
+785
+00:13:35,640 --> 00:13:37,030
+because it's getting pretty tight now at
+Colossus 2.
+
+786
+00:13:37,030 --> 00:13:37,040
+Colossus 2.
+ 
+
+787
+00:13:37,040 --> 00:13:37,750
+Colossus 2.
+>> Mhm.
+
+788
+00:13:37,750 --> 00:13:37,760
+>> Mhm.
+ 
+
+789
+00:13:37,760 --> 00:13:38,750
+>> Mhm.
+>> Yeah.
+
+790
+00:13:38,750 --> 00:13:38,760
+>> Yeah.
+ 
+
+791
+00:13:38,760 --> 00:13:42,670
+>> Yeah.
+Uh weirdly, you know, again, you buy
+
+792
+00:13:42,670 --> 00:13:42,680
+Uh weirdly, you know, again, you buy
+ 
+
+793
+00:13:42,680 --> 00:13:44,790
+Uh weirdly, you know, again, you buy
+the land you can and then you do your
+
+794
+00:13:44,790 --> 00:13:44,800
+the land you can and then you do your
+ 
+
+795
+00:13:44,800 --> 00:13:47,510
+the land you can and then you do your
+best from there. Now, you you did some
+
+796
+00:13:47,510 --> 00:13:47,520
+best from there. Now, you you did some
+ 
+
+797
+00:13:47,520 --> 00:13:49,270
+best from there. Now, you you did some
+revenue calculations where you
+
+798
+00:13:49,270 --> 00:13:49,280
+revenue calculations where you
+ 
+
+799
+00:13:49,280 --> 00:13:51,150
+revenue calculations where you
+determined that the cost to build this
+
+800
+00:13:51,150 --> 00:13:51,160
+determined that the cost to build this
+ 
+
+801
+00:13:51,160 --> 00:13:53,950
+determined that the cost to build this
+out would be what, a hundred and some
+
+802
+00:13:53,950 --> 00:13:53,960
+out would be what, a hundred and some
+ 
+
+803
+00:13:53,960 --> 00:13:54,990
+out would be what, a hundred and some
+billion?
+
+804
+00:13:54,990 --> 00:13:55,000
+billion?
+ 
+
+805
+00:13:55,000 --> 00:14:00,150
+billion?
+>> 120 billion for 2 GW of compute based on
+
+806
+00:14:00,150 --> 00:14:00,160
+>> 120 billion for 2 GW of compute based on
+ 
+
+807
+00:14:00,160 --> 00:14:03,270
+>> 120 billion for 2 GW of compute based on
+uh Gavin Baker's estimates, which he's
+
+808
+00:14:03,270 --> 00:14:03,280
+uh Gavin Baker's estimates, which he's
+ 
+
+809
+00:14:03,280 --> 00:14:04,830
+uh Gavin Baker's estimates, which he's
+he seems to be
+
+810
+00:14:04,830 --> 00:14:04,840
+he seems to be
+ 
+
+811
+00:14:04,840 --> 00:14:06,510
+he seems to be
+tracking this very closely and in
+
+812
+00:14:06,510 --> 00:14:06,520
+tracking this very closely and in
+ 
+
+813
+00:14:06,520 --> 00:14:08,710
+tracking this very closely and in
+contact with a lot of the
+
+814
+00:14:08,710 --> 00:14:08,720
+contact with a lot of the
+ 
+
+815
+00:14:08,720 --> 00:14:11,590
+contact with a lot of the
+uh people who are in the know. So, but
+
+816
+00:14:11,590 --> 00:14:11,600
+uh people who are in the know. So, but
+ 
+
+817
+00:14:11,600 --> 00:14:13,830
+uh people who are in the know. So, but
+what I did in order to
+
+818
+00:14:13,830 --> 00:14:13,840
+what I did in order to
+ 
+
+819
+00:14:13,840 --> 00:14:15,350
+what I did in order to
+to try to match the bullishness of
+
+820
+00:14:15,350 --> 00:14:15,360
+to try to match the bullishness of
+ 
+
+821
+00:14:15,360 --> 00:14:17,630
+to try to match the bullishness of
+everybody else in this space, cuz people
+
+822
+00:14:17,630 --> 00:14:17,640
+everybody else in this space, cuz people
+ 
+
+823
+00:14:17,640 --> 00:14:20,310
+everybody else in this space, cuz people
+are very bullish, is rather than saying
+
+824
+00:14:20,310 --> 00:14:20,320
+are very bullish, is rather than saying
+ 
+
+825
+00:14:20,320 --> 00:14:23,710
+are very bullish, is rather than saying
+it costs $60 billion per GW, I'm
+
+826
+00:14:23,710 --> 00:14:23,720
+it costs $60 billion per GW, I'm
+ 
+
+827
+00:14:23,720 --> 00:14:25,910
+it costs $60 billion per GW, I'm
+assuming it's going to cost uh
+
+828
+00:14:25,910 --> 00:14:25,920
+assuming it's going to cost uh
+ 
+
+829
+00:14:25,920 --> 00:14:28,790
+assuming it's going to cost uh
+$50 billion per GW, assuming that Elon
+
+830
+00:14:28,790 --> 00:14:28,800
+$50 billion per GW, assuming that Elon
+ 
+
+831
+00:14:28,800 --> 00:14:30,630
+$50 billion per GW, assuming that Elon
+gets mate's rates and he's able to
+
+832
+00:14:30,630 --> 00:14:30,640
+gets mate's rates and he's able to
+ 
+
+833
+00:14:30,640 --> 00:14:32,310
+gets mate's rates and he's able to
+deploy it much more efficiently than
+
+834
+00:14:32,310 --> 00:14:32,320
+deploy it much more efficiently than
+ 
+
+835
+00:14:32,320 --> 00:14:34,390
+deploy it much more efficiently than
+anybody else, just giving it uh
+
+836
+00:14:34,390 --> 00:14:34,400
+anybody else, just giving it uh
+ 
+
+837
+00:14:34,400 --> 00:14:36,230
+anybody else, just giving it uh
+the most aggressive assumptions here.
+
+838
+00:14:36,230 --> 00:14:36,240
+the most aggressive assumptions here.
+ 
+
+839
+00:14:36,240 --> 00:14:38,270
+the most aggressive assumptions here.
+And in terms of their revenue, I'm
+
+840
+00:14:38,270 --> 00:14:38,280
+And in terms of their revenue, I'm
+ 
+
+841
+00:14:38,280 --> 00:14:42,470
+And in terms of their revenue, I'm
+assuming $50 billion per GW per year.
+
+842
+00:14:42,470 --> 00:14:42,480
+assuming $50 billion per GW per year.
+ 
+
+843
+00:14:42,480 --> 00:14:44,350
+assuming $50 billion per GW per year.
+That is whatever you build, you can pay
+
+844
+00:14:44,350 --> 00:14:44,360
+That is whatever you build, you can pay
+ 
+
+845
+00:14:44,360 --> 00:14:45,990
+That is whatever you build, you can pay
+it off within a year.
+
+846
+00:14:45,990 --> 00:14:46,000
+it off within a year.
+ 
+
+847
+00:14:46,000 --> 00:14:46,470
+it off within a year.
+>> Mhm.
+
+848
+00:14:46,470 --> 00:14:46,480
+>> Mhm.
+ 
+
+849
+00:14:46,480 --> 00:14:48,630
+>> Mhm.
+>> Now, a lot of people uh assume, okay,
+
+850
+00:14:48,630 --> 00:14:48,640
+>> Now, a lot of people uh assume, okay,
+ 
+
+851
+00:14:48,640 --> 00:14:49,790
+>> Now, a lot of people uh assume, okay,
+well, that means it's fully
+
+852
+00:14:49,790 --> 00:14:49,800
+well, that means it's fully
+ 
+
+853
+00:14:49,800 --> 00:14:51,150
+well, that means it's fully
+self-funding.
+
+854
+00:14:51,150 --> 00:14:51,160
+self-funding.
+ 
+
+855
+00:14:51,160 --> 00:14:52,510
+self-funding.
+Not really.
+
+856
+00:14:52,510 --> 00:14:52,520
+Not really.
+ 
+
+857
+00:14:52,520 --> 00:14:54,190
+Not really.
+Because
+
+858
+00:14:54,190 --> 00:14:54,200
+Because
+ 
+
+859
+00:14:54,200 --> 00:14:56,870
+Because
+there's going to be a lag from when you
+
+860
+00:14:56,870 --> 00:14:56,880
+there's going to be a lag from when you
+ 
+
+861
+00:14:56,880 --> 00:14:59,550
+there's going to be a lag from when you
+give the organization the money and you
+
+862
+00:14:59,550 --> 00:14:59,560
+give the organization the money and you
+ 
+
+863
+00:14:59,560 --> 00:15:01,230
+give the organization the money and you
+build these data centers and you get
+
+864
+00:15:01,230 --> 00:15:01,240
+build these data centers and you get
+ 
+
+865
+00:15:01,240 --> 00:15:03,230
+build these data centers and you get
+them online, start generating the
+
+866
+00:15:03,230 --> 00:15:03,240
+them online, start generating the
+ 
+
+867
+00:15:03,240 --> 00:15:05,110
+them online, start generating the
+revenue, and then that actually starts
+
+868
+00:15:05,110 --> 00:15:05,120
+revenue, and then that actually starts
+ 
+
+869
+00:15:05,120 --> 00:15:07,310
+revenue, and then that actually starts
+showing up on your earnings report. So,
+
+870
+00:15:07,310 --> 00:15:07,320
+showing up on your earnings report. So,
+ 
+
+871
+00:15:07,320 --> 00:15:10,510
+showing up on your earnings report. So,
+if you're just building 2 GW per quarter
+
+872
+00:15:10,510 --> 00:15:10,520
+if you're just building 2 GW per quarter
+ 
+
+873
+00:15:10,520 --> 00:15:13,190
+if you're just building 2 GW per quarter
+for the next year, say 8 GW,
+
+874
+00:15:13,190 --> 00:15:13,200
+for the next year, say 8 GW,
+ 
+
+875
+00:15:13,200 --> 00:15:15,030
+for the next year, say 8 GW,
+um and you're say you have a 3 to
+
+876
+00:15:15,030 --> 00:15:15,040
+um and you're say you have a 3 to
+ 
+
+877
+00:15:15,040 --> 00:15:17,950
+um and you're say you have a 3 to
+6-month lag, that's a hundred to two
+
+878
+00:15:17,950 --> 00:15:17,960
+6-month lag, that's a hundred to two
+ 
+
+879
+00:15:17,960 --> 00:15:20,230
+6-month lag, that's a hundred to two
+hundred billion-dollar lag.
+
+880
+00:15:20,230 --> 00:15:20,240
+hundred billion-dollar lag.
+ 
+
+881
+00:15:20,240 --> 00:15:20,510
+hundred billion-dollar lag.
+>> Mhm.
+
+882
+00:15:20,510 --> 00:15:20,520
+>> Mhm.
+ 
+
+883
+00:15:20,520 --> 00:15:22,990
+>> Mhm.
+>> So, it's uh there's going to be a lot of
+
+884
+00:15:22,990 --> 00:15:23,000
+>> So, it's uh there's going to be a lot of
+ 
+
+885
+00:15:23,000 --> 00:15:25,190
+>> So, it's uh there's going to be a lot of
+self-funding going on, that's for sure.
+
+886
+00:15:25,190 --> 00:15:25,200
+self-funding going on, that's for sure.
+ 
+
+887
+00:15:25,200 --> 00:15:27,270
+self-funding going on, that's for sure.
+But, you're still going to need
+
+888
+00:15:27,270 --> 00:15:27,280
+But, you're still going to need
+ 
+
+889
+00:15:27,280 --> 00:15:30,110
+But, you're still going to need
+a lot of capital above and beyond that,
+
+890
+00:15:30,110 --> 00:15:30,120
+a lot of capital above and beyond that,
+ 
+
+891
+00:15:30,120 --> 00:15:31,630
+a lot of capital above and beyond that,
+which is probably going to come from
+
+892
+00:15:31,630 --> 00:15:31,640
+which is probably going to come from
+ 
+
+893
+00:15:31,640 --> 00:15:33,190
+which is probably going to come from
+like Nvidia or
+
+894
+00:15:33,190 --> 00:15:33,200
+like Nvidia or
+ 
+
+895
+00:15:33,200 --> 00:15:34,630
+like Nvidia or
+>> Yeah, I'm sure they can find the
+
+896
+00:15:34,630 --> 00:15:34,640
+>> Yeah, I'm sure they can find the
+ 
+
+897
+00:15:34,640 --> 00:15:35,270
+>> Yeah, I'm sure they can find the
+capital.
+
+898
+00:15:35,270 --> 00:15:35,280
+capital.
+ 
+
+899
+00:15:35,280 --> 00:15:37,750
+capital.
+>> Well, they do have a strong cash reserve
+
+900
+00:15:37,750 --> 00:15:37,760
+>> Well, they do have a strong cash reserve
+ 
+
+901
+00:15:37,760 --> 00:15:40,110
+>> Well, they do have a strong cash reserve
+at this point, which they will draw down
+
+902
+00:15:40,110 --> 00:15:40,120
+at this point, which they will draw down
+ 
+
+903
+00:15:40,120 --> 00:15:42,630
+at this point, which they will draw down
+while that income is ramping.
+
+904
+00:15:42,630 --> 00:15:42,640
+while that income is ramping.
+ 
+
+905
+00:15:42,640 --> 00:15:45,470
+while that income is ramping.
+And worst-case scenario, you slow the
+
+906
+00:15:45,470 --> 00:15:45,480
+And worst-case scenario, you slow the
+ 
+
+907
+00:15:45,480 --> 00:15:47,910
+And worst-case scenario, you slow the
+pace a little bit, which I think they
+
+908
+00:15:47,910 --> 00:15:47,920
+pace a little bit, which I think they
+ 
+
+909
+00:15:47,920 --> 00:15:49,350
+pace a little bit, which I think they
+would only do if they could see that
+
+910
+00:15:49,350 --> 00:15:49,360
+would only do if they could see that
+ 
+
+911
+00:15:49,360 --> 00:15:51,590
+would only do if they could see that
+they don't have the customers lined up
+
+912
+00:15:51,590 --> 00:15:51,600
+they don't have the customers lined up
+ 
+
+913
+00:15:51,600 --> 00:15:53,230
+they don't have the customers lined up
+ready to go.
+
+914
+00:15:53,230 --> 00:15:53,240
+ready to go.
+ 
+
+915
+00:15:53,240 --> 00:15:55,470
+ready to go.
+I I'm not worried about that part of it
+
+916
+00:15:55,470 --> 00:15:55,480
+I I'm not worried about that part of it
+ 
+
+917
+00:15:55,480 --> 00:15:56,430
+I I'm not worried about that part of it
+because
+
+918
+00:15:56,430 --> 00:15:56,440
+because
+ 
+
+919
+00:15:56,440 --> 00:15:58,950
+because
+they don't have enough money, but I can
+
+920
+00:15:58,950 --> 00:15:58,960
+they don't have enough money, but I can
+ 
+
+921
+00:15:58,960 --> 00:16:00,990
+they don't have enough money, but I can
+see where the money's coming from. I
+
+922
+00:16:00,990 --> 00:16:01,000
+see where the money's coming from. I
+ 
+
+923
+00:16:01,000 --> 00:16:02,870
+see where the money's coming from. I
+don't have enough money to build 2
+
+924
+00:16:02,870 --> 00:16:02,880
+don't have enough money to build 2
+ 
+
+925
+00:16:02,880 --> 00:16:06,150
+don't have enough money to build 2
+million cars this year, but if I sell a
+
+926
+00:16:06,150 --> 00:16:06,160
+million cars this year, but if I sell a
+ 
+
+927
+00:16:06,160 --> 00:16:08,230
+million cars this year, but if I sell a
+bunch in Q1,
+
+928
+00:16:08,230 --> 00:16:08,240
+bunch in Q1,
+ 
+
+929
+00:16:08,240 --> 00:16:10,150
+bunch in Q1,
+I mean, there we go.
+
+930
+00:16:10,150 --> 00:16:10,160
+I mean, there we go.
+ 
+
+931
+00:16:10,160 --> 00:16:12,470
+I mean, there we go.
+So, I think that's
+
+932
+00:16:12,470 --> 00:16:12,480
+So, I think that's
+ 
+
+933
+00:16:12,480 --> 00:16:16,150
+So, I think that's
+a reasonable way to do it. So, on that
+
+934
+00:16:16,150 --> 00:16:16,160
+a reasonable way to do it. So, on that
+ 
+
+935
+00:16:16,160 --> 00:16:19,390
+a reasonable way to do it. So, on that
+front, now I know in your video you made
+
+936
+00:16:19,390 --> 00:16:19,400
+front, now I know in your video you made
+ 
+
+937
+00:16:19,400 --> 00:16:21,110
+front, now I know in your video you made
+this wild claim that I do not believe
+
+938
+00:16:21,110 --> 00:16:21,120
+this wild claim that I do not believe
+ 
+
+939
+00:16:21,120 --> 00:16:23,710
+this wild claim that I do not believe
+that you cannot predict the future. So,
+
+940
+00:16:23,710 --> 00:16:23,720
+that you cannot predict the future. So,
+ 
+
+941
+00:16:23,720 --> 00:16:25,790
+that you cannot predict the future. So,
+I'm going to challenge you on that
+
+942
+00:16:25,790 --> 00:16:25,800
+I'm going to challenge you on that
+ 
+
+943
+00:16:25,800 --> 00:16:27,750
+I'm going to challenge you on that
+and say, what are the risks to the
+
+944
+00:16:27,750 --> 00:16:27,760
+and say, what are the risks to the
+ 
+
+945
+00:16:27,760 --> 00:16:29,310
+and say, what are the risks to the
+upside and the downside? Let's start
+
+946
+00:16:29,310 --> 00:16:29,320
+upside and the downside? Let's start
+ 
+
+947
+00:16:29,320 --> 00:16:31,350
+upside and the downside? Let's start
+with the with the upside risks. The
+
+948
+00:16:31,350 --> 00:16:31,360
+with the with the upside risks. The
+ 
+
+949
+00:16:31,360 --> 00:16:34,150
+with the with the upside risks. The
+upside variables, maybe the compute
+
+950
+00:16:34,150 --> 00:16:34,160
+upside variables, maybe the compute
+ 
+
+951
+00:16:34,160 --> 00:16:37,470
+upside variables, maybe the compute
+rentals cost more in the next 6 months
+
+952
+00:16:37,470 --> 00:16:37,480
+rentals cost more in the next 6 months
+ 
+
+953
+00:16:37,480 --> 00:16:39,110
+rentals cost more in the next 6 months
+to 12 months.
+
+954
+00:16:39,110 --> 00:16:39,120
+to 12 months.
+ 
+
+955
+00:16:39,120 --> 00:16:41,510
+to 12 months.
+Maybe they maybe they pay them down pay
+
+956
+00:16:41,510 --> 00:16:41,520
+Maybe they maybe they pay them down pay
+ 
+
+957
+00:16:41,520 --> 00:16:44,750
+Maybe they maybe they pay them down pay
+them off in 11 or 10 months instead of
+
+958
+00:16:44,750 --> 00:16:44,760
+them off in 11 or 10 months instead of
+ 
+
+959
+00:16:44,760 --> 00:16:46,790
+them off in 11 or 10 months instead of
+12. That's possible.
+
+960
+00:16:46,790 --> 00:16:46,800
+12. That's possible.
+ 
+
+961
+00:16:46,800 --> 00:16:48,510
+12. That's possible.
+>> It's certainly well
+
+962
+00:16:48,510 --> 00:16:48,520
+>> It's certainly well
+ 
+
+963
+00:16:48,520 --> 00:16:50,110
+>> It's certainly well
+to that point, a lot of people are
+
+964
+00:16:50,110 --> 00:16:50,120
+to that point, a lot of people are
+ 
+
+965
+00:16:50,120 --> 00:16:51,590
+to that point, a lot of people are
+saying that they they might be able to
+
+966
+00:16:51,590 --> 00:16:51,600
+saying that they they might be able to
+ 
+
+967
+00:16:51,600 --> 00:16:53,310
+saying that they they might be able to
+run out these new
+
+968
+00:16:53,310 --> 00:16:53,320
+run out these new
+ 
+
+969
+00:16:53,320 --> 00:16:56,550
+run out these new
+Vera Rubin GPUs for a lot more.
+
+970
+00:16:56,550 --> 00:16:56,560
+Vera Rubin GPUs for a lot more.
+ 
+
+971
+00:16:56,560 --> 00:16:58,390
+Vera Rubin GPUs for a lot more.
+Which is is certainly potentially the
+
+972
+00:16:58,390 --> 00:16:58,400
+Which is is certainly potentially the
+ 
+
+973
+00:16:58,400 --> 00:16:59,470
+Which is is certainly potentially the
+case.
+
+974
+00:16:59,470 --> 00:16:59,480
+case.
+ 
+
+975
+00:16:59,480 --> 00:17:02,270
+case.
+But, there could also be unexpected
+
+976
+00:17:02,270 --> 00:17:02,280
+But, there could also be unexpected
+ 
+
+977
+00:17:02,280 --> 00:17:04,670
+But, there could also be unexpected
+expenses. So, I tried to develop a
+
+978
+00:17:04,670 --> 00:17:04,680
+expenses. So, I tried to develop a
+ 
+
+979
+00:17:04,680 --> 00:17:06,829
+expenses. So, I tried to develop a
+reasonable All right, so let's go a
+
+980
+00:17:06,829 --> 00:17:06,839
+reasonable All right, so let's go a
+ 
+
+981
+00:17:06,839 --> 00:17:09,350
+reasonable All right, so let's go a
+little bit low on the cost of actually
+
+982
+00:17:09,350 --> 00:17:09,360
+little bit low on the cost of actually
+ 
+
+983
+00:17:09,360 --> 00:17:13,270
+little bit low on the cost of actually
+deploying it and go a little bit high on
+
+984
+00:17:13,270 --> 00:17:13,280
+deploying it and go a little bit high on
+ 
+
+985
+00:17:13,280 --> 00:17:15,230
+deploying it and go a little bit high on
+how much revenue they can earn for it.
+
+986
+00:17:15,230 --> 00:17:15,240
+how much revenue they can earn for it.
+ 
+
+987
+00:17:15,240 --> 00:17:17,390
+how much revenue they can earn for it.
+But, I I go double like a lot of like
+
+988
+00:17:17,390 --> 00:17:17,400
+But, I I go double like a lot of like
+ 
+
+989
+00:17:17,400 --> 00:17:19,069
+But, I I go double like a lot of like
+some people are saying.
+
+990
+00:17:19,069 --> 00:17:19,079
+some people are saying.
+ 
+
+991
+00:17:19,079 --> 00:17:21,429
+some people are saying.
+So, it's like I tried to not go too
+
+992
+00:17:21,429 --> 00:17:21,439
+So, it's like I tried to not go too
+ 
+
+993
+00:17:21,439 --> 00:17:23,150
+So, it's like I tried to not go too
+aggressive in any direction, just kind
+
+994
+00:17:23,150 --> 00:17:23,160
+aggressive in any direction, just kind
+ 
+
+995
+00:17:23,160 --> 00:17:25,550
+aggressive in any direction, just kind
+of hit a middle ground there. So, they
+
+996
+00:17:25,550 --> 00:17:25,560
+of hit a middle ground there. So, they
+ 
+
+997
+00:17:25,560 --> 00:17:27,870
+of hit a middle ground there. So, they
+certainly could. And another
+
+998
+00:17:27,870 --> 00:17:27,880
+certainly could. And another
+ 
+
+999
+00:17:27,880 --> 00:17:29,830
+certainly could. And another
+And it's not just the terrestrial
+
+1000
+00:17:29,830 --> 00:17:29,840
+And it's not just the terrestrial
+ 
+
+1001
+00:17:29,840 --> 00:17:31,710
+And it's not just the terrestrial
+compute uh that they're going to be
+
+1002
+00:17:31,710 --> 00:17:31,720
+compute uh that they're going to be
+ 
+
+1003
+00:17:31,720 --> 00:17:33,110
+compute uh that they're going to be
+earning money off of. They're also going
+
+1004
+00:17:33,110 --> 00:17:33,120
+earning money off of. They're also going
+ 
+
+1005
+00:17:33,120 --> 00:17:35,790
+earning money off of. They're also going
+to be scaling cursor and uh Starlink and
+
+1006
+00:17:35,790 --> 00:17:35,800
+to be scaling cursor and uh Starlink and
+ 
+
+1007
+00:17:35,800 --> 00:17:37,710
+to be scaling cursor and uh Starlink and
+several other products. So, there are
+
+1008
+00:17:37,710 --> 00:17:37,720
+several other products. So, there are
+ 
+
+1009
+00:17:37,720 --> 00:17:39,750
+several other products. So, there are
+potential for surprises there in terms
+
+1010
+00:17:39,750 --> 00:17:39,760
+potential for surprises there in terms
+ 
+
+1011
+00:17:39,760 --> 00:17:42,270
+potential for surprises there in terms
+of uh generating revenue.
+
+1012
+00:17:42,270 --> 00:17:42,280
+of uh generating revenue.
+ 
+
+1013
+00:17:42,280 --> 00:17:44,630
+of uh generating revenue.
+But, with all that said, even SpaceX
+
+1014
+00:17:44,630 --> 00:17:44,640
+But, with all that said, even SpaceX
+ 
+
+1015
+00:17:44,640 --> 00:17:46,710
+But, with all that said, even SpaceX
+themselves and the writers who were
+
+1016
+00:17:46,710 --> 00:17:46,720
+themselves and the writers who were
+ 
+
+1017
+00:17:46,720 --> 00:17:49,070
+themselves and the writers who were
+involved are saying, "Well, we expect
+
+1018
+00:17:49,070 --> 00:17:49,080
+involved are saying, "Well, we expect
+ 
+
+1019
+00:17:49,080 --> 00:17:51,870
+involved are saying, "Well, we expect
+them to be cash flow negative until 2030
+
+1020
+00:17:51,870 --> 00:17:51,880
+them to be cash flow negative until 2030
+ 
+
+1021
+00:17:51,880 --> 00:17:54,750
+them to be cash flow negative until 2030
+to 2035." So, I was saying at least for
+
+1022
+00:17:54,750 --> 00:17:54,760
+to 2035." So, I was saying at least for
+ 
+
+1023
+00:17:54,760 --> 00:17:56,470
+to 2035." So, I was saying at least for
+the next year or two.
+
+1024
+00:17:56,470 --> 00:17:56,480
+the next year or two.
+ 
+
+1025
+00:17:56,480 --> 00:17:57,910
+the next year or two.
+And um
+
+1026
+00:17:57,910 --> 00:17:57,920
+And um
+ 
+
+1027
+00:17:57,920 --> 00:17:59,510
+And um
+I think that's a fair assumption. Put it
+
+1028
+00:17:59,510 --> 00:17:59,520
+I think that's a fair assumption. Put it
+ 
+
+1029
+00:17:59,520 --> 00:18:01,750
+I think that's a fair assumption. Put it
+that way, given that several other
+
+1030
+00:18:01,750 --> 00:18:01,760
+that way, given that several other
+ 
+
+1031
+00:18:01,760 --> 00:18:03,910
+that way, given that several other
+people in the know are assuming that
+
+1032
+00:18:03,910 --> 00:18:03,920
+people in the know are assuming that
+ 
+
+1033
+00:18:03,920 --> 00:18:05,550
+people in the know are assuming that
+could continue for half a decade to a
+
+1034
+00:18:05,550 --> 00:18:05,560
+could continue for half a decade to a
+ 
+
+1035
+00:18:05,560 --> 00:18:06,270
+could continue for half a decade to a
+decade.
+
+1036
+00:18:06,270 --> 00:18:06,280
+decade.
+ 
+
+1037
+00:18:06,280 --> 00:18:09,790
+decade.
+>> The other side of it is, what if uh it
+
+1038
+00:18:09,790 --> 00:18:09,800
+>> The other side of it is, what if uh it
+ 
+
+1039
+00:18:09,800 --> 00:18:11,830
+>> The other side of it is, what if uh it
+the demand collapses? And I don't mean
+
+1040
+00:18:11,830 --> 00:18:11,840
+the demand collapses? And I don't mean
+ 
+
+1041
+00:18:11,840 --> 00:18:14,230
+the demand collapses? And I don't mean
+demand in total. I don't mean people
+
+1042
+00:18:14,230 --> 00:18:14,240
+demand in total. I don't mean people
+ 
+
+1043
+00:18:14,240 --> 00:18:16,230
+demand in total. I don't mean people
+will stop using AI.
+
+1044
+00:18:16,230 --> 00:18:16,240
+will stop using AI.
+ 
+
+1045
+00:18:16,240 --> 00:18:17,630
+will stop using AI.
+I mean that uh
+
+1046
+00:18:17,630 --> 00:18:17,640
+I mean that uh
+ 
+
+1047
+00:18:17,640 --> 00:18:20,110
+I mean that uh
+it is very likely that the number of
+
+1048
+00:18:20,110 --> 00:18:20,120
+it is very likely that the number of
+ 
+
+1049
+00:18:20,120 --> 00:18:23,430
+it is very likely that the number of
+players we see today will contract in
+
+1050
+00:18:23,430 --> 00:18:23,440
+players we see today will contract in
+ 
+
+1051
+00:18:23,440 --> 00:18:24,670
+players we see today will contract in
+the future.
+
+1052
+00:18:24,670 --> 00:18:24,680
+the future.
+ 
+
+1053
+00:18:24,680 --> 00:18:26,870
+the future.
+And that as processors get faster and
+
+1054
+00:18:26,870 --> 00:18:26,880
+And that as processors get faster and
+ 
+
+1055
+00:18:26,880 --> 00:18:28,190
+And that as processors get faster and
+faster,
+
+1056
+00:18:28,190 --> 00:18:28,200
+faster,
+ 
+
+1057
+00:18:28,200 --> 00:18:31,270
+faster,
+the need to expand at insane paces maybe
+
+1058
+00:18:31,270 --> 00:18:31,280
+the need to expand at insane paces maybe
+ 
+
+1059
+00:18:31,280 --> 00:18:34,030
+the need to expand at insane paces maybe
+reduced. What if the rents go down? What
+
+1060
+00:18:34,030 --> 00:18:34,040
+reduced. What if the rents go down? What
+ 
+
+1061
+00:18:34,040 --> 00:18:35,790
+reduced. What if the rents go down? What
+if the power costs go What if it just
+
+1062
+00:18:35,790 --> 00:18:35,800
+if the power costs go What if it just
+ 
+
+1063
+00:18:35,800 --> 00:18:37,390
+if the power costs go What if it just
+doesn't make sense to rent it out
+
+1064
+00:18:37,390 --> 00:18:37,400
+doesn't make sense to rent it out
+ 
+
+1065
+00:18:37,400 --> 00:18:38,830
+doesn't make sense to rent it out
+anymore?
+
+1066
+00:18:38,830 --> 00:18:38,840
+anymore?
+ 
+
+1067
+00:18:38,840 --> 00:18:40,590
+anymore?
+Is the risk there that they've got a
+
+1068
+00:18:40,590 --> 00:18:40,600
+Is the risk there that they've got a
+ 
+
+1069
+00:18:40,600 --> 00:18:42,830
+Is the risk there that they've got a
+whole bunch of compute that they got at
+
+1070
+00:18:42,830 --> 00:18:42,840
+whole bunch of compute that they got at
+ 
+
+1071
+00:18:42,840 --> 00:18:45,350
+whole bunch of compute that they got at
+a tremendous discount due to leasing it
+
+1072
+00:18:45,350 --> 00:18:45,360
+a tremendous discount due to leasing it
+ 
+
+1073
+00:18:45,360 --> 00:18:47,630
+a tremendous discount due to leasing it
+out? Now, they just have
+
+1074
+00:18:47,630 --> 00:18:47,640
+out? Now, they just have
+ 
+
+1075
+00:18:47,640 --> 00:18:49,590
+out? Now, they just have
+infinite in-house compute.
+
+1076
+00:18:49,590 --> 00:18:49,600
+infinite in-house compute.
+ 
+
+1077
+00:18:49,600 --> 00:18:51,910
+infinite in-house compute.
+>> Um in terms of demand, I think there's
+
+1078
+00:18:51,910 --> 00:18:51,920
+>> Um in terms of demand, I think there's
+ 
+
+1079
+00:18:51,920 --> 00:18:53,470
+>> Um in terms of demand, I think there's
+pretty much going to be infinite demand
+
+1080
+00:18:53,470 --> 00:18:53,480
+pretty much going to be infinite demand
+ 
+
+1081
+00:18:53,480 --> 00:18:56,470
+pretty much going to be infinite demand
+because it's uh there's so much that
+
+1082
+00:18:56,470 --> 00:18:56,480
+because it's uh there's so much that
+ 
+
+1083
+00:18:56,480 --> 00:18:59,110
+because it's uh there's so much that
+can still be done with AI. I'm trying to
+
+1084
+00:18:59,110 --> 00:18:59,120
+can still be done with AI. I'm trying to
+ 
+
+1085
+00:18:59,120 --> 00:19:02,430
+can still be done with AI. I'm trying to
+think of an example here, but um
+
+1086
+00:19:02,430 --> 00:19:02,440
+think of an example here, but um
+ 
+
+1087
+00:19:02,440 --> 00:19:04,270
+think of an example here, but um
+the more AI you use, the more AI you
+
+1088
+00:19:04,270 --> 00:19:04,280
+the more AI you use, the more AI you
+ 
+
+1089
+00:19:04,280 --> 00:19:06,030
+the more AI you use, the more AI you
+use. The agents have their own agents
+
+1090
+00:19:06,030 --> 00:19:06,040
+use. The agents have their own agents
+ 
+
+1091
+00:19:06,040 --> 00:19:07,870
+use. The agents have their own agents
+now, and there's only a small proportion
+
+1092
+00:19:07,870 --> 00:19:07,880
+now, and there's only a small proportion
+ 
+
+1093
+00:19:07,880 --> 00:19:09,710
+now, and there's only a small proportion
+of the population actually using this
+
+1094
+00:19:09,710 --> 00:19:09,720
+of the population actually using this
+ 
+
+1095
+00:19:09,720 --> 00:19:12,150
+of the population actually using this
+compute. And for each new model that
+
+1096
+00:19:12,150 --> 00:19:12,160
+compute. And for each new model that
+ 
+
+1097
+00:19:12,160 --> 00:19:14,110
+compute. And for each new model that
+they create, they're actually
+
+1098
+00:19:14,110 --> 00:19:14,120
+they create, they're actually
+ 
+
+1099
+00:19:14,120 --> 00:19:14,910
+they create, they're actually
+um
+
+1100
+00:19:14,910 --> 00:19:14,920
+um
+ 
+
+1101
+00:19:14,920 --> 00:19:17,150
+um
+you know, expanding the amount of memory
+
+1102
+00:19:17,150 --> 00:19:17,160
+you know, expanding the amount of memory
+ 
+
+1103
+00:19:17,160 --> 00:19:20,190
+you know, expanding the amount of memory
+re- memory that's required. And that's
+
+1104
+00:19:20,190 --> 00:19:20,200
+re- memory that's required. And that's
+ 
+
+1105
+00:19:20,200 --> 00:19:22,350
+re- memory that's required. And that's
+more of a a memory thing though.
+
+1106
+00:19:22,350 --> 00:19:22,360
+more of a a memory thing though.
+ 
+
+1107
+00:19:22,360 --> 00:19:23,670
+more of a a memory thing though.
+>> More parameters.
+
+1108
+00:19:23,670 --> 00:19:23,680
+>> More parameters.
+ 
+
+1109
+00:19:23,680 --> 00:19:25,790
+>> More parameters.
+>> Yeah, more parameters. Larger models,
+
+1110
+00:19:25,790 --> 00:19:25,800
+>> Yeah, more parameters. Larger models,
+ 
+
+1111
+00:19:25,800 --> 00:19:28,030
+>> Yeah, more parameters. Larger models,
+etc. They they can just do more. But
+
+1112
+00:19:28,030 --> 00:19:28,040
+etc. They they can just do more. But
+ 
+
+1113
+00:19:28,040 --> 00:19:30,870
+etc. They they can just do more. But
+then there's after you get So right now,
+
+1114
+00:19:30,870 --> 00:19:30,880
+then there's after you get So right now,
+ 
+
+1115
+00:19:30,880 --> 00:19:32,870
+then there's after you get So right now,
+you have programmers are getting a lot
+
+1116
+00:19:32,870 --> 00:19:32,880
+you have programmers are getting a lot
+ 
+
+1117
+00:19:32,880 --> 00:19:35,390
+you have programmers are getting a lot
+of utility out of AI. And as it becomes
+
+1118
+00:19:35,390 --> 00:19:35,400
+of utility out of AI. And as it becomes
+ 
+
+1119
+00:19:35,400 --> 00:19:36,750
+of utility out of AI. And as it becomes
+more functional, more and more people
+
+1120
+00:19:36,750 --> 00:19:36,760
+more functional, more and more people
+ 
+
+1121
+00:19:36,760 --> 00:19:38,510
+more functional, more and more people
+are going to get utility out of it. Um
+
+1122
+00:19:38,510 --> 00:19:38,520
+are going to get utility out of it. Um
+ 
+
+1123
+00:19:38,520 --> 00:19:40,590
+are going to get utility out of it. Um
+and that's just with text-based type
+
+1124
+00:19:40,590 --> 00:19:40,600
+and that's just with text-based type
+ 
+
+1125
+00:19:40,600 --> 00:19:42,630
+and that's just with text-based type
+artificial intelligence. But what about
+
+1126
+00:19:42,630 --> 00:19:42,640
+artificial intelligence. But what about
+ 
+
+1127
+00:19:42,640 --> 00:19:45,190
+artificial intelligence. But what about
+when you start moving to real-world
+
+1128
+00:19:45,190 --> 00:19:45,200
+when you start moving to real-world
+ 
+
+1129
+00:19:45,200 --> 00:19:46,950
+when you start moving to real-world
+intelligence, where you're not just
+
+1130
+00:19:46,950 --> 00:19:46,960
+intelligence, where you're not just
+ 
+
+1131
+00:19:46,960 --> 00:19:49,510
+intelligence, where you're not just
+processing letters and numbers, you're
+
+1132
+00:19:49,510 --> 00:19:49,520
+processing letters and numbers, you're
+ 
+
+1133
+00:19:49,520 --> 00:19:52,150
+processing letters and numbers, you're
+also processing visual data and audio
+
+1134
+00:19:52,150 --> 00:19:52,160
+also processing visual data and audio
+ 
+
+1135
+00:19:52,160 --> 00:19:54,070
+also processing visual data and audio
+data. Uh and that's going to require
+
+1136
+00:19:54,070 --> 00:19:54,080
+data. Uh and that's going to require
+ 
+
+1137
+00:19:54,080 --> 00:19:56,270
+data. Uh and that's going to require
+orders of magnitude more compute there.
+
+1138
+00:19:56,270 --> 00:19:56,280
+orders of magnitude more compute there.
+ 
+
+1139
+00:19:56,280 --> 00:19:58,710
+orders of magnitude more compute there.
+So there's just in several directions,
+
+1140
+00:19:58,710 --> 00:19:58,720
+So there's just in several directions,
+ 
+
+1141
+00:19:58,720 --> 00:20:00,630
+So there's just in several directions,
+we're going to need several orders of of
+
+1142
+00:20:00,630 --> 00:20:00,640
+we're going to need several orders of of
+ 
+
+1143
+00:20:00,640 --> 00:20:02,710
+we're going to need several orders of of
+magnitude more compute. And to tease
+
+1144
+00:20:02,710 --> 00:20:02,720
+magnitude more compute. And to tease
+ 
+
+1145
+00:20:02,720 --> 00:20:04,470
+magnitude more compute. And to tease
+that out, that would take a a longer
+
+1146
+00:20:04,470 --> 00:20:04,480
+that out, that would take a a longer
+ 
+
+1147
+00:20:04,480 --> 00:20:07,310
+that out, that would take a a longer
+discussion, but that's in short I I I
+
+1148
+00:20:07,310 --> 00:20:07,320
+discussion, but that's in short I I I
+ 
+
+1149
+00:20:07,320 --> 00:20:09,310
+discussion, but that's in short I I I
+agree with the consensus.
+
+1150
+00:20:09,310 --> 00:20:09,320
+agree with the consensus.
+ 
+
+1151
+00:20:09,320 --> 00:20:11,390
+agree with the consensus.
+>> Well, I'm Yes, go ahead.
+
+1152
+00:20:11,390 --> 00:20:11,400
+>> Well, I'm Yes, go ahead.
+ 
+
+1153
+00:20:11,400 --> 00:20:12,630
+>> Well, I'm Yes, go ahead.
+>> No, um
+
+1154
+00:20:12,630 --> 00:20:12,640
+>> No, um
+ 
+
+1155
+00:20:12,640 --> 00:20:14,830
+>> No, um
+but with all that said, there's always a
+
+1156
+00:20:14,830 --> 00:20:14,840
+but with all that said, there's always a
+ 
+
+1157
+00:20:14,840 --> 00:20:18,310
+but with all that said, there's always a
+risk that you have some surplus compute
+
+1158
+00:20:18,310 --> 00:20:18,320
+risk that you have some surplus compute
+ 
+
+1159
+00:20:18,320 --> 00:20:19,670
+risk that you have some surplus compute
+on hand. I don't think that's going to
+
+1160
+00:20:19,670 --> 00:20:19,680
+on hand. I don't think that's going to
+ 
+
+1161
+00:20:19,680 --> 00:20:20,910
+on hand. I don't think that's going to
+happen
+
+1162
+00:20:20,910 --> 00:20:20,920
+happen
+ 
+
+1163
+00:20:20,920 --> 00:20:23,230
+happen
+given all the forecasts, but it's it's
+
+1164
+00:20:23,230 --> 00:20:23,240
+given all the forecasts, but it's it's
+ 
+
+1165
+00:20:23,240 --> 00:20:25,310
+given all the forecasts, but it's it's
+always a risk and it's unavoidable.
+
+1166
+00:20:25,310 --> 00:20:25,320
+always a risk and it's unavoidable.
+ 
+
+1167
+00:20:25,320 --> 00:20:27,230
+always a risk and it's unavoidable.
+>> Well, when you're not using surplus
+
+1168
+00:20:27,230 --> 00:20:27,240
+>> Well, when you're not using surplus
+ 
+
+1169
+00:20:27,240 --> 00:20:29,550
+>> Well, when you're not using surplus
+compute, it doesn't cost as much money
+
+1170
+00:20:29,550 --> 00:20:29,560
+compute, it doesn't cost as much money
+ 
+
+1171
+00:20:29,560 --> 00:20:31,630
+compute, it doesn't cost as much money
+to own. It's when it's running that it
+
+1172
+00:20:31,630 --> 00:20:31,640
+to own. It's when it's running that it
+ 
+
+1173
+00:20:31,640 --> 00:20:34,630
+to own. It's when it's running that it
+really gets you. And these chips do not
+
+1174
+00:20:34,630 --> 00:20:34,640
+really gets you. And these chips do not
+ 
+
+1175
+00:20:34,640 --> 00:20:38,550
+really gets you. And these chips do not
+degrade by age so much as by cycle. Uh
+
+1176
+00:20:38,550 --> 00:20:38,560
+degrade by age so much as by cycle. Uh
+ 
+
+1177
+00:20:38,560 --> 00:20:41,230
+degrade by age so much as by cycle. Uh
+much like solar panels or wind turbines,
+
+1178
+00:20:41,230 --> 00:20:41,240
+much like solar panels or wind turbines,
+ 
+
+1179
+00:20:41,240 --> 00:20:43,710
+much like solar panels or wind turbines,
+if you stop using them for the day, uh
+
+1180
+00:20:43,710 --> 00:20:43,720
+if you stop using them for the day, uh
+ 
+
+1181
+00:20:43,720 --> 00:20:46,190
+if you stop using them for the day, uh
+they do not age as much.
+
+1182
+00:20:46,190 --> 00:20:46,200
+they do not age as much.
+ 
+
+1183
+00:20:46,200 --> 00:20:48,430
+they do not age as much.
+Um [snorts] I do have uh some big
+
+1184
+00:20:48,430 --> 00:20:48,440
+Um [snorts] I do have uh some big
+ 
+
+1185
+00:20:48,440 --> 00:20:49,870
+Um [snorts] I do have uh some big
+thoughts coming up. I will share them,
+
+1186
+00:20:49,870 --> 00:20:49,880
+thoughts coming up. I will share them,
+ 
+
+1187
+00:20:49,880 --> 00:20:52,630
+thoughts coming up. I will share them,
+but first I wanted to mention uh that uh
+
+1188
+00:20:52,630 --> 00:20:52,640
+but first I wanted to mention uh that uh
+ 
+
+1189
+00:20:52,640 --> 00:20:54,750
+but first I wanted to mention uh that uh
+you can subscribe not to one, but to
+
+1190
+00:20:54,750 --> 00:20:54,760
+you can subscribe not to one, but to
+ 
+
+1191
+00:20:54,760 --> 00:20:57,310
+you can subscribe not to one, but to
+both of us. Yes, uh do you remember
+
+1192
+00:20:57,310 --> 00:20:57,320
+both of us. Yes, uh do you remember
+ 
+
+1193
+00:20:57,320 --> 00:20:58,950
+both of us. Yes, uh do you remember
+where this was taken?
+
+1194
+00:20:58,950 --> 00:20:58,960
+where this was taken?
+ 
+
+1195
+00:20:58,960 --> 00:21:01,510
+where this was taken?
+>> Uh at the uh Giga
+
+1196
+00:21:01,510 --> 00:21:01,520
+>> Uh at the uh Giga
+ 
+
+1197
+00:21:01,520 --> 00:21:02,990
+>> Uh at the uh Giga
+uh Cyber Rodeo.
+
+1198
+00:21:02,990 --> 00:21:03,000
+uh Cyber Rodeo.
+ 
+
+1199
+00:21:03,000 --> 00:21:05,470
+uh Cyber Rodeo.
+>> Yeah, that's right. The the day after
+
+1200
+00:21:05,470 --> 00:21:05,480
+>> Yeah, that's right. The the day after
+ 
+
+1201
+00:21:05,480 --> 00:21:07,990
+>> Yeah, that's right. The the day after
+party uh at the uh
+
+1202
+00:21:07,990 --> 00:21:08,000
+party uh at the uh
+ 
+
+1203
+00:21:08,000 --> 00:21:09,390
+party uh at the uh
+place by the airport there. That was a
+
+1204
+00:21:09,390 --> 00:21:09,400
+place by the airport there. That was a
+ 
+
+1205
+00:21:09,400 --> 00:21:11,510
+place by the airport there. That was a
+lot of fun. And that's genuinely what we
+
+1206
+00:21:11,510 --> 00:21:11,520
+lot of fun. And that's genuinely what we
+ 
+
+1207
+00:21:11,520 --> 00:21:13,550
+lot of fun. And that's genuinely what we
+look like. This is filtered right here.
+
+1208
+00:21:13,550 --> 00:21:13,560
+look like. This is filtered right here.
+ 
+
+1209
+00:21:13,560 --> 00:21:17,270
+look like. This is filtered right here.
+So, my thought is there is infinite
+
+1210
+00:21:17,270 --> 00:21:17,280
+So, my thought is there is infinite
+ 
+
+1211
+00:21:17,280 --> 00:21:20,510
+So, my thought is there is infinite
+demand for AI and what it does at a
+
+1212
+00:21:20,510 --> 00:21:20,520
+demand for AI and what it does at a
+ 
+
+1213
+00:21:20,520 --> 00:21:21,750
+demand for AI and what it does at a
+price.
+
+1214
+00:21:21,750 --> 00:21:21,760
+price.
+ 
+
+1215
+00:21:21,760 --> 00:21:23,670
+price.
+And I'm not convinced that the price it
+
+1216
+00:21:23,670 --> 00:21:23,680
+And I'm not convinced that the price it
+ 
+
+1217
+00:21:23,680 --> 00:21:26,750
+And I'm not convinced that the price it
+really costs today is some is an amount
+
+1218
+00:21:26,750 --> 00:21:26,760
+really costs today is some is an amount
+ 
+
+1219
+00:21:26,760 --> 00:21:28,750
+really costs today is some is an amount
+that consumers would pay because a lot
+
+1220
+00:21:28,750 --> 00:21:28,760
+that consumers would pay because a lot
+ 
+
+1221
+00:21:28,760 --> 00:21:31,230
+that consumers would pay because a lot
+of companies are selling their tokens
+
+1222
+00:21:31,230 --> 00:21:31,240
+of companies are selling their tokens
+ 
+
+1223
+00:21:31,240 --> 00:21:34,750
+of companies are selling their tokens
+for less than they cost or giving them
+
+1224
+00:21:34,750 --> 00:21:34,760
+for less than they cost or giving them
+ 
+
+1225
+00:21:34,760 --> 00:21:38,190
+for less than they cost or giving them
+away. Chat GPT has probably as many
+
+1226
+00:21:38,190 --> 00:21:38,200
+away. Chat GPT has probably as many
+ 
+
+1227
+00:21:38,200 --> 00:21:40,790
+away. Chat GPT has probably as many
+users as there are people who have ever
+
+1228
+00:21:40,790 --> 00:21:40,800
+users as there are people who have ever
+ 
+
+1229
+00:21:40,800 --> 00:21:43,190
+users as there are people who have ever
+lived because in a lot of places,
+
+1230
+00:21:43,190 --> 00:21:43,200
+lived because in a lot of places,
+ 
+
+1231
+00:21:43,200 --> 00:21:45,350
+lived because in a lot of places,
+including the US, when people run out of
+
+1232
+00:21:45,350 --> 00:21:45,360
+including the US, when people run out of
+ 
+
+1233
+00:21:45,360 --> 00:21:48,110
+including the US, when people run out of
+tokens, they create a second account.
+
+1234
+00:21:48,110 --> 00:21:48,120
+tokens, they create a second account.
+ 
+
+1235
+00:21:48,120 --> 00:21:49,190
+tokens, they create a second account.
+So,
+
+1236
+00:21:49,190 --> 00:21:49,200
+So,
+ 
+
+1237
+00:21:49,200 --> 00:21:50,590
+So,
+it's uh
+
+1238
+00:21:50,590 --> 00:21:50,600
+it's uh
+ 
+
+1239
+00:21:50,600 --> 00:21:52,030
+it's uh
+I don't know
+
+1240
+00:21:52,030 --> 00:21:52,040
+I don't know
+ 
+
+1241
+00:21:52,040 --> 00:21:55,390
+I don't know
+how much the price needs to fall
+
+1242
+00:21:55,390 --> 00:21:55,400
+how much the price needs to fall
+ 
+
+1243
+00:21:55,400 --> 00:21:57,550
+how much the price needs to fall
+for businesses
+
+1244
+00:21:57,550 --> 00:21:57,560
+for businesses
+ 
+
+1245
+00:21:57,560 --> 00:22:00,550
+for businesses
+to use it more. [clears throat] I mean,
+
+1246
+00:22:00,550 --> 00:22:00,560
+to use it more. [clears throat] I mean,
+ 
+
+1247
+00:22:00,560 --> 00:22:02,630
+to use it more. [clears throat] I mean,
+how much more output We've seen
+
+1248
+00:22:02,630 --> 00:22:02,640
+how much more output We've seen
+ 
+
+1249
+00:22:02,640 --> 00:22:04,230
+how much more output We've seen
+companies that accidentally spend
+
+1250
+00:22:04,230 --> 00:22:04,240
+companies that accidentally spend
+ 
+
+1251
+00:22:04,240 --> 00:22:05,870
+companies that accidentally spend
+hundreds of thousands, millions of
+
+1252
+00:22:05,870 --> 00:22:05,880
+hundreds of thousands, millions of
+ 
+
+1253
+00:22:05,880 --> 00:22:08,110
+hundreds of thousands, millions of
+dollars on tokens unaware that they were
+
+1254
+00:22:08,110 --> 00:22:08,120
+dollars on tokens unaware that they were
+ 
+
+1255
+00:22:08,120 --> 00:22:09,910
+dollars on tokens unaware that they were
+racking up these bills.
+
+1256
+00:22:09,910 --> 00:22:09,920
+racking up these bills.
+ 
+
+1257
+00:22:09,920 --> 00:22:11,910
+racking up these bills.
+Um I did see a guy who said he
+
+1258
+00:22:11,910 --> 00:22:11,920
+Um I did see a guy who said he
+ 
+
+1259
+00:22:11,920 --> 00:22:13,630
+Um I did see a guy who said he
+accidentally burnt through his entire
+
+1260
+00:22:13,630 --> 00:22:13,640
+accidentally burnt through his entire
+ 
+
+1261
+00:22:13,640 --> 00:22:16,590
+accidentally burnt through his entire
+month of tokens because he said, "Hey,
+
+1262
+00:22:16,590 --> 00:22:16,600
+month of tokens because he said, "Hey,
+ 
+
+1263
+00:22:16,600 --> 00:22:18,550
+month of tokens because he said, "Hey,
+can you give me a summary of this PDF?"
+
+1264
+00:22:18,550 --> 00:22:18,560
+can you give me a summary of this PDF?"
+ 
+
+1265
+00:22:18,560 --> 00:22:20,670
+can you give me a summary of this PDF?"
+And he had it on like the most intense
+
+1266
+00:22:20,670 --> 00:22:20,680
+And he had it on like the most intense
+ 
+
+1267
+00:22:20,680 --> 00:22:23,990
+And he had it on like the most intense
+mode and he spent like $300 getting up
+
+1268
+00:22:23,990 --> 00:22:24,000
+mode and he spent like $300 getting up
+ 
+
+1269
+00:22:24,000 --> 00:22:27,670
+mode and he spent like $300 getting up
+really amazing summary of a PDF.
+
+1270
+00:22:27,670 --> 00:22:27,680
+really amazing summary of a PDF.
+ 
+
+1271
+00:22:27,680 --> 00:22:29,390
+really amazing summary of a PDF.
+He's like, "Why is it running for so
+
+1272
+00:22:29,390 --> 00:22:29,400
+He's like, "Why is it running for so
+ 
+
+1273
+00:22:29,400 --> 00:22:32,310
+He's like, "Why is it running for so
+long? Golly." I think the better
+
+1274
+00:22:32,310 --> 00:22:32,320
+long? Golly." I think the better
+ 
+
+1275
+00:22:32,320 --> 00:22:34,990
+long? Golly." I think the better
+compute, the better algorithms
+
+1276
+00:22:34,990 --> 00:22:35,000
+compute, the better algorithms
+ 
+
+1277
+00:22:35,000 --> 00:22:38,590
+compute, the better algorithms
+will increase the efficacy per dollar
+
+1278
+00:22:38,590 --> 00:22:38,600
+will increase the efficacy per dollar
+ 
+
+1279
+00:22:38,600 --> 00:22:41,750
+will increase the efficacy per dollar
+spent, but I don't know how quickly
+
+1280
+00:22:41,750 --> 00:22:41,760
+spent, but I don't know how quickly
+ 
+
+1281
+00:22:41,760 --> 00:22:44,510
+spent, but I don't know how quickly
+because unlike you, I can't predict the
+
+1282
+00:22:44,510 --> 00:22:44,520
+because unlike you, I can't predict the
+ 
+
+1283
+00:22:44,520 --> 00:22:46,270
+because unlike you, I can't predict the
+future. Now, I know you said you can,
+
+1284
+00:22:46,270 --> 00:22:46,280
+future. Now, I know you said you can,
+ 
+
+1285
+00:22:46,280 --> 00:22:48,150
+future. Now, I know you said you can,
+but I don't know, man. You've been
+
+1286
+00:22:48,150 --> 00:22:48,160
+but I don't know, man. You've been
+ 
+
+1287
+00:22:48,160 --> 00:22:50,070
+but I don't know, man. You've been
+pretty good in the past. How big of a
+
+1288
+00:22:50,070 --> 00:22:50,080
+pretty good in the past. How big of a
+ 
+
+1289
+00:22:50,080 --> 00:22:51,910
+pretty good in the past. How big of a
+risk is that?
+
+1290
+00:22:51,910 --> 00:22:51,920
+risk is that?
+ 
+
+1291
+00:22:51,920 --> 00:22:53,750
+risk is that?
+That that companies will say, "Look,
+
+1292
+00:22:53,750 --> 00:22:53,760
+That that companies will say, "Look,
+ 
+
+1293
+00:22:53,760 --> 00:22:56,990
+That that companies will say, "Look,
+this AI bill is just too darn much."
+
+1294
+00:22:56,990 --> 00:22:57,000
+this AI bill is just too darn much."
+ 
+
+1295
+00:22:57,000 --> 00:22:59,070
+this AI bill is just too darn much."
+>> The way I look at that is that there's
+
+1296
+00:22:59,070 --> 00:22:59,080
+>> The way I look at that is that there's
+ 
+
+1297
+00:22:59,080 --> 00:23:01,030
+>> The way I look at that is that there's
+leading edge companies right now that
+
+1298
+00:23:01,030 --> 00:23:01,040
+leading edge companies right now that
+ 
+
+1299
+00:23:01,040 --> 00:23:02,350
+leading edge companies right now that
+they're getting the most benefit out of
+
+1300
+00:23:02,350 --> 00:23:02,360
+they're getting the most benefit out of
+ 
+
+1301
+00:23:02,360 --> 00:23:04,870
+they're getting the most benefit out of
+that. And they get
+
+1302
+00:23:04,870 --> 00:23:04,880
+that. And they get
+ 
+
+1303
+00:23:04,880 --> 00:23:06,190
+that. And they get
+a certain amount of boost to their
+
+1304
+00:23:06,190 --> 00:23:06,200
+a certain amount of boost to their
+ 
+
+1305
+00:23:06,200 --> 00:23:09,630
+a certain amount of boost to their
+productivity given the amount of
+
+1306
+00:23:09,630 --> 00:23:09,640
+productivity given the amount of
+ 
+
+1307
+00:23:09,640 --> 00:23:10,430
+productivity given the amount of
+um
+
+1308
+00:23:10,430 --> 00:23:10,440
+um
+ 
+
+1309
+00:23:10,440 --> 00:23:11,950
+um
+give given how far advanced the
+
+1310
+00:23:11,950 --> 00:23:11,960
+give given how far advanced the
+ 
+
+1311
+00:23:11,960 --> 00:23:14,350
+give given how far advanced the
+technology is. Well, it's I think it's
+
+1312
+00:23:14,350 --> 00:23:14,360
+technology is. Well, it's I think it's
+ 
+
+1313
+00:23:14,360 --> 00:23:17,070
+technology is. Well, it's I think it's
+probably 90 to 95% of the businesses out
+
+1314
+00:23:17,070 --> 00:23:17,080
+probably 90 to 95% of the businesses out
+ 
+
+1315
+00:23:17,080 --> 00:23:19,710
+probably 90 to 95% of the businesses out
+there still haven't worked out how to
+
+1316
+00:23:19,710 --> 00:23:19,720
+there still haven't worked out how to
+ 
+
+1317
+00:23:19,720 --> 00:23:22,110
+there still haven't worked out how to
+to get that juice out of the lemon.
+
+1318
+00:23:22,110 --> 00:23:22,120
+to get that juice out of the lemon.
+ 
+
+1319
+00:23:22,120 --> 00:23:24,910
+to get that juice out of the lemon.
+So, I think it's you know,
+
+1320
+00:23:24,910 --> 00:23:24,920
+So, I think it's you know,
+ 
+
+1321
+00:23:24,920 --> 00:23:28,070
+So, I think it's you know,
+there's still a lot more companies that
+
+1322
+00:23:28,070 --> 00:23:28,080
+there's still a lot more companies that
+ 
+
+1323
+00:23:28,080 --> 00:23:30,310
+there's still a lot more companies that
+need to be able to to
+
+1324
+00:23:30,310 --> 00:23:30,320
+need to be able to to
+ 
+
+1325
+00:23:30,320 --> 00:23:32,350
+need to be able to to
+take advantage of what's already there.
+
+1326
+00:23:32,350 --> 00:23:32,360
+take advantage of what's already there.
+ 
+
+1327
+00:23:32,360 --> 00:23:33,430
+take advantage of what's already there.
+So,
+
+1328
+00:23:33,430 --> 00:23:33,440
+So,
+ 
+
+1329
+00:23:33,440 --> 00:23:35,630
+So,
+just in terms of that total addressable
+
+1330
+00:23:35,630 --> 00:23:35,640
+just in terms of that total addressable
+ 
+
+1331
+00:23:35,640 --> 00:23:37,430
+just in terms of that total addressable
+market, that's going to expand just in
+
+1332
+00:23:37,430 --> 00:23:37,440
+market, that's going to expand just in
+ 
+
+1333
+00:23:37,440 --> 00:23:39,190
+market, that's going to expand just in
+terms of the number of people who are
+
+1334
+00:23:39,190 --> 00:23:39,200
+terms of the number of people who are
+ 
+
+1335
+00:23:39,200 --> 00:23:41,110
+terms of the number of people who are
+using it productively. And then on top
+
+1336
+00:23:41,110 --> 00:23:41,120
+using it productively. And then on top
+ 
+
+1337
+00:23:41,120 --> 00:23:42,510
+using it productively. And then on top
+of that,
+
+1338
+00:23:42,510 --> 00:23:42,520
+of that,
+ 
+
+1339
+00:23:42,520 --> 00:23:45,030
+of that,
+it's in terms of these current
+
+1340
+00:23:45,030 --> 00:23:45,040
+it's in terms of these current
+ 
+
+1341
+00:23:45,040 --> 00:23:48,230
+it's in terms of these current
+foundational models, I view it as
+
+1342
+00:23:48,230 --> 00:23:48,240
+foundational models, I view it as
+ 
+
+1343
+00:23:48,240 --> 00:23:48,910
+foundational models, I view it as
+uh
+
+1344
+00:23:48,910 --> 00:23:48,920
+uh
+ 
+
+1345
+00:23:48,920 --> 00:23:51,630
+uh
+decreasing return on investment as they
+
+1346
+00:23:51,630 --> 00:23:51,640
+decreasing return on investment as they
+ 
+
+1347
+00:23:51,640 --> 00:23:53,350
+decreasing return on investment as they
+they get better cuz they're already
+
+1348
+00:23:53,350 --> 00:23:53,360
+they get better cuz they're already
+ 
+
+1349
+00:23:53,360 --> 00:23:54,950
+they get better cuz they're already
+pretty good and they're really they're
+
+1350
+00:23:54,950 --> 00:23:54,960
+pretty good and they're really they're
+ 
+
+1351
+00:23:54,960 --> 00:23:56,510
+pretty good and they're really they're
+really good at coding already. And I
+
+1352
+00:23:56,510 --> 00:23:56,520
+really good at coding already. And I
+ 
+
+1353
+00:23:56,520 --> 00:23:57,710
+really good at coding already. And I
+don't know how much better they're
+
+1354
+00:23:57,710 --> 00:23:57,720
+don't know how much better they're
+ 
+
+1355
+00:23:57,720 --> 00:24:00,150
+don't know how much better they're
+they're going to to get. So, there will
+
+1356
+00:24:00,150 --> 00:24:00,160
+they're going to to get. So, there will
+ 
+
+1357
+00:24:00,160 --> 00:24:02,510
+they're going to to get. So, there will
+be some improvement there in terms of
+
+1358
+00:24:02,510 --> 00:24:02,520
+be some improvement there in terms of
+ 
+
+1359
+00:24:02,520 --> 00:24:03,990
+be some improvement there in terms of
+how much value people get out of these
+
+1360
+00:24:03,990 --> 00:24:04,000
+how much value people get out of these
+ 
+
+1361
+00:24:04,000 --> 00:24:06,470
+how much value people get out of these
+models, but I think most of it is just
+
+1362
+00:24:06,470 --> 00:24:06,480
+models, but I think most of it is just
+ 
+
+1363
+00:24:06,480 --> 00:24:08,950
+models, but I think most of it is just
+expanding it to new people.
+
+1364
+00:24:08,950 --> 00:24:08,960
+expanding it to new people.
+ 
+
+1365
+00:24:08,960 --> 00:24:10,670
+expanding it to new people.
+Filling in the total addressable market,
+
+1366
+00:24:10,670 --> 00:24:10,680
+Filling in the total addressable market,
+ 
+
+1367
+00:24:10,680 --> 00:24:10,990
+Filling in the total addressable market,
+yeah.
+
+1368
+00:24:10,990 --> 00:24:11,000
+yeah.
+ 
+
+1369
+00:24:11,000 --> 00:24:15,070
+yeah.
+>> There are people who don't use AI yet. I
+
+1370
+00:24:15,070 --> 00:24:15,080
+>> There are people who don't use AI yet. I
+ 
+
+1371
+00:24:15,080 --> 00:24:16,790
+>> There are people who don't use AI yet. I
+didn't use AI for the longest time
+
+1372
+00:24:16,790 --> 00:24:16,800
+didn't use AI for the longest time
+ 
+
+1373
+00:24:16,800 --> 00:24:19,230
+didn't use AI for the longest time
+because it wasn't reliable. It wasn't
+
+1374
+00:24:19,230 --> 00:24:19,240
+because it wasn't reliable. It wasn't
+ 
+
+1375
+00:24:19,240 --> 00:24:22,310
+because it wasn't reliable. It wasn't
+good. Uh but bear in mind, ideally, it's
+
+1376
+00:24:22,310 --> 00:24:22,320
+good. Uh but bear in mind, ideally, it's
+ 
+
+1377
+00:24:22,320 --> 00:24:25,030
+good. Uh but bear in mind, ideally, it's
+today and tomorrow, it'll be the worst
+
+1378
+00:24:25,030 --> 00:24:25,040
+today and tomorrow, it'll be the worst
+ 
+
+1379
+00:24:25,040 --> 00:24:27,550
+today and tomorrow, it'll be the worst
+it's ever been. Now, that's runs
+
+1380
+00:24:27,550 --> 00:24:27,560
+it's ever been. Now, that's runs
+ 
+
+1381
+00:24:27,560 --> 00:24:30,670
+it's ever been. Now, that's runs
+contrary to Google's philosophy. Their
+
+1382
+00:24:30,670 --> 00:24:30,680
+contrary to Google's philosophy. Their
+ 
+
+1383
+00:24:30,680 --> 00:24:33,710
+contrary to Google's philosophy. Their
+products tend to get worse every day. Uh
+
+1384
+00:24:33,710 --> 00:24:33,720
+products tend to get worse every day. Uh
+ 
+
+1385
+00:24:33,720 --> 00:24:36,510
+products tend to get worse every day. Uh
+so, that's great and I still have all my
+
+1386
+00:24:36,510 --> 00:24:36,520
+so, that's great and I still have all my
+ 
+
+1387
+00:24:36,520 --> 00:24:38,790
+so, that's great and I still have all my
+Google Home smart speakers, but they're
+
+1388
+00:24:38,790 --> 00:24:38,800
+Google Home smart speakers, but they're
+ 
+
+1389
+00:24:38,800 --> 00:24:40,710
+Google Home smart speakers, but they're
+getting dumb.
+
+1390
+00:24:40,710 --> 00:24:40,720
+getting dumb.
+ 
+
+1391
+00:24:40,720 --> 00:24:41,390
+getting dumb.
+Uh
+
+1392
+00:24:41,390 --> 00:24:41,400
+Uh
+ 
+
+1393
+00:24:41,400 --> 00:24:43,430
+Uh
+>> Well, at the at the beginning, Google
+
+1394
+00:24:43,430 --> 00:24:43,440
+>> Well, at the at the beginning, Google
+ 
+
+1395
+00:24:43,440 --> 00:24:45,150
+>> Well, at the at the beginning, Google
+like I remember like the excitement
+
+1396
+00:24:45,150 --> 00:24:45,160
+like I remember like the excitement
+ 
+
+1397
+00:24:45,160 --> 00:24:46,350
+like I remember like the excitement
+every time they didn't did a new
+
+1398
+00:24:46,350 --> 00:24:46,360
+every time they didn't did a new
+ 
+
+1399
+00:24:46,360 --> 00:24:47,870
+every time they didn't did a new
+software release and things were getting
+
+1400
+00:24:47,870 --> 00:24:47,880
+software release and things were getting
+ 
+
+1401
+00:24:47,880 --> 00:24:49,430
+software release and things were getting
+better and better and better. And then
+
+1402
+00:24:49,430 --> 00:24:49,440
+better and better and better. And then
+ 
+
+1403
+00:24:49,440 --> 00:24:51,030
+better and better and better. And then
+it's just like peaked and now it's like
+
+1404
+00:24:51,030 --> 00:24:51,040
+it's just like peaked and now it's like
+ 
+
+1405
+00:24:51,040 --> 00:24:53,070
+it's just like peaked and now it's like
+all the talent went into AI or someplace
+
+1406
+00:24:53,070 --> 00:24:53,080
+all the talent went into AI or someplace
+ 
+
+1407
+00:24:53,080 --> 00:24:55,350
+all the talent went into AI or someplace
+else. But I I I do feel like AI is
+
+1408
+00:24:55,350 --> 00:24:55,360
+else. But I I I do feel like AI is
+ 
+
+1409
+00:24:55,360 --> 00:24:57,710
+else. But I I I do feel like AI is
+getting better uh continuously and who
+
+1410
+00:24:57,710 --> 00:24:57,720
+getting better uh continuously and who
+ 
+
+1411
+00:24:57,720 --> 00:24:59,390
+getting better uh continuously and who
+knows how long that's going to go for.
+
+1412
+00:24:59,390 --> 00:24:59,400
+knows how long that's going to go for.
+ 
+
+1413
+00:24:59,400 --> 00:25:01,350
+knows how long that's going to go for.
+>> Well, I would say the focus was on
+
+1414
+00:25:01,350 --> 00:25:01,360
+>> Well, I would say the focus was on
+ 
+
+1415
+00:25:01,360 --> 00:25:03,750
+>> Well, I would say the focus was on
+making the best product, and then the
+
+1416
+00:25:03,750 --> 00:25:03,760
+making the best product, and then the
+ 
+
+1417
+00:25:03,760 --> 00:25:05,990
+making the best product, and then the
+shift became to make the most profitable
+
+1418
+00:25:05,990 --> 00:25:06,000
+shift became to make the most profitable
+ 
+
+1419
+00:25:06,000 --> 00:25:09,150
+shift became to make the most profitable
+product. And the most profitable search
+
+1420
+00:25:09,150 --> 00:25:09,160
+product. And the most profitable search
+ 
+
+1421
+00:25:09,160 --> 00:25:11,870
+product. And the most profitable search
+results are not what you asked for, but
+
+1422
+00:25:11,870 --> 00:25:11,880
+results are not what you asked for, but
+ 
+
+1423
+00:25:11,880 --> 00:25:13,390
+results are not what you asked for, but
+a bunch of sponsored stuff and something
+
+1424
+00:25:13,390 --> 00:25:13,400
+a bunch of sponsored stuff and something
+ 
+
+1425
+00:25:13,400 --> 00:25:14,910
+a bunch of sponsored stuff and something
+close enough that you'll do another
+
+1426
+00:25:14,910 --> 00:25:14,920
+close enough that you'll do another
+ 
+
+1427
+00:25:14,920 --> 00:25:16,070
+close enough that you'll do another
+search.
+
+1428
+00:25:16,070 --> 00:25:16,080
+search.
+ 
+
+1429
+00:25:16,080 --> 00:25:19,510
+search.
+And as a result, instead of using Google
+
+1430
+00:25:19,510 --> 00:25:19,520
+And as a result, instead of using Google
+ 
+
+1431
+00:25:19,520 --> 00:25:22,310
+And as a result, instead of using Google
+as my go-to for research, I use Grok and
+
+1432
+00:25:22,310 --> 00:25:22,320
+as my go-to for research, I use Grok and
+ 
+
+1433
+00:25:22,320 --> 00:25:23,990
+as my go-to for research, I use Grok and
+say, "Just give me all the citations I
+
+1434
+00:25:23,990 --> 00:25:24,000
+say, "Just give me all the citations I
+ 
+
+1435
+00:25:24,000 --> 00:25:25,910
+say, "Just give me all the citations I
+need so I can go and read it myself."
+
+1436
+00:25:25,910 --> 00:25:25,920
+need so I can go and read it myself."
+ 
+
+1437
+00:25:25,920 --> 00:25:29,710
+need so I can go and read it myself."
+And it works. If I've got a part of a
+
+1438
+00:25:29,710 --> 00:25:29,720
+And it works. If I've got a part of a
+ 
+
+1439
+00:25:29,720 --> 00:25:32,270
+And it works. If I've got a part of a
+song stuck in my head, I can find it,
+
+1440
+00:25:32,270 --> 00:25:32,280
+song stuck in my head, I can find it,
+ 
+
+1441
+00:25:32,280 --> 00:25:34,510
+song stuck in my head, I can find it,
+uh, with all of the words being
+
+1442
+00:25:34,510 --> 00:25:34,520
+uh, with all of the words being
+ 
+
+1443
+00:25:34,520 --> 00:25:37,230
+uh, with all of the words being
+incorrect. It's pretty amazing.
+
+1444
+00:25:37,230 --> 00:25:37,240
+incorrect. It's pretty amazing.
+ 
+
+1445
+00:25:37,240 --> 00:25:39,350
+incorrect. It's pretty amazing.
+>> For the average use, like like you
+
+1446
+00:25:39,350 --> 00:25:39,360
+>> For the average use, like like you
+ 
+
+1447
+00:25:39,360 --> 00:25:41,470
+>> For the average use, like like you
+remember PCs when you first got PCs in
+
+1448
+00:25:41,470 --> 00:25:41,480
+remember PCs when you first got PCs in
+ 
+
+1449
+00:25:41,480 --> 00:25:43,750
+remember PCs when you first got PCs in
+the 1980s, you had actually know some
+
+1450
+00:25:43,750 --> 00:25:43,760
+the 1980s, you had actually know some
+ 
+
+1451
+00:25:43,760 --> 00:25:45,270
+the 1980s, you had actually know some
+heavy-hitting stuff, some technical
+
+1452
+00:25:45,270 --> 00:25:45,280
+heavy-hitting stuff, some technical
+ 
+
+1453
+00:25:45,280 --> 00:25:48,030
+heavy-hitting stuff, some technical
+information, in order to build a PC and
+
+1454
+00:25:48,030 --> 00:25:48,040
+information, in order to build a PC and
+ 
+
+1455
+00:25:48,040 --> 00:25:49,082
+information, in order to build a PC and
+get it running.
+
+1456
+00:25:49,082 --> 00:25:49,092
+get it running.
+ 
+
+1457
+00:25:49,092 --> 00:25:49,470
+get it running.
+>> [laughter]
+
+1458
+00:25:49,470 --> 00:25:49,480
+>> [laughter]
+ 
+
+1459
+00:25:49,480 --> 00:25:51,550
+>> [laughter]
+>> I remember lots of, uh,
+
+1460
+00:25:51,550 --> 00:25:51,560
+>> I remember lots of, uh,
+ 
+
+1461
+00:25:51,560 --> 00:25:53,230
+>> I remember lots of, uh,
+uh, excitement when my dad would get a
+
+1462
+00:25:53,230 --> 00:25:53,240
+uh, excitement when my dad would get a
+ 
+
+1463
+00:25:53,240 --> 00:25:55,510
+uh, excitement when my dad would get a
+new PC when I was a kid, and it would
+
+1464
+00:25:55,510 --> 00:25:55,520
+new PC when I was a kid, and it would
+ 
+
+1465
+00:25:55,520 --> 00:25:56,870
+new PC when I was a kid, and it would
+take him a while to get up and running,
+
+1466
+00:25:56,870 --> 00:25:56,880
+take him a while to get up and running,
+ 
+
+1467
+00:25:56,880 --> 00:25:58,270
+take him a while to get up and running,
+and there was lots of issues. Now,
+
+1468
+00:25:58,270 --> 00:25:58,280
+and there was lots of issues. Now,
+ 
+
+1469
+00:25:58,280 --> 00:25:59,590
+and there was lots of issues. Now,
+they're they're pretty much plug and
+
+1470
+00:25:59,590 --> 00:25:59,600
+they're they're pretty much plug and
+ 
+
+1471
+00:25:59,600 --> 00:26:01,470
+they're they're pretty much plug and
+play. And so, when you make it easier
+
+1472
+00:26:01,470 --> 00:26:01,480
+play. And so, when you make it easier
+ 
+
+1473
+00:26:01,480 --> 00:26:03,470
+play. And so, when you make it easier
+for people to access, I don't know
+
+1474
+00:26:03,470 --> 00:26:03,480
+for people to access, I don't know
+ 
+
+1475
+00:26:03,480 --> 00:26:04,590
+for people to access, I don't know
+whatever you call the harness or
+
+1476
+00:26:04,590 --> 00:26:04,600
+whatever you call the harness or
+ 
+
+1477
+00:26:04,600 --> 00:26:06,430
+whatever you call the harness or
+whatever it is, just how it interacts
+
+1478
+00:26:06,430 --> 00:26:06,440
+whatever it is, just how it interacts
+ 
+
+1479
+00:26:06,440 --> 00:26:08,270
+whatever it is, just how it interacts
+with people, you're going to expand the
+
+1480
+00:26:08,270 --> 00:26:08,280
+with people, you're going to expand the
+ 
+
+1481
+00:26:08,280 --> 00:26:10,590
+with people, you're going to expand the
+total addressable market. And with
+
+1482
+00:26:10,590 --> 00:26:10,600
+total addressable market. And with
+ 
+
+1483
+00:26:10,600 --> 00:26:13,710
+total addressable market. And with
+artificial intelligence,
+
+1484
+00:26:13,710 --> 00:26:13,720
+artificial intelligence,
+ 
+
+1485
+00:26:13,720 --> 00:26:16,510
+artificial intelligence,
+it seems really it's so good already,
+
+1486
+00:26:16,510 --> 00:26:16,520
+it seems really it's so good already,
+ 
+
+1487
+00:26:16,520 --> 00:26:18,750
+it seems really it's so good already,
+but compared to what it's going to be, I
+
+1488
+00:26:18,750 --> 00:26:18,760
+but compared to what it's going to be, I
+ 
+
+1489
+00:26:18,760 --> 00:26:21,030
+but compared to what it's going to be, I
+still see it as really stupid.
+
+1490
+00:26:21,030 --> 00:26:21,040
+still see it as really stupid.
+ 
+
+1491
+00:26:21,040 --> 00:26:22,790
+still see it as really stupid.
+Uh, because it's
+
+1492
+00:26:22,790 --> 00:26:22,800
+Uh, because it's
+ 
+
+1493
+00:26:22,800 --> 00:26:24,510
+Uh, because it's
+it jumps to the wrong conclusions a lot
+
+1494
+00:26:24,510 --> 00:26:24,520
+it jumps to the wrong conclusions a lot
+ 
+
+1495
+00:26:24,520 --> 00:26:26,390
+it jumps to the wrong conclusions a lot
+of times when I'm using it. It doesn't
+
+1496
+00:26:26,390 --> 00:26:26,400
+of times when I'm using it. It doesn't
+ 
+
+1497
+00:26:26,400 --> 00:26:29,190
+of times when I'm using it. It doesn't
+ask me questions. It gives you responses
+
+1498
+00:26:29,190 --> 00:26:29,200
+ask me questions. It gives you responses
+ 
+
+1499
+00:26:29,200 --> 00:26:31,590
+ask me questions. It gives you responses
+that are way too verbose. And it's like,
+
+1500
+00:26:31,590 --> 00:26:31,600
+that are way too verbose. And it's like,
+ 
+
+1501
+00:26:31,600 --> 00:26:33,270
+that are way too verbose. And it's like,
+"No, that's not even what I asked, and
+
+1502
+00:26:33,270 --> 00:26:33,280
+"No, that's not even what I asked, and
+ 
+
+1503
+00:26:33,280 --> 00:26:35,588
+"No, that's not even what I asked, and
+you just wasted a million tokens
+
+1504
+00:26:35,588 --> 00:26:35,598
+you just wasted a million tokens
+ 
+
+1505
+00:26:35,598 --> 00:26:35,910
+you just wasted a million tokens
+>> [laughter]
+
+1506
+00:26:35,910 --> 00:26:35,920
+>> [laughter]
+ 
+
+1507
+00:26:35,920 --> 00:26:37,230
+>> [laughter]
+>> giving me information that I didn't
+
+1508
+00:26:37,230 --> 00:26:37,240
+>> giving me information that I didn't
+ 
+
+1509
+00:26:37,240 --> 00:26:38,750
+>> giving me information that I didn't
+need, when all I wanted was just a a
+
+1510
+00:26:38,750 --> 00:26:38,760
+need, when all I wanted was just a a
+ 
+
+1511
+00:26:38,760 --> 00:26:40,550
+need, when all I wanted was just a a
+sentence." What you should have done, if
+
+1512
+00:26:40,550 --> 00:26:40,560
+sentence." What you should have done, if
+ 
+
+1513
+00:26:40,560 --> 00:26:42,950
+sentence." What you should have done, if
+you were truly intelligent as an AI, you
+
+1514
+00:26:42,950 --> 00:26:42,960
+you were truly intelligent as an AI, you
+ 
+
+1515
+00:26:42,960 --> 00:26:44,670
+you were truly intelligent as an AI, you
+would have listened to my question, and
+
+1516
+00:26:44,670 --> 00:26:44,680
+would have listened to my question, and
+ 
+
+1517
+00:26:44,680 --> 00:26:46,470
+would have listened to my question, and
+like when we're having a discussion,
+
+1518
+00:26:46,470 --> 00:26:46,480
+like when we're having a discussion,
+ 
+
+1519
+00:26:46,480 --> 00:26:49,270
+like when we're having a discussion,
+rather than just spitting out an answer,
+
+1520
+00:26:49,270 --> 00:26:49,280
+rather than just spitting out an answer,
+ 
+
+1521
+00:26:49,280 --> 00:26:50,910
+rather than just spitting out an answer,
+often we're listening to each other.
+
+1522
+00:26:50,910 --> 00:26:50,920
+often we're listening to each other.
+ 
+
+1523
+00:26:50,920 --> 00:26:53,310
+often we're listening to each other.
+We're feeling out the context of each
+
+1524
+00:26:53,310 --> 00:26:53,320
+We're feeling out the context of each
+ 
+
+1525
+00:26:53,320 --> 00:26:55,110
+We're feeling out the context of each
+other's minds, having a little bit of a
+
+1526
+00:26:55,110 --> 00:26:55,120
+other's minds, having a little bit of a
+ 
+
+1527
+00:26:55,120 --> 00:26:58,590
+other's minds, having a little bit of a
+mind meld, and the the conversation
+
+1528
+00:26:58,590 --> 00:26:58,600
+mind meld, and the the conversation
+ 
+
+1529
+00:26:58,600 --> 00:27:00,710
+mind meld, and the the conversation
+evolves a lot more efficiently. And
+
+1530
+00:27:00,710 --> 00:27:00,720
+evolves a lot more efficiently. And
+ 
+
+1531
+00:27:00,720 --> 00:27:03,110
+evolves a lot more efficiently. And
+that's what I see is lacking with AI. It
+
+1532
+00:27:03,110 --> 00:27:03,120
+that's what I see is lacking with AI. It
+ 
+
+1533
+00:27:03,120 --> 00:27:05,790
+that's what I see is lacking with AI. It
+doesn't ask probing questions
+
+1534
+00:27:05,790 --> 00:27:05,800
+doesn't ask probing questions
+ 
+
+1535
+00:27:05,800 --> 00:27:06,630
+doesn't ask probing questions
+given the
+
+1536
+00:27:06,630 --> 00:27:06,640
+given the
+ 
+
+1537
+00:27:06,640 --> 00:27:08,510
+given the
+given all that it knows in the context
+
+1538
+00:27:08,510 --> 00:27:08,520
+given all that it knows in the context
+ 
+
+1539
+00:27:08,520 --> 00:27:09,390
+given all that it knows in the context
+to
+
+1540
+00:27:09,390 --> 00:27:09,400
+to
+ 
+
+1541
+00:27:09,400 --> 00:27:10,990
+to
+be truly helpful.
+
+1542
+00:27:10,990 --> 00:27:11,000
+be truly helpful.
+ 
+
+1543
+00:27:11,000 --> 00:27:12,350
+be truly helpful.
+And that's what we need for humanoid
+
+1544
+00:27:12,350 --> 00:27:12,360
+And that's what we need for humanoid
+ 
+
+1545
+00:27:12,360 --> 00:27:14,550
+And that's what we need for humanoid
+robots. It needs to not only understand
+
+1546
+00:27:14,550 --> 00:27:14,560
+robots. It needs to not only understand
+ 
+
+1547
+00:27:14,560 --> 00:27:16,030
+robots. It needs to not only understand
+human conversation like that, to
+
+1548
+00:27:16,030 --> 00:27:16,040
+human conversation like that, to
+ 
+
+1549
+00:27:16,040 --> 00:27:18,950
+human conversation like that, to
+understand what they need truly. Um they
+
+1550
+00:27:18,950 --> 00:27:18,960
+understand what they need truly. Um they
+ 
+
+1551
+00:27:18,960 --> 00:27:20,430
+understand what they need truly. Um they
+also need to understand the world like
+
+1552
+00:27:20,430 --> 00:27:20,440
+also need to understand the world like
+ 
+
+1553
+00:27:20,440 --> 00:27:21,990
+also need to understand the world like
+that. And that's that's another
+
+1554
+00:27:21,990 --> 00:27:22,000
+that. And that's that's another
+ 
+
+1555
+00:27:22,000 --> 00:27:23,950
+that. And that's that's another
+conversation, but I think that's why a
+
+1556
+00:27:23,950 --> 00:27:23,960
+conversation, but I think that's why a
+ 
+
+1557
+00:27:23,960 --> 00:27:25,870
+conversation, but I think that's why a
+truly useful humanoid robot is probably
+
+1558
+00:27:25,870 --> 00:27:25,880
+truly useful humanoid robot is probably
+ 
+
+1559
+00:27:25,880 --> 00:27:27,310
+truly useful humanoid robot is probably
+3 to 4 years away.
+
+1560
+00:27:27,310 --> 00:27:27,320
+3 to 4 years away.
+ 
+
+1561
+00:27:27,320 --> 00:27:30,990
+3 to 4 years away.
+>> Mhm. Well, uh we could debate on truly
+
+1562
+00:27:30,990 --> 00:27:31,000
+>> Mhm. Well, uh we could debate on truly
+ 
+
+1563
+00:27:31,000 --> 00:27:33,510
+>> Mhm. Well, uh we could debate on truly
+useful because Unitree's about to go
+
+1564
+00:27:33,510 --> 00:27:33,520
+useful because Unitree's about to go
+ 
+
+1565
+00:27:33,520 --> 00:27:34,390
+useful because Unitree's about to go
+public, but
+
+1566
+00:27:34,390 --> 00:27:34,400
+public, but
+ 
+
+1567
+00:27:34,400 --> 00:27:36,390
+public, but
+>> Well, in the in the context of being
+
+1568
+00:27:36,390 --> 00:27:36,400
+>> Well, in the in the context of being
+ 
+
+1569
+00:27:36,400 --> 00:27:38,710
+>> Well, in the in the context of being
+useful for your average person. I think
+
+1570
+00:27:38,710 --> 00:27:38,720
+useful for your average person. I think
+ 
+
+1571
+00:27:38,720 --> 00:27:40,510
+useful for your average person. I think
+like in the next year or two or three
+
+1572
+00:27:40,510 --> 00:27:40,520
+like in the next year or two or three
+ 
+
+1573
+00:27:40,520 --> 00:27:42,510
+like in the next year or two or three
+years, there's going to be huge market
+
+1574
+00:27:42,510 --> 00:27:42,520
+years, there's going to be huge market
+ 
+
+1575
+00:27:42,520 --> 00:27:44,350
+years, there's going to be huge market
+there for like factories and people who
+
+1576
+00:27:44,350 --> 00:27:44,360
+there for like factories and people who
+ 
+
+1577
+00:27:44,360 --> 00:27:46,390
+there for like factories and people who
+know how to talk to the robot to get it
+
+1578
+00:27:46,390 --> 00:27:46,400
+know how to talk to the robot to get it
+ 
+
+1579
+00:27:46,400 --> 00:27:48,390
+know how to talk to the robot to get it
+to do what they want to do. Just like a
+
+1580
+00:27:48,390 --> 00:27:48,400
+to do what they want to do. Just like a
+ 
+
+1581
+00:27:48,400 --> 00:27:50,150
+to do what they want to do. Just like a
+year or two ago programmers were doing
+
+1582
+00:27:50,150 --> 00:27:50,160
+year or two ago programmers were doing
+ 
+
+1583
+00:27:50,160 --> 00:27:51,870
+year or two ago programmers were doing
+that. And now it's you can be
+
+1584
+00:27:51,870 --> 00:27:51,880
+that. And now it's you can be
+ 
+
+1585
+00:27:51,880 --> 00:27:53,670
+that. And now it's you can be
+conversational with the programming
+
+1586
+00:27:53,670 --> 00:27:53,680
+conversational with the programming
+ 
+
+1587
+00:27:53,680 --> 00:27:54,230
+conversational with the programming
+language.
+
+1588
+00:27:54,230 --> 00:27:54,240
+language.
+ 
+
+1589
+00:27:54,240 --> 00:27:55,910
+language.
+>> I don't know if you've seen it, guys.
+
+1590
+00:27:55,910 --> 00:27:55,920
+>> I don't know if you've seen it, guys.
+ 
+
+1591
+00:27:55,920 --> 00:27:57,710
+>> I don't know if you've seen it, guys.
+Maybe I'll pop a link in the description
+
+1592
+00:27:57,710 --> 00:27:57,720
+Maybe I'll pop a link in the description
+ 
+
+1593
+00:27:57,720 --> 00:28:00,150
+Maybe I'll pop a link in the description
+or up in the corner, but I used Grok as
+
+1594
+00:28:00,150 --> 00:28:00,160
+or up in the corner, but I used Grok as
+ 
+
+1595
+00:28:00,160 --> 00:28:02,510
+or up in the corner, but I used Grok as
+my local tour guide and FSD as my
+
+1596
+00:28:02,510 --> 00:28:02,520
+my local tour guide and FSD as my
+ 
+
+1597
+00:28:02,520 --> 00:28:03,510
+my local tour guide and FSD as my
+driver.
+
+1598
+00:28:03,510 --> 00:28:03,520
+driver.
+ 
+
+1599
+00:28:03,520 --> 00:28:05,790
+driver.
+And I had it drive me all over my town,
+
+1600
+00:28:05,790 --> 00:28:05,800
+And I had it drive me all over my town,
+ 
+
+1601
+00:28:05,800 --> 00:28:07,950
+And I had it drive me all over my town,
+and I just asked questions. I I looked
+
+1602
+00:28:07,950 --> 00:28:07,960
+and I just asked questions. I I looked
+ 
+
+1603
+00:28:07,960 --> 00:28:09,310
+and I just asked questions. I I looked
+at things and said, "What's that?" And
+
+1604
+00:28:09,310 --> 00:28:09,320
+at things and said, "What's that?" And
+ 
+
+1605
+00:28:09,320 --> 00:28:11,510
+at things and said, "What's that?" And
+it told me. And because I did it in my
+
+1606
+00:28:11,510 --> 00:28:11,520
+it told me. And because I did it in my
+ 
+
+1607
+00:28:11,520 --> 00:28:13,710
+it told me. And because I did it in my
+town, I was able to know what was true
+
+1608
+00:28:13,710 --> 00:28:13,720
+town, I was able to know what was true
+ 
+
+1609
+00:28:13,720 --> 00:28:15,990
+town, I was able to know what was true
+and not. And I would say that while not
+
+1610
+00:28:15,990 --> 00:28:16,000
+and not. And I would say that while not
+ 
+
+1611
+00:28:16,000 --> 00:28:19,390
+and not. And I would say that while not
+100% accurate, uh it was more accurate
+
+1612
+00:28:19,390 --> 00:28:19,400
+100% accurate, uh it was more accurate
+ 
+
+1613
+00:28:19,400 --> 00:28:22,070
+100% accurate, uh it was more accurate
+than any local tour guide I've ever had.
+
+1614
+00:28:22,070 --> 00:28:22,080
+than any local tour guide I've ever had.
+ 
+
+1615
+00:28:22,080 --> 00:28:25,590
+than any local tour guide I've ever had.
+Uh because they love to vamp, just fill
+
+1616
+00:28:25,590 --> 00:28:25,600
+Uh because they love to vamp, just fill
+ 
+
+1617
+00:28:25,600 --> 00:28:27,910
+Uh because they love to vamp, just fill
+in some stuff here and there.
+
+1618
+00:28:27,910 --> 00:28:27,920
+in some stuff here and there.
+ 
+
+1619
+00:28:27,920 --> 00:28:30,230
+in some stuff here and there.
+And it is important to be conversational
+
+1620
+00:28:30,230 --> 00:28:30,240
+And it is important to be conversational
+ 
+
+1621
+00:28:30,240 --> 00:28:31,430
+And it is important to be conversational
+because there are times when I'll ask
+
+1622
+00:28:31,430 --> 00:28:31,440
+because there are times when I'll ask
+ 
+
+1623
+00:28:31,440 --> 00:28:33,310
+because there are times when I'll ask
+Grok something and then interrupt and
+
+1624
+00:28:33,310 --> 00:28:33,320
+Grok something and then interrupt and
+ 
+
+1625
+00:28:33,320 --> 00:28:35,510
+Grok something and then interrupt and
+say, "No, no, no, no. I meant this."
+
+1626
+00:28:35,510 --> 00:28:35,520
+say, "No, no, no, no. I meant this."
+ 
+
+1627
+00:28:35,520 --> 00:28:37,190
+say, "No, no, no, no. I meant this."
+Or, you know, I realize
+
+1628
+00:28:37,190 --> 00:28:37,200
+Or, you know, I realize
+ 
+
+1629
+00:28:37,200 --> 00:28:37,590
+Or, you know, I realize
+Yeah.
+
+1630
+00:28:37,590 --> 00:28:37,600
+Yeah.
+ 
+
+1631
+00:28:37,600 --> 00:28:39,190
+Yeah.
+>> It's a constant source of entertainment
+
+1632
+00:28:39,190 --> 00:28:39,200
+>> It's a constant source of entertainment
+ 
+
+1633
+00:28:39,200 --> 00:28:41,030
+>> It's a constant source of entertainment
+for people in the car with me cuz I ask
+
+1634
+00:28:41,030 --> 00:28:41,040
+for people in the car with me cuz I ask
+ 
+
+1635
+00:28:41,040 --> 00:28:42,430
+for people in the car with me cuz I ask
+Grok a question and it the first
+
+1636
+00:28:42,430 --> 00:28:42,440
+Grok a question and it the first
+ 
+
+1637
+00:28:42,440 --> 00:28:43,750
+Grok a question and it the first
+sentence it always gets it right, and
+
+1638
+00:28:43,750 --> 00:28:43,760
+sentence it always gets it right, and
+ 
+
+1639
+00:28:43,760 --> 00:28:45,070
+sentence it always gets it right, and
+then it just continues for five other
+
+1640
+00:28:45,070 --> 00:28:45,080
+then it just continues for five other
+ 
+
+1641
+00:28:45,080 --> 00:28:46,990
+then it just continues for five other
+sentences. So, I ask it a question then
+
+1642
+00:28:46,990 --> 00:28:47,000
+sentences. So, I ask it a question then
+ 
+
+1643
+00:28:47,000 --> 00:28:48,554
+sentences. So, I ask it a question then
+I say shut up and then it asks
+
+1644
+00:28:48,554 --> 00:28:48,564
+I say shut up and then it asks
+ 
+
+1645
+00:28:48,564 --> 00:28:48,750
+I say shut up and then it asks
+>> [laughter]
+
+1646
+00:28:48,750 --> 00:28:48,760
+>> [laughter]
+ 
+
+1647
+00:28:48,760 --> 00:28:51,470
+>> [laughter]
+>> another question I say shut up. So, like
+
+1648
+00:28:51,470 --> 00:28:51,480
+>> another question I say shut up. So, like
+ 
+
+1649
+00:28:51,480 --> 00:28:53,070
+>> another question I say shut up. So, like
+oh, you bicker with this thing like
+
+1650
+00:28:53,070 --> 00:28:53,080
+oh, you bicker with this thing like
+ 
+
+1651
+00:28:53,080 --> 00:28:54,590
+oh, you bicker with this thing like
+you're in a relationship with it.
+
+1652
+00:28:54,590 --> 00:28:54,600
+you're in a relationship with it.
+ 
+
+1653
+00:28:54,600 --> 00:28:57,110
+you're in a relationship with it.
+>> Yeah. Well, and listening is important.
+
+1654
+00:28:57,110 --> 00:28:57,120
+>> Yeah. Well, and listening is important.
+ 
+
+1655
+00:28:57,120 --> 00:28:59,430
+>> Yeah. Well, and listening is important.
+I remember one time my boss said to me,
+
+1656
+00:28:59,430 --> 00:28:59,440
+I remember one time my boss said to me,
+ 
+
+1657
+00:28:59,440 --> 00:29:01,150
+I remember one time my boss said to me,
+"Brian, are you even listening?" And I
+
+1658
+00:29:01,150 --> 00:29:01,160
+"Brian, are you even listening?" And I
+ 
+
+1659
+00:29:01,160 --> 00:29:02,910
+"Brian, are you even listening?" And I
+thought, "What a weird way to start a
+
+1660
+00:29:02,910 --> 00:29:02,920
+thought, "What a weird way to start a
+ 
+
+1661
+00:29:02,920 --> 00:29:04,510
+thought, "What a weird way to start a
+conversation."
+
+1662
+00:29:04,510 --> 00:29:04,520
+conversation."
+ 
+
+1663
+00:29:04,520 --> 00:29:06,510
+conversation."
+So, I didn't stay there very long, but
+
+1664
+00:29:06,510 --> 00:29:06,520
+So, I didn't stay there very long, but
+ 
+
+1665
+00:29:06,520 --> 00:29:08,230
+So, I didn't stay there very long, but
+uh guys in the comments, what have we
+
+1666
+00:29:08,230 --> 00:29:08,240
+uh guys in the comments, what have we
+ 
+
+1667
+00:29:08,240 --> 00:29:10,070
+uh guys in the comments, what have we
+missed? What do we misunderstand? Leave
+
+1668
+00:29:10,070 --> 00:29:10,080
+missed? What do we misunderstand? Leave
+ 
+
+1669
+00:29:10,080 --> 00:29:11,830
+missed? What do we misunderstand? Leave
+it, I beg of you. If you get a chance,
+
+1670
+00:29:11,830 --> 00:29:11,840
+it, I beg of you. If you get a chance,
+ 
+
+1671
+00:29:11,840 --> 00:29:13,390
+it, I beg of you. If you get a chance,
+check out The Limiting Factor. He's
+
+1672
+00:29:13,390 --> 00:29:13,400
+check out The Limiting Factor. He's
+ 
+
+1673
+00:29:13,400 --> 00:29:16,750
+check out The Limiting Factor. He's
+still popping out gems uh all the time.
+
+1674
+00:29:16,750 --> 00:29:16,760
+still popping out gems uh all the time.
+ 
+
+1675
+00:29:16,760 --> 00:29:19,190
+still popping out gems uh all the time.
+Great stuff, as you know. And uh because
+
+1676
+00:29:19,190 --> 00:29:19,200
+Great stuff, as you know. And uh because
+ 
+
+1677
+00:29:19,200 --> 00:29:22,110
+Great stuff, as you know. And uh because
+I am, as of this video, surely by now,
+
+1678
+00:29:22,110 --> 00:29:22,120
+I am, as of this video, surely by now,
+ 
+
+1679
+00:29:22,120 --> 00:29:24,070
+I am, as of this video, surely by now,
+in Nepal, uh there will be a second
+
+1680
+00:29:24,070 --> 00:29:24,080
+in Nepal, uh there will be a second
+ 
+
+1681
+00:29:24,080 --> 00:29:25,190
+in Nepal, uh there will be a second
+video coming where we're going to be
+
+1682
+00:29:25,190 --> 00:29:25,200
+video coming where we're going to be
+ 
+
+1683
+00:29:25,200 --> 00:29:29,030
+video coming where we're going to be
+talking about 4680. Is it obsolete? Did
+
+1684
+00:29:29,030 --> 00:29:29,040
+talking about 4680. Is it obsolete? Did
+ 
+
+1685
+00:29:29,040 --> 00:29:32,390
+talking about 4680. Is it obsolete? Did
+we miss the boat? Of course not, but uh
+
+1686
+00:29:32,390 --> 00:29:32,400
+we miss the boat? Of course not, but uh
+ 
+
+1687
+00:29:32,400 --> 00:29:36,520
+we miss the boat? Of course not, but uh
+I'll uh explain it more there.
+
