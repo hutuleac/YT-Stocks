@@ -179,6 +179,21 @@ RISKS = [
     "Both speakers are long-standing Tesla/SpaceX-ecosystem commentators; the framing throughout assumes Elon's companies execute faster and cheaper than peers.",
 ]
 
+HOT_TAKES = [
+    {"take": "With artificial intelligence, it seems really it's so good already, but compared to what it's going to be, I still see it as really stupid.",
+     "cite": "\u2014 Jordan Giesige", "why": "Said while using it daily and bullish on the buildout \u2014 the complaint is that it never asks probing questions."},
+    {"take": "A truly useful humanoid robot is probably 3 to 4 years away.",
+     "cite": "\u2014 Jordan Giesige", "why": "Dated prediction, and he holds it even after Brian points at Unitree's imminent IPO \u2014 narrowing it to usefulness for an average person, not factories."},
+    {"take": "There's pretty much going to be infinite demand, because the more AI you use, the more AI you use.",
+     "cite": "\u2014 Jordan Giesige", "why": "The load-bearing assumption under the whole payback thesis; he concedes surplus compute is an unavoidable risk but doesn't expect it."},
+    {"take": "90 to 95% of the businesses out there still haven't worked out how to get that juice out of the lemon.",
+     "cite": "\u2014 Jordan Giesige", "why": "Puts almost all future growth in adoption rather than model quality \u2014 he sees decreasing returns from frontier model gains."},
+    {"take": "Google's products tend to get worse every day. I still have all my Google Home smart speakers, but they're getting dumb.",
+     "cite": "\u2014 Brian, FutureAzA", "why": "He's replaced Google search with Grok for research; blames the shift from best product to most profitable product."},
+    {"take": "ChatGPT has probably as many users as there are people who have ever lived, because when people run out of tokens they create a second account.",
+     "cite": "\u2014 Brian, FutureAzA", "why": "Hyperbole aimed at a real point \u2014 he doesn't believe today's token prices reflect what the compute costs."},
+]
+
 OTHER_NEWS = [
     {"icon": "\U0001F4DA", "title": "Sources referenced this episode: Gavin Baker (per-GW cost estimates), SemiAnalysis (Memphis power generation lined up), an xAI/SpaceX earnings call (5–10 GW figure), and The Limiting Factor's own terrestrial-compute video", "tag": "Named sources"},
     {"icon": "\U0001F6E0", "title": "Giesige notes xAI/SpaceX deploys not just the data centers but all supporting infrastructure faster than anyone, 'stepping on some toes' and asking forgiveness afterwards", "tag": "Execution style"},
