@@ -5,10 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Research: Elon Just Promised $1 Trillion a Year</title>
 <style>
-.backlink{margin-bottom:12px;}
-.backlink a{font-size:clamp(12.5px,.95vw,14px);color:var(--muted);text-decoration:none;border:1px solid var(--line);border-radius:20px;padding:5px 14px;transition:color .15s,border-color .15s;}
-.backlink a:hover{color:var(--brand);border-color:var(--brand);}
-
 :root{
   --ink:#20231f; --muted:#6b6f66; --line:#e4e2d8; --card:#fffdf8; --bg:#efece2;
   --brand:#8a5a2e; --serif:'Iowan Old Style','Palatino Linotype',Georgia,serif;
@@ -21,6 +17,10 @@ body{margin:0;background:var(--bg);color:var(--ink);
 .page{max-width:1600px;width:100%;margin:0 auto;background:var(--card);box-shadow:0 0 0 1px var(--line);}
 .hero{padding:clamp(18px,2.4vw,34px) clamp(18px,4vw,56px) clamp(14px,1.8vw,22px);border-bottom:1px solid var(--line);}
 .kicker{font-family:var(--serif);font-style:italic;font-size:clamp(13px,1vw,16px);color:var(--brand);margin-bottom:10px;}
+.backlink{margin-bottom:12px;}
+.backlink a{font-size:clamp(12.5px,.95vw,14px);color:var(--muted);text-decoration:none;border:1px solid var(--line);
+  border-radius:20px;padding:5px 14px;transition:color .15s,border-color .15s;}
+.backlink a:hover{color:var(--brand);border-color:var(--brand);}
 .hero h1{font-family:var(--serif);margin:0 0 14px;font-size:clamp(24px,3.4vw,42px);line-height:1.15;
   letter-spacing:-.01em;font-weight:600;color:#171916;max-width:42ch;}
 .byline{border-top:1px solid var(--line);padding-top:12px;color:var(--muted);font-size:clamp(13px,1vw,15px);line-height:1.6;}
@@ -78,6 +78,9 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskcard.takecard::before{background:#6d4b9c;}
+.riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;}
+.riskcard cite{display:block;margin-top:8px;font-size:12.5px;color:#65695f;font-style:normal;}
 .riskcard .txt{font-weight:500;font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;}
 .gloss{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:6px 30px;}
 .gloss div{padding:9px 0;border-bottom:1px solid var(--line);font-size:13.8px;line-height:1.55;}
@@ -89,7 +92,6 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 <div class="page">
   <header class="hero">
     <div class="backlink"><a href="index.html">&#8592; All Research Briefs</a></div>
-
     <div class="kicker">A YouTube Research Brief</div>
     <h1>Elon Just Promised $1 Trillion a Year</h1>
     <div class="byline">
@@ -211,6 +213,12 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
       <div style="margin-top:16px;"><div class="riskcard"><div class="txt">This episode contains a paid sponsorship segment (Ledger, a crypto hardware-wallet/AI-agent security product) — read as advertising, not independent analysis.</div></div><div class="riskcard"><div class="txt">Both hosts are podcasters covering a publicly traded stock (SPCX) without disclosing personal positions in this episode; their media business benefits from sustained audience excitement about the stock's story, which is worth weighing against their consistently bullish framing.</div></div><div class="riskcard"><div class="txt">The $18.37B capex and $15.8B AI-infrastructure figures, and the CFO's 12-month payback claim, are self-reported by SpaceX on its own earnings call, not independently audited — treat as company guidance, not verified fact.</div></div><div class="riskcard"><div class="txt">External context added in this brief (the AMD-Anthropic deal, Walmart's revenue, Wall Street analyst estimates) is sourced externally, not stated in the video itself — clearly marked in the relevant theme's name-chips and watch-flags throughout.</div></div><div class="riskcard"><div class="txt">The transcript is auto-generated from a ~32-minute, 2-person conversation with cross-talk and colloquial phrasing; figures in this brief have been reconciled against SpaceX's independently confirmed Q2 2026 earnings release — verify precise numbers against the original filing before citing.</div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Where they stuck their neck out</div>
+      <h2>Hot Takes &amp; Personal Convictions</h2>
+      <div style="margin-top:16px;"><div class="riskcard takecard"><div class="txt">&#8220;Everyone thought he was absolutely insane about GPUs in space — but every earnings report, a different picture starts to form.&#8221;</div><cite>— Limitless Podcast &amp;middot; Says the ridiculed version of the plan is the one now converging on reality.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;Even if everything falls to the wayside, Elon still has a very profitable business, and people are discounting that massively right now.&#8221;</div><cite>— Limitless Podcast &amp;middot; The downside case stated as still-profitable, against a stock down 30% since IPO.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;No one even has to pick up the phone and they're collecting $50 billion, just because of their ability to build these data centers.&#8221;</div><cite>— Limitless Podcast &amp;middot; The signed backlog they say almost everyone overlooked in the report.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;You can equally be very bullish SpaceX over the long term and be bearish over the short term.&#8221;</div><cite>— Limitless Podcast &amp;middot; With 25-36% of share supply unlocking, they call the volatility a loading opportunity rather than a warning.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;If you have any cash sitting in a bank account, you have a problem.&#8221;</div><cite>— Limitless Podcast &amp;middot; Stated as a general rule, not a market call — cash has to earn or inflation takes it.</cite></div></div>
     </section>
 
     <section class="sec">

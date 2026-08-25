@@ -184,6 +184,21 @@ RISKS = [
     "Auto-generated captions on a 3-hour, 6-person crosstalk-heavy panel are prone to misattributed speakers and mistranscribed names or figures.",
 ]
 
+HOT_TAKES = [
+    {"take": 'How much of your wealth would you spend for an extra 30 years of life? The honest answer is nearly all of it.',
+     "cite": '— Peter Diamandis', "why": 'His argument that longevity is the largest market in the world, and now tractable for the first time.'},
+    {"take": "Financial assets want predictable depreciation, and exponential technologies don't give you predictable depreciation.",
+     "cite": '— Salim Ismail', "why": "The objection to Nvidia turning GPU compute into a bond-like instrument with Wall Street's biggest names attached."},
+    {"take": "Privacy is dead — and there's a benefit to that, which is that malevolent actors are going to get heard, seen, and caught.",
+     "cite": '— Peter Diamandis', "why": 'A position he says he has stated many times, argued here as a feature rather than a loss.'},
+    {"take": 'You never need to reshoot a scene now.',
+     "cite": '— Emad Mostaque', "why": "On a $2M AI feature film made in four weeks — he treats Hollywood's cost structure as already undercut by 98%."},
+    {"take": "Facebook saying 'we're going to be your best friend AI' is like McDonald's saying they came out with the biggest health food you've ever heard of.",
+     "cite": '— Moonshot Mates panel', "why": "The panel's read on Zuckerberg's personal-intelligence manifesto: the framing doesn't survive the incentives."},
+    {"take": 'This competition will be won by 2030.',
+     "cite": '— Peter Diamandis, on the Healthspan XPRIZE', "why": 'A hard date on reversing 20 years of functional aging, with the field already handing out checks.'},
+]
+
 OTHER_NEWS = [
     {"icon": "\U0001F4A7", "title": "Anthropic's new Claude text watermark and the EU's separate AI-content icon system were both live within a day of a public tool emerging to strip Claude/Gemini/OpenAI watermarks; arXiv now bans authors for a year over AI-flagged submissions and Spotify is AI-labeling music — panel calls both moves as short-lived as cookie banners", "tag": "AI content labeling"},
     {"icon": "\U0001F681", "title": "Archer Aviation acquired three Boeing units (Whisk Aero, Insitu, SkyGrid AI) in one deal with Boeing taking an equity stake; top 5 eVTOL players (Joby, Archer, EHang, Beta, Eve) are racing toward $3/seat-mile pricing today with a long-term target of $15-25/trip, and the panel frames newly flight-accessible hillsides and islands as a coming source of real-estate 'abundance'", "tag": "Urban air mobility"},

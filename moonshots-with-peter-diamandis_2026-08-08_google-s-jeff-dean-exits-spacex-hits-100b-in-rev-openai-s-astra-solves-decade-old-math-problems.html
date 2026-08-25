@@ -5,10 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Research: Google's Jeff Dean Exits, SpaceX Hits $100B in Rev &amp; OpenAI's Astra Solves Decade-Old Math Problems</title>
 <style>
-.backlink{margin-bottom:12px;}
-.backlink a{font-size:clamp(12.5px,.95vw,14px);color:var(--muted);text-decoration:none;border:1px solid var(--line);border-radius:20px;padding:5px 14px;transition:color .15s,border-color .15s;}
-.backlink a:hover{color:var(--brand);border-color:var(--brand);}
-
 :root{
   --ink:#20231f; --muted:#6b6f66; --line:#e4e2d8; --card:#fffdf8; --bg:#efece2;
   --brand:#8a5a2e; --serif:'Iowan Old Style','Palatino Linotype',Georgia,serif;
@@ -21,6 +17,10 @@ body{margin:0;background:var(--bg);color:var(--ink);
 .page{max-width:1600px;width:100%;margin:0 auto;background:var(--card);box-shadow:0 0 0 1px var(--line);}
 .hero{padding:clamp(18px,2.4vw,34px) clamp(18px,4vw,56px) clamp(14px,1.8vw,22px);border-bottom:1px solid var(--line);}
 .kicker{font-family:var(--serif);font-style:italic;font-size:clamp(13px,1vw,16px);color:var(--brand);margin-bottom:10px;}
+.backlink{margin-bottom:12px;}
+.backlink a{font-size:clamp(12.5px,.95vw,14px);color:var(--muted);text-decoration:none;border:1px solid var(--line);
+  border-radius:20px;padding:5px 14px;transition:color .15s,border-color .15s;}
+.backlink a:hover{color:var(--brand);border-color:var(--brand);}
 .hero h1{font-family:var(--serif);margin:0 0 14px;font-size:clamp(24px,3.4vw,42px);line-height:1.15;
   letter-spacing:-.01em;font-weight:600;color:#171916;max-width:42ch;}
 .byline{border-top:1px solid var(--line);padding-top:12px;color:var(--muted);font-size:clamp(13px,1vw,15px);line-height:1.6;}
@@ -78,6 +78,9 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskcard.takecard::before{background:#6d4b9c;}
+.riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;}
+.riskcard cite{display:block;margin-top:8px;font-size:12.5px;color:#65695f;font-style:normal;}
 .riskcard .txt{font-weight:500;font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;}
 .gloss{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:6px 30px;}
 .gloss div{padding:9px 0;border-bottom:1px solid var(--line);font-size:13.8px;line-height:1.55;}
@@ -89,7 +92,6 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 <div class="page">
   <header class="hero">
     <div class="backlink"><a href="index.html">&#8592; All Research Briefs</a></div>
-
     <div class="kicker">A YouTube Research Brief</div>
     <h1>Google's Jeff Dean Exits, SpaceX Hits $100B in Rev &amp; OpenAI's Astra Solves Decade-Old Math Problems</h1>
     <div class="byline">
@@ -230,6 +232,12 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
       <div style="margin-top:16px;"><div class="riskcard"><div class="txt">This is a five-person panel podcast with strong pre-existing positions (Alex is an outspoken AI-consciousness/personhood advocate; Peter/Dave are SpaceX shareholders/bulls) — treat 'hot takes' explicitly labeled as such as opinion, not confirmed reporting.</div></div><div class="riskcard"><div class="txt">Several headline claims (the free-electron-laser EUV interpretation of the Terrafab, the Hark recapitalization theory, the 'DeepMind won a knife fight with Google Brain' account of Jeff Dean's exit) are the panel's own speculative reconstruction from public signals, not confirmed by Google, SpaceX, or Hark.</div></div><div class="riskcard"><div class="txt">Auto-generated captions were used to produce this brief; names (e.g. Corey Kavukcuoglu, Discovery Loop, Terrafab) and technical terms may contain transcription errors despite cross-checking against context.</div></div><div class="riskcard"><div class="txt">The episode contains two sponsor segments (Google for Startups, Blitzy) and a Fountain Life health-sponsor interview — treat product/benchmark claims in those segments as marketing content, not independent panel analysis.</div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Where they stuck their neck out</div>
+      <h2>Hot Takes &amp; Personal Convictions</h2>
+      <div style="margin-top:16px;"><div class="riskcard takecard"><div class="txt">&#8220;Gemini has lost the mandate of heaven.&#8221;</div><cite>— Alex &amp;middot; On Jeff Dean's exit and Demis stepping back in the same week — read as DeepMind winning an internal war that Google lost.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;Everything that will be economically productive in this next century, Elon's going full stack on.&#8221;</div><cite>— Salim &amp;middot; Treats chips, compute, and launch as one vertical-integration bet rather than separate businesses.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;The old gods are being slaughtered by the new machine gods.&#8221;</div><cite>— Will Kinney, cosmologist &amp;middot; Quoted on an unreleased OpenAI model bulk-solving ten decade-old math problems for about $2,000.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;Elon has taught the entire economy that if you're a founder of a well-capitalized company and you want to increase your equity stake, the best thing you can do is start a parallel company.&#8221;</div><cite>— Alex &amp;middot; His hot take on Brett Adcock's new launch: the story is equity, not agents.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;This is China and Chinese labs forcing the western frontier labs to dance.&#8221;</div><cite>— Alex &amp;middot; On open-weight releases pushing the cost-capability frontier while US evaluation stays voluntary and secret.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;As robots and AI do more and more of the doing, humans spend much, much more time being.&#8221;</div><cite>— Immad Mustafa &amp;middot; The optimistic reading, offered in the same segment as the AI-personhood and consciousness debate.</cite></div></div>
     </section>
 
     <section class="sec">

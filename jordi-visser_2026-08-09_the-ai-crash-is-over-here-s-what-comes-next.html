@@ -5,10 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Research: The AI Crash Is Over. Here's What Comes Next</title>
 <style>
-.backlink{margin-bottom:12px;}
-.backlink a{font-size:clamp(12.5px,.95vw,14px);color:var(--muted);text-decoration:none;border:1px solid var(--line);border-radius:20px;padding:5px 14px;transition:color .15s,border-color .15s;}
-.backlink a:hover{color:var(--brand);border-color:var(--brand);}
-
 :root{
   --ink:#20231f; --muted:#6b6f66; --line:#e4e2d8; --card:#fffdf8; --bg:#efece2;
   --brand:#8a5a2e; --serif:'Iowan Old Style','Palatino Linotype',Georgia,serif;
@@ -21,6 +17,10 @@ body{margin:0;background:var(--bg);color:var(--ink);
 .page{max-width:1600px;width:100%;margin:0 auto;background:var(--card);box-shadow:0 0 0 1px var(--line);}
 .hero{padding:clamp(18px,2.4vw,34px) clamp(18px,4vw,56px) clamp(14px,1.8vw,22px);border-bottom:1px solid var(--line);}
 .kicker{font-family:var(--serif);font-style:italic;font-size:clamp(13px,1vw,16px);color:var(--brand);margin-bottom:10px;}
+.backlink{margin-bottom:12px;}
+.backlink a{font-size:clamp(12.5px,.95vw,14px);color:var(--muted);text-decoration:none;border:1px solid var(--line);
+  border-radius:20px;padding:5px 14px;transition:color .15s,border-color .15s;}
+.backlink a:hover{color:var(--brand);border-color:var(--brand);}
 .hero h1{font-family:var(--serif);margin:0 0 14px;font-size:clamp(24px,3.4vw,42px);line-height:1.15;
   letter-spacing:-.01em;font-weight:600;color:#171916;max-width:42ch;}
 .byline{border-top:1px solid var(--line);padding-top:12px;color:var(--muted);font-size:clamp(13px,1vw,15px);line-height:1.6;}
@@ -78,6 +78,9 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskcard.takecard::before{background:#6d4b9c;}
+.riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;}
+.riskcard cite{display:block;margin-top:8px;font-size:12.5px;color:#65695f;font-style:normal;}
 .riskcard .txt{font-weight:500;font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;}
 .gloss{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:6px 30px;}
 .gloss div{padding:9px 0;border-bottom:1px solid var(--line);font-size:13.8px;line-height:1.55;}
@@ -89,7 +92,6 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 <div class="page">
   <header class="hero">
     <div class="backlink"><a href="index.html">&#8592; All Research Briefs</a></div>
-
     <div class="kicker">A YouTube Research Brief</div>
     <h1>The AI Crash Is Over. Here's What Comes Next</h1>
     <div class="byline">
@@ -211,6 +213,12 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
       <div style="margin-top:16px;"><div class="riskcard"><div class="txt">This is one investor's personal, self-directed market commentary and trading framework (Jordi Visser and his fund's "thematic portfolio") — he discloses personal positions throughout (Palantir, silver, previously Micron), useful transparency but also a conflict worth weighing against the bullish framing.</div></div><div class="riskcard"><div class="txt">Several of the most important figures here are second-hand: the Gavin Baker interview quotes, the Goldman Sachs hyperscaler free-cash-flow timeline, and Elon Musk's SpaceX-earnings-call memory comments are all relayed by Visser, not sourced directly — verify against the originals before treating as confirmed.</div></div><div class="riskcard"><div class="txt">Visser's core hedging signal (50-day rate-of-change on his proprietary 100-name AI thematic index) is not a public, standardized indicator — it can't be independently reproduced without his specific portfolio construction and data feed.</div></div><div class="riskcard"><div class="txt">A handful of individual stock names mentioned as personal holdings were not fully clear from auto-generated captions (heard as "Camores," "Enterrist") — treat those specific tickers as unconfirmed rather than accurate company names.</div></div><div class="riskcard"><div class="txt">The transcript is auto-generated from a ~35-minute solo market-update monologue with rapid topic-switching and informal phrasing; figures (percentages, dates, price levels) have been transcribed as stated but not independently re-verified against source data or filings.</div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Where they stuck their neck out</div>
+      <h2>Hot Takes &amp; Personal Convictions</h2>
+      <div style="margin-top:16px;"><div class="riskcard takecard"><div class="txt">&#8220;The bottom is in as far as I'm concerned on a probability basis. If we take out the lows, I'd be surprised.&#8221;</div><cite>— Jordi Visser &amp;middot; A called bottom, stated as probability rather than certainty, while several commentators he follows stayed bearish into the rally.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;I'm negative on all public companies by the time we get to 2030, because bureaucracy will be a killer.&#8221;</div><cite>— Jordi Visser &amp;middot; A blanket, dated call against the entire public market, made alongside a bullish trade.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;Using index puts is not going to work the way that it used to.&#8221;</div><cite>— Jordi Visser &amp;middot; Declares the standard hedge broken and replaces it with his own factor-volatility and rate-of-change framework.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;Terminal value gets harder to estimate — companies can go from a 30 P/E to a 20 P/E in a very short amount of time.&#8221;</div><cite>— Jordi Visser &amp;middot; Why he treats this bull market as structurally different rather than just fast.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;Nothing stops this fiscal train.&#8221;</div><cite>— Jordi Visser, citing Lyn Alden &amp;middot; His pattern: when yields spike, Treasury and the Fed intervene and equities rally — which is why he holds the debasement basket.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;Your kids have to be doing this.&#8221;</div><cite>— Jordi Visser &amp;middot; On his college-age son building an AI chief-of-staff that spawns its own sub-agents — offered as evidence adoption is happening below the radar.</cite></div></div>
     </section>
 
     <section class="sec">

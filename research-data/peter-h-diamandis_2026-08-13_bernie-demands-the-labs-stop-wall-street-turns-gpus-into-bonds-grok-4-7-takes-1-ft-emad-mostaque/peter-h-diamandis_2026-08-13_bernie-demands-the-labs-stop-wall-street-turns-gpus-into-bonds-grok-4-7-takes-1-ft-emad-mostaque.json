@@ -224,6 +224,38 @@
   "A recurring product name transcribed as 'Fable' appears throughout the video (used interchangeably with 'its competitors,' priced around $50-60 vs. Grok's $6-8) that could not be confidently identified from context — likely an auto-caption artifact for another frontier AI product name; treat these specific mentions with caution.",
   "Auto-generated captions on a 3-hour, 6-person crosstalk-heavy panel are prone to misattributed speakers and mistranscribed names or figures."
  ],
+ "hot_takes": [
+  {
+   "take": "How much of your wealth would you spend for an extra 30 years of life? The honest answer is nearly all of it.",
+   "cite": "— Peter Diamandis",
+   "why": "His argument that longevity is the largest market in the world, and now tractable for the first time."
+  },
+  {
+   "take": "Financial assets want predictable depreciation, and exponential technologies don't give you predictable depreciation.",
+   "cite": "— Salim Ismail",
+   "why": "The objection to Nvidia turning GPU compute into a bond-like instrument with Wall Street's biggest names attached."
+  },
+  {
+   "take": "Privacy is dead — and there's a benefit to that, which is that malevolent actors are going to get heard, seen, and caught.",
+   "cite": "— Peter Diamandis",
+   "why": "A position he says he has stated many times, argued here as a feature rather than a loss."
+  },
+  {
+   "take": "You never need to reshoot a scene now.",
+   "cite": "— Emad Mostaque",
+   "why": "On a $2M AI feature film made in four weeks — he treats Hollywood's cost structure as already undercut by 98%."
+  },
+  {
+   "take": "Facebook saying 'we're going to be your best friend AI' is like McDonald's saying they came out with the biggest health food you've ever heard of.",
+   "cite": "— Moonshot Mates panel",
+   "why": "The panel's read on Zuckerberg's personal-intelligence manifesto: the framing doesn't survive the incentives."
+  },
+  {
+   "take": "This competition will be won by 2030.",
+   "cite": "— Peter Diamandis, on the Healthspan XPRIZE",
+   "why": "A hard date on reversing 20 years of functional aging, with the field already handing out checks."
+  }
+ ],
  "other_news": [
   {
    "icon": "💧",

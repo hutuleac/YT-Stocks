@@ -156,6 +156,19 @@ RISKS = [
     "The transcript is auto-generated from a roughly 75-minute, four-person conversation with frequent interruptions, cross-talk, and colloquial phrasing; figures have been transcribed as stated but not independently re-verified against company filings or the original Forbes/Axios reporting cited in the episode.",
 ]
 
+HOT_TAKES = [
+    {"take": 'I think that the market for frontier intelligence has become a duopoly.',
+     "cite": '— David Sacks', "why": "Writes off the rest of the field in one line; the show's whole premium thesis rests on it."},
+    {"take": "I can't believe that we're all just taking in stride this level of seller financing.",
+     "cite": '— Bill Gurley, as relayed by Brad Gerstner', "why": 'The vendor-financing objection to the AI capex boom, raised by someone with nothing to sell.'},
+    {"take": 'Nobody buys Microsoft because Microsoft writes the best code. They buy Microsoft because Microsoft is the rail that everything else runs on.',
+     "cite": '— quoted by David Sacks', "why": "Used to separate embedded enterprise software from exposed no-code tools after Airtable's collapse."},
+    {"take": "I don't think it's very patriotic to be giving them an advantage. I wouldn't do it.",
+     "cite": '— Jason Calacanis', "why": "On US data labelers selling training data to Chinese labs — the one point the hosts genuinely couldn't agree on."},
+    {"take": 'Putting up data centers is nothing compared to the difficulty of putting up a rocket.',
+     "cite": "— Elon Musk on SpaceX's earnings call, as relayed by David Sacks", "why": 'The dismissal behind pulling a $1 trillion ARR target forward a year.'},
+]
+
 OTHER_NEWS = [
     {"icon": "\U0001F3AA", "title": "The 5th annual All-In Summit was announced for September 13-15 in LA at Universal Studios, with confirmed speakers including Jensen Huang (Nvidia), Satya Nadella (Microsoft), Jared Isaacman (NASA), Bill Gurley, and Gwynne Shotwell (SpaceX) — pure event promotion, not investment content.", "tag": "Housekeeping"},
 ]

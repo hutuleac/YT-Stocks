@@ -205,6 +205,38 @@
   "A handful of individual stock names mentioned as personal holdings were not fully clear from auto-generated captions (heard as \"Camores,\" \"Enterrist\") — treat those specific tickers as unconfirmed rather than accurate company names.",
   "The transcript is auto-generated from a ~35-minute solo market-update monologue with rapid topic-switching and informal phrasing; figures (percentages, dates, price levels) have been transcribed as stated but not independently re-verified against source data or filings."
  ],
+ "hot_takes": [
+  {
+   "take": "The bottom is in as far as I'm concerned on a probability basis. If we take out the lows, I'd be surprised.",
+   "cite": "— Jordi Visser",
+   "why": "A called bottom, stated as probability rather than certainty, while several commentators he follows stayed bearish into the rally."
+  },
+  {
+   "take": "I'm negative on all public companies by the time we get to 2030, because bureaucracy will be a killer.",
+   "cite": "— Jordi Visser",
+   "why": "A blanket, dated call against the entire public market, made alongside a bullish trade."
+  },
+  {
+   "take": "Using index puts is not going to work the way that it used to.",
+   "cite": "— Jordi Visser",
+   "why": "Declares the standard hedge broken and replaces it with his own factor-volatility and rate-of-change framework."
+  },
+  {
+   "take": "Terminal value gets harder to estimate — companies can go from a 30 P/E to a 20 P/E in a very short amount of time.",
+   "cite": "— Jordi Visser",
+   "why": "Why he treats this bull market as structurally different rather than just fast."
+  },
+  {
+   "take": "Nothing stops this fiscal train.",
+   "cite": "— Jordi Visser, citing Lyn Alden",
+   "why": "His pattern: when yields spike, Treasury and the Fed intervene and equities rally — which is why he holds the debasement basket."
+  },
+  {
+   "take": "Your kids have to be doing this.",
+   "cite": "— Jordi Visser",
+   "why": "On his college-age son building an AI chief-of-staff that spawns its own sub-agents — offered as evidence adoption is happening below the radar."
+  }
+ ],
  "other_news": [
   {
    "icon": "👨‍💻",

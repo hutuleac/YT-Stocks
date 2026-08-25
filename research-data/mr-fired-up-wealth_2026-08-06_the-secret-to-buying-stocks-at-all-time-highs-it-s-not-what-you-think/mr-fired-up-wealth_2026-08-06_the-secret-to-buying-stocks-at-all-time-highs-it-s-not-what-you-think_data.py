@@ -153,6 +153,21 @@ RISKS = [
     "The transcript is auto-generated from a roughly 40-minute solo monologue with informal, conversational phrasing; specific figures (EPS, revenue, percentages, price levels) have been transcribed as stated but not independently re-verified against company filings.",
 ]
 
+HOT_TAKES = [
+    {"take": 'Since 1950, buying at new highs produced smaller max drawdowns than buying on any random day — or even during pullbacks, corrections, or bear markets.',
+     "cite": '— Mr Fired Up Wealth', "why": 'The counterintuitive core claim of the video: all-time highs are the safer entry, not the dangerous one.'},
+    {"take": "I don't think this is going to be a V-shaped recovery — without a catalyst, you could easily break $20 a share.",
+     "cite": '— Mr Fired Up Wealth', "why": "A specific downside level on a name he likes, given while explaining why he'd buy lower."},
+    {"take": "To me, it's telling me that the consumer is not doing as well as most people think.",
+     "cite": '— Mr Fired Up Wealth', "why": "Reads a single company's numbers as a macro signal others are missing."},
+    {"take": 'This reminds me a lot of Airbnb — just printing money and nobody cared.',
+     "cite": '— Mr Fired Up Wealth', "why": "His pattern for a market that hasn't priced a business model yet, applied to a current name."},
+    {"take": 'Most people, especially new investors, should avoid these kinds of stocks because they are highly volatile.',
+     "cite": '— Mr Fired Up Wealth', "why": 'Talks his own audience out of the most exciting idea in the video.'},
+    {"take": 'The harder you work, the luckier you get.',
+     "cite": '— Mr Fired Up Wealth', "why": 'His stated stance on stock picking: nobody knows for sure, so the work is the edge.'},
+]
+
 OTHER_NEWS = [
     {"icon": "\U0001F4A1", "title": "SiTime (semiconductor): a past \"Fired Up Wealth\" community buy/share at $75/share, now a $17B market cap company; 52-week high was $900, trading around $661 (up 21.74% on the day) after a strong earnings report — cited as a \"look what you may have missed\" callback, not a current buy recommendation.", "tag": "Color/context"},
     {"icon": "\U0001F6D2", "title": "Recent \"opportunistic\" buys mentioned in passing but not detailed on-screen: AAOI, Oracle, and Microsoft (bought in the $350-400 range, below $400).", "tag": "Speaker's disclosure"},

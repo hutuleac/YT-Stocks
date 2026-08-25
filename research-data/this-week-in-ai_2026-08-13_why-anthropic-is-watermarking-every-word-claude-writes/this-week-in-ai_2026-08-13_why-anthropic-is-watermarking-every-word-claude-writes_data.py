@@ -156,6 +156,21 @@ RISKS = [
     "Jason Calacanis has a direct financial relationship with two of the three guests (Aragon, Tax GPT) as an investor, which may shape the tenor of discussion.",
 ]
 
+HOT_TAKES = [
+    {"take": "Are you so deranged that your customers believe you're never quitting, you're never leaving? That's the moat.",
+     "cite": '— Jason', "why": "His answer to code and software both being commoditized: the founder's obsession is what's left to defend."},
+    {"take": 'Human logins to CRMs and ERPs are already obsolete now that agents can act on the underlying data directly.',
+     "cite": '— Josh Serota', "why": "The 'is software dead' position, argued on a show whose audience largely sells software."},
+    {"take": 'Some have tried to frame distillation as harmful, but it is important to protect the principle that you can learn from anything you can observe.',
+     "cite": '— Mark Zuckerberg, quoted on the show', "why": "The panel's counterpoint: Meta's own legal record runs against its manifesto."},
+    {"take": 'No one is really writing the syntax of the code — everyone is managing their agents and using judgment about what to build.',
+     "cite": '— This Week in AI panel', "why": 'Reframes engineering hiring around judgment rather than code-reading, as already happening at their own companies.'},
+    {"take": 'Open source, controlled by nobody, was better and more stable in the mind of enterprises.',
+     "cite": '— This Week in AI panel', "why": 'Enterprise fear of being rug-pulled is the buying driver, not benchmark scores.'},
+    {"take": 'Simply put, Texans must come first.',
+     "cite": '— Gov. Greg Abbott, quoted on the show', "why": 'Behind the data-center grid-connection freeze the panel reads as equal parts politics and real constraint.'},
+]
+
 OTHER_NEWS = [
     {"icon": "\U0001F6AB", "title": "Vapes and flavored nicotine products are banned for sale in San Francisco; cigarettes remain legal", "tag": "Local regulation"},
     {"icon": "\U0001F4B5", "title": "This Week in AI launching a $300/year paid product in ~2 weeks: weekly deal memos and mini-interviews on 2 AI startups, 100 profiles/year", "tag": "Show business"},

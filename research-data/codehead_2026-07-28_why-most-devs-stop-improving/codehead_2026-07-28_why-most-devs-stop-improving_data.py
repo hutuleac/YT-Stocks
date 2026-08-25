@@ -91,6 +91,17 @@ RISKS = [
     "Auto-generated captions on a short, fast-paced solo video can occasionally mangle proper nouns or phrasing — cross-check exact wording against the video if quoting directly.",
 ]
 
+HOT_TAKES = [
+    {"take": "You can't outsource struggle without also outsourcing the growth attached to it.",
+     "cite": '— CodeHead', "why": 'From a daily Claude Code user — not an anti-AI take, a warning about reaching for it first.'},
+    {"take": "Comfortable gets rewarded in most orgs. Growth just doesn't, not directly anyway.",
+     "cite": '— CodeHead', "why": 'Makes stagnation a structural incentive problem rather than a personal failing.'},
+    {"take": "What changed is that it's a choice now instead of a hiding spot.",
+     "cite": '— CodeHead', "why": 'Admits his years-long refusal to touch React or Go was fear of looking like a beginner, not principle.'},
+    {"take": "The senior dev solving every problem exactly as they did in year one is correctly reading their company's incentives.",
+     "cite": '— CodeHead', "why": "The video's sharpest claim, and the least flattering to the companies employing those devs."},
+]
+
 OTHER_NEWS = []
 
 GLOSSARY = []

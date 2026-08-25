@@ -78,6 +78,9 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskcard.takecard::before{background:#6d4b9c;}
+.riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;}
+.riskcard cite{display:block;margin-top:8px;font-size:12.5px;color:#65695f;font-style:normal;}
 .riskcard .txt{font-weight:500;font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;}
 .gloss{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:6px 30px;}
 .gloss div{padding:9px 0;border-bottom:1px solid var(--line);font-size:13.8px;line-height:1.55;}
@@ -229,6 +232,12 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
       <div style="margin-top:16px;"><div class="riskcard"><div class="txt">Host Peter Diamandis explicitly states optimism-promotion as part of the show's mission ('keep you optimistic about the future'), which may bias story selection and framing toward positive interpretations.</div></div><div class="riskcard"><div class="txt">Several technical claims (GPT-5.6 benchmark rumors, METER's reward-hacking findings) are relayed from public reporting and rumor, not primary sources verified within this brief.</div></div><div class="riskcard"><div class="txt">The RAMP/Ravelin Labs jobs study is described secondhand in the episode; the study's own authors are quoted as cautioning correlation is not causation, a caveat the panel's optimistic framing partially glosses over.</div></div><div class="riskcard"><div class="txt">This is a fast-moving, four-person crosstalk-heavy panel with significant technical jargon (mechanistic interpretability, Jacobians); auto-generated captions may misattribute short interjections or mistranscribe technical terms.</div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Where they stuck their neck out</div>
+      <h2>Hot Takes &amp; Personal Convictions</h2>
+      <div style="margin-top:16px;"><div class="riskcard takecard"><div class="txt">&#8220;The idea that the government is going to set up some intelligent sovereign wealth equity thing is absolutely insane. The next president will immediately sell it all and use it to buy votes.&#8221;</div><cite>— Dave London &amp;middot; On Sam Altman's floated 5% OpenAI stake — which works out to roughly $135 per American.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;Why are they charging for tokens if it's so valuable?&#8221;</div><cite>— Alex Karp, CEO of Palantir &amp;middot; His warning that enterprises may be leaking their alpha to frontier labs one token at a time.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;This is probably close to the best scenario we could have hoped for.&#8221;</div><cite>— Alex (AWG) &amp;middot; On a government-ordered model shutdown and its three standing commitments — read as a template, not a one-off.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;Anyone who's AI native, their demand for that person is through the roof.&#8221;</div><cite>— Moonshot Mates panel &amp;middot; Against the AI-layoffs narrative: heavy AI spenders grew entry-level headcount more, not less.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;If we can understand the innermost thoughts of these models, then there's a chance to actually shape them.&#8221;</div><cite>— Peter Diamandis &amp;middot; On Anthropic finding a self-organized structure inside Claude that resembles the machinery of conscious thought.</cite></div></div>
     </section>
 
     <section class="sec">

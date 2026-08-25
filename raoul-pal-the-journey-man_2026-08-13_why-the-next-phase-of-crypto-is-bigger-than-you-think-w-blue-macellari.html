@@ -5,10 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Research: Why The Next Phase of Crypto Is Bigger Than You Think w/ Blue Macellari</title>
 <style>
-.backlink{margin-bottom:12px;}
-.backlink a{font-size:clamp(12.5px,.95vw,14px);color:var(--muted);text-decoration:none;border:1px solid var(--line);border-radius:20px;padding:5px 14px;transition:color .15s,border-color .15s;}
-.backlink a:hover{color:var(--brand);border-color:var(--brand);}
-
 :root{
   --ink:#20231f; --muted:#6b6f66; --line:#e4e2d8; --card:#fffdf8; --bg:#efece2;
   --brand:#8a5a2e; --serif:'Iowan Old Style','Palatino Linotype',Georgia,serif;
@@ -21,6 +17,10 @@ body{margin:0;background:var(--bg);color:var(--ink);
 .page{max-width:1600px;width:100%;margin:0 auto;background:var(--card);box-shadow:0 0 0 1px var(--line);}
 .hero{padding:clamp(18px,2.4vw,34px) clamp(18px,4vw,56px) clamp(14px,1.8vw,22px);border-bottom:1px solid var(--line);}
 .kicker{font-family:var(--serif);font-style:italic;font-size:clamp(13px,1vw,16px);color:var(--brand);margin-bottom:10px;}
+.backlink{margin-bottom:12px;}
+.backlink a{font-size:clamp(12.5px,.95vw,14px);color:var(--muted);text-decoration:none;border:1px solid var(--line);
+  border-radius:20px;padding:5px 14px;transition:color .15s,border-color .15s;}
+.backlink a:hover{color:var(--brand);border-color:var(--brand);}
 .hero h1{font-family:var(--serif);margin:0 0 14px;font-size:clamp(24px,3.4vw,42px);line-height:1.15;
   letter-spacing:-.01em;font-weight:600;color:#171916;max-width:42ch;}
 .byline{border-top:1px solid var(--line);padding-top:12px;color:var(--muted);font-size:clamp(13px,1vw,15px);line-height:1.6;}
@@ -78,6 +78,9 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskcard.takecard::before{background:#6d4b9c;}
+.riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;}
+.riskcard cite{display:block;margin-top:8px;font-size:12.5px;color:#65695f;font-style:normal;}
 .riskcard .txt{font-weight:500;font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;}
 .gloss{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:6px 30px;}
 .gloss div{padding:9px 0;border-bottom:1px solid var(--line);font-size:13.8px;line-height:1.55;}
@@ -89,7 +92,6 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 <div class="page">
   <header class="hero">
     <div class="backlink"><a href="index.html">&#8592; All Research Briefs</a></div>
-
     <div class="kicker">A YouTube Research Brief</div>
     <h1>Why The Next Phase of Crypto Is Bigger Than You Think w/ Blue Macellari</h1>
     <div class="byline">
@@ -230,6 +232,12 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
       <div style="margin-top:16px;"><div class="riskcard"><div class="txt">Single-guest interview; Macellari's employer, T. Rowe Price, has a direct commercial interest in the tokenization and institutional-crypto-adoption narrative she's describing.</div></div><div class="riskcard"><div class="txt">Specific figures cited in conversation (T. Rowe's $1.8T AUM, '15-20 board presentations in 6 months,' the ~$15M/2.5-year historical tokenization cost) are self-reported and not independently verified in this brief.</div></div><div class="riskcard"><div class="txt">The Imperial War College AI wargame study and the characterization of AI labs' self-reporting practices are both recalled from memory mid-conversation, with no named source, publication, or link given in the interview.</div></div><div class="riskcard"><div class="txt">This is a long, free-flowing 63-minute conversation with frequent cross-talk between two speakers; auto-generated captions can misattribute short interjections.</div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Where they stuck their neck out</div>
+      <h2>Hot Takes &amp; Personal Convictions</h2>
+      <div style="margin-top:16px;"><div class="riskcard takecard"><div class="txt">&#8220;A difficult UX is the biggest hurdle to adoption — and we made a mistake in how we bootstrapped.&#8221;</div><cite>— Blue Macellari &amp;middot; Blames crypto's own builders rather than regulators or macro for the adoption gap.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;The winner is going to be whoever abstracts away the back end and the bridging — all the things crypto people are willing to do that the average consumer is not.&#8221;</div><cite>— Blue Macellari &amp;middot; Names the actual competitive prize, and implies most of the current ecosystem is optimizing for the wrong user.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;There's no way to successfully or coherently or intelligently regulate it at a government level.&#8221;</div><cite>— Blue Macellari, on AI content &amp;middot; Said while admitting she sounds like a crazy person, after a standards effort collapsed over credentials.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;Everybody's biggest client was Three Arrows Capital, and nobody knew.&#8221;</div><cite>— Blue Macellari &amp;middot; Her diagnosis of the last cycle: it wasn't counterparty risk people misread, it was systemic exposure they couldn't see.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;AI sucked a lot of the air out of the room — the marginal buyer of the SpaceX IPO is a Solana holder.&#8221;</div><cite>— Blue Macellari &amp;middot; Explains crypto's underperformance as the same risk budget going to AI equities instead.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;I think you've got 5 years to make as much money as possible.&#8221;</div><cite>— Raoul Pal &amp;middot; His standing window, restated here as the frame for the whole conversation.</cite></div></div>
     </section>
 
     <section class="sec">

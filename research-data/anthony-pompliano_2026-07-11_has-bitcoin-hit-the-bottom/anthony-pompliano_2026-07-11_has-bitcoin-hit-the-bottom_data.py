@@ -154,6 +154,19 @@ RISKS = [
     "This is a fast-moving, jargon-dense macro conversation; auto-generated captions can misrender specific numbers or tickers — cross-check exact figures against the video before citing them elsewhere.",
 ]
 
+HOT_TAKES = [
+    {"take": "If you're not spending more money every year, you're going out of business.",
+     "cite": '— Dylan Patel (SemiAnalysis), quoted by Jordi Visser', "why": 'Inverts the usual read: rising AI spend is a competitiveness signal, and cutting it is the actual danger sign.'},
+    {"take": "I still think you'll see 4,000, 5,000 in Micron before this is done.",
+     "cite": '— Jordi Visser', "why": 'A specific price call on a name he had just sold — the selloff was a leverage unwind, not a bubble popping.'},
+    {"take": "If they don't hike, then I think Bitcoin will be above 70,000 when that time comes.",
+     "cite": '— Jordi Visser', "why": 'A conditional, dated, falsifiable call tied to his own Fed view.'},
+    {"take": 'Intelligence is not the same as oil. The only thing that slows down AI is the data centers, the gas turbines — the physical stuff that cannot be made quickly.',
+     "cite": '— Jordi Visser', "why": "His rebuttal to the 'AI capex is the next fracking bust' comparison."},
+    {"take": 'OpenAI and Anthropic already own the enterprise fight.',
+     "cite": '— Jordi Visser', "why": "Reframes Meta's and xAI's affordability announcements as repositioning after a loss, not a price war."},
+]
+
 OTHER_NEWS = []
 
 GLOSSARY = [

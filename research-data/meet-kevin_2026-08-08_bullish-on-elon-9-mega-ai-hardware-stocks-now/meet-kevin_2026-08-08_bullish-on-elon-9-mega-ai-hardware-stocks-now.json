@@ -214,6 +214,33 @@
   "The transcript is auto-generated from a ~35-minute solo monologue with informal phrasing and occasional crosstalk with a third party at the end — numeric figures (PE/PEG ratios, price targets) have been transcribed as stated but not independently re-verified against company filings.",
   "Kevin explicitly states this is not personalized financial advice and that this video is not a recommendation on SpaceX itself, only on which public-market stocks could benefit if Elon overspends."
  ],
+ "hot_takes": [
+  {
+   "take": "Elon will literally expand supply no matter what, because he's drunk on the idea that we need so many data centers.",
+   "cite": "— Kevin",
+   "why": "Says it sounds crazy, then builds the hardware thesis on it anyway — supply expands regardless of the demand signal."
+  },
+  {
+   "take": "If you just use PE ratios, I think you're unfairly looking at the stocks, because you're not factoring in the growth.",
+   "cite": "— Kevin",
+   "why": "Defends paying up in the middle of a bubble debate, using PEG rather than PE to justify targets."
+  },
+  {
+   "take": "The market has really unpriced a lot of this with China.",
+   "cite": "— Kevin",
+   "why": "Claims a mispricing outright rather than hedging it, and attaches specific valuation ranges to it."
+  },
+  {
+   "take": "The big favorites from Elon's buying spree, hands down: Nvidia, Marvell, and Lattice Semiconductor, in declining order.",
+   "cite": "— Kevin",
+   "why": "A ranked, named list — the kind of call that's checkable later."
+  },
+  {
+   "take": "The market has honestly forgotten that there is a CPU coming from Nvidia.",
+   "cite": "— Kevin",
+   "why": "The Vera Rubin CPU as the overlooked leg of his thesis, with a $763-850 upside case attached."
+  }
+ ],
  "other_news": [
   {
    "icon": "🔧",

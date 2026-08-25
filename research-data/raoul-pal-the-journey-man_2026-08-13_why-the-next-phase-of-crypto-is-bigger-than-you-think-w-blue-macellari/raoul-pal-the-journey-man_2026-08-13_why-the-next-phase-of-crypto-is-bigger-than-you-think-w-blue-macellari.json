@@ -207,6 +207,38 @@
   "The Imperial War College AI wargame study and the characterization of AI labs' self-reporting practices are both recalled from memory mid-conversation, with no named source, publication, or link given in the interview.",
   "This is a long, free-flowing 63-minute conversation with frequent cross-talk between two speakers; auto-generated captions can misattribute short interjections."
  ],
+ "hot_takes": [
+  {
+   "take": "A difficult UX is the biggest hurdle to adoption — and we made a mistake in how we bootstrapped.",
+   "cite": "— Blue Macellari",
+   "why": "Blames crypto's own builders rather than regulators or macro for the adoption gap."
+  },
+  {
+   "take": "The winner is going to be whoever abstracts away the back end and the bridging — all the things crypto people are willing to do that the average consumer is not.",
+   "cite": "— Blue Macellari",
+   "why": "Names the actual competitive prize, and implies most of the current ecosystem is optimizing for the wrong user."
+  },
+  {
+   "take": "There's no way to successfully or coherently or intelligently regulate it at a government level.",
+   "cite": "— Blue Macellari, on AI content",
+   "why": "Said while admitting she sounds like a crazy person, after a standards effort collapsed over credentials."
+  },
+  {
+   "take": "Everybody's biggest client was Three Arrows Capital, and nobody knew.",
+   "cite": "— Blue Macellari",
+   "why": "Her diagnosis of the last cycle: it wasn't counterparty risk people misread, it was systemic exposure they couldn't see."
+  },
+  {
+   "take": "AI sucked a lot of the air out of the room — the marginal buyer of the SpaceX IPO is a Solana holder.",
+   "cite": "— Blue Macellari",
+   "why": "Explains crypto's underperformance as the same risk budget going to AI equities instead."
+  },
+  {
+   "take": "I think you've got 5 years to make as much money as possible.",
+   "cite": "— Raoul Pal",
+   "why": "His standing window, restated here as the frame for the whole conversation."
+  }
+ ],
  "other_news": [
   {
    "icon": "💱",

@@ -170,6 +170,21 @@ RISKS = [
     "The episode contains two sponsor segments (Google for Startups, Blitzy) and a Fountain Life health-sponsor interview — treat product/benchmark claims in those segments as marketing content, not independent panel analysis.",
 ]
 
+HOT_TAKES = [
+    {"take": 'Gemini has lost the mandate of heaven.',
+     "cite": '— Alex', "why": "On Jeff Dean's exit and Demis stepping back in the same week — read as DeepMind winning an internal war that Google lost."},
+    {"take": "Everything that will be economically productive in this next century, Elon's going full stack on.",
+     "cite": '— Salim', "why": 'Treats chips, compute, and launch as one vertical-integration bet rather than separate businesses.'},
+    {"take": 'The old gods are being slaughtered by the new machine gods.',
+     "cite": '— Will Kinney, cosmologist', "why": 'Quoted on an unreleased OpenAI model bulk-solving ten decade-old math problems for about $2,000.'},
+    {"take": "Elon has taught the entire economy that if you're a founder of a well-capitalized company and you want to increase your equity stake, the best thing you can do is start a parallel company.",
+     "cite": '— Alex', "why": "His hot take on Brett Adcock's new launch: the story is equity, not agents."},
+    {"take": 'This is China and Chinese labs forcing the western frontier labs to dance.',
+     "cite": '— Alex', "why": 'On open-weight releases pushing the cost-capability frontier while US evaluation stays voluntary and secret.'},
+    {"take": 'As robots and AI do more and more of the doing, humans spend much, much more time being.',
+     "cite": '— Immad Mustafa', "why": 'The optimistic reading, offered in the same segment as the AI-personhood and consciousness debate.'},
+]
+
 OTHER_NEWS = [
     {"icon": "\U0001F9E0", "title": "Fountain Life dementia data: ~45% of dementia cases are considered preventable; 1 in 4 Fountain Life members tested had 'advanced brain age,' which improved 26% on average with healthy-living interventions.", "tag": "Health sponsor segment"},
     {"icon": "\U0001F3AC", "title": "Moonshots Live (Sept 25, downtown LA) — 1,500 attendees, guests including Palmer Luckey, Kathy Wood, Anousheh Ansari; features the Future Vision X-Prize film competition (5,000+ entries) and the Build with Gemini X-Prize ($2M prize pool, 25,000 teams).", "tag": "Event plug"},

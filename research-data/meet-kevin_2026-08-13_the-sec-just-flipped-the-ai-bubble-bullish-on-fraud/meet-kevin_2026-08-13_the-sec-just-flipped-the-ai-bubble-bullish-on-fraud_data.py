@@ -144,6 +144,19 @@ RISKS = [
     "Auto-generated captions may contain transcription errors, particularly around tickers and numeric figures.",
 ]
 
+HOT_TAKES = [
+    {"take": 'Who needs disclosure or rules? This is literally what happened here.',
+     "cite": '— Kevin', "why": 'On the SEC exemption: he calls the rollback bullish for his own positions and unhealthy for the market in the same breath.'},
+    {"take": "In English, here's just another WACC lie. This is how you blow up a bubble.",
+     "cite": "— Kevin, on CoreWeave's debt disclosures", "why": 'Accuses a large public company of misleading investors on interest expense, by name, on camera.'},
+    {"take": 'This tire is rated for 70 PSI and we are just at 50, maybe 69. This puppy can stretch — we can probably pump it up to 100, 120 before it blows.',
+     "cite": '— Kevin', "why": "His bubble position in one image: it is a bubble, and he's still long it."},
+    {"take": "Nvidia's new $500 billion fund is completely underrated in the market. I don't think we've actually seen the real hardware push yet.",
+     "cite": '— Kevin', "why": "Against the rolling-over-capex consensus, with a claim that the biggest spending wave hasn't started."},
+    {"take": 'Short term, bullish. Longer term, cautious.',
+     "cite": '— Kevin', "why": 'He states the timeline split explicitly rather than picking one — more worried about 2027 than 2026.'},
+]
+
 OTHER_NEWS = []
 
 GLOSSARY = [

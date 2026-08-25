@@ -180,6 +180,19 @@ RISKS = [
     "This is a fast-moving, four-person crosstalk-heavy panel with significant technical jargon (mechanistic interpretability, Jacobians); auto-generated captions may misattribute short interjections or mistranscribe technical terms.",
 ]
 
+HOT_TAKES = [
+    {"take": 'The idea that the government is going to set up some intelligent sovereign wealth equity thing is absolutely insane. The next president will immediately sell it all and use it to buy votes.',
+     "cite": '— Dave London', "why": "On Sam Altman's floated 5% OpenAI stake — which works out to roughly $135 per American."},
+    {"take": "Why are they charging for tokens if it's so valuable?",
+     "cite": '— Alex Karp, CEO of Palantir', "why": 'His warning that enterprises may be leaking their alpha to frontier labs one token at a time.'},
+    {"take": 'This is probably close to the best scenario we could have hoped for.',
+     "cite": '— Alex (AWG)', "why": 'On a government-ordered model shutdown and its three standing commitments — read as a template, not a one-off.'},
+    {"take": "Anyone who's AI native, their demand for that person is through the roof.",
+     "cite": '— Moonshot Mates panel', "why": 'Against the AI-layoffs narrative: heavy AI spenders grew entry-level headcount more, not less.'},
+    {"take": "If we can understand the innermost thoughts of these models, then there's a chance to actually shape them.",
+     "cite": '— Peter Diamandis', "why": 'On Anthropic finding a self-organized structure inside Claude that resembles the machinery of conscious thought.'},
+]
+
 OTHER_NEWS = [
     {"icon": "\U0001F3AA", "title": "Moonshots Live event announced for September 24-25 in LA, with Salim leading an organizational-singularity session and confirmed speakers including Palmer Luckey, Rod Rodenberry, Ben Lamm, and Kathy Wood", "tag": "Show business"},
 ]
