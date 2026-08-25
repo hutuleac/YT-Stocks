@@ -172,6 +172,38 @@
   "Auto-generated captions were used for this transcript; names of people, funds, and technical terms were cross-checked where possible but minor transcription errors may remain.",
   "Tenev repeatedly declines to give investment advice or price targets (Bitcoin, chips/energy) — his comments on those topics are framed as observations of customer behavior, not forecasts."
  ],
+ "hot_takes": [
+  {
+   "take": "I think there will be more software engineers and more lawyers in 2035 than today.",
+   "cite": "— Vlad Tenev",
+   "why": "He flags it himself as a hot take, offered as his answer to what will surprise everybody by 2035 — and declines to defend it on the spot."
+  },
+  {
+   "take": "Nobody big, nobody non-trivial is working on agentic trading besides us.",
+   "cite": "— Vlad Tenev",
+   "why": "A claim about the entire competitive field, made about the product he says is Robinhood's biggest disruption bet."
+  },
+  {
+   "take": "A billionaire tax could be an own goal for California — what happened in Hollywood shows that network can be broken.",
+   "cite": "— Vlad Tenev",
+   "why": "He has a direct stake: the bulk of his wealth is Robinhood shares, and he reads the proposal as forcing founders to sell into it."
+  },
+  {
+   "take": "The asset allocation process has been automated and streamlined pretty well — I don't think there's juice there. Trading is where you're going to see the biggest change and the biggest disruption.",
+   "cite": "— Vlad Tenev",
+   "why": "Writes off robo-advice as a finished category while betting the roadmap on active trading being remade by AI."
+  },
+  {
+   "take": "The Korean stocks — I think they're right. We probably should have Korean stocks as well as stocks from every single market.",
+   "cite": "— Vlad Tenev",
+   "why": "A CEO conceding a critics' point on-record; he also flags the volume of that demand as its own signal."
+  },
+  {
+   "take": "A lot of people just live in the past and spend 80% of time worrying about things that have already happened.",
+   "cite": "— Vlad Tenev",
+   "why": "His personal operating philosophy, given when asked whether not dwelling on mistakes is an essential CEO trait — he says it isn't, then defends doing it anyway."
+  }
+ ],
  "other_news": [
   {
    "icon": "📉",

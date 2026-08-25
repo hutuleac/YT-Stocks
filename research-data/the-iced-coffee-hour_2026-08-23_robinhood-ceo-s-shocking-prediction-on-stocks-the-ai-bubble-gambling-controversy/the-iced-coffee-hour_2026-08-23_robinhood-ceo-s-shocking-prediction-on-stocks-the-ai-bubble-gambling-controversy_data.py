@@ -226,6 +226,21 @@ RISKS = [
     "comments on those topics are framed as observations of customer behavior, not forecasts.",
 ]
 
+HOT_TAKES = [
+    {"take": "I think there will be more software engineers and more lawyers in 2035 than today.",
+     "cite": "\u2014 Vlad Tenev", "why": "He flags it himself as a hot take, offered as his answer to what will surprise everybody by 2035 \u2014 and declines to defend it on the spot."},
+    {"take": "Nobody big, nobody non-trivial is working on agentic trading besides us.",
+     "cite": "\u2014 Vlad Tenev", "why": "A claim about the entire competitive field, made about the product he says is Robinhood's biggest disruption bet."},
+    {"take": "A billionaire tax could be an own goal for California \u2014 what happened in Hollywood shows that network can be broken.",
+     "cite": "\u2014 Vlad Tenev", "why": "He has a direct stake: the bulk of his wealth is Robinhood shares, and he reads the proposal as forcing founders to sell into it."},
+    {"take": "The asset allocation process has been automated and streamlined pretty well \u2014 I don't think there's juice there. Trading is where you're going to see the biggest change and the biggest disruption.",
+     "cite": "\u2014 Vlad Tenev", "why": "Writes off robo-advice as a finished category while betting the roadmap on active trading being remade by AI."},
+    {"take": "The Korean stocks \u2014 I think they're right. We probably should have Korean stocks as well as stocks from every single market.",
+     "cite": "\u2014 Vlad Tenev", "why": "A CEO conceding a critics' point on-record; he also flags the volume of that demand as its own signal."},
+    {"take": "A lot of people just live in the past and spend 80% of time worrying about things that have already happened.",
+     "cite": "\u2014 Vlad Tenev", "why": "His personal operating philosophy, given when asked whether not dwelling on mistakes is an essential CEO trait \u2014 he says it isn't, then defends doing it anyway."},
+]
+
 OTHER_NEWS = [
     {"icon": "\U0001F4C9", "title": "Tenev personally trades ETFs and crypto but is careful about individual stocks and can't freely trade his own Robinhood shares — his equity is administered under a 10b5-1 plan filed in advance because of material non-public information rules.", "tag": "Personal"},
     {"icon": "\U0001F3A7", "title": "Asked which podcasts/media do content best, Tenev pointed to Bloomberg (combining financial data with content/distribution) and Acquired (deep-dive company episodes) as differentiated formats — offered as a critique that Iced Coffee Hour could sharpen its own niche.", "tag": "Reference"},

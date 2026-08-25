@@ -343,6 +343,21 @@ RISKS = [
     "entirely from this brief per standing policy.",
 ]
 
+HOT_TAKES = [
+    {"take": "For Bitcoin, it will always be the purest AI trade.",
+     "cite": "\u2014 Jordi Visser", "why": "His whole thesis in one line: AI delivers abundance that destroys public-company growth, and Bitcoin is the asset immune to it."},
+    {"take": "I think hedge fund leverage has peaked and will forever go down.",
+     "cite": "\u2014 Jordi Visser", "why": "An absolute, permanent call \u2014 built on single-stock volatility now exceeding Bitcoin's, which he says makes the whole world topsy-turvy."},
+    {"take": "Multiple compression to me represents the risk that in 3 years there's actually no growth anymore.",
+     "cite": "\u2014 Jordi Visser", "why": "Inverts the usual read: falling multiples on growing earnings is the market pricing terminal-value destruction, not a bargain."},
+    {"take": "Pharmaceuticals will eventually be the biggest winners out of AI from the application side.",
+     "cite": "\u2014 Jordi Visser", "why": "He dates the call to papers he began writing in November of last year, and says it is starting now."},
+    {"take": "As much as I don't think we should be having a lot of regulation to slow it down, friction to some degree, when you're moving this fast, actually might be a positive.",
+     "cite": "\u2014 Jordi Visser", "why": "An anti-regulation investor arguing that disagreement and drag are useful, because exponential change is something human beings can't handle."},
+    {"take": "I said, I know for a fact that at least 70% of what you just said to me is not true.",
+     "cite": "\u2014 Jordi Visser", "why": "How he describes ending a conversation about data centers \u2014 the epistemics thread about people sourcing their entire worldview from one channel."},
+]
+
 OTHER_NEWS = []
 
 GLOSSARY = [

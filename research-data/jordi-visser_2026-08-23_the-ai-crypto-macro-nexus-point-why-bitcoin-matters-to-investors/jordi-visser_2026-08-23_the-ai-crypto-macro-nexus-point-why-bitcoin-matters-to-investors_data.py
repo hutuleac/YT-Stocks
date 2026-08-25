@@ -305,6 +305,21 @@ RISKS = [
     "positive on the S&P 500') — treat the 'not a bubble' argument as his stated thesis, not a market view.",
 ]
 
+HOT_TAKES = [
+    {"take": "I've said publicly that Eli Lilly will be the biggest company in 5 years.",
+     "cite": "\u2014 Jordi Visser", "why": "He knows it's unwelcome \u2014 'nobody wants to hear me talk about Eli Lilly' \u2014 and frames it as a cash cow on the country's biggest problem, obesity."},
+    {"take": "I believe beta is going to lead in crypto and Bitcoin will not be the leader.",
+     "cite": "\u2014 Jordi Visser", "why": "Contrarian inside a Bitcoin-first audience: he expects Ethereum and the wider ecosystem to outperform BTC from here."},
+    {"take": "By 2030 we will be at the point where you can say safely we will be able to stop all disease in the foreseeable future \u2014 that people won't have to die from disease.",
+     "cite": "\u2014 Jordi Visser", "why": "A dated, falsifiable claim he says he has made publicly, based on his reading rather than any single source."},
+    {"take": "The Anthropic thing, which scared the hell out of people and got everyone going, it is just complete noise, guys.",
+     "cite": "\u2014 Jordi Visser", "why": "Flat dismissal of a story the market reacted to; his rule is to call balls and strikes rather than overreact."},
+    {"take": "Everyone else is trying to trade treasuries and trade FX and short the NASDAQ and wait \u2014 they're just wasting their time playing around in an old age home inside that market.",
+     "cite": "\u2014 Jordi Visser", "why": "Dismisses the entire traditional macro playbook as the wrong game, not just the wrong trade."},
+    {"take": "I believe we will look back on the last week of July as one of the moments when the merging of the credit-backed fiat world and the AI-fueled digital economy stopped being theoretical.",
+     "cite": "\u2014 Jordi Visser", "why": "He puts a specific week on the inflection point and says he called it two weeks earlier on his own and Pompliano's shows."},
+]
+
 OTHER_NEWS = [
     {"icon": "\U0001F4D6", "title": "Sources referenced this episode: Mark Andreessen's 'Why Bitcoin Matters' essay (2014), the Bitcoin white paper, Jesse Livermore's Reminiscences of a Stock Operator, the All-In podcast (Bessent interview), a Stripe executive's a16z podcast interview ('Tokens are the new dollar'), a Nikkei interview with Scott Bessent, and Warren Pies' commentary on GPU availability data.", "tag": "References"},
     {"icon": "\U0001F4B0", "title": "Visser mentions launching a separate paid crypto-focused video/paper series on his subscriber site (via Mark Whailing) at no extra cost to existing subscribers, alongside continuing his weekly AI/macro content.", "tag": "Business note"},
