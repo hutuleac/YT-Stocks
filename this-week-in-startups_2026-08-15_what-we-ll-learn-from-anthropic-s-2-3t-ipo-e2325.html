@@ -78,6 +78,9 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskcard.takecard::before{background:#6d4b9c;}
+.riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;}
+.riskcard cite{display:block;margin-top:8px;font-size:12.5px;color:#65695f;font-style:normal;}
 .riskcard .txt{font-weight:500;font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;}
 .gloss{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:6px 30px;}
 .gloss div{padding:9px 0;border-bottom:1px solid var(--line);font-size:13.8px;line-height:1.55;}
@@ -210,6 +213,12 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
       <div style="margin-top:16px;"><div class="riskcard"><div class="txt">Jason discloses he is personally negotiating an equity stake in Wisewell — his on-air enthusiasm for the product carries a direct financial conflict of interest.</div></div><div class="riskcard"><div class="txt">Ramp's enterprise-AI-spend percentages are drawn from card/subscription transaction data, not an independent, audited market census.</div></div><div class="riskcard"><div class="txt">Anthropic's IPO valuation, ARR figure, and the Decart deal terms are all pre-announcement reporting (Financial Times sourcing, described as insider conversations), not confirmed regulatory filings.</div></div><div class="riskcard"><div class="txt">Wisewell's microplastics, fertility, and dementia-cadaver figures are the founder's own conversational summary of existing research, not citations shown or verified on screen.</div></div><div class="riskcard"><div class="txt">One M&amp;A example Jason cites in passing — 'Cursor bought... for $60 billion' — is an offhand aside during the show that doesn't clearly match public reporting; treat it as his conversational claim rather than a confirmed deal.</div></div><div class="riskcard"><div class="txt">Sponsor segments (Ro, PayPal/Launch, CLA, Odoo) are excluded from this brief entirely, per standing policy on paid ad reads.</div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Where they stuck their neck out</div>
+      <h2>Hot Takes &amp; Personal Convictions</h2>
+      <div style="margin-top:16px;"><div class="riskcard takecard"><div class="txt">&#8220;I don't think in today's day and age you need to race into IPOs — the bankers and the CEOs price IPOs to perfection.&#8221;</div><cite>— Jason Calacanis &amp;middot; Told directly to an audience being sold the Anthropic listing as an event they must be early to.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;Let the good times roll. Let the acquisitions happen. Only one in 10 has to work.&#8221;</div><cite>— Jason Calacanis &amp;middot; His defense of the M&amp;A thaw, built on the list of purchased companies that became Instagram, YouTube, WhatsApp and Android.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;Every time we double the production of solar panels, the price comes down by 48% — and it's happening every 18 months.&#8221;</div><cite>— Punit Puri, Grit Robotics &amp;middot; A Moore's-law framing for solar, from a founder whose business depends on it being true.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;41% of the US skilled workforce in construction will retire by 2031.&#8221;</div><cite>— Punit Puri, Grit Robotics &amp;middot; The labor-shortage number underneath his robotics pitch — a dated, checkable claim rather than a vibe.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;I don't think you should try to follow what everyone else is doing.&#8221;</div><cite>— Jason Calacanis &amp;middot; From the off-duty segment on emoji use — offered as general advice, with the caveat that a few will still tag you as a boomer.</cite></div></div>
     </section>
 
     <section class="sec">

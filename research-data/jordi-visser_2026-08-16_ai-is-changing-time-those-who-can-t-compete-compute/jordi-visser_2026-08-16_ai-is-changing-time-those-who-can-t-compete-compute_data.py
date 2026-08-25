@@ -198,6 +198,19 @@ RISKS = [
     "The video opens with an unrelated personal segment (Maine, a 9/11 remembrance) and a scam warning — Visser states he never DMs trades via WhatsApp, X, or LinkedIn, which is useful context for evaluating any message claiming to be from him but isn't a stock-related claim.",
 ]
 
+HOT_TAKES = [
+    {"take": "Go against things you've heard from Michael Burry and Jim Chanos in particular — they don't ever turn around and say, you know what, we were wrong.",
+     "cite": '— Jordi Visser', "why": 'Names two famous bears directly and makes never admitting error the reason to fade them.'},
+    {"take": 'We will never be able to pick a bottom. Nobody can do that, and certainly not me.',
+     "cite": '— Jordi Visser', "why": 'Said by someone publishing a weekly risk-reward score — he sells the process while disclaiming the thing viewers want from it.'},
+    {"take": "I like to be bearish equally as bullish if I think it's going to save me money.",
+     "cite": '— Jordi Visser', "why": 'Rejects having a permanent stance, in a genre built on permanent stances.'},
+    {"take": "Academics ask what the evidence tells us has happened under comparable conditions. Markets ask what's going to happen before everyone else realizes it. This is the money-making side.",
+     "cite": '— Jordi Visser', "why": 'Explicitly ranks anticipation over evidence — the framing behind everything else he does on the show.'},
+    {"take": "The new businesses being created would have to come from the frontier model side — that's my opinion, at higher probability.",
+     "cite": '— Jordi Visser', "why": 'Puts the next wave of company formation inside the labs rather than in the application layer everyone else is crowding into.'},
+]
+
 OTHER_NEWS = [
     {"icon": "\U0001F6A8", "title": "Visser warns of AI bots impersonating him across platforms — he never initiates trade recommendations via WhatsApp, X, or LinkedIn DMs, and may not respond even to legitimate outreach given volume.", "tag": "Safety notice"},
     {"icon": "\U0001F310", "title": "He built his new site, visserlabs.com, largely by prompting AI tools — about an hour of work, plus roughly a day to configure the domain — and it scored 100/100 on a Network Solutions site assessment.", "tag": "Personal update"},

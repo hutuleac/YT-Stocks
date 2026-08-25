@@ -228,6 +228,19 @@ RISKS = [
     "The hosts state their own standing bias toward memory, Nvidia, and Google at the close of the episode — a disclosed lean worth weighing against their bullish framing throughout.",
 ]
 
+HOT_TAKES = [
+    {"take": 'The thesis is coherent and it still stands — there was nothing wrong about his positions or his directional ideas of where the market was going.',
+     "cite": '— Limitless Podcast', "why": "Defending Leopold's thesis immediately after the blowup that made his portfolio public — separating the trade from the leverage."},
+    {"take": 'Google actually this year takes the crown for spending the most — on track for around $250 billion by the end of the year.',
+     "cite": '— Limitless Podcast', "why": 'A concrete capex ranking, with the argument that Google is the rare spender that also owns the distribution and the power.'},
+    {"take": "There's no one better than Jensen Huang, who has a much deeper insight as to what is actually being built and where the demand actually is.",
+     "cite": '— Limitless Podcast', "why": "Their 'dummies guide' to the AI trade is to read Nvidia's own portfolio as a signal rather than pick names."},
+    {"take": "If everyone's focused here, is there an edge elsewhere?",
+     "cite": '— Limitless Podcast', "why": 'Turned on their own coverage: the 13F data shows the large funds crowded into one trade, which they treat as a reason to look away from it.'},
+    {"take": "This could all be a house of cards and a lot of people think so, and I don't want to negate that fact.",
+     "cite": '— Limitless Podcast', "why": "Stated alongside a 'strong belief' the AI capex thesis plays out — conviction and the bear case held at once."},
+]
+
 OTHER_NEWS = [
     {"icon": "\U0001F4B0", "title": "An unidentified fund manager overseeing roughly $35.4B lists Amazon as the #1 holding (name garbled in the source captions).", "tag": "13F season"},
     {"icon": "\U0001F3A7", "title": "Sourcing named in this episode: Gavin Baker's own appearance on the All-In Podcast (cited as the source for his SpaceX conviction and the 'power and optics' framing); Bloomberg and Reuters (cited, unlinked, for the SK Hynix earnings reaction and Leopold's post-liquidation moves); and Jensen Huang's remarks from an unnamed recent interview/conference panel (cited for the AI-demand pushback). No newsletters, books, or specific articles were named.", "tag": "Sources referenced"},

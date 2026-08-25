@@ -78,6 +78,9 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskcard.takecard::before{background:#6d4b9c;}
+.riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;}
+.riskcard cite{display:block;margin-top:8px;font-size:12.5px;color:#65695f;font-style:normal;}
 .riskcard .txt{font-weight:500;font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;}
 .gloss{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:6px 30px;}
 .gloss div{padding:9px 0;border-bottom:1px solid var(--line);font-size:13.8px;line-height:1.55;}
@@ -229,6 +232,12 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
       <div style="margin-top:16px;"><div class="riskcard"><div class="txt">This is a compilation stitched from four separate Naval podcast episodes recorded between February and July 2026 — timeline phrases like "a couple of years back" or "recently" are anchored to whichever original episode that clip came from, not to this compilation's August 2026 upload date.</div></div><div class="riskcard"><div class="txt">Speaker attribution beyond Naval is partial — auto-captions mark speaker changes with "&gt;&gt;" but only one co-panelist is named ("Max"); other voices are transcribed but not identifiable by name, so quotes not explicitly attributed to Naval above are left unnamed rather than guessed.</div></div><div class="riskcard"><div class="txt">All dollar figures and percentages (the $100K/year token-spend claim, the 70/30 and 99/1 agency-intelligence splits) are Naval's or a co-panelist's own illustrative numbers from conversation, not sourced from a study or report.</div></div><div class="riskcard"><div class="txt">The compilation is framed by its uploader as educational/commentary content built from Naval's own podcast; the source episodes named in the description ("A Motorcycle for the Mind," "A Return to Code," "The AI Industrial Revolution," "Live in the Future") were not independently re-checked against this transcript.</div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Where they stuck their neck out</div>
+      <h2>Hot Takes &amp; Personal Convictions</h2>
+      <div style="margin-top:16px;"><div class="riskcard takecard"><div class="txt">&#8220;There's no market for venture-backed software anymore — pure software is not venture investable.&#8221;</div><cite>— Naval Ravikant &amp;middot; His own tweet, quoted back to him on the panel; he says the softened version people repeated is weaker than what he meant.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;I think it's 99% intelligence and 1% agency, because then the agents will exercise the agency.&#8221;</div><cite>— Naval Ravikant (responding to "Max") &amp;middot; Direct rebuttal to the panel's claim that returns are shifting to 70% agency — he says intelligence takes almost all of it.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;No matter how expensive these models might seem, they're still way cheaper than a human. Just waste tokens, save time.&#8221;</div><cite>— Naval Ravikant &amp;middot; Against token-frugality as a virtue; he'd throw three frontier models at the same problem rather than economize.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;The bigger reason coding models got really good recently might just be that a lot of the best software engineers started using them in the last few months.&#8221;</div><cite>— Naval Ravikant &amp;middot; Credits taste feeding back into training over any architectural breakthrough — an unfashionable explanation for a headline capability jump.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;I don't think they have any long-lived theory of mind of their own — they're always kind of morphing towards you.&#8221;</div><cite>— Naval Ravikant &amp;middot; Why he thinks surprising people is still a human domain: models rarely contradict you, and you have to be badly wrong before they do.</cite></div></div>
     </section>
 
     <section class="sec">

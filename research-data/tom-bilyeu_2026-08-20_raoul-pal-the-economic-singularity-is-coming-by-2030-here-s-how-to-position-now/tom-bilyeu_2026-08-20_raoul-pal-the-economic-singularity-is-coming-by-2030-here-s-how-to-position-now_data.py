@@ -174,6 +174,21 @@ RISKS = [
     "The 'universal code' segment is explicitly self-described by Raoul as heuristic speculation outside his stated expertise, not a vetted scientific model.",
 ]
 
+HOT_TAKES = [
+    {"take": "It's very clear to me that by 2030 we have no clue how the world's going to work, really.",
+     "cite": '— Raoul Pal', "why": 'The premise under his whole portfolio: he treats the forecast horizon itself as broken, not just the forecast.'},
+    {"take": "I don't think we're going to have long inflation. I think we'll have deflation back again, because that's what population shrinkage and technology does.",
+     "cite": '— Raoul Pal', "why": 'Against the consensus inflation trade, and he ties it to demographics rather than policy.'},
+    {"take": "I think China's really making a play to back the Yuan with gold.",
+     "cite": '— Tom Bilyeu', "why": "He flags it himself as a crazy idea he isn't sure he believes — then says he holds no long-term US debt because of it."},
+    {"take": "AI is easily the greatest discovery humanity will ever make, because we've created intelligence.",
+     "cite": '— Raoul Pal', "why": "Not 'one of' — he ranks it above everything, and says we did it by putting electricity through sand."},
+    {"take": "Nobody's going to go back to the gold standard — but I don't think anybody's got an answer to how we get away from the dollar.",
+     "cite": '— Raoul Pal', "why": "Dismisses the gold-standard revival he's heard his entire career while conceding the underlying problem is unsolved."},
+    {"take": "Never get so scared that you don't invest or too cautious, because you will never get out of the cave.",
+     "cite": '— Raoul Pal', "why": 'His answer to the whole doom framing: he says his job is to infect people with optimism, and that he can be wrong.'},
+]
+
 OTHER_NEWS = [
     {"icon": "\U0001F3A4", "title": "Sources referenced this episode: Tom Marlo and Luke Gromen are named as the origin of the 'dollar loses reserve-currency status' thesis Raoul spends significant time rebutting; an unnamed Stripe co-founder is paraphrased describing a future where AI agents transact directly; Elon Musk's interview with The Economist is cited as an earlier public airing of the 'economic singularity' concept.", "tag": "Sources cited"},
     {"icon": "\U0001F399", "title": "Raoul says he's never written a line of code but built roughly 20 tools/products himself (including a 15-indicator research dashboard) using Claude Code; he dictates via WhisperFlow instead of typing and runs six parallel Claude sessions as an orchestrator across different tasks.", "tag": "Workflow note"},

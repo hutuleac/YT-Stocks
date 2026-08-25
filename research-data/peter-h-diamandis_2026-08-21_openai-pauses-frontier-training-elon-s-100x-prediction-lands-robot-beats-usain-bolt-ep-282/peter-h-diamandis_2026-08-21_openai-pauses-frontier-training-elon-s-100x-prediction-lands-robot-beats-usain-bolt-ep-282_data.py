@@ -201,6 +201,21 @@ RISKS = [
     "The panel has a direct stake in several topics discussed — Peter runs Abundance/XPRIZE/Moonshots events referenced in the episode, and multiple panelists disclose personal investments, family ties (Dave's daughter works at Moderna), or missed-investment regrets (Etched) relevant to the stocks and companies covered.",
 ]
 
+HOT_TAKES = [
+    {"take": "Everyone around the office is noticing a very significant decline in the intelligence of the frontier models that they're pumping out.",
+     "cite": '— Moonshot Mates panel', "why": 'Said out loud on a show that covers these labs weekly, and immediately picked apart by the rest of the panel.'},
+    {"take": "I don't think there's necessarily a bright future for specialized models — the arrow of progress is going in the exact opposite direction.",
+     "cite": '— Alex Wissner-Gross', "why": "Directly contradicts Elon's 100x-from-specialization claim, recasting it as sparsification of one generalist model."},
+    {"take": 'The flops must flow, and the flops want to flow to the highest revenue-per-token use case.',
+     "cite": '— Alex Wissner-Gross', "why": 'His compute-allocation law, offered while explicitly declining the singleton scenario everyone else was heading toward.'},
+    {"take": "They all had 10-for-one super-voting stock for the founders, but nobody's ever retroactively installed it as far as I can tell.",
+     "cite": '— Dave Blundin', "why": "On Anthropic's IPO structure — he can't find precedent for what Dario is proposing, and reads the stated reason as cover."},
+    {"take": "It doesn't make economic sense to have genius-level intelligence offered as a service to everyone when you can use it better yourself.",
+     "cite": '— Moonshot Mates panel', "why": 'The argument that the best models get withheld rather than sold — an incentive claim, not a capability one.'},
+    {"take": "I don't think it's going to come from outside frontier AI labs.",
+     "cite": '— Peter Diamandis', "why": 'On curing disease: he puts essentially all of the upside inside a handful of private labs, and says everyone listening should be happy about it.'},
+]
+
 OTHER_NEWS = [
     {"icon": "\U000026A1", "title": "Rapid-fire AMA warm-up: efficiency, power, and per-watt AI-vs-brain comparisons", "tag": "In 8 minutes, the panel fielded audience questions on whether frontier labs will optimize for energy efficiency instead of building new power (yes, scarcity drives it), whether an X-Prize could target the electricity supply problem (Sem: more a regulatory/market issue than a tech gap), whether China's power advantage or US chip advantage matters more right now (Dave: chips win near-term; the US needs ~100GW for AI by decade's end), whether micro-grids reduce grid load (Alex: inverts the premise — data centers may push a power surplus back onto the grid, pushing utility prices negative), how AI's efficiency-per-watt compares to the human brain (Alex: probably already ahead, especially counting the ~20-year cost of raising a human), why fuel cells and ultracapacitors lost out to lithium batteries (Dave: lithium simply outperformed expectations), and whether grid buildout actually helps ordinary consumers given 71% of Americans reportedly oppose new data centers (Imad: more power should make electricity cheaper if built right)."},
 ]

@@ -138,6 +138,19 @@ RISKS = [
     "Sponsor segments (Ro, PayPal/Launch, CLA, Odoo) are excluded from this brief entirely, per standing policy on paid ad reads.",
 ]
 
+HOT_TAKES = [
+    {"take": "I don't think in today's day and age you need to race into IPOs — the bankers and the CEOs price IPOs to perfection.",
+     "cite": '— Jason Calacanis', "why": 'Told directly to an audience being sold the Anthropic listing as an event they must be early to.'},
+    {"take": 'Let the good times roll. Let the acquisitions happen. Only one in 10 has to work.',
+     "cite": '— Jason Calacanis', "why": 'His defense of the M&A thaw, built on the list of purchased companies that became Instagram, YouTube, WhatsApp and Android.'},
+    {"take": "Every time we double the production of solar panels, the price comes down by 48% — and it's happening every 18 months.",
+     "cite": '— Punit Puri, Grit Robotics', "why": "A Moore's-law framing for solar, from a founder whose business depends on it being true."},
+    {"take": '41% of the US skilled workforce in construction will retire by 2031.',
+     "cite": '— Punit Puri, Grit Robotics', "why": 'The labor-shortage number underneath his robotics pitch — a dated, checkable claim rather than a vibe.'},
+    {"take": "I don't think you should try to follow what everyone else is doing.",
+     "cite": '— Jason Calacanis', "why": 'From the off-duty segment on emoji use — offered as general advice, with the caveat that a few will still tag you as a boomer.'},
+]
+
 OTHER_NEWS = []
 
 GLOSSARY = [

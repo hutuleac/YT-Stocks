@@ -141,6 +141,19 @@ RISKS = [
     "The compilation is framed by its uploader as educational/commentary content built from Naval's own podcast; the source episodes named in the description (\"A Motorcycle for the Mind,\" \"A Return to Code,\" \"The AI Industrial Revolution,\" \"Live in the Future\") were not independently re-checked against this transcript.",
 ]
 
+HOT_TAKES = [
+    {"take": "There's no market for venture-backed software anymore — pure software is not venture investable.",
+     "cite": '— Naval Ravikant', "why": 'His own tweet, quoted back to him on the panel; he says the softened version people repeated is weaker than what he meant.'},
+    {"take": "I think it's 99% intelligence and 1% agency, because then the agents will exercise the agency.",
+     "cite": '— Naval Ravikant (responding to "Max")', "why": "Direct rebuttal to the panel's claim that returns are shifting to 70% agency — he says intelligence takes almost all of it."},
+    {"take": "No matter how expensive these models might seem, they're still way cheaper than a human. Just waste tokens, save time.",
+     "cite": '— Naval Ravikant', "why": "Against token-frugality as a virtue; he'd throw three frontier models at the same problem rather than economize."},
+    {"take": 'The bigger reason coding models got really good recently might just be that a lot of the best software engineers started using them in the last few months.',
+     "cite": '— Naval Ravikant', "why": 'Credits taste feeding back into training over any architectural breakthrough — an unfashionable explanation for a headline capability jump.'},
+    {"take": "I don't think they have any long-lived theory of mind of their own — they're always kind of morphing towards you.",
+     "cite": '— Naval Ravikant', "why": 'Why he thinks surprising people is still a human domain: models rarely contradict you, and you have to be badly wrong before they do.'},
+]
+
 OTHER_NEWS = []
 
 GLOSSARY = [

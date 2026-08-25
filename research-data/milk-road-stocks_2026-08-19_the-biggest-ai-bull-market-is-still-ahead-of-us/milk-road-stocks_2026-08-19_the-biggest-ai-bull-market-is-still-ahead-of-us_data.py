@@ -149,6 +149,21 @@ RISKS = [
     "Auto-captions garbled several names (e.g. \"Palunteer\" for Palantir, \"Sandis\" for SanDisk, \"Kim K3\" for what is likely Kimi K2) — resolved here by context; treat as reasonably but not certainly correct.",
 ]
 
+HOT_TAKES = [
+    {"take": 'You should be very limited in your cash position and you should be looking to allocate whenever and wherever possible.',
+     "cite": '— Kyle', "why": 'An explicit near-zero-cash instruction, given with markets at all-time highs.'},
+    {"take": 'In the short to medium term, more jobs are coming — companies are going to end up hiring more people, not less.',
+     "cite": '— Kyle', "why": 'The opposite of the default AI-and-jobs assumption; he frames the demand as companies hiring people who can use AI.'},
+    {"take": "Everyone thought that the models were going to get crushed by the open source models, and they're not.",
+     "cite": '— Kyle', "why": 'Calls the open-source-eats-the-labs thesis wrong on the evidence of revenue growth at every layer of the stack.'},
+    {"take": "Whenever I tweet about SaaS, no one likes it — but that's because it's down like 50%.",
+     "cite": '— Kyle', "why": "He keeps recommending the unpopular half of his barbell and names the reason it's unpopular."},
+    {"take": "You're going to have a fourth player — Grok and Grokbot inside SpaceX eating share from Anthropic and OpenAI.",
+     "cite": '— Kyle', "why": 'A specific competitive call on a market most people treat as a settled three-horse race.'},
+    {"take": 'This Goldilocks picture is not going to last forever.',
+     "cite": '— Kyle', "why": 'Volunteered against his own bullish case, with the promise to say so publicly when he thinks it turns.'},
+]
+
 OTHER_NEWS = []
 
 GLOSSARY = [

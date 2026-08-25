@@ -167,6 +167,21 @@ RISKS = [
     "Long, informal live-conversation format on auto-generated captions — some phrasing (e.g., tool names, acronym pronunciations) may be imprecisely transcribed; verify exact wording against the video before quoting directly.",
 ]
 
+HOT_TAKES = [
+    {"take": "I'm a big advocate of test-driven development. But I cannot and will not enforce that on the agents.",
+     "cite": '— Robert C. Martin', "why": 'The author of the TDD discipline refusing to apply it to agents — a human discipline for human wiring, not a universal good.'},
+    {"take": "The cost of change has plummeted to as close to zero as I think we're ever going to get it.",
+     "cite": '— Robert C. Martin', "why": 'A ceiling claim, not just a trend: he thinks the economics of changing software have essentially bottomed out.'},
+    {"take": 'I have a massive issue with the spec-driven development label.',
+     "cite": '— Matt Pocock', "why": "He argues the industry's newest buzzword doesn't describe anything that isn't already just programming."},
+    {"take": 'A young person coming out of training should be treated like an agent — several months being horribly unproductive but learning a hell of a lot.',
+     "cite": '— Robert C. Martin', "why": 'A concrete, unpopular onboarding proposal, defended as the only way to earn the right to run agents of your own.'},
+    {"take": 'The key with agents is to trim that initial prompt down to its absolute minimum.',
+     "cite": '— Robert C. Martin', "why": 'Against the reflex of loading agents with more instructions when they misbehave — he says the fix is subtraction.'},
+    {"take": "The old books — the ones that nobody reads because they're old.",
+     "cite": '— Robert C. Martin', "why": "Where he sends people first in the agent era, on the view that fundamentals didn't move when the tooling did."},
+]
+
 OTHER_NEWS = [
     {"icon": "\U0001F4DA", "title": "Sources and prior work referenced this episode: Martin's book Clean Code (2nd edition shown on camera); John Ousterhout's deep-modules concept and his recorded public debate with Martin in a Clean Code appendix; Tom DeMarco and Ed Yourdon's older software-engineering books; The Pragmatic Programmer; and a Dijkstra line that software is \"the most complicated thing that humans have ever attempted.\"", "tag": "Sources"},
 ]

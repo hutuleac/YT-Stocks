@@ -313,6 +313,38 @@
   "The figures throughout are Naam's working numbers as a forecaster — 230 GW of chip-implied demand, ~100 GW of grid buildout, 4-8x of solar decline left, $6/W in the UAE — narrated from slides rather than read off a filing. He says himself that every forecaster lands on a different number for grid buildout and AI demand. Read them as the shape of his argument rather than as settled data.",
   "Auto-captions mangle names badly (ERCOT, FERC, Cerebras, Boom, Mumgaard, Kirtley all appear garbled). Three companies — the ~10 MW micro-reactor firm, the CUDA-alternative portfolio company, and the ocean data center company — could not be identified with confidence and are described by spec instead of named."
  ],
+ "hot_takes": [
+  {
+   "take": "CUDA has been the moat, and I think the CUDA moat is broken this year and next year.",
+   "cite": "— Ramez Naam",
+   "why": "A direct call on Nvidia's core defensibility, made while saying the chips themselves were never the advantage."
+  },
+  {
+   "take": "If I was Nvidia, I would be focused on changing the regulatory landscape for monopoly utilities.",
+   "cite": "— Ramez Naam",
+   "why": "His answer for why Nvidia won't bundle power with GPUs — the margin is bad, so change the rules instead."
+  },
+  {
+   "take": "Every startup exaggerates how quickly they can get things done — founders of mine who are listening, please don't take this as an insult.",
+   "cite": "— Ramez Naam",
+   "why": "An investor discounting his own portfolio's timelines on-record, applied here to fusion."
+  },
+  {
+   "take": "Elon's real motivation for 100 gigawatts of solar manufacturing is not the on-land US market — it's space-based solar.",
+   "cite": "— Ramez Naam",
+   "why": "Reads an earnings-call number as a cover story for a different program entirely."
+  },
+  {
+   "take": "We have this big winter problem that I think a lot of people are not reckoning with.",
+   "cite": "— Ramez Naam",
+   "why": "The seasonal gap he says solar-and-battery data center plans quietly assume away; his fix is geography, and he'd push into Australia."
+  },
+  {
+   "take": "I believe something when I see movement on a graph.",
+   "cite": "— Ramez Naam",
+   "why": "His stated epistemic bar for fusion and everything else — announcements and engineering-problem claims don't qualify."
+  }
+ ],
  "other_news": [
   {
    "icon": "📉",

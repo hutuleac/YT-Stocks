@@ -202,6 +202,21 @@ RISKS = [
     "Auto-captions garble several names (KOSPI 200, Bayesian, HELOC, EBITDA, Caitlin Long, Mike Cagney, Kevin Warsh, Demis Hassabis, Palantir). One data center builder named alongside Hut 8 could not be identified with confidence and is left unnamed.",
 ]
 
+HOT_TAKES = [
+    {"take": 'The mistake people are going to make with AI is trying to pick tops and bottoms.',
+     "cite": '— Jordi Visser', "why": 'His read of why people stay bearish through the move — he calls it a reflection of not understanding AI.'},
+    {"take": 'School is a complete waste of time.',
+     "cite": '— Jordi Visser', "why": 'He says he states this publicly and hated school himself; the argument is that information ages faster than any curriculum.'},
+    {"take": 'The biggest risk to Anthropic is not whether their ARR gets to a trillion dollars next year.',
+     "cite": '— Jordi Visser', "why": 'Redirects the whole bull/bear debate away from the revenue number everyone is quoting.'},
+    {"take": "We're now doing what used to take 10 years in 3 months.",
+     "cite": '— Jordi Visser', "why": 'His compression claim about time itself, which he treats as the actual investable insight rather than any single stock.'},
+    {"take": 'I will never sit there and show people my guesses on things without providing some sort of documentation, proof or data to support the reasoning.',
+     "cite": '— Jordi Visser', "why": 'A standard he holds himself to on-record, in a format where most opinions arrive undocumented.'},
+    {"take": "There will never be a time that everyone's going to be like, you know what, that's a good idea — and I think it's a good thing.",
+     "cite": '— Jordi Visser', "why": 'Argues permanent disagreement is productive, because objection forces someone to find a way around the problem.'},
+]
+
 OTHER_NEWS = [
     {"icon": "\U0001f4fa", "title": "Visser is building a crypto research franchise: 30–60 minute data-driven educational videos twice monthly from September, moving to weekly, aimed squarely at the hedge fund and mutual fund allocators who have historically passed on crypto. He's soliciting data sources publicly and says the Bitcoin Policy Institute has reached out.", "tag": "Context"},
     {"icon": "\U0001f4b5", "title": "A structural oddity Pompliano flags: four or five investors told him they're sitting in cash specifically waiting to deploy into the large language model labs when they list, rather than stay invested and incur taxes selling later. He found it a surprising way to invest.", "tag": "Positioning"},

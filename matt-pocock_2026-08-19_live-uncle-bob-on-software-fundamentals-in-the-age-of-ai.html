@@ -78,6 +78,9 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskcard.takecard::before{background:#6d4b9c;}
+.riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;}
+.riskcard cite{display:block;margin-top:8px;font-size:12.5px;color:#65695f;font-style:normal;}
 .riskcard .txt{font-weight:500;font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;}
 .gloss{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:6px 30px;}
 .gloss div{padding:9px 0;border-bottom:1px solid var(--line);font-size:13.8px;line-height:1.55;}
@@ -248,6 +251,12 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
       <div style="margin-top:16px;"><div class="riskcard"><div class="txt">Nearly every specific number in this brief (CRAP thresholds of 4 vs. 6-8, the ~4-5x productivity multiplier, the ~1hr pipeline runtime, the ~1-year junior ramp estimate) is Martin's own working figure from personal experimentation, quoted in conversation rather than published or peer-reviewed.</div></div><div class="riskcard"><div class="txt">This is a single practitioner's evolving personal workflow as of the interview date, not a documented or open-sourced framework the audience can currently install — Martin says explicitly not to try to reuse his own tools verbatim, only the approach.</div></div><div class="riskcard"><div class="txt">The 'lost in the middle' and 'trajectory' mechanisms are presented as Martin's and Pocock's working mental models of model behavior, not citations to specific published research.</div></div><div class="riskcard"><div class="txt">Long, informal live-conversation format on auto-generated captions — some phrasing (e.g., tool names, acronym pronunciations) may be imprecisely transcribed; verify exact wording against the video before quoting directly.</div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Where they stuck their neck out</div>
+      <h2>Hot Takes &amp; Personal Convictions</h2>
+      <div style="margin-top:16px;"><div class="riskcard takecard"><div class="txt">&#8220;I'm a big advocate of test-driven development. But I cannot and will not enforce that on the agents.&#8221;</div><cite>— Robert C. Martin &amp;middot; The author of the TDD discipline refusing to apply it to agents — a human discipline for human wiring, not a universal good.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;The cost of change has plummeted to as close to zero as I think we're ever going to get it.&#8221;</div><cite>— Robert C. Martin &amp;middot; A ceiling claim, not just a trend: he thinks the economics of changing software have essentially bottomed out.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;I have a massive issue with the spec-driven development label.&#8221;</div><cite>— Matt Pocock &amp;middot; He argues the industry's newest buzzword doesn't describe anything that isn't already just programming.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;A young person coming out of training should be treated like an agent — several months being horribly unproductive but learning a hell of a lot.&#8221;</div><cite>— Robert C. Martin &amp;middot; A concrete, unpopular onboarding proposal, defended as the only way to earn the right to run agents of your own.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;The key with agents is to trim that initial prompt down to its absolute minimum.&#8221;</div><cite>— Robert C. Martin &amp;middot; Against the reflex of loading agents with more instructions when they misbehave — he says the fix is subtraction.</cite></div><div class="riskcard takecard"><div class="txt">&#8220;The old books — the ones that nobody reads because they're old.&#8221;</div><cite>— Robert C. Martin &amp;middot; Where he sends people first in the agent era, on the view that fundamentals didn't move when the tooling did.</cite></div></div>
     </section>
 
     <section class="sec">
