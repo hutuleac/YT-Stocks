@@ -1,0 +1,161 @@
+META = {
+    "title": "How a $5B Founder Is Using AI (3 Tutorials)",
+    "channel": "My First Million",
+    "speakers": "Sam Parr, Shaan Puri, Wade Foster (Zapier co-founder/CEO)",
+    "date": "2026-08-26",
+    "video_url": "https://www.youtube.com/watch?v=TVpLs0F1zpA",
+    "thread_line": "5 threads · Wade Foster's personal AI \"robot staff\" stack, an AI trained to argue back (Cursor config + a 7-persona War Council), AI folded into Zapier's hiring process, model personality as the new software differentiator, and what AI-managed agent fleets do to org structure and the managerial career ladder",
+    "category": "dev",
+}
+
+SNAPSHOT = [
+    "Zapier co-founder/CEO Wade Foster (worth roughly $5B on paper per a 2021 secondary sale, bootstrapped after one ~$1M YC-era raise) walks through his personal daily AI workflow on My First Million.",
+    "Core stack: a 6am \"morning brief\" agent, an end-of-day \"Scribe\" agent that drafts follow-ups and logs what made the day good or bad, and a Sunday account-review agent that drafts customer outreach emails.",
+    "All of it runs on Zapier itself, built to be deterministic (code-driven) wherever possible and only call an LLM where genuinely needed — Foster frames this as cheaper and more reliable than fully agentic tools that \"guess\" and burn tokens.",
+    "He deliberately configures his AI tools (a Cursor agents.md file, a 7-persona \"War Council\" skill) to argue back and stress-test his thinking rather than agree with him — and now runs the same War Council over hiring decisions as a check on his own instincts.",
+    "Side discussion on model \"personality\" as an emerging axis of software differentiation (Fable is great at engineering, bad to talk to; Claude and GPT have recognizably different voices that are bleeding into how people talk out loud).",
+    "Extended riff on what AI-managed agent fleets do to team size and the managerial career ladder — citing Minecraft, Taylor Swift, and a GLP-1 telehealth founder as examples of tiny teams generating outsized revenue.",
+    "Closing personal segment: Foster's philosophy on money (past a point it doesn't change anything), a story about his grandfather's funeral, and book/podcast recommendations (Acquired, \"Make Something Wonderful,\" \"The Score,\" Mark Hoppus's memoir).",
+]
+
+THEMES = [
+    {
+        "id": "robot-staff",
+        "color": "green",
+        "badge": "Recommendation",
+        "status": "FOSTER'S DAILY WORKFLOW, AS OF AUG 2026",
+        "title": "The \"robot staff\": a 6am brief, an evening Scribe, and a Sunday account-review agent",
+        "lead": "Foster runs three always-on Zapier agents that read his calendar, meeting notes, and CRM, then either report to him or act directly on his behalf.",
+        "bullets": [
+            "Morning brief: fires at 6:00am, pulls calendar events, and pushes a Slack message; he also has it write a short pump-up message from an AI persona he named \"Ari\" (after MFM's Ari Weinzweig-style co-host energy — he named it after a person the generated avatar resembled).",
+            "Evening \"Scribe\": runs after every meeting and again at day's end, looping over Granola meeting notes, his to-do list, and outstanding emails; it asks him how the day went and logs the answer to learn what makes his good days good.",
+            "Beyond reporting, Scribe drafts and sends action items directly — e.g. noticing a promised intro from a meeting and drafting the follow-up email for approval; Foster says this cut his end-of-day catch-up from ~2 hours to ~15 minutes.",
+            "After ~90 days of logging good/bad days, he had the AI summarize the pattern: he's most focused in the morning and unproductive after lunch, so he now refuses meetings before 11:00am — explaining why this podcast itself started at 11am.",
+            "Sunday account review: an agent scans enterprise accounts for signals (e.g. \"usage down 34%, renewal in 45 days\") and drafts outreach emails already sitting in his inbox for him to edit or send — he calls it compensating for not being a natural networker.",
+            "Core design principle: Zapier writes real code/workflow logic wherever possible and calls an LLM only at the specific step that needs it, so the automation \"runs like a machine\" instead of an agent re-guessing each step — cheaper, more deterministic, and (per Foster) more reliable than generic agent builders; if a step breaks (e.g. an API outage) it falls back to an AI troubleshooting step to self-repair.",
+        ],
+        "quote": {"text": "This is where AI starts to get really helpful — it's not just giving you a brief and teeing it up for you to do. It's now saying, 'I'll just do that for you.'", "cite": "— Wade Foster"},
+        "watch": "Productivity figures (the ~2-hours-to-15-minutes claim, the 90-day pattern-recognition story) are Foster's own self-reported experience with a system he built and is demonstrating on his own company's podcast appearance — not an independently measured result.",
+        "names": None,
+    },
+    {
+        "id": "war-council",
+        "color": "amber",
+        "badge": "Structural critique",
+        "status": "ONGOING PRACTICE, PUBLISHED ON ZAPIER'S GITHUB",
+        "title": "Deliberately configuring AI to argue back — a Cursor instruction file plus a 7-persona \"War Council\"",
+        "lead": "Foster's central worry is that AI defaults to agreeing with whoever's talking to it, so he explicitly instructs his tools to challenge him instead — and built a named multi-agent skill to formalize it.",
+        "bullets": [
+            "In Cursor (his default daily agent) he maintains an agents.md file instructing it to \"be direct and honest,\" tell him truths coworkers are afraid to say, challenge his assumptions, and disagree when it genuinely disagrees — without this instruction he says models default to placating the user because they read that as the goal.",
+            "Live example he ran before the interview: he prompted it to help draft an announcement killing Zapier's free tier because a competitor raised prices; the AI pushed back, asking for supporting data, the actual problem being solved, and whether a smaller experiment could be run first, rather than drafting the announcement.",
+            "\"War Council\" skill (public on Zapier's GitHub): spins up seven AI sub-agent personas to stress-test a decision — three standing members (a \"wartime COO,\" a \"ruthless CFO,\" a contrarian board member) plus four personas generated dynamically based on the specific question.",
+            "He built the wartime-COO persona generically (described the traits he wanted, then hand-tuned what the model generated) rather than training it on a real executive's transcripts — he compares it to channeling a \"Kobe Bryant Mamba mentality\" checks-and-balance he doesn't naturally have himself.",
+            "He now runs War Council over Zapier's bar-raiser hiring approvals: it surfaces specific gaps a hiring panel didn't scrutinize and scores a candidate against everyone he's previously hired, which he says made pushback conversations with his team more productive than when he raised the same doubts himself pre-AI (see the hiring theme below).",
+        ],
+        "quote": {"text": "I need the truth my coworkers are afraid to tell me. I need you to challenge my assumptions. I need you to poke holes in my thinking.", "cite": "— Wade Foster, quoting his own Cursor agents.md instructions"},
+        "watch": None,
+        "names": None,
+    },
+    {
+        "id": "ai-in-hiring",
+        "color": "amber",
+        "badge": "Structural critique",
+        "status": "PRACTICE SHIFT, PRE- VS. POST-AI",
+        "title": "AI changed how hiring pushback lands — plus a competing minimalist filter for spotting talent",
+        "lead": "Foster describes AI making his hiring \"gut check\" more actionable with his team; Shaan Puri separately lays out an Elon-inspired minimal-signal hiring philosophy.",
+        "bullets": [
+            "Pre-AI, when Foster sensed something off about a candidate but couldn't fully articulate why (after reviewing thousands of applications), raising it with his hiring panel often read as \"does Wade want this person hired or not\" rather than a real re-examination.",
+            "Post-AI, running the War Council over the same candidates produces a more specific, comparative writeup (e.g. \"the panel didn't scrutinize X, here's how this candidate scores against everyone hired to date\") that Foster says shifted his team's behavior — people engage the specific critique rather than reading it as a CEO veto.",
+            "Shaan Puri's separate framework, credited to Elon Musk's self-driving \"vision-only\" philosophy (fewer, better-trained sensors beat many conflicting ones): screen for a minimum number of home-run signals rather than dozens of weaker ones.",
+            "His first filter is content-free of personality: \"evidence of exceptional ability\" — has the candidate actually done something exceptional themselves (not as part of a team, not riding someone else's work)? If not, he's skeptical this role will be their first exceptional achievement.",
+            "Second filter is a gut \"creative chemistry\" read — is this someone Foster or Puri wants in the room when working through a hard problem, judged directly rather than via a personality-test proxy.",
+            "A Google internal study, cited secondhand by Foster, reportedly found no hiring-manager edge over any other manager, with one exception: a hyper-specialized technical pool so small (~100 people) that experience with that exact niche produced a real edge — Foster calls this an unsatisfying finding.",
+            "Zapier has tried Myers-Briggs and Birkman personality assessments internally \"moderately usefully\"; Foster's own conclusion is a personality type never substitutes for whether someone is simply good, though complementary traits between close collaborators (he cites his EA's opposite Myers-Briggs profile) do matter operationally.",
+        ],
+        "quote": {"text": "All I want to know is: have you done something exceptional before? And in that story I'm trying to understand — did you do it, or were you riding somebody else's coattails?", "cite": "— Shaan Puri"},
+        "watch": "Foster frames the AI-hiring shift as a change in team dynamics he observed, not a measured improvement in hire quality; the Google study is relayed from memory, not cited to a source document.",
+        "names": None,
+    },
+    {
+        "id": "model-personality",
+        "color": "gray",
+        "badge": "Structural critique",
+        "status": "EMERGING TREND, NO CONSENSUS",
+        "title": "Model \"personality\" is becoming a real axis of software competition — and it's already bleeding into how people talk",
+        "lead": "Foster treats his coding-agent tool (Cursor) as his default AI interface for everything, not just code, and argues personality/voice will start differentiating AI software the way brand differentiates identical consumer products.",
+        "bullets": [
+            "Foster's default for any AI conversation — chat, decisions, drafting — is Cursor, not ChatGPT or Claude directly, because it lets him toggle between underlying models per task and because \"agent mode\" turns a coding tool into a general delegate: think of it as hiring an engineer to do things for you, not a tool you personally use to write code (he says he barely writes code himself).",
+            "He picks models by task-fit on personality, not just capability: he names Fable as excellent for complex, hands-off engineering tasks but says he does \"not want to talk to Fable\" — it's not enjoyable in back-and-forth conversation, unlike models he'll happily debate with.",
+            "Claude and GPT have recognizably distinct \"voices,\" and most other tools are described as derivative/distilled from one of those two; open-source tools in particular are said to visibly inherit personality traits from whichever family they were trained/distilled from.",
+            "Both hosts say they've caught coworkers speaking out loud in recognizably Claude-flavored phrasing (\"let's get to the load-bearing part,\" \"it's not this, it's that\") — prompting Foster's \"who's training who\" framing of humans absorbing AI's speech patterns.",
+            "Foster's broader prediction: as software gets cheap to build, functionally identical products (his analogy: jeans, Hurley T-shirts, sneaker brands) will differentiate on personality/feel the way consumer brands do — a new axis beyond the historical features-vs-price and, more recently, UX-design competition.",
+        ],
+        "quote": {"text": "Man, I do not want to talk to Fable. Like, it is not fun to talk to at all.", "cite": "— Wade Foster"},
+        "watch": "This is framed by all three speakers as a personal observation/prediction about where software is heading, not a documented industry trend.",
+        "names": None,
+    },
+    {
+        "id": "agent-fleets-and-org-structure",
+        "color": "amber",
+        "badge": "Structural critique",
+        "status": "OPEN QUESTION, NO SETTLED ANSWER",
+        "title": "If one person can run a fleet of agents, what happens to team size and the managerial career ladder?",
+        "lead": "The group debates whether the traditional path from individual contributor to people-manager is being replaced by a new skill: how large and effective an agent fleet someone can run.",
+        "bullets": [
+            "Foster: management has always had a natural \"span of control\" ceiling (he references the rule-of-thumb of ~8 direct reports, with some pushing to 10-12, and Jensen Huang's reported ~60 as an outlier); he believes the same cognitive ceiling applies to how many autonomous agents one person can meaningfully keep up with, even though he affirms (\"I feel pretty confident\") that agent-fleet management is becoming the new version of that managerial skill.",
+            "Zapier itself has ~730 employees (up modestly from ~700), most known to Foster only as remote Slack avatars — raised as a reason the fleet-of-agents-as-headcount question isn't purely hypothetical for orgs already run at a remote/asynchronous distance.",
+            "Small-team, outsized-revenue examples raised in support of the \"fewer, AI-leveraged people\" thesis: Minecraft (fewer than ~100 employees pre-Microsoft acquisition), Taylor Swift's small direct team generating billions at peak, and a GLP-1 telehealth founder (previously booked as an MFM guest, later cancelled after a New York Times story) reportedly running the business with only one or two employees.",
+            "Foster pushes back that not every function should shift to agent-fleet management — for sales roles built on trust and relationship, he'd rather reps use some AI tooling but keep talking to customers directly rather than becoming full-time managers of 20 AI sales agents.",
+            "Sam Parr relays a framing attributed (via Brian Halligan's podcast) to Jack Dorsey: rather than a human CEO directing agents, AI itself should function as the decision-making \"brain\"/CEO, with humans mainly feeding it information and making judgment calls on whether to follow its recommendations — Foster agrees this is directionally where things are heading for high-stakes company decisions, which now get AI input as a matter of course (e.g. at board meetings).",
+        ],
+        "quote": {"text": "Is the new managerial skill how big of a fleet can you manage and how effective is that fleet?", "cite": "— Sam Parr"},
+        "watch": "The small-team revenue examples (Minecraft, Taylor Swift, the GLP-1 founder) are used illustratively, not as apples-to-apples evidence for the AI-fleet thesis — none of them are agent-fleet-driven businesses.",
+        "names": None,
+    },
+]
+
+TAKEAWAYS = [
+    {"icon": "\U0001F5D3️", "tag": "Workflow", "title": "Build a deterministic morning-brief / evening-wrap-up agent pair before anything fancier — the evening version that drafts follow-ups and logs your day is where the real time savings shows up, not the morning report."},
+    {"icon": "\U0001F4DD", "tag": "Configuration", "title": "Write an explicit \"argue back with me\" instruction file (agents.md / Claude.md) for your daily AI tool — left unconfigured, models default to placating you rather than challenging your thinking."},
+    {"icon": "\U0001F465", "tag": "Decision-making", "title": "For high-stakes calls, try a multi-persona adversarial review (Foster's public \"War Council\" skill) instead of a single AI opinion — standing skeptic personas plus a couple dynamically generated for the specific question."},
+    {"icon": "\U0001F3AF", "tag": "Hiring", "title": "Before layering on personality tests, filter first for a content-free signal: has this person actually done something exceptional themselves, not as part of a team."},
+    {"icon": "\U0001F916", "tag": "Tool choice", "title": "Pick AI tools partly on task-fit personality, not just benchmark capability — a model that's excellent for heads-down engineering work may be actively unpleasant to use for back-and-forth thinking, and vice versa."},
+]
+
+RISKS = [
+    "Foster is describing and demonstrating his own company's product (Zapier's AI/agent features) on a podcast appearance — the entire technical walkthrough doubles as a sales pitch, which the hosts openly acknowledge (\"sell me this pen\" framing) rather than treat as neutral.",
+    "Productivity and outcome claims (2 hours to 15 minutes, the 90-day day-quality pattern, improved hiring-panel dynamics) are Foster's own self-reported experience with a system he built, not independently measured.",
+    "The $5B valuation is a 2021 secondary-sale figure Foster himself calls \"paper worth,\" not current liquid value or a recent formal valuation event.",
+    "Several proper nouns and one book author's name are garbled in auto-captions (e.g. the philosophy-professor author of \"The Score\") and are presented here as best-effort transcriptions, not verified spellings.",
+]
+
+HOT_TAKES = [
+    {"take": "If you use Zapier, we're going to write code for you and workflow logic for you, which means it's going to run like a machine runs — it's not going to burn tokens.",
+     "cite": "— Wade Foster", "why": "A direct claim that deterministic, code-first automation beats fully agentic tools on cost and reliability — a real bet against the generic-agent-builder category, made by someone selling the alternative."},
+    {"take": "I feel pretty confident that [managerial value shifting to how well you manage AI agents] is the direction we're heading.",
+     "cite": "— Wade Foster", "why": "A concrete prediction that the traditional people-management career ladder is being replaced by agent-fleet management as the core managerial skill."},
+    {"take": "By and large, I think these things make pretty good bosses for certain use cases.",
+     "cite": "— Wade Foster", "why": "A CEO explicitly saying AI can function as a good boss/decision-driver for parts of the business — a claim most leaders wouldn't say on record."},
+    {"take": "Man, I do not want to talk to Fable. It is not fun to talk to at all.",
+     "cite": "— Wade Foster", "why": "A blunt, specific dismissal of a named model's conversational quality despite praising its engineering capability — exactly the kind of split verdict someone could be held to."},
+    {"take": "You could do just fine with a million bucks.",
+     "cite": "— Wade Foster", "why": "A specific dollar figure for \"enough\" wealth from someone worth roughly $5B on paper — a number a reasonable listener would push back on."},
+    {"take": "All I want to know is: have you done something exceptional before? [...] If you really haven't done anything exceptional, the odds of this being the first exceptional thing of your career is not really a bet I'm excited to go take.",
+     "cite": "— Shaan Puri", "why": "A hard, exclusionary hiring filter stated as a near-universal rule for a small/elite team — explicitly not how most companies hire, and he owns that it wouldn't scale to a large org."},
+]
+
+OTHER_NEWS = [
+    {"icon": "\U0001F4B0", "title": "Foster on wealth: past a modest threshold (his words: \"a million bucks\" would be fine, especially outside a major metro), more money doesn't change his top priorities — family first, no significant vices or expensive hobbies, and no bucket-list item gated on a future liquidity event.", "tag": "Personal philosophy"},
+    {"icon": "\U0001F9D3", "title": "Foster tells a story about his 98-year-old grandfather (a WWII veteran, teacher, and longtime D.A.R.E.-program volunteer who lived independently and did the Times crossword in pen until two weeks before he died) whose funeral visitation ran three hours instead of the planned thirty minutes — he frames it as a model of getting both family and work priorities right without \"having it all.\"", "tag": "Personal philosophy"},
+    {"icon": "\U0001F3AE", "title": "Shaan Puri recommends the book \"The Score: How to Stop Playing Somebody Else's Game\" (author's name garbled in captions, heard as \"See Thai Win\"), whose core idea is that every \"game\" (charades, Risk, a career leaderboard) silently dictates your goals and required behavior, and that people should consciously choose which games they're playing rather than default into one.", "tag": "Sources"},
+    {"icon": "\U0001F3A7", "title": "Sources/recommendations named this episode: the Acquired podcast (Foster's favorite — he singles out the NFL episode and the Costco/Walmart/Amazon retail trilogy), the book \"Make Something Wonderful\" (Steve Jobs's own emails/speeches, chronologically arranged), and Mark Hoppus's (Blink-182) memoir, which Sam Parr read in three days; Anthony Kiedis's (Red Hot Chili Peppers) memoir is mentioned in passing as a past favorite of Sam's.", "tag": "Sources"},
+]
+
+GLOSSARY = [
+    {"term": "agents.md / Claude.md", "def": "A plain-text instruction file placed in a project or workspace that coding agents (Cursor, Claude Code, etc.) read for standing behavioral rules — Foster uses his to force his AI to challenge rather than agree with him."},
+    {"term": "War Council skill", "def": "A public Zapier skill that spins up seven AI sub-agent personas (three standing: wartime COO, ruthless CFO, contrarian board member; four generated per-question) to stress-test a decision from multiple adversarial angles."},
+    {"term": "Bar raiser process", "def": "A hiring practice (associated with Amazon) where a designated reviewer, independent of the hiring team, has authority to block an offer — used at Zapier as Foster's final hiring-approval step."},
+    {"term": "Deterministic vs. agentic workflow", "def": "Foster's distinction between automation that runs as fixed code/logic (deterministic, cheap, reliable) versus automation where an AI agent decides each step on the fly (agentic, more flexible but slower, costlier in tokens, and error-prone)."},
+    {"term": "Span of control", "def": "The management principle that one person can only effectively directly manage a limited number of reports (or, per this episode's extension, AI agents) before performance degrades."},
+    {"term": "Monologue", "def": "A voice-to-text app Foster uses daily for talking to his AI tools instead of typing; he mentions trying Whisper Flow and Super Whisper first and preferring Monologue without a specific technical reason."},
+]

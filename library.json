@@ -2,6 +2,16 @@
  "generated_from": "youtube-research-brief generate.py --reindex",
  "briefs": [
   {
+   "html": "my-first-million_2026-08-26_how-a-5b-founder-is-using-ai-3-tutorials.html",
+   "title": "How a $5B Founder Is Using AI (3 Tutorials)",
+   "channel": "My First Million",
+   "date": "2026-08-26",
+   "speakers": "Sam Parr, Shaan Puri, Wade Foster (Zapier co-founder/CEO)",
+   "thread_line": "5 threads · Wade Foster's personal AI \"robot staff\" stack, an AI trained to argue back (Cursor config + a 7-persona War Council), AI folded into Zapier's hiring process, model personality as the new software differentiator, and what AI-managed agent fleets do to org structure and the managerial career ladder",
+   "category": "dev",
+   "entities": []
+  },
+  {
    "html": "futureaza_2026-08-23_xai-just-built-what-jensen-didn-t-think-was-possible.html",
    "title": "xAI Just Built What Jensen Didn't Think Was Possible",
    "channel": "FutureAzA",
