@@ -245,6 +245,38 @@
    ]
   },
   {
+   "html": "silicon-valley-girl_2026-08-28_the-biggest-opportunities-in-ai-aren-t-where-you-think.html",
+   "title": "The Biggest Opportunities in AI Aren't Where You Think",
+   "channel": "Silicon Valley Girl",
+   "date": "2026-08-28",
+   "speakers": "Andrew Ng (co-founder, Google Brain & Coursera; founder, DeepLearning.AI, Landing AI, AI Fund, AI Aspire, LearnVector) with host",
+   "thread_line": "6 threads · fear-mongering as regulatory capture, task automation vs job apocalypse, human context as the durable moat, AI's bad-for-learning problem and his LearnVector fix, real internal AI workflows at his companies, and privacy/AGI/safety",
+   "category": "dev",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "Coursera",
+     "stance": "Skill-atrophy warning",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "LearnVector",
+     "stance": "Skill-atrophy warning",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Meta",
+     "stance": "Mixed signal",
+     "conviction": null,
+     "color": "amber"
+    }
+   ]
+  },
+  {
    "html": "my-first-million_2026-08-26_how-a-5b-founder-is-using-ai-3-tutorials.html",
    "title": "How a $5B Founder Is Using AI (3 Tutorials)",
    "channel": "My First Million",
