@@ -5024,6 +5024,108 @@
      "color": "red"
     }
    ]
+  },
+  {
+   "html": "dwarkesh-patel_2026-02-05_elon-musk-in-36-months-the-cheapest-place-to-put-ai-will-be-space.html",
+   "title": "Elon Musk – \"In 36 months, the cheapest place to put AI will be space\"",
+   "channel": "Dwarkesh Patel",
+   "date": "2026-02-05",
+   "speakers": "Dwarkesh Patel, Elon Musk (SpaceX, Tesla, xAI)",
+   "thread_line": "9 threads · space-based AI compute, the power-then-chips bottleneck stack, xAI's alignment philosophy, the digital-labor TAM thesis, Optimus, China's manufacturing lead, Starship engineering, management style, and DOGE/politics",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "SpaceX",
+     "stance": "Speculative",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": "TSM",
+     "display": "TSMC",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Samsung (005930.KS)",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "MU",
+     "display": "Micron",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "ASML",
+     "display": "ASML",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "Speculative",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "Speculative",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": "AAPL",
+     "display": "Apple",
+     "stance": "Speculative",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": "MSFT",
+     "display": "Microsoft",
+     "stance": "Speculative",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": "META",
+     "display": "Meta",
+     "stance": "Speculative",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": "GOOGL",
+     "display": "Alphabet",
+     "stance": "Speculative",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": "TSLA",
+     "display": "Tesla",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "BYD (1211.HK)",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "red"
+    }
+   ]
   }
  ]
 }
