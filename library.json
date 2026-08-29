@@ -83,6 +83,101 @@
    ]
   },
   {
+   "html": "anthony-pompliano_2026-08-29_bitcoin-to-1-million.html",
+   "title": "Bitcoin to $1 Million?!",
+   "channel": "Anthony Pompliano",
+   "date": "2026-08-29",
+   "speakers": "Anthony Pompliano & Jordi Visser",
+   "thread_line": "5 threads — Bitcoin's price-target math and market-share debate, the rotation into Ethereum/Solana as the 'agentic guardrails' trade, Nvidia's muted stock reaction to a blowout quarter, the Bessent-Warsh-Druckenmiller bond maneuvering, and Visser's convergence with an AI-safety expert's Bitcoin-as-hedge thesis",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": "BTC",
+     "display": "Bitcoin",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "DOGE",
+     "display": "Dogecoin",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Gold",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "ETH",
+     "display": "Ethereum",
+     "stance": "Medium conviction",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "SOL",
+     "display": "Solana",
+     "stance": "Medium conviction",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "COIN",
+     "display": "Coinbase",
+     "stance": "Medium conviction",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "HOOD",
+     "display": "Robinhood",
+     "stance": "Medium conviction",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Hyperliquid",
+     "stance": "Medium conviction",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Stripe",
+     "stance": "Medium conviction",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "OpenAI",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    }
+   ]
+  },
+  {
    "html": "limitless-podcast_2026-08-28_nvidia-just-made-its-biggest-purchase-ever.html",
    "title": "NVIDIA Just Made Its Biggest Purchase Ever",
    "channel": "Limitless Podcast",
