@@ -287,6 +287,150 @@
    "entities": []
   },
   {
+   "html": "dwarkesh-patel_2026-08-25_dylan-patel-two-labs-will-soon-control-most-of-the-world-s-workforce.html",
+   "title": "Dylan Patel – Two labs will soon control most of the world's workforce",
+   "channel": "Dwarkesh Patel",
+   "date": "2026-08-25",
+   "speakers": "Dwarkesh Patel, Dylan Patel (SemiAnalysis)",
+   "thread_line": "6 threads · compute centralization, lab margins, fab/value-chain economics, SpaceX-Meta compute pricing, the capex-debt-sovereign-crisis case, and China's compute gap",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "OpenAI",
+     "stance": "High-conviction forecast",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "High-conviction forecast",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "Structural argument",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "TSM",
+     "display": "TSMC",
+     "stance": "Structural argument",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "ASML",
+     "display": "ASML",
+     "stance": "Structural argument",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Samsung (005930.KS)",
+     "stance": "Structural argument",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "SK Hynix (000660.KS)",
+     "stance": "Structural argument",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "MU",
+     "display": "Micron",
+     "stance": "Structural argument",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Kioxia (285A.T)",
+     "stance": "Structural argument",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Jane Street",
+     "stance": "Structural argument",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "SpaceX",
+     "stance": "Live market data point",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "META",
+     "display": "Meta",
+     "stance": "Live market data point",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "AMZN",
+     "display": "Amazon",
+     "stance": "Explicit red-flag risk",
+     "conviction": null,
+     "color": "red"
+    },
+    {
+     "ticker": "MSFT",
+     "display": "Microsoft",
+     "stance": "Explicit red-flag risk",
+     "conviction": null,
+     "color": "red"
+    },
+    {
+     "ticker": "GOOGL",
+     "display": "Alphabet",
+     "stance": "Explicit red-flag risk",
+     "conviction": null,
+     "color": "red"
+    },
+    {
+     "ticker": "AVGO",
+     "display": "Broadcom",
+     "stance": "Explicit red-flag risk",
+     "conviction": null,
+     "color": "red"
+    },
+    {
+     "ticker": null,
+     "display": "SMIC (0981.HK)",
+     "stance": "Speculative, wide error bars",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": "CXMT",
+     "display": "CXMT",
+     "stance": "Speculative, wide error bars",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": null,
+     "display": "ByteDance (Seed)",
+     "stance": "Speculative, wide error bars",
+     "conviction": null,
+     "color": "gray"
+    }
+   ]
+  },
+  {
    "html": "futureaza_2026-08-23_xai-just-built-what-jensen-didn-t-think-was-possible.html",
    "title": "xAI Just Built What Jensen Didn't Think Was Possible",
    "channel": "FutureAzA",

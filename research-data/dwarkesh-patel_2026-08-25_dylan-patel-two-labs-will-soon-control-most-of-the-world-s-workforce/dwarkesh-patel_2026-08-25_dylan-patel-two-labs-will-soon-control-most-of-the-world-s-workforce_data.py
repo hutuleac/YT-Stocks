@@ -1,0 +1,203 @@
+"""
+Per-video data for youtube-research-brief.
+"""
+
+META = {
+    "title": "Dylan Patel – Two labs will soon control most of the world's workforce",
+    "channel": "Dwarkesh Patel",
+    "speakers": "Dwarkesh Patel, Dylan Patel (SemiAnalysis)",
+    "date": "2026-08-25",
+    "video_url": "https://www.youtube.com/watch?v=aV26V1UvkJw",
+    "thread_line": "6 threads · compute centralization, lab margins, fab/value-chain economics, SpaceX-Meta compute pricing, the capex-debt-sovereign-crisis case, and China's compute gap",
+    "category": "market",
+}
+
+SNAPSHOT = [
+    "AI lab capex is set to roughly double from ~$1T this year to $2T+ next year, with OpenAI and Anthropic's own share of world incremental compute climbing from ~30% now toward 40-50% next year.",
+    "Anthropic turned profitable in Q2 2026 and OpenAI could follow in Q3, as revenue per megawatt of compute has flipped from negative gross margins in the GPT-4/Hopper era to as high as $50M/megawatt for Anthropic today.",
+    "Dylan's non-consensus call: labs will shift a growing share of compute AWAY from inference and toward internal training/R&D as monetization improves — the opposite of the standard \"most compute goes to inference\" view.",
+    "A single fab's ~$6B/year of capex can generate over $1T of AI revenue across five years, but the wider chip supply chain (ASML tools, Carl Zeiss mirrors) can't scale fast enough to keep pace.",
+    "SpaceX and Meta are \"hoarding\" compute and reselling it to Anthropic/OpenAI at premium prices ($25-40B/gigawatt vs. a ~$13-20B baseline), turning themselves into the market's de facto #3 compute supplier.",
+    "Total AI infrastructure capex (compute + data centers + power plants) could reach $10T/year by decade's end — Dylan models ~$11T cumulative 2024-2029, roughly half debt-funded, raising real talk of a \"second Volcker shock\" sovereign-default wave.",
+    "China remains far behind on compute (sub-10% of the world's incremental buildout today vs. the US's ~70%), and even its projected 2029 catch-up is quality-discounted to roughly a third of the raw gigawatt figure.",
+    "Both speakers agree the sharper risk isn't AI capability itself — it's how fast the world's compute, and effectively its labor supply, concentrates inside two companies.",
+]
+
+THEMES = [
+    {
+        "id": "compute-centralization",
+        "color": "amber",
+        "badge": "High-conviction forecast",
+        "status": "PROJECTED — 40-50% of world compute by 2027",
+        "title": "Two labs are on pace to control most of the world's usable compute — and effectively its labor supply",
+        "lead": "**Dylan's headline number: OpenAI and Anthropic could be absorbing 40-50% of the world's incremental compute next year, and up to 100 gigawatts combined by the end of 2028 — which he calls his own upper bound.**",
+        "bullets": [
+            "Early this year both labs were adding roughly 2 gigawatts each; by year-end both are above 5, and the two together already account for roughly a third of all incremental compute added in 2026.",
+            "World compute in gigawatts roughly doubles every year, but frontier-lab compute has been tripling every year (2 GW early 2026 → ~6 by year end → ~18 by end-2027 → ~54 by end-2028 on the raw trend line, before Dylan caps it).",
+            "Newer chips (GB300s, TPUv7s, Trainium 3) deliver 3-5x more performance per watt than the prior generation, so each new gigawatt is worth several times an old one — compounding the labs' effective share even faster than raw watts suggest.",
+            "Effective AI \"population\" at the frontier labs (compute-per-unit-of-capability) is growing roughly 10x year over year even without recursive self-improvement (RSI); Dylan expects that could hit 100x-1000x/year once RSI kicks in.",
+            "Illustrative trajectory Dylan sketches: OpenAI going from ~10 million AI-labor equivalents this year to ~100 million next year to a billion the year after — within the decade a single lab's effective AI workforce could exceed the number of people on Earth.",
+            "A recent public spat: investor Gavin Baker said Dario Amodei believes only one AI company will ultimately exist; Sholto Douglas and Amodei publicly pushed back on that characterization.",
+        ],
+        "quote": {"text": "Most of the world is misaligned basically because like most of the world's minds are there.", "cite": "— Dylan Patel"},
+        "watch": "Dylan is explicit that the 100-gigawatt/2028 figure is his own bullish upper bound (\"that's the like I'm so bullish\"), not a base case — it assumes nothing slows the labs down.",
+        "names": [
+            {"name": "OpenAI", "blurb": "Now over 5 gigawatts of compute; building its own chips and data centers to keep pace with demand."},
+            {"name": "Anthropic", "blurb": "Also over 5 gigawatts; turned profitable in Q2 2026 and is the faster grower of the two on Dylan's numbers."},
+        ],
+    },
+    {
+        "id": "revenue-per-megawatt",
+        "color": "amber",
+        "badge": "Confirmed trend, contrarian forward call",
+        "status": "IN PROGRESS — margins turned positive in 2026",
+        "title": "Lab economics just flipped from burning cash to minting it — and Dylan thinks they'll keep more of the upside for themselves",
+        "lead": "**Compute costs ~$10-15M/megawatt, but Anthropic is now generating up to $50M/megawatt of revenue from it — and Dylan expects labs to route more of that gain into their own R&D rather than selling more inference to customers.**",
+        "bullets": [
+            "A year ago, serving GPT-4 on Nvidia Hopper GPUs generated negative gross margin for OpenAI; today serving GPT-5.6 or Anthropic's Opus 5/Fable 5 generates well above the $10-15M/megawatt base cost — as high as $50M/megawatt for Anthropic.",
+            "Dylan's forecast: revenue per megawatt could reach 50M+ by end of 2027, and \"70, 80 million a megawatt, blended across the company\" if the labs keep releasing their best models — potentially $100M+/megawatt without regulatory restriction.",
+            "His non-consensus call: as monetization per megawatt rises, labs will allocate a shrinking share of compute to inference and a growing share to internal training/R&D, because internal use now generates more value than external inference revenue.",
+            "He says this is already happening — Anthropic's compute has grown every month this year, but its ARR growth has plateaued, which Dylan reads as marginal megawatts shifting toward R&D rather than more customer-facing inference.",
+            "Historical split has been roughly 60% training / 40% inference, with training itself breaking down further into ~50% research, ~10% development; an actual Mythos-scale pre-training run uses well under 200 megawatts at peak, over about two months.",
+            "The main brake on this trajectory is regulation, not economics: OpenAI reportedly paused training for two weeks, Anthropic withheld its safety assessment for \"Model 2\" (widely believed to be the next Mythos), and OpenAI's presumed next model (\"Astro\") isn't even widely deployed internally.",
+            "Dylan expects a leading lab to keep its best model roughly six months ahead internally versus what's released externally, for both safety and competitive reasons — a gap he says compounds if underlying progress accelerates.",
+        ],
+        "quote": {"text": "Do you still allocate 40% to inference and generate all this profit... or do you go build AGI?", "cite": "— Dylan Patel"},
+        "watch": "This inference-to-training reallocation call is explicitly framed by Dylan as going against the standard market belief that most compute will keep flowing to inference.",
+        "names": None,
+    },
+    {
+        "id": "value-capture-fab-economics",
+        "color": "green",
+        "badge": "Structural argument",
+        "status": "STRUCTURAL — ~100x capex-to-revenue leverage",
+        "title": "Fab capex has a ~100x leverage on AI revenue — but the supply chain, and value capture, keep shifting",
+        "lead": "**One gigawatt of AI compute costs roughly $6B to build at the fab level and produces about $100B a year in revenue — a discrepancy Dylan says the market hasn't finished pricing in.**",
+        "bullets": [
+            "A gigawatt of Vera Rubin-class compute requires roughly 55,000 N3 wafers, 6,000 N5 wafers, and 170,000 DRAM wafers (per Dylan's earlier estimate); tooling that at the fab level runs $3-4B a year, or ~$6B including cleanrooms and shell.",
+            "That $6B/year of fab capex produces a gigawatt that generates ~$100B/year of revenue — over a trillion dollars of cumulative AI revenue across five years from a single year's fab spend, a discrepancy Dylan pegs conservatively at 100x.",
+            "The bottleneck is EUV lithography tools from ASML, which depend on mirrors from Carl Zeiss; the supply chain still targets ~100 EUV tools a year by 2030 — unchanged from Dylan's estimate a year ago despite demand having grown sharply since.",
+            "He describes a \"bullwhip\" effect: price signals take a long time to reach the tail of the supply chain, so even with capital available, tool/mirror capacity doesn't expand quickly — TSMC raises prices slowly, memory and substrate makers raise theirs fast.",
+            "Value capture keeps shifting up the stack: in 2023, chipmakers and memory suppliers captured almost all the value while the model layer (OpenAI, Anthropic) ran negative margins; today memory makers reportedly capture more value than TSMC itself.",
+            "End users still capture the most value overall: Jane Street's exclusive GPT-5.6 ultra-fast-mode deal is estimated to generate $300-500M/megawatt of value for Jane Street, versus roughly $100M/megawatt Anthropic itself captures.",
+            "Meta, at one point rumored to be up to 10% of Anthropic's business, is cited as another example — using the models to improve ad-targeting and engagement generates it far more value than what it pays Anthropic for the tokens.",
+        ],
+        "quote": {"text": "There's a 100x discrepancy between fab capex and end revenue generated.", "cite": "— Dylan Patel"},
+        "watch": None,
+        "names": [
+            {"name": "Nvidia (NVDA)", "blurb": "Accelerator supplier whose pricing Dylan expects to rise as the rest of the supply chain (memory, substrates) raises prices first."},
+            {"name": "TSMC (TSM)", "blurb": "Leading-edge fab; raising prices slowly relative to the rest of the chain per Dylan, and reportedly capturing less value than memory makers today."},
+            {"name": "ASML (ASML)", "blurb": "Maker of the EUV lithography tools that are the physical bottleneck on chip supply — still targeting ~100 tools/year by 2030."},
+            {"name": "Samsung (005930.KS)", "blurb": "Memory supplier named alongside SK Hynix and Micron in the HBM/DRAM capacity discussion."},
+            {"name": "SK Hynix (000660.KS)", "blurb": "Memory maker Dylan expects to keep benefiting from rising HBM/DRAM prices."},
+            {"name": "Micron (MU)", "blurb": "Named as one of the memory stocks trading at 2-3x earnings — a multiple Dylan reads as a market bet on whether AI reshapes the whole economy."},
+            {"name": "Kioxia (285A.T)", "blurb": "Third memory maker named in the same 2-3x-earnings valuation discussion."},
+            {"name": "Jane Street", "blurb": "Cited as the biggest example of value capture at the end-user layer via its exclusive ultra-fast-mode GPT-5.6 deal; also this episode's sponsor."},
+        ],
+    },
+    {
+        "id": "spacex-meta-pricing",
+        "color": "amber",
+        "badge": "Live market data point",
+        "status": "ACCELERATING — new price floor being set",
+        "title": "SpaceX and Meta are hoarding compute and becoming the market's de facto #3 supplier",
+        "lead": "**SpaceX sold compute to Anthropic and Google at ~$40B a gigawatt — roughly double the prior norm — by building without a locked-in customer and using its balance sheet as leverage.**",
+        "bullets": [
+            "Companies with strong balance sheets (Meta, Microsoft, Amazon, SpaceX) can build compute speculatively, without a signed customer, then negotiate from strength once it's built — most other providers must line up a customer and financing before building.",
+            "SpaceX and Meta are the clearest examples of this: they can recoup their entire capex on a compute sale in about a year by selling to Anthropic or OpenAI at $25-40B+/gigawatt instead of renting it out at the prior ~$13-15M/megawatt baseline.",
+            "This makes Meta and SpaceX the plausible #3 compute player in the ecosystem — not through their own AI labs, but through their optionality to sell hoarded compute to whichever lab is paying the most.",
+            "Dylan's own forward call: most compute will still transact at sub-$20B/gigawatt through the end of next year, even though the SpaceX-Google/Anthropic deals already cleared meaningfully above that.",
+        ],
+        "quote": {"text": "I think most compute will still continue to transact at sub-$20 billion a gigawatt — even at the end of next year.", "cite": "— Dylan Patel"},
+        "watch": "Dylan frames the $40B/gigawatt SpaceX deal as possibly a \"short-term thing,\" which sits in tension with his own sub-$20B baseline prediction for the broader market.",
+        "names": [
+            {"name": "SpaceX", "blurb": "Sold compute to Anthropic and Google at ~$40B/gigawatt, recouping its capex in roughly a year; increasingly building compute speculatively to sell to the highest bidder."},
+            {"name": "Meta (META)", "blurb": "Also hoarding compute and weighing internal use vs. reselling to labs at a premium; Dylan calls its ~$1.5T market cap too low given that optionality."},
+        ],
+    },
+    {
+        "id": "capex-debt-sovereign-crisis",
+        "color": "red",
+        "badge": "Explicit red-flag risk",
+        "status": "UNRESOLVED — could break either way by 2029",
+        "title": "The capex bill could hit $10T a year — and the debt behind it could trigger a second Volcker shock",
+        "lead": "**Dylan models ~$11T of cumulative AI infrastructure capex through 2029, with roughly $5T needing to come from debt — enough, he argues, to meaningfully move interest rates and default risk worldwide.**",
+        "bullets": [
+            "Headline AI capex numbers (\"$40-50 billion\") usually cover only critical IT (servers, networking, optics) — they exclude the data center shells and, especially, the power plants that must be built years ahead of the compute they'll feed, which Dylan says pushes true annual capex toward $10T by decade's end.",
+            "Of the ~$11T modeled cumulative capex from 2024-2029, roughly $6T is cash-funded and $5T needs to be raised as debt across hyperscalers and their supply chains.",
+            "Meta recently raised debt at 5-6%; Dylan thinks hyperscalers would happily pay 8% given the returns on the compute it buys — a ~250bps move that would raise borrowing costs economy-wide, hurting banks whose liabilities reprice faster than their assets.",
+            "Higher discount rates would hit \"stable cash flow\" stocks (Berkshire-style holdings, Johnson & Johnson, railways) hardest even if the S&P 500 as a whole holds up, since their valuations depend on steady long-duration cash flows.",
+            "Economist Basil Halpern's parallel: 1980s Fed Chair Paul Volcker's rate hikes (to roughly 8% real) triggered defaults in about 40 countries, mostly in Latin America; Dylan expects a similar wave among today's high-debt, low-tax-revenue economies — he names Pakistan and Nigeria as candidates.",
+            "US tax math: debt-interest service is currently ~20% of federal revenue; a 1-point rate rise pushes that to ~25%, a 5-point rise to 40%+, and combined with ~$2T/year in new government borrowing, Dylan estimates it could exceed 60% of tax revenue.",
+            "Researcher Damon Binder's framing (cited by Dylan): a fully-automated economy could double its entire capital stock roughly every year, versus ~20 years today — implying real interest rates in the \"tens of percent\" by the 2030s, at which point anything outside AI production is effectively priced toward zero.",
+        ],
+        "quote": {"text": "Every country that is not involved in the production of AI defaults. Every stock that is not an AI stock is like worth basically zero.", "cite": "— Dylan Patel"},
+        "watch": "Dylan repeatedly flags the specific interest-rate figures as \"vibing a number\" rather than a modeled forecast — directionally confident, not precise.",
+        "names": [
+            {"name": "Amazon (AMZN)", "blurb": "Named among hyperscalers expected to need hundreds of billions in debt issuance to fund capex through 2029."},
+            {"name": "Microsoft (MSFT)", "blurb": "Cited as the hyperscaler that hasn't yet needed heavy debt issuance but \"will be there soon,\" per Dylan."},
+            {"name": "Alphabet (GOOGL)", "blurb": "Already redirecting buyback capacity toward compute infrastructure instead of shareholder returns."},
+            {"name": "Broadcom (AVGO)", "blurb": "Named alongside Nvidia and the memory makers as a possible funder of downstream capex given the cash it's generating."},
+        ],
+    },
+    {
+        "id": "china-compute-trajectory",
+        "color": "gray",
+        "badge": "Speculative, wide error bars",
+        "status": "WIDENING — US lead growing, not shrinking",
+        "title": "China's compute gap: far behind today, catching up on paper by 2029, but quality-discounted",
+        "lead": "**China has gone from adding ~30-35% of world compute in 2022 to under 10% today — and even its projected 2029 catch-up is worth roughly a third as much once chip quality is accounted for.**",
+        "bullets": [
+            "2022 baseline: the US added ~45-50% of world incremental compute, China ~30-35%. Since then, export controls plus a US buildout surge have flipped that to ~70% US / sub-10% China today.",
+            "China's domestic compute is expected to stay under ~30 gigawatts by 2028, with 2026 still leaning heavily on smuggled Nvidia chips and Samsung HBM that ended up there via third countries (Dylan mentions Malaysia).",
+            "Domestic Chinese fabs (SMIC, CXMT) are expected to ramp meaningfully in 2027-28, potentially adding 5-10 gigawatts of domestically-produced compute in 2028 alone, and as much as 50 gigawatts of incremental capacity by 2029.",
+            "But Chinese chips lag Nvidia/Google's 2028 hardware enough that Dylan quality-adjusts the 2029 figure: 50 raw gigawatts from domestic Chinese chips is worth roughly what 20 gigawatts of American chips would deliver.",
+            "Leading Chinese labs currently run on just 100-200 megawatts of total compute (ByteDance's Seed team is the one outlier with meaningfully more) — versus Anthropic's ~5 gigawatts, a gap of well over 20x.",
+            "Dwarkesh, revising a view he held going into his earlier interview with Nvidia CEO Jensen Huang on export controls, calls the compute gap \"a notable success\" of the policy; Dylan credits it partly to controls, partly to China's financial system being slower to fund speculative bets — though once committed, Chinese subsidies for semiconductors reportedly exceed the rest of the world's combined.",
+        ],
+        "quote": {"text": "If there's anything China's really good at, it's scaling manufacturing really, really quickly.", "cite": "— Dylan Patel"},
+        "watch": "Dylan repeatedly caveats these China figures as highly sensitive to unresolved policy questions — whether the US passes further export-control legislation (the \"MATCH Act\") and how fast China's domestic tool-making actually scales.",
+        "names": [
+            {"name": "SMIC (0981.HK)", "blurb": "China's leading domestic foundry, expected to ramp production meaningfully starting 2027-28."},
+            {"name": "CXMT", "blurb": "Chinese domestic memory maker expected to add capacity alongside SMIC later this decade."},
+            {"name": "ByteDance (Seed)", "blurb": "ByteDance's AI research team, cited as the one Chinese lab with meaningfully more compute than its domestic peers."},
+        ],
+    },
+]
+
+TAKEAWAYS = [
+    {"icon": "\U0001F4CA", "tag": "Watch", "title": "Track OpenAI/Anthropic's share of incremental world compute (Dylan's ~40-50% next-year figure) as the number that confirms or breaks his centralization thesis."},
+    {"icon": "\U0001F504", "tag": "Signal", "title": "Watch for ARR growth plateauing while compute keeps climbing — Dylan's tell that a lab is quietly shifting margin from inference into internal R&D."},
+    {"icon": "\U0001F4B0", "tag": "Re-examine", "title": "Revisit memory-chip multiples (Micron, SK Hynix, Kioxia at 2-3x earnings) as a market bet on whether AI reshapes the whole economy, not just a cyclical chip call."},
+    {"icon": "\U0001F4C8", "tag": "Watch", "title": "Track hyperscaler bond yields (Meta's recent 5-6% deal) — a move toward 8% is Dylan's marker that credit markets are pricing in real crowding-out risk."},
+    {"icon": "\U0001F3DB️", "tag": "Watch", "title": "Track state-level data-center regulation (NY's ban, TX's moratoriums, OH's property-tax proposal) as the leading indicator for whether US regulation, not compute or chips, becomes the binding constraint on lab progress."},
+]
+
+RISKS = [
+    "This is a two-person deep-dive built substantially on Dylan Patel's own SemiAnalysis modeling; figures like fab capex, EUV tool counts, and future compute buildouts are his firm's estimates, not disclosed guidance from the labs or chipmakers themselves.",
+    "Several numbers — future interest rates, the 2029 capex debt/cash split — are explicitly called out by Dylan as \"vibing a number,\" a deliberate ballpark rather than a modeled forecast.",
+    "Jane Street sponsors this episode and is also cited approvingly inside the conversation as the single biggest beneficiary of AI's value chain; worth keeping that overlap in mind when weighing how favorably Jane Street comes across.",
+    "Auto-generated captions garble several proper nouns (e.g. \"Carl's Ice\" for Carl Zeiss, \"KSMC\" for TSMC, \"Hopper\" for economist Basil Halpern); names have been resolved here only where context made them unambiguous.",
+]
+
+HOT_TAKES = [
+    {"take": "It's really by the end of next year that half the world's incremental compute goes to just OpenAI and Anthropic.", "cite": "— Dylan Patel", "why": "A concrete, date-stamped prediction that's easy to check against reality within 18 months."},
+    {"take": "I don't see why it wouldn't be 50-plus million dollars a megawatt by end of '27... it could get to 70, 80 million a megawatt, blended across the company.", "cite": "— Dylan Patel", "why": "A specific number-and-date revenue forecast he's now on record for."},
+    {"take": "The standard belief of most people is, oh, most compute will go to inference... I think this is very non-consensus — labs will actually allocate less compute to inference over time, not more.", "cite": "— Dylan Patel", "why": "Explicitly flagged by him as going against the market consensus, with real money riding on being right."},
+    {"take": "I think most compute will still continue to transact at sub-$20 billion a gigawatt, even at the end of next year.", "cite": "— Dylan Patel", "why": "A specific pricing call that sits in tension with the $40B/gigawatt SpaceX-Google deal he'd just described as recent."},
+    {"take": "Meta trading at ~$1.5 trillion is silly — they're worth way more than that, at least in a logical sense.", "cite": "— Dylan Patel", "why": "An explicit, checkable mispricing call on a specific public stock, tied to Meta's compute-hoarding optionality."},
+    {"take": "Every country that is not involved in the production of AI defaults. Every stock that is not an AI stock is like worth basically zero.", "cite": "— Dylan Patel", "why": "A stark, falsifiable macro call with real stakes for anyone whose portfolio or economy sits outside the AI buildout."},
+]
+
+OTHER_NEWS = [
+    {"icon": "\U0001F4DA", "title": "Sources referenced this episode: economist Basil Halpern's \"second Volcker shock\" framing (1980s rate hikes that triggered roughly 40 sovereign defaults, mostly in Latin America), and researcher Damon Binder's input-output-table analysis of how fast a fully-automated economy could double its capital stock.", "tag": "Sources"},
+    {"icon": "\U0001F3A4", "title": "The conversation builds directly on an earlier Dwarkesh-Dylan episode (the original per-gigawatt wafer-count figures) and on Dwarkesh's separate interview with Nvidia CEO Jensen Huang about export controls, a view Dwarkesh says this conversation partly revised.", "tag": "Prior episodes"},
+]
+
+GLOSSARY = [
+    {"term": "RSI (Recursive Self-Improvement)", "def": "AI systems using their own capabilities to accelerate the design of the next, better AI system — the point both speakers treat as where normal economic forecasting breaks down."},
+    {"term": "EUV lithography tool", "def": "The ASML machine, built around mirrors supplied by Carl Zeiss, used to etch the most advanced chip designs; described here as the physical bottleneck on scaling chip production."},
+    {"term": "HBM (High-Bandwidth Memory)", "def": "The specialized memory chip type used to feed AI accelerators, made primarily by SK Hynix, Samsung, and Micron/Kioxia."},
+    {"term": "Bullwhip effect", "def": "A supply-chain phenomenon where a price or demand signal takes a long time to reach raw suppliers, so production capacity expands slowly even after demand or prices spike."},
+    {"term": "Basis points (bips)", "def": "Hundredths of a percentage point, used to describe interest-rate moves — e.g. \"250 bips\" means a 2.5 percentage-point increase."},
+]
