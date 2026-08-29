@@ -184,8 +184,8 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
 .riskcard.takecard::before{background:#6d4b9c;}
-.riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;}
-.riskcard cite{display:block;margin-top:8px;font-size:12.5px;color:#65695f;font-style:normal;}
+.riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(16px,1.3vw,19px);line-height:1.5;}
+.riskcard cite{display:block;margin-top:8px;font-size:11px;color:#8a8d81;font-style:normal;}
 .riskcard .txt{font-weight:500;font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;}
 .gloss{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:6px 30px;}
 .gloss div{padding:9px 0;border-bottom:1px solid var(--line);font-size:13.8px;line-height:1.55;}
@@ -360,10 +360,11 @@ def render_hot_takes(items):
         return '<p class="empty">No standout hot takes or personal convictions in this video.</p>'
     out = []
     for t in items:
-        cite = " &middot; ".join(x for x in (t.get("cite", ""), t.get("why", "")) if x)
+        cite = t.get("cite", "")
         out.append(
             f'<div class="riskcard takecard"><div class="txt">&#8220;{esc(t["take"])}&#8221;</div>'
-            f'<cite>{esc(cite)}</cite></div>'
+            + (f'<cite>{esc(cite)}</cite>' if cite else "")
+            + '</div>'
         )
     return "".join(out)
 
