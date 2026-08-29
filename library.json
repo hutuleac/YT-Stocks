@@ -178,6 +178,87 @@
    ]
   },
   {
+   "html": "peter-diamandis-moonshots_2026-08-29_nvidia-s-96-2b-quarter-china-s-200-000-fake-accounts-openai-s-new-chip.html",
+   "title": "NVIDIA's $96.2B Quarter, China's 200,000 Fake Accounts, & OpenAI's New Chip",
+   "channel": "Peter Diamandis (Moonshots)",
+   "date": "2026-08-29",
+   "speakers": "Peter Diamandis, Alex Wissner-Gross, Dave Blundin, Salim Ismail",
+   "thread_line": "12 threads across markets, geopolitics, energy, health, and space — a full news-roundup episode",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "TSM",
+     "display": "TSMC",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "AVGO",
+     "display": "Broadcom",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "SpaceX",
+     "stance": "Speculative",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": "TSLA",
+     "display": "Tesla",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "GOOGL",
+     "display": "Alphabet",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "BABA",
+     "display": "Alibaba",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "MRNA",
+     "display": "Moderna",
+     "stance": "Confirmed-good",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "SpaceX",
+     "stance": "Speculative",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": "AAPL",
+     "display": "Apple",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "red"
+    }
+   ]
+  },
+  {
    "html": "limitless-podcast_2026-08-28_nvidia-just-made-its-biggest-purchase-ever.html",
    "title": "NVIDIA Just Made Its Biggest Purchase Ever",
    "channel": "Limitless Podcast",
