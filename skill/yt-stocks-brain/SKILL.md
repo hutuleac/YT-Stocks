@@ -1,15 +1,15 @@
 ---
-name: youtube-research-brief
+name: yt-stocks-brain
 version: 1.0.0
 metadata:
   author: Peter <peter@example.com>
-  tags: [youtube, research, transcript, brief, investing]
+  tags: [youtube, research, transcript, brief, investing, knowledge-graph]
 allowed-tools: Read, Write, Bash, Grep, Glob
 description: |
   Turn a YouTube video into a clean, standalone HTML + JSON research brief built from the transcript, organized by theme rather than fixed category tables. Handles investment/market videos, tech/AI workflow videos, lifestyle/recommendation videos (supplements, workouts, products), and any mix of these. Use whenever the user gives a YouTube URL and wants a structured research summary. Triggers on: youtube link, "research this video", "analyze this youtube", "summarize the transcript", "make the HTML for this video".
 ---
 
-# YouTube Research Brief
+# YT Stocks Brain — YouTube Research Brief
 
 Generate a structured, evidence-based, mobile-friendly research brief (HTML + JSON) from any
 YouTube video. The content of a video can be investing/market commentary, AI/tech workflows,

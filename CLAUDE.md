@@ -1,17 +1,22 @@
-# YT Knowledge — Project Notes
+# YT Stocks Brain — Project Notes
 
 Library of structured research briefs generated from YouTube videos (investing/AI-news podcasts,
-crypto/market interviews, and dev/career/workflow content). Static HTML, no build step, no deps.
+crypto/market interviews, and dev/career/workflow content), built toward a future knowledge
+graph/brain over stocks, investing, and industry trends. Static HTML, no build step, no deps.
 
 ## Repo
-- **Remote:** https://github.com/hutuleac/YT-Stocks.git (`main` branch, no other branches used)
-- **Live site:** https://hutuleac.github.io/YT-Stocks/ — GitHub Pages serving `main` branch root
+- **Remote:** https://github.com/hutuleac/YT-Stocks-Brain.git (`main` branch, no other branches used)
+- **Live site:** https://hutuleac.github.io/YT-Stocks-Brain/ — GitHub Pages serving `main` branch root
 - Working directory root should only ever gain the finished `.html` brief + the refreshed
   `index.html`/`library.json`. Everything else (transcripts, JSON, archived data files) lives in
   `research-data/<slug>/`.
+- **Future knowledge-graph build:** use `library.json` + per-brief `.json` as the source (already
+  structured: themes, entities/tickers, quotes). Don't parse HTML (pure presentation, redundant
+  with the JSON it's generated from) or transcripts (too noisy for direct extraction) — transcripts
+  stay archived in `research-data/<slug>/` as the citation/ground-truth layer only.
 
 ## Generating a brief
-Use the **youtube-research-brief** skill (`~/.claude/skills/youtube-research-brief/SKILL.md`) for
+Use the **yt-stocks-brain** skill (`~/.claude/skills/yt-stocks-brain/SKILL.md`) for
 every new video. It fetches the transcript via `yt-dlp`, cleans it, and drives `generate.py` off a
 per-video Python data file (never edit `generate.py` itself per video). Read the skill file fresh
 each time — it gets tuned periodically and this doc is not a substitute for it.

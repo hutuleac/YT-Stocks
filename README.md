@@ -1,17 +1,17 @@
-# YT Knowledge
+# YT Stocks Brain
 
 Structured research briefs generated from YouTube videos (investing, AI/tech, and mixed-topic
 podcasts). Each brief is a standalone, mobile-friendly HTML page built from the video's
 transcript, organized by theme rather than fixed category tables.
 
-**Browse live:** https://hutuleac.github.io/YT-Knowledge/
+**Browse live:** https://hutuleac.github.io/YT-Stocks-Brain/
 
 - `index.html` — searchable index of every brief (all briefs / by channel / by company-ticker)
 - `<channel>_<date>_<title>.html` — individual briefs
 - `research-data/` — archived transcripts, JSON, and data files behind each brief
 - `library.json` — machine-readable manifest of every brief and its extracted entities
 
-Briefs are generated with the `youtube-research-brief` skill.
+Briefs are generated with the `yt-stocks-brain` skill.
 
 ## On your phone
 
