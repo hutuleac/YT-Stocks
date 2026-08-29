@@ -52,6 +52,7 @@ RISKS = [
 
 HOT_TAKES = [
     # {"take": "...", "cite": "— Speaker", "why": "short context: what makes it a take"} × 0-6
+    # only take + cite render (cite inline, end of the same line) — why is a drafting aid only
     # Verbatim-or-near-verbatim opinions the speaker owns: hot takes, unpopular/contrarian calls,
     # personal convictions, predictions with a number or date, dismissals. See SKILL.md Section 5.
 ]

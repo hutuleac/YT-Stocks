@@ -215,7 +215,9 @@ sponsor material and continue capturing the surrounding content normally.
   and predictions carrying a number or a date. Shape: `{"take": ..., "cite": "— Speaker",
   "why": short context}`. `take` is verbatim or near-verbatim, tightened only for caption noise —
   never paraphrased into neutral prose, because the value here is the speaker's own phrasing and
-  the risk they took saying it.
+  the risk they took saying it. Only `take` and `cite` render on the page — `cite` sits inline
+  right after the take, same line, not on its own line below — and `why` is kept in the data file
+  purely as your own drafting/vetting aid (the exposure test below), never shown to the reader.
   **The test is exposure, not volume:** would a reasonable listener disagree, or is the speaker
   on the hook if it's wrong? A number, date, or ranking makes it a take; "AI is important"
   does not. Include takes on any subject, not just the investable ones.
