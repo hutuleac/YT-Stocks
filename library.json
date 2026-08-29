@@ -4852,6 +4852,178 @@
      "color": "amber"
     }
    ]
+  },
+  {
+   "html": "dwarkesh-patel_2026-04-15_jensen-huang-will-nvidia-s-moat-persist.html",
+   "title": "Jensen Huang – Will Nvidia's moat persist?",
+   "channel": "Dwarkesh Patel",
+   "date": "2026-04-15",
+   "speakers": "Dwarkesh Patel, Jensen Huang (Nvidia)",
+   "thread_line": "6 threads · the moat thesis, supply-chain lock-up, TPU/ASIC competition, investment philosophy, GPU allocation, and the China export-control debate",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "SNPS",
+     "display": "Synopsys",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "CDNS",
+     "display": "Cadence",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "TSM",
+     "display": "TSMC",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "MU",
+     "display": "Micron",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "SK Hynix (000660.KS)",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Samsung (005930.KS)",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "ASML",
+     "display": "ASML",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "COHR",
+     "display": "Coherent Corp",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "LITE",
+     "display": "Lumentum",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "GOOGL",
+     "display": "Alphabet",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "AVGO",
+     "display": "Broadcom",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "AMZN",
+     "display": "Amazon",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "AMD",
+     "display": "AMD",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Groq",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "OpenAI",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "CRWV",
+     "display": "CoreWeave",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "NBIS",
+     "display": "Nebius",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "LLY",
+     "display": "Eli Lilly",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Huawei",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "red"
+    },
+    {
+     "ticker": null,
+     "display": "SMIC (0981.HK)",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "red"
+    },
+    {
+     "ticker": null,
+     "display": "DeepSeek",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "red"
+    }
+   ]
   }
  ]
 }
