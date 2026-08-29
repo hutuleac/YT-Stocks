@@ -2,6 +2,73 @@
  "generated_from": "youtube-research-brief generate.py --reindex",
  "briefs": [
   {
+   "html": "limitless-podcast_2026-08-28_nvidia-just-made-its-biggest-purchase-ever.html",
+   "title": "NVIDIA Just Made Its Biggest Purchase Ever",
+   "channel": "Limitless Podcast",
+   "date": "2026-08-28",
+   "speakers": "EJ & Josh",
+   "thread_line": "6 threads — Nvidia's record quarter and $13B Hugging Face buy, Chinese silicon's inference breakthrough, robotaxi hardware leaps, Leopold Aschenbrenner's SEC probe, an Anthropic-usage chart fight, and Sam Altman's watch tea",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "OpenAI",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Hugging Face",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Poolside",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Huawei",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "GOOGL",
+     "display": "Alphabet",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "TSLA",
+     "display": "Tesla",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Citadel",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    }
+   ]
+  },
+  {
    "html": "my-first-million_2026-08-26_how-a-5b-founder-is-using-ai-3-tutorials.html",
    "title": "How a $5B Founder Is Using AI (3 Tutorials)",
    "channel": "My First Million",
