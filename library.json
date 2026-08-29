@@ -2,6 +2,87 @@
  "generated_from": "youtube-research-brief generate.py --reindex",
  "briefs": [
   {
+   "html": "all-in-podcast_2026-08-29_nvidia-s-historic-quarter-saas-comeback-bessent-vs-druck-america-s-debt-crisis-cancer-vaccine.html",
+   "title": "Nvidia's Historic Quarter, SaaS Comeback, Bessent vs Druck, America's Debt Crisis, Cancer Vaccine",
+   "channel": "All-In Podcast",
+   "date": "2026-08-29",
+   "speakers": "Chamath Palihapitiya, Jason Calacanis, David Sacks, David Friedberg",
+   "thread_line": "6 threads — Nvidia's record quarter and open-source land grab, Salesforce's SaaS comeback, the Bessent-Druckenmiller bond fight over America's debt, a fight over AI-written op-eds, China's robot-Olympics PR vs. the real AI-optimism gap, and Moderna's $500K cancer-vaccine controversy",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Hugging Face",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Poolside",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "OpenAI",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "AMD",
+     "display": "AMD",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "CRM",
+     "display": "Salesforce",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "TSLA",
+     "display": "Tesla",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "MRNA",
+     "display": "Moderna",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Grail",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    }
+   ]
+  },
+  {
    "html": "limitless-podcast_2026-08-28_nvidia-just-made-its-biggest-purchase-ever.html",
    "title": "NVIDIA Just Made Its Biggest Purchase Ever",
    "channel": "Limitless Podcast",
