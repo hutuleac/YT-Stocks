@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research: New Rules for Founders</title>
+<style>
+:root{
+  --ink:#20231f; --muted:#6b6f66; --line:#e4e2d8; --card:#fffdf8; --bg:#efece2;
+  --brand:#8a5a2e; --serif:'Iowan Old Style','Palatino Linotype',Georgia,serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size:clamp(15px,1.05vw,18px);line-height:1.7;-webkit-font-smoothing:antialiased;}
+.page{max-width:1600px;width:100%;margin:0 auto;background:var(--card);box-shadow:0 0 0 1px var(--line);}
+.hero{padding:clamp(18px,2.4vw,34px) clamp(18px,4vw,56px) clamp(14px,1.8vw,22px);border-bottom:1px solid var(--line);}
+.kicker{font-family:var(--serif);font-style:italic;font-size:clamp(13px,1vw,16px);color:var(--brand);margin-bottom:10px;}
+.backlink{margin-bottom:12px;}
+.backlink a{font-size:clamp(12.5px,.95vw,14px);color:var(--muted);text-decoration:none;border:1px solid var(--line);
+  border-radius:20px;padding:5px 14px;transition:color .15s,border-color .15s;}
+.backlink a:hover{color:var(--brand);border-color:var(--brand);}
+.hero h1{font-family:var(--serif);margin:0 0 14px;font-size:clamp(24px,3.4vw,42px);line-height:1.15;
+  letter-spacing:-.01em;font-weight:600;color:#171916;max-width:42ch;}
+.byline{border-top:1px solid var(--line);padding-top:12px;color:var(--muted);font-size:clamp(13px,1vw,15px);line-height:1.6;}
+.byline b{color:var(--ink);font-weight:600;}
+.stats-line{font-family:var(--serif);font-style:italic;color:var(--brand);font-size:clamp(12.5px,.95vw,14.5px);margin-top:4px;}
+.stats-line a{color:var(--brand);}
+.inner{padding:10px clamp(18px,4vw,56px) 48px;}
+section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
+.sec-eye{font-family:var(--serif);font-style:italic;font-size:14px;color:var(--brand);margin-bottom:4px;}
+.sec h2{font-family:var(--serif);margin:0;font-size:clamp(20px,2vw,26px);font-weight:600;color:#171916;
+  border-bottom:2px solid var(--brand);display:inline-block;padding-bottom:5px;}
+.card{background:#fbf7ef;border:1px solid var(--line);border-radius:14px;padding:clamp(18px,3vw,28px);}
+.snap{list-style:none;margin:0;padding:0;}
+.snap li{padding:12px 0;border-bottom:1px solid var(--line);line-height:1.6;font-size:clamp(14.5px,.95vw,16.5px);}
+.snap li:last-child{border-bottom:none}
+.theme{padding:36px 0;border-bottom:1px solid var(--line);}
+.theme-badgerow{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin-bottom:10px;}
+.badge{display:inline-block;padding:5px 13px;border-radius:3px;font-size:12px;font-weight:700;
+  white-space:nowrap;letter-spacing:.03em;text-transform:uppercase;color:#fffdf8;}
+.theme-status{font-family:var(--serif);font-style:italic;font-size:13.5px;color:var(--muted);}
+.theme h2{font-family:var(--serif);margin:0 0 20px;font-size:clamp(20px,2.2vw,28px);font-weight:600;
+  color:#171916;line-height:1.25;max-width:32ch;padding-left:16px;}
+.theme-body{display:flex;flex-wrap:wrap;gap:28px;}
+.theme-main{flex:3 1 400px;min-width:0;}
+.theme-side{flex:2 1 260px;min-width:0;}
+.lead{margin:0 0 18px;font-size:clamp(16px,1.15vw,19px);line-height:1.6;color:#171916;font-weight:600;max-width:70ch;}
+.bullets{list-style:none;margin:0 0 22px;padding:0;max-width:76ch;}
+.bullets li{position:relative;padding:9px 0 9px 20px;border-bottom:1px solid var(--line);
+  font-size:clamp(14px,.95vw,15.5px);line-height:1.65;color:#2c2f28;}
+.bullets li .dot{position:absolute;left:0;top:16px;width:7px;height:7px;border-radius:50%;}
+.sidecard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:14px 16px 14px 26px;max-width:76ch;margin:0 0 18px;}
+.sidecard:last-child{margin-bottom:0;}
+.sidecard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;
+  background:var(--sc-accent);}
+.sidecard .lbl{font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--sc-accent);margin-bottom:8px;}
+.sidecard.quote{font-family:var(--serif);font-style:italic;font-size:clamp(15px,1.1vw,18px);
+  line-height:1.5;color:#2c2f28;}
+.sidecard.quote .lbl{font-family:-apple-system,sans-serif;font-style:normal;}
+.sidecard.quote cite{display:block;font-family:-apple-system,sans-serif;font-style:normal;font-size:13px;
+  color:var(--muted);margin-top:9px;}
+.sidecard .txt{font-size:14.5px;line-height:1.55;color:#3a3d35;}
+.namechip{padding:0 0 10px;margin:0 0 10px;border-bottom:1px solid var(--line);}
+.namechip:last-child{padding-bottom:0;margin-bottom:0;border-bottom:none;}
+.namechip b{display:block;font-weight:600;font-size:14.5px;color:#171916;}
+.namechip span{font-size:13px;color:#4a4d44;line-height:1.5;}
+.icardbox{background:#fffefb;border:1px solid var(--line);border-radius:12px;padding:2px 18px;}
+.irow{display:flex;gap:14px;align-items:flex-start;padding:13px 0;}
+.irow+.irow{border-top:1px solid var(--line);}
+.irow .ic{flex:none;width:30px;height:30px;border-radius:6px;display:grid;place-items:center;
+  font-size:14px;background:#f4e9db;line-height:1;}
+.irow .title{font-weight:600;font-size:clamp(14px,.95vw,15.5px);color:#171916;line-height:1.42;}
+.irow .tag{display:inline-block;font-family:var(--serif);font-style:italic;font-size:12.5px;font-weight:600;color:var(--brand);margin-left:6px;}
+.irow .detail{font-size:13.5px;color:#4a4d44;line-height:1.55;margin-top:4px;}
+.irow .tline{font-size:clamp(14px,.95vw,15.5px);line-height:1.48;}
+.irow .tline .cat{font-family:var(--serif);font-style:italic;font-weight:700;color:var(--brand);margin-right:6px;}
+.irow .tline .txt{font-weight:600;color:#171916;}
+b{font-weight:700;}
+i{font-style:italic;}
+.riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px 14px 28px;margin:11px 0;}
+.riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:2px 18px 2px 28px;}
+.riskbox::before{content:"";position:absolute;left:11px;top:14px;bottom:14px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox .ritem{font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;padding:13px 0;}
+.riskbox .ritem+.ritem{border-top:1px solid var(--line);}
+.riskcard.takecard::before{background:#6d4b9c;}
+.riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(16px,1.3vw,19px);line-height:1.5;}
+.riskcard cite{display:inline;margin-left:6px;font-size:11px;color:#8a8d81;font-style:normal;white-space:nowrap;}
+.riskcard .txt{font-weight:500;font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;}
+.gloss{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:6px 30px;}
+.gloss div{padding:9px 0;border-bottom:1px solid var(--line);font-size:13.8px;line-height:1.55;}
+.gloss b{font-family:var(--serif);color:#171916;}
+.empty{color:var(--muted);font-style:italic;font-size:14.5px;}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="hero">
+    <div class="backlink"><a href="index.html">&#8592; All Research Briefs</a></div>
+    <div class="kicker">A YouTube Research Brief</div>
+    <h1>New Rules for Founders</h1>
+    <div class="byline">
+      Channel: <b>a16z</b> &middot; Speaker: <b>Garry Tan (President &amp; CEO, Y Combinator), interviewed by Erik Torenberg</b> &middot; <b>2026-08-12</b>
+      <div class="stats-line">6 threads · founder psychology, agentic-org building, YC's access model, SaaS's expiring moat, the AI-timeline white pill, and Tan's local-politics organizing &middot; <a href="https://www.youtube.com/watch?v=fsTtKywmWlU" target="_blank" rel="noopener">Watch on YouTube &#8599;</a></div>
+    </div>
+  </header>
+  <div class="inner">
+    <section class="sec">
+      <div class="sec-eye">The one-paragraph takeaway</div>
+      <h2>Video Snapshot</h2>
+      <div class="card" style="margin-top:16px;"><ol class="snap"><li>Tan frames his own career as a <b>cautionary tale of chasing 'hot'</b> instead of what he actually knew: he left web programming for Windows Mobile right before Web 2.0, then turned down early Palantir to stay at Microsoft for a promotion.</li><li>Central thesis: <b>'a markdown file is an employee'</b> — founders should turn any repeatable business process into a skill file (markdown + code + tests) that an agent runs perfectly and forever, applied to sales, marketing, support, and engineering alike.</li><li>Says token-maxing agents (Open Claw/Hermes Agent style, ~800k-1M tokens per request) costs <b>$50,000-$100,000 a year</b> but effectively lets a founder "live in 2028" today.</li><li>Claims YC has seen companies go from <b>zero to $15M ARR in about four months</b> with two or three people and hundreds of agent skill files.</li><li>Calls pure per-seat SaaS a shrinking category — in 2026 it needs a real moat (data, network effects) beyond the old 10-20x revenue-multiple logic, or it's just a wedge.</li><li>His 'white pill': the actual bottleneck on AI-driven disruption is <b>humans and bureaucracy, not model intelligence</b> — expects the transition to take ~20 years, with a 'harness wars' phase around 2027 once compute gets cheap enough for consumer scale.</li><li>Describes his own organizing in San Francisco politics — recall campaigns, a DA and school board he says failed Asian American residents — as the human-coordination-bound counterpart to intelligence-bound AI problems.</li><li>Credits Y Combinator's founders (Paul Graham, Jessica Livingston, Trevor Blackwell, Robert Morris) with replacing Silicon Valley's old insider social network with a 12-question form, calling it a great equalizer ('birthright but for tech').</li></ol></div>
+    </section>
+
+    
+<section class="theme" id="founder-psychology">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#65695f;">Personal reflection</span>
+    <span class="theme-status">CAREER RETROSPECTIVE</span>
+  </div>
+  <h2 style="border-left:4px solid #65695f;">Chasing 'hot' cost Tan a shot at both Facebook-era web and Palantir</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">Tan's two biggest career regrets both came from following what looked smart instead of what he already knew.</p>
+      <ul class="bullets"><li><span class="dot" style="background:#65695f;"></span>In 2003, post-dot-com-crash, he left web programming for a Windows Mobile job at Microsoft right before Web 2.0 and social software took off — <b>"I was getting out of web programming at exactly the wrong time."</b></li><li><span class="dot" style="background:#65695f;"></span>His fraternity brothers Joe Lonsdale and Stephen Cohen, then interning at Peter Thiel's hedge fund, tried recruiting him to what became Palantir; Thiel personally offered him <b>$70,000 </b>to join.</li><li><span class="dot" style="background:#65695f;"></span>Tan turned it down to stay at Microsoft for a promotion to <i>level 60</i> — he now calls it <b>"a $2 billion to $4 billion mistake at this point."</b></li><li><span class="dot" style="background:#65695f;"></span>His framing for both mistakes: he was "working backwards from the map instead of looking down at the territory" — following perceived status/hotness rather than direct experience.</li><li><span class="dot" style="background:#65695f;"></span>Coined a "don't LARP" meme at Startup School: be earnest about what you actually know rather than chasing consensus opinion on what's hot.</li><li><span class="dot" style="background:#65695f;"></span>On whether agency is innate — pushing back on a claim he attributes to Nikita that the same <b>20%</b> of people who dominated film and software will keep dominating now that anyone can make either — Tan calls himself "a late bloomer" and argues agency is built through practice, not born in.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#65695f;"><div class="lbl">Pull quote</div>&#8220;Courage is actually I think the right thing... if someone contradicts you, you say well, I don't agree with that because I believe my own direct experience.&#8221;<cite>— Garry Tan</cite></div>
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>Y Combinator</b><span>Tan is President &amp; CEO; accelerator whose founders and 16 equal partners he credits with democratizing Silicon Valley access.</span></div><div class="namechip"><b>Palantir</b><span>Company Tan nearly joined via Thiel/Lonsdale/Cohen in the early 2000s, later cofounded by Alex Karp; he cites it as where he learned 'everything awesome in my life is kind of a cult.'</span></div><div class="namechip"><b>Microsoft</b><span>Where Tan worked on Windows Mobile starting 2003; also his recurring example of bureaucratic dysfunction (the 'baseball bat' story).</span></div></div>
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">These are Tan's own retrospective dollar estimates on a hypothetical alternate career path, not an audited figure.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="markdown-employee">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#93711b;">Structural thesis</span>
+    <span class="theme-status">CORE ARGUMENT OF THE INTERVIEW</span>
+  </div>
+  <h2 style="border-left:4px solid #93711b;">"A markdown file is an employee" — Tan's model for the agentic company</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">Tan's advice to founders: do any repeatable business process once by hand, then turn the trace into a skill file an agent runs perfectly forever.</p>
+      <ul class="bullets"><li><span class="dot" style="background:#93711b;"></span>Method: perform a task with a token-maxed agent (Open Claw / Hermes Agent, loading up to ~800k-1M tokens of context into a 'soul.md'), then convert the successful trace into markdown + code + tests — a reusable skill file.</li><li><span class="dot" style="background:#93711b;"></span>Cost of running agents 'at full strength' (his "150 IQ on every request") is roughly <b>$50,000-$100,000 a year</b>, which he argues is worth it for a CEO/founder because it effectively means "you get to live in 2028" today.</li><li><span class="dot" style="background:#93711b;"></span>Says he built <b>Garyslist.org</b>, an agentic newsroom, this way — used Open Claw to extract a RAG/graph-generation pipeline out of it that ended up outperforming Memory Palace and other open-source alternatives.</li><li><span class="dot" style="background:#93711b;"></span>The loop generalizes past engineering: he expects it applied to sales, marketing, customer support — anywhere a process can be captured, iterated on, and turned into a permanent skill/cron job.</li><li><span class="dot" style="background:#93711b;"></span>Cites Brex's Pedro as the most aggressive practitioner: built an open-source layer (network-traffic watcher for Open Claw) so agents can safely review meeting transcripts across the org and surface which teams are in conflict before Pedro walks into the room.</li><li><span class="dot" style="background:#93711b;"></span>Names provenance and conflict-management as the next hard problem once an org accumulates many markdown files/skills — needs a scheduled process resolving which of two conflicting facts is current.</li><li><span class="dot" style="background:#93711b;"></span>Cites YC-funded <b>Kolabtree</b> as an early example of the same idea applied externally: it shipped a bug-report API endpoint built for agents (not humans) to file against, which replies in real time with a fix timeline and a workaround.</li><li><span class="dot" style="background:#93711b;"></span>Says his own G Stack/G Brain tools started as messing around after Claude Code creator Boris Cherny appeared on the Light Cone podcast — Tan then mined months of recorded YC office-hours data to distill a script of the rhetorical devices partners use to raise founder ambition.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#93711b;"><div class="lbl">Pull quote</div>&#8220;A markdown file is an employee. And it's an employee that will do the job perfectly every single time, and it will do it as many times as you want.&#8221;<cite>— Garry Tan</cite></div>
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>Brex</b><span>Fintech where an executive (Pedro) built an open-source agent layer to monitor Open Claw activity and mine meeting transcripts for organizational conflict.</span></div><div class="namechip"><b>Kolabtree</b><span>YC-funded company Tan cites for shipping a bug-report API endpoint designed for AI agents, not humans, to file against.</span></div></div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="saas-not-precious">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#93711b;">Contested</span>
+    <span class="theme-status">MARKET-STRUCTURE SHIFT, PER TAN</span>
+  </div>
+  <h2 style="border-left:4px solid #93711b;">Code stopped being precious — and so did the SaaS multiple</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">Tan says the old per-seat SaaS playbook is no longer a safe default the way it was even two years ago.</p>
+      <ul class="bullets"><li><span class="dot" style="background:#93711b;"></span>"A pure per-seat SaaS thing... not totally clear it will exist in another 5 or 10 years" if launched in 2026 — fine as a wedge, but needs a real moat (data or network effects) behind it.</li><li><span class="dot" style="background:#93711b;"></span>Two years ago, he says, the 10-20x next-12-months revenue multiple was treated as "an iron law" for SaaS; he now calls that no longer true at all.</li><li><span class="dot" style="background:#93711b;"></span>Cheap agentic coding means code is "no longer precious" — QA, PM specs, and staffing overhead that used to gate shipping are increasingly compressed into agent workflows ('slash QA... it's done').</li><li><span class="dot" style="background:#93711b;"></span>He connects this to why few people show their agentic coding work publicly: much of it is low-stakes, exploratory 'Zen rock garden' tinkering rather than a finished, defensible product.</li></ul>
+    </div>
+    <div class="theme-side">
+      
+      
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">Tan is a VC funding this shift, not a neutral observer of SaaS valuations — this is his working thesis stated in conversation, not a market data claim.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="yc-access-model">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#3f6b2e;">Structural critique</span>
+    <span class="theme-status">CONFIRMED — YC'S OWN STATED MODEL</span>
+  </div>
+  <h2 style="border-left:4px solid #3f6b2e;">YC replaced Silicon Valley's insider social network with a form</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">Tan credits Paul Graham and Jessica Livingston's original model — a website, 12 questions, later a one-minute video — with removing the old social gatekeeping ('scenesters') from startup access.</p>
+      <ul class="bullets"><li><span class="dot" style="background:#3f6b2e;"></span>YC now runs on 16 equal partners, all YC alumni with successful outcomes themselves, evaluating founders on ideas and execution rather than pedigree or network.</li><li><span class="dot" style="background:#3f6b2e;"></span>Startup School drew <b>7,000 attendees</b> this year, most in San Francisco for the first time and mostly 18-22 years old — Tan calls it "birthright but for tech."</li><li><span class="dot" style="background:#3f6b2e;"></span>He frames YC's other core value as community: founders get a peer group they can be candid with about failure, unlike the guarded status-signaling at a typical industry event.</li><li><span class="dot" style="background:#3f6b2e;"></span>Ties this to a broader claim about internet-native generations finding their tribe (Reddit, X/Insta niches) much earlier than his own '80s grade-school generation did.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#3f6b2e;"><div class="lbl">Pull quote</div>&#8220;It sort of doesn't matter where you're from or who you are. It just actually matters what your ideas are and can you execute.&#8221;<cite>— Garry Tan</cite></div>
+      
+      
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="white-pill-timeline">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#93711b;">Contrarian framing</span>
+    <span class="theme-status">TAN'S OWN TIMELINE CALL</span>
+  </div>
+  <h2 style="border-left:4px solid #93711b;">The white pill: humans and bureaucracy — not model intelligence — are the bottleneck</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">Tan argues AI-driven disruption of institutions will take roughly two decades because human coordination limits (the 'seven plus or minus two' working-memory constraint), not model capability, are the real constraint.</p>
+      <ul class="bullets"><li><span class="dot" style="background:#93711b;"></span>His read against the doom-and-gloom discourse: "all of the bureaucracy and the slowness... of every company, every institution... that is actually the white pill" — it buys society time to adapt.</li><li><span class="dot" style="background:#93711b;"></span>Predicts 2027 will be the <b>"harness wars"</b> — a consumer-scale fight over AI agent interfaces — once frontier-level compute drops to roughly $50-100 within two to three years, at which point "the browser wars will be back on."</li><li><span class="dot" style="background:#93711b;"></span>Says the next computer is likely voice-first with persistent memory, evoking a Richard Brautigan-style "machines of living grace" that track a user's context, hopes, and fears over time.</li><li><span class="dot" style="background:#93711b;"></span>Argues an org like Microsoft structurally can't restructure around agentic middle-management the way a startup can — "an org like Microsoft can't. But a startup can. And every startup must."</li><li><span class="dot" style="background:#93711b;"></span>Frames a 35-45-year-old founder ('perfect example: Peter Steinberger') who's 'been around the block' as newly advantaged: multiplied by agents, one experienced person can now outperform an entire department at a large tech company.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#93711b;"><div class="lbl">Pull quote</div>&#8220;It's going to be 20 years and that's not a bad thing. That's actually a good thing... society is way slower than you think.&#8221;<cite>— Garry Tan</cite></div>
+      
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">This is Tan's personal forecast stated in conversation, not a modeled prediction — no methodology or data behind the 2027/20-year figures.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="sf-local-politics">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#93711b;">Personal advocacy</span>
+    <span class="theme-status">ONGOING — TAN'S OWN CIVIC ORGANIZING</span>
+  </div>
+  <h2 style="border-left:4px solid #93711b;">Tan's other project: organizing San Francisco politics around 'act local'</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">Tan treats his San Francisco political organizing as the human-coordination-bound counterpart to AI's intelligence-bound problems, and says it started from a personal grievance.</p>
+      <ul class="bullets"><li><span class="dot" style="background:#93711b;"></span>Says a San Francisco district attorney and school board around COVID were, in his view, hostile to Asian American residents and students — citing a school board fight over algebra access in public middle school that he says would have blocked his own path to Stanford engineering.</li><li><span class="dot" style="background:#93711b;"></span>Cites Asian Americans as roughly <b>25%</b> of San Francisco's voting population and describes local mainstream TV news (he names ABC News) as declining to cover anti-Asian crime during that period.</li><li><span class="dot" style="background:#93711b;"></span>Frames his response as personal-risk civic organizing, quoting Mario Savio's 'put your body on it' line, and says the resulting political shift (crediting Mayor Lurie's popularity) shows measurable improvement.</li><li><span class="dot" style="background:#93711b;"></span>Points to a recent jury-duty stint in San Francisco as a separate, smaller white-pill moment — an orderly cross-section of the city and, in his view, evidence that government isn't there to 'ruin people.'</li><li><span class="dot" style="background:#93711b;"></span>His stated broader goal is exporting the same organizing playbook to other cities via <b>Garyslist.org</b> — naming LA, New York, Minneapolis, and Seattle — and encouraging technologists to 'act local' on housing, crime, and treatment/recovery rather than focusing on national politics.</li><li><span class="dot" style="background:#93711b;"></span>Extends the same logic internationally: discussing a recent London trip, argues local ambition doesn't require an American blueprint — e.g. using the technology to make the NHS itself dramatically better rather than importing a US-style approach.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#93711b;"><div class="lbl">Pull quote</div>&#8220;When the system becomes so odious you've got to put your body on it... they can't do this to us and we're going to stop it.&#8221;<cite>— Garry Tan</cite></div>
+      
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">This is Tan's own account and framing of a contested local political period — the DA, school board, and media characterizations are his stated views, not independently verified in this conversation.</div></div>
+    </div>
+  </div>
+</section>
+
+
+    <section class="sec">
+      <div class="sec-eye">What to do with this</div>
+      <h2>Best Actionable Takeaways</h2>
+      <div style="margin-top:16px;"><div class="icardbox"><div class="irow"><div class="ic">📝</div><div class="tline"><span class="cat">Careers:</span> <span class="txt">Follow your direct experience over what's 'hot' — Tan's two biggest regrets both came from chasing consensus status instead.</span></div></div><div class="irow"><div class="ic">🤖</div><div class="tline"><span class="cat">AI workflows:</span> <span class="txt">Turn any repeatable task into a skill file (markdown + code + tests) once it's been done well by hand — that's the reusable unit, not a one-off script.</span></div></div><div class="irow"><div class="ic">💰</div><div class="tline"><span class="cat">Business models:</span> <span class="txt">Don't build a bare per-seat SaaS product in 2026 without a data or network-effect moat behind it — the old revenue-multiple safety net is gone.</span></div></div><div class="irow"><div class="ic">🏢</div><div class="tline"><span class="cat">Org design:</span> <span class="txt">Push mid-level coordination (conflict resolution, status-tracking) to agents; keep humans on setting direction and execution, not managing the seven-plus-or-minus-two bottleneck.</span></div></div><div class="irow"><div class="ic">🌍</div><div class="tline"><span class="cat">Civic engagement:</span> <span class="txt">Act local first — Tan argues state and national politics fix themselves once local government (housing, crime, schools) is functional.</span></div></div><div class="irow"><div class="ic">⏳</div><div class="tline"><span class="cat">AI timeline:</span> <span class="txt">Plan on a ~20-year institutional adoption curve, not overnight disruption — bureaucracy is the brake, and that's time to adapt, not a reason to panic.</span></div></div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Where this could be wrong</div>
+      <h2>Risks &amp; Caveats on This Source</h2>
+      <div style="margin-top:16px;"><div class="riskbox"><div class="ritem">This is a single-guest interview — every figure (the '<b>$2</b>-4B mistake,' the '$50-100k/year' agent cost, 'zero to $15M ARR in four months') is Tan's own self-reported estimate, offered in conversation rather than backed by a report or audit.</div><div class="ritem">Tan runs Y Combinator and is a direct beneficiary of the founder/agentic-tooling narrative he's describing — his SaaS-is-dying and 'harness wars' calls are stated as personal conviction, not disclosed as neutral market analysis.</div><div class="ritem">The San Francisco politics section presents one side of a contested local political period (a named DA, a school board, and named media outlet) — it's Tan's own advocacy framing, not independently verified in this conversation.</div><div class="ritem">Auto-generated captions likely mangled some names/tools in the agentic-tooling section (e.g., a Brex tool referenced as 'Craptrack') — treat unfamiliar proper nouns in that stretch as approximate.</div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Where they stuck their neck out</div>
+      <h2>Hot Takes &amp; Personal Convictions</h2>
+      <div style="margin-top:16px;"><div class="riskcard takecard"><div class="txt">&#8220;It was like a $2 billion to $4 billion mistake at this point.&#8221; <cite>— Garry Tan</cite></div></div><div class="riskcard takecard"><div class="txt">&#8220;A pure per-seat SaaS thing... not totally clear it will exist in another 5 or 10 years.&#8221; <cite>— Garry Tan</cite></div></div><div class="riskcard takecard"><div class="txt">&#8220;An org like Microsoft can't. But a startup can. And every startup must.&#8221; <cite>— Garry Tan</cite></div></div><div class="riskcard takecard"><div class="txt">&#8220;It's going to be 20 years and that's not a bad thing... society is way slower than you think.&#8221; <cite>— Garry Tan</cite></div></div><div class="riskcard takecard"><div class="txt">&#8220;A markdown file is an employee.&#8221; <cite>— Garry Tan</cite></div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Beyond the main threads</div>
+      <h2>Other Notable News</h2>
+      <div style="margin-top:16px;"><div class="icardbox"><div class="irow"><div class="ic">📡</div><div><div class="title">Sources referenced this episode: Chris Dixon's 'idea maze' framing, Derek Sivers' first-follower TED Talk, Venkatesh Rao's 'API line' concept, and a Mario Savio quote from the 1964 Free Speech Movement. <span class="tag">Cited sources</span></div></div></div><div class="irow"><div class="ic">🗣</div><div><div class="title">Tan also flags a new ChatGPT desktop voice mode as the closest thing yet to a true consumer AI concierge, saying it can see all of a user's threads across devices. <span class="tag">Product note</span></div></div></div></div></div>
+    </section>
+
+    <section class="sec" style="border-bottom:none;">
+      <div class="sec-eye">Names and terms at a glance</div>
+      <h2>Glossary &amp; Entities</h2>
+      <div style="margin-top:16px;"><div class="gloss"><div><b>Don't LARP</b> &mdash; Tan's Startup School meme urging founders to be earnest about what they actually know rather than performing what's currently fashionable.</div><div><b>Token-maxing</b> &mdash; Loading an agent with the maximum context (hundreds of thousands to ~1M tokens) per request to get the highest-quality output, at high per-request cost.</div><div><b>Skill file</b> &mdash; A markdown file plus supporting code/tests that captures a business process an agent can execute repeatably and perfectly once refined.</div><div><b>Harness wars</b> &mdash; Tan's predicted 2027 competitive phase for AI agent interfaces/harnesses once compute costs drop enough for consumer-scale usage.</div><div><b>API line</b> &mdash; Venkatesh Rao's concept describing whether a worker (e.g., an Uber driver) operates above or below an app's control logic; Tan argues AI erodes this line by letting agents negotiate back with software.</div></div></div>
+    </section>
+  </div>
+</div>
+</body>
+</html>

@@ -2472,6 +2472,52 @@
    ]
   },
   {
+   "html": "a16z_2026-08-12_new-rules-for-founders.html",
+   "title": "New Rules for Founders",
+   "channel": "a16z",
+   "date": "2026-08-12",
+   "speakers": "Garry Tan (President & CEO, Y Combinator), interviewed by Erik Torenberg",
+   "thread_line": "6 threads · founder psychology, agentic-org building, YC's access model, SaaS's expiring moat, the AI-timeline white pill, and Tan's local-politics organizing",
+   "category": "dev",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "Y Combinator",
+     "stance": "Personal reflection",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": null,
+     "display": "Palantir",
+     "stance": "Personal reflection",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": null,
+     "display": "Microsoft",
+     "stance": "Personal reflection",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": null,
+     "display": "Brex",
+     "stance": "Structural thesis",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Kolabtree",
+     "stance": "Structural thesis",
+     "conviction": null,
+     "color": "amber"
+    }
+   ]
+  },
+  {
    "html": "jordi-visser_2026-08-09_the-ai-crash-is-over-here-s-what-comes-next.html",
    "title": "The AI Crash Is Over. Here's What Comes Next",
    "channel": "Jordi Visser",
