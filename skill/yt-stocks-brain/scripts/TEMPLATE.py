@@ -30,9 +30,13 @@ THEMES = [
         "badge": "",           # e.g. "High conviction" / "Contested" / "Speculative" / "Recommendation"
         "status": "",          # one caps line of context, e.g. "RELEASED JULY 27, 2026"
         "title": "",           # specific, concrete headline (not a category name)
-        "lead": "",            # one bold sentence giving the point before any detail
+        "lead": "",            # one bold sentence giving the point before any detail — already
+                               # renders bold via CSS, don't wrap in **...**
         "bullets": [
-            # 3-5 short, concrete, evidence-carrying bullets; flex to 6-7 for dense threads
+            # 3-5 short, concrete, evidence-carrying bullets; flex to 6-7 for dense threads.
+            # **bold**/*italic* markdown supported; the renderer auto-bolds the first $/%/
+            # (TICKER) in each line for you — only hand-bold a line that has none of those but
+            # still has one keyword worth anchoring (max one bold phrase per line).
         ],
         "quote": None,         # {"text": "...", "cite": "— speaker"} or None
         "watch": None,         # str caveat ("this isn't settled") or None

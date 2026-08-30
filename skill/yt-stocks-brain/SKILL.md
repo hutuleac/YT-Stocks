@@ -102,10 +102,19 @@ For each theme, capture:
 - `id` (short anchor slug), `color`, `badge`, `status` — see the category-conditional rules below;
   these three fields carry different meaning depending on `META["category"]`.
 - `title` — a specific, concrete headline (not a category name)
-- `lead` — one bold sentence giving the point before any detail
+- `lead` — one bold sentence giving the point before any detail. The whole line already renders
+  bold via CSS — don't wrap it in `**...**`, that's redundant (harmless if you do, just pointless).
 - `bullets` — 3-5 short, concrete, evidence-carrying bullets as the norm; flex to 6-7 rather than
   cutting a fact when a thread is genuinely dense (e.g. an earnings-call theme with many distinct
-  guided figures) — never a dense paragraph either way (see Section 7)
+  guided figures) — never a dense paragraph either way (see Section 7).
+  **Emphasis for scanning:** text fields across the brief (bullets, `SNAPSHOT`, `TAKEAWAYS` titles,
+  `RISKS`, `OTHER_NEWS`) support `**bold**` and `*italic*` markdown. The renderer also auto-bolds
+  the first `$`-amount, `%`, or `(TICKER)` in each bullet/snapshot/risk/news line for you — don't
+  hand-bold those, you'll just get a redundant nested tag. Reach for manual `**bold**` only on a
+  bullet that has no such figure but still has one keyword worth anchoring the eye on (a named
+  company, a dated claim, "non-consensus", etc.) — one bold phrase per line, never more; the point
+  is a single scannable anchor, not emphasis for its own sake. `HOT_TAKES` and theme `quote` text
+  render markdown too but get no auto-bold — leave those as clean verbatim quotes.
 - `quote` (optional) — the single best verbatim quote for this theme, or none
 - `watch` (optional) — an explicit "this isn't settled" caveat when the speaker themselves
   hedges
