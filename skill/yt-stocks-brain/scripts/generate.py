@@ -253,6 +253,18 @@ ul.mentions .dot{position:absolute;left:0;top:16px;width:7px;height:7px;border-r
 .m-stance{display:block;font-size:12px;color:var(--brand);font-style:italic;margin-top:2px;}
 .m-blurb{font-size:13.3px;color:#3a3d35;line-height:1.5;margin-top:4px;}
 .noresults{color:var(--muted);font-style:italic;padding:20px 0;display:none;}
+.hits{display:flex;flex-direction:column;}
+.hitrow{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--line);}
+.hitrow:last-child{border-bottom:none;}
+.htype{flex:none;margin-top:1px;padding:3px 9px;border-radius:20px;background:#171916;color:#fffdf8;
+  font-size:10.5px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;white-space:nowrap;height:fit-content;}
+.hit-body{min-width:0;}
+.hit-text{font-size:14px;line-height:1.5;color:#232520;}
+.hit-cite{color:var(--muted);font-style:italic;font-size:12.5px;}
+.hit-meta{margin-top:5px;font-size:12.5px;}
+.hit-meta a{color:var(--brand);text-decoration:none;border-bottom:1px solid var(--line);}
+.hit-meta a:hover{border-bottom-color:var(--brand);}
+.hit-more{color:var(--muted);font-style:italic;padding:14px 0 4px;font-size:13px;}
 """
 
 
@@ -614,6 +626,66 @@ def _legacy_thread_line(d):
     return ""
 
 
+def _content_hits(d):
+    """Flatten a brief's raw JSON into searchable snippets — quotes, hot takes/
+    predictions, risks, recommendations, glossary terms, company notes — each
+    optionally anchored to the theme section it came from (current schema only;
+    legacy fixed-table briefs link to the brief page itself). Powers the
+    Quotes & Takes search view. Handles both the current ('meta'/'themes') and
+    legacy ('metadata'/'conviction_map') JSON schemas."""
+    hits = []
+
+    def add(kind, text, cite="", theme_id=None):
+        text = (text or "").strip()
+        if text:
+            hits.append({"type": kind, "text": text, "cite": cite or "", "theme_id": theme_id})
+
+    if "meta" in d:  # current schema
+        for t in d.get("themes", []) or []:
+            tid = t.get("id")
+            for b in t.get("bullets", []) or []:
+                add("Bullet", b, theme_id=tid)
+            q = t.get("quote")
+            if q:
+                add("Quote", q.get("text", ""), q.get("cite", ""), theme_id=tid)
+            if t.get("watch"):
+                add("Watch", t["watch"], theme_id=tid)
+            for n in t.get("names") or []:
+                add("Company note", f'{n.get("name","")}: {n.get("blurb","")}', theme_id=tid)
+        for it in d.get("takeaways", []) or []:
+            add("Takeaway", it.get("title", ""), it.get("tag", ""))
+        for r in d.get("risks", []) or []:
+            add("Risk", r)
+        for it in d.get("hot_takes", []) or []:
+            add("Hot take", it.get("take", ""), it.get("cite", ""))
+        for it in d.get("other_news", []) or []:
+            add("News", it.get("title", ""), it.get("tag", ""))
+        for g in d.get("glossary", []) or []:
+            add("Glossary", f'{g.get("term","")}: {g.get("def","")}')
+    elif "metadata" in d:  # legacy fixed-table schema — no theme anchors
+        for c in d.get("conviction_map", []) or []:
+            add("View", f'{c.get("topic","")}: {c.get("core_thesis","")}', c.get("stance", ""))
+        for c in d.get("companies_assets", []) or []:
+            add("Company note", f'{c.get("company","")}: {c.get("view","")}', c.get("status", ""))
+        for t in d.get("technology_ai_views", []) or []:
+            add("View", f'{t.get("theme","")}: {t.get("view","")}')
+        for w in d.get("ai_workflows", []) or []:
+            add("Workflow", f'{w.get("name","")}: {w.get("goal","")}')
+        for p in d.get("predictions", []) or []:
+            add("Prediction", p.get("prediction", ""), p.get("horizon", ""))
+        for q in d.get("notable_quotes", []) or []:
+            add("Quote", q.get("quote", ""), q.get("speaker", ""))
+        for r in d.get("risks", []) or []:
+            add("Risk", r.get("text", "") if isinstance(r, dict) else r, r.get("kind", "") if isinstance(r, dict) else "")
+        for it in d.get("actionable_takeaways", []) or []:
+            add("Takeaway", it.get("item", ""), it.get("type", ""))
+        for it in d.get("other_notable_news", []) or []:
+            add("News", it.get("title", ""), it.get("category", ""))
+        for g in d.get("glossary", []) or []:
+            add("Glossary", f'{g.get("term","")}: {g.get("definition","")}')
+    return hits
+
+
 def _load_brief(json_path):
     try:
         d = json.load(open(json_path, encoding="utf-8"))
@@ -648,6 +720,7 @@ def _load_brief(json_path):
         "thread_line": thread_line,
         "category": category,
         "entities": entities,
+        "hits": _content_hits(d),
     }
 
 
@@ -759,6 +832,21 @@ def _render_entity_view(briefs):
     return "".join(out) or '<p class="empty">No companies or tickers extracted yet.</p>'
 
 
+def _content_hits_payload(briefs):
+    """Compact JSON payload for the Quotes & Takes view — short keys since this
+    repeats ~4000+ times: d=date c=channel t=title h=html a=theme anchor (or "")
+    y=type x=text z=cite s=lowercased search blob."""
+    rows = []
+    for b in briefs:
+        for h in b["hits"]:
+            rows.append({
+                "d": b["date"], "c": esc(b["channel"]), "t": esc(b["title"]), "h": esc(b["html"]),
+                "a": h["theme_id"] or "", "y": esc(h["type"]), "x": esc(h["text"]), "z": esc(h["cite"]),
+                "s": _search_blob(h["type"], h["text"], h["cite"], b["title"], b["channel"]),
+            })
+    return json.dumps(rows, separators=(",", ":"), ensure_ascii=False).replace("</", "<\\/")
+
+
 INDEX_JS = """
 (function(){
   var tabs = document.querySelectorAll('.tab');
@@ -773,8 +861,43 @@ INDEX_JS = """
     });
   });
   var q = document.getElementById('q');
+  var hitData = null;
+  function getHits(){
+    if (!hitData) hitData = JSON.parse(document.getElementById('hitdata').textContent || '[]');
+    return hitData;
+  }
+  function renderHits(term){
+    var mount = document.getElementById('hits-mount');
+    if (!term){
+      mount.innerHTML = '<p class="empty">Type to search quotes, recommendations, risks, and opinions across every indexed brief.</p>';
+      return;
+    }
+    var matches = getHits().filter(function(h){ return h.s.indexOf(term) !== -1; });
+    if (!matches.length){
+      mount.innerHTML = '<p class="empty">No matches.</p>';
+      return;
+    }
+    var LIMIT = 300;
+    var html = matches.slice(0, LIMIT).map(function(h){
+      var href = h.h + (h.a ? ('#' + h.a) : '');
+      return '<div class="hitrow"><span class="htype">' + h.y + '</span><div class="hit-body">'
+        + '<div class="hit-text">' + h.x + (h.z ? ' <span class="hit-cite">' + h.z + '</span>' : '') + '</div>'
+        + '<div class="hit-meta"><span class="m-date">' + h.d + '</span><span class="m-channel">' + h.c + '</span>'
+        + '<a href="' + href + '">' + h.t + '</a></div></div></div>';
+    }).join('');
+    if (matches.length > LIMIT){
+      var more = matches.length - LIMIT;
+      html += '<p class="hit-more">' + more + ' more match' + (more === 1 ? '' : 'es') + ' \\u2014 refine your search to narrow further.</p>';
+    }
+    mount.innerHTML = html;
+  }
   function applyFilter(){
     var term = q.value.trim().toLowerCase();
+    var activeView = document.querySelector('.tab.active').dataset.view;
+    if (activeView === 'content'){
+      renderHits(term);
+      return;
+    }
     document.querySelectorAll('.view.active [data-search]').forEach(function(el){
       var hit = !term || el.dataset.search.indexOf(term) !== -1;
       el.hidden = !hit;
@@ -793,6 +916,7 @@ def build_index():
     channels = sorted(set(b["channel"] for b in briefs))
     tickers = sorted(set(e["ticker"] for b in briefs for e in b["entities"] if e["ticker"]))
     dev_briefs = [b for b in briefs if b["category"] == "dev"]
+    hit_count = sum(len(b["hits"]) for b in briefs)
 
     html = f"""<!DOCTYPE html>
 <html lang="en">
@@ -807,24 +931,27 @@ def build_index():
   <header class="hero">
     <div class="kicker">All Research Briefs</div>
     <h1>YouTube Research Brief Index</h1>
-    <div class="byline">{len(briefs)} brief{'s' if len(briefs) != 1 else ''} &middot; {len(channels)} channel{'s' if len(channels) != 1 else ''} &middot; {len(tickers)} ticker{'s' if len(tickers) != 1 else ''} tracked
-      <div class="idx-stats"><span>Browse chronologically, by channel, or by company/ticker — search filters whichever view is active.</span></div>
+    <div class="byline">{len(briefs)} brief{'s' if len(briefs) != 1 else ''} &middot; {len(channels)} channel{'s' if len(channels) != 1 else ''} &middot; {len(tickers)} ticker{'s' if len(tickers) != 1 else ''} tracked &middot; {hit_count} quotes/takes/notes indexed
+      <div class="idx-stats"><span>Browse chronologically, by channel, or by company/ticker — or search Quotes &amp; Takes to find a specific quote, recommendation, stock, or opinion.</span></div>
     </div>
   </header>
   <div class="inner">
-    <div class="searchwrap"><input id="q" type="search" placeholder="Search briefs, channels, companies, tickers..." autocomplete="off"></div>
+    <div class="searchwrap"><input id="q" type="search" placeholder="Search briefs, channels, companies, tickers, quotes, opinions..." autocomplete="off"></div>
     <div class="tabs">
       <button class="tab active" data-view="chrono">All Briefs</button>
       <button class="tab" data-view="channel">By Channel</button>
       <button class="tab" data-view="entity">By Company / Ticker</button>
+      <button class="tab" data-view="content">Quotes &amp; Takes</button>
       <button class="tab" data-view="dev">Dev &amp; Workflows</button>
     </div>
     <div id="view-chrono" class="view active">{_render_chrono_view(briefs)}</div>
     <div id="view-channel" class="view">{_render_channel_view(briefs)}</div>
     <div id="view-entity" class="view">{_render_entity_view(briefs)}</div>
+    <div id="view-content" class="view"><div id="hits-mount"><p class="empty">Type to search quotes, recommendations, risks, and opinions across every indexed brief.</p></div></div>
     <div id="view-dev" class="view">{_render_chrono_view(dev_briefs)}</div>
   </div>
 </div>
+<script id="hitdata" type="application/json">{_content_hits_payload(briefs)}</script>
 <script>{INDEX_JS}</script>
 </body>
 </html>"""
@@ -833,7 +960,7 @@ def build_index():
 
     manifest = {
         "generated_from": "youtube-research-brief generate.py --reindex",
-        "briefs": [{k: v for k, v in b.items() if k != "entities"} | {
+        "briefs": [{k: v for k, v in b.items() if k not in ("entities", "hits")} | {
             "entities": [{"ticker": e["ticker"], "display": e["display"], "stance": e["stance_label"],
                           "conviction": e["conviction"], "color": e["color"]} for e in b["entities"]]
         } for b in briefs],
