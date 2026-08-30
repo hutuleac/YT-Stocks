@@ -173,16 +173,19 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .namechip:last-child{padding-bottom:0;margin-bottom:0;border-bottom:none;}
 .namechip b{display:block;font-weight:600;font-size:14.5px;color:#171916;}
 .namechip span{font-size:13px;color:#4a4d44;line-height:1.5;}
-.icard{display:flex;gap:14px;align-items:flex-start;background:#fffefb;border:1px solid var(--line);
-  border-radius:12px;padding:14px 16px;margin:11px 0;}
-.icard .ic{flex:none;width:30px;height:30px;border-radius:6px;display:grid;place-items:center;
+.icardbox{background:#fffefb;border:1px solid var(--line);border-radius:12px;padding:2px 18px;}
+.irow{display:flex;gap:14px;align-items:flex-start;padding:13px 0;}
+.irow+.irow{border-top:1px solid var(--line);}
+.irow .ic{flex:none;width:30px;height:30px;border-radius:6px;display:grid;place-items:center;
   font-size:14px;background:#f4e9db;line-height:1;}
-.icard .title{font-weight:600;font-size:clamp(14px,.95vw,15.5px);color:#171916;line-height:1.42;margin-bottom:5px;}
-.icard .tag{display:inline-block;font-family:var(--serif);font-style:italic;font-size:13px;font-weight:600;color:var(--brand);}
-.icard .detail{font-size:13.5px;color:#4a4d44;line-height:1.55;margin-top:4px;}
-.icard .tline{font-size:clamp(14px,.95vw,15.5px);line-height:1.48;}
-.icard .tline .cat{font-family:var(--serif);font-style:italic;font-weight:700;color:var(--brand);margin-right:6px;}
-.icard .tline .txt{font-weight:600;color:#171916;}
+.irow .title{font-weight:600;font-size:clamp(14px,.95vw,15.5px);color:#171916;line-height:1.42;}
+.irow .tag{display:inline-block;font-family:var(--serif);font-style:italic;font-size:12.5px;font-weight:600;color:var(--brand);margin-left:6px;}
+.irow .detail{font-size:13.5px;color:#4a4d44;line-height:1.55;margin-top:4px;}
+.irow .tline{font-size:clamp(14px,.95vw,15.5px);line-height:1.48;}
+.irow .tline .cat{font-family:var(--serif);font-style:italic;font-weight:700;color:var(--brand);margin-right:6px;}
+.irow .tline .txt{font-weight:600;color:#171916;}
+b{font-weight:700;}
+i{font-style:italic;}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
@@ -270,10 +273,34 @@ def esc(s):
     )
 
 
+_MD_BOLD = re.compile(r"\*\*(.+?)\*\*")
+_MD_ITAL = re.compile(r"(?<!\*)\*([^*]+?)\*(?!\*)")
+_AUTO_ANCHOR = re.compile(
+    r"\$[\d][\d,.]*\s*(?:trillion|billion|million|[TBMK])?\b"
+    r"|\b\d[\d,.]*%"
+    r"|\([A-Z]{1,6}(?:\.[A-Z]{2,4})?\)"
+)
+
+
+def emph(s, auto=True):
+    """Escape, then render **bold**/*italic* markdown, then (if auto and no
+    manual markup was used) bold the single first $-amount / percentage /
+    ticker in the string — one scannable anchor per line, not a wall of bold."""
+    if s is None:
+        return ""
+    t = esc(s)
+    had_markup = "**" in t or _MD_ITAL.search(t)
+    t = _MD_BOLD.sub(r"<b>\1</b>", t)
+    t = _MD_ITAL.sub(r"<i>\1</i>", t)
+    if auto and not had_markup:
+        t = _AUTO_ANCHOR.sub(lambda m: f"<b>{m.group(0)}</b>", t, count=1)
+    return t
+
+
 def render_snapshot(items):
     if not items:
         return '<p class="empty">No clear snapshot could be extracted from this transcript.</p>'
-    lis = "".join(f"<li>{esc(b)}</li>" for b in items)
+    lis = "".join(f"<li>{emph(b)}</li>" for b in items)
     return f'<ol class="snap">{lis}</ol>'
 
 
@@ -284,7 +311,7 @@ WATCH_ACCENT = "#93711b"  # fixed amber — reads as "caution", regardless of th
 def render_theme(t):
     color = STANCE_COLORS.get(t.get("color", "gray"), STANCE_COLORS["gray"])
     bullets = "".join(
-        f'<li><span class="dot" style="background:{color};"></span>{esc(b)}</li>'
+        f'<li><span class="dot" style="background:{color};"></span>{emph(b)}</li>'
         for b in t.get("bullets", [])
     )
     quote_html = ""
@@ -293,7 +320,7 @@ def render_theme(t):
         quote_html = (
             f'<div class="sidecard quote" style="--sc-accent:{color};">'
             f'<div class="lbl">Pull quote</div>'
-            f'&#8220;{esc(q["text"])}&#8221;<cite>{esc(q.get("cite",""))}</cite></div>'
+            f'&#8220;{emph(q["text"], auto=False)}&#8221;<cite>{esc(q.get("cite",""))}</cite></div>'
         )
     names_html = ""
     names = t.get("names")
@@ -323,7 +350,7 @@ def render_theme(t):
   <h2 style="border-left:4px solid {color};">{esc(t['title'])}</h2>
   <div class="theme-body">
     <div class="theme-main">
-      <p class="lead">{esc(t.get('lead',''))}</p>
+      <p class="lead">{emph(t.get('lead',''), auto=False)}</p>
       <ul class="bullets">{bullets}</ul>
     </div>
     <div class="theme-side">
@@ -339,35 +366,39 @@ def render_theme(t):
 def render_icards(items, icon_default="\U0001F4CC", with_tag_detail=False, inline_tag=False):
     if not items:
         return '<p class="empty">Nothing notable found in this category for this video.</p>'
-    out = []
+    rows = []
     for it in items:
         if inline_tag:
             tag = esc(it.get("tag", ""))
             cat = f'<span class="cat">{tag}:</span> ' if tag else ""
-            out.append(
-                f'<div class="icard"><div class="ic">{it.get("icon", icon_default)}</div>'
-                f'<div class="tline">{cat}<span class="txt">{esc(it["title"])}</span></div></div>'
+            rows.append(
+                f'<div class="irow"><div class="ic">{it.get("icon", icon_default)}</div>'
+                f'<div class="tline">{cat}<span class="txt">{emph(it["title"])}</span></div></div>'
             )
         elif with_tag_detail:
-            out.append(
-                f'<div class="icard"><div class="ic">{it.get("icon", icon_default)}</div>'
-                f'<div><div class="title">{esc(it["title"])}</div>'
-                f'<div class="tag">{esc(it.get("tag",""))}</div>'
-                f'<div class="detail">{esc(it.get("detail",""))}</div></div></div>'
+            tag = esc(it.get("tag", ""))
+            detail = it.get("detail", "")
+            rows.append(
+                f'<div class="irow"><div class="ic">{it.get("icon", icon_default)}</div>'
+                f'<div><div class="title">{emph(it["title"])}'
+                + (f' <span class="tag">{tag}</span>' if tag else "")
+                + '</div>'
+                + (f'<div class="detail">{emph(detail)}</div>' if detail else "")
+                + '</div></div>'
             )
         else:
-            out.append(
-                f'<div class="icard"><div class="ic">{it.get("icon", icon_default)}</div>'
-                f'<div><div class="title">{esc(it["title"])}</div>'
+            rows.append(
+                f'<div class="irow"><div class="ic">{it.get("icon", icon_default)}</div>'
+                f'<div><div class="title">{emph(it["title"])}</div>'
                 f'<div class="tag">{esc(it.get("tag",""))}</div></div></div>'
             )
-    return "".join(out)
+    return '<div class="icardbox">' + "".join(rows) + '</div>'
 
 
 def render_risks(items):
     if not items:
         return '<p class="empty">No specific caveats flagged for this source.</p>'
-    rows = "".join(f'<div class="ritem">{esc(r)}</div>' for r in items)
+    rows = "".join(f'<div class="ritem">{emph(r)}</div>' for r in items)
     return f'<div class="riskbox">{rows}</div>'
 
 
@@ -378,7 +409,7 @@ def render_hot_takes(items):
     for t in items:
         cite = t.get("cite", "")
         out.append(
-            '<div class="riskcard takecard"><div class="txt">&#8220;' + esc(t["take"]) + '&#8221;'
+            '<div class="riskcard takecard"><div class="txt">&#8220;' + emph(t["take"], auto=False) + '&#8221;'
             + (f' <cite>{esc(cite)}</cite>' if cite else "")
             + '</div></div>'
         )

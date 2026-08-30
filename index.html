@@ -68,16 +68,19 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .namechip:last-child{padding-bottom:0;margin-bottom:0;border-bottom:none;}
 .namechip b{display:block;font-weight:600;font-size:14.5px;color:#171916;}
 .namechip span{font-size:13px;color:#4a4d44;line-height:1.5;}
-.icard{display:flex;gap:14px;align-items:flex-start;background:#fffefb;border:1px solid var(--line);
-  border-radius:12px;padding:14px 16px;margin:11px 0;}
-.icard .ic{flex:none;width:30px;height:30px;border-radius:6px;display:grid;place-items:center;
+.icardbox{background:#fffefb;border:1px solid var(--line);border-radius:12px;padding:2px 18px;}
+.irow{display:flex;gap:14px;align-items:flex-start;padding:13px 0;}
+.irow+.irow{border-top:1px solid var(--line);}
+.irow .ic{flex:none;width:30px;height:30px;border-radius:6px;display:grid;place-items:center;
   font-size:14px;background:#f4e9db;line-height:1;}
-.icard .title{font-weight:600;font-size:clamp(14px,.95vw,15.5px);color:#171916;line-height:1.42;margin-bottom:5px;}
-.icard .tag{display:inline-block;font-family:var(--serif);font-style:italic;font-size:13px;font-weight:600;color:var(--brand);}
-.icard .detail{font-size:13.5px;color:#4a4d44;line-height:1.55;margin-top:4px;}
-.icard .tline{font-size:clamp(14px,.95vw,15.5px);line-height:1.48;}
-.icard .tline .cat{font-family:var(--serif);font-style:italic;font-weight:700;color:var(--brand);margin-right:6px;}
-.icard .tline .txt{font-weight:600;color:#171916;}
+.irow .title{font-weight:600;font-size:clamp(14px,.95vw,15.5px);color:#171916;line-height:1.42;}
+.irow .tag{display:inline-block;font-family:var(--serif);font-style:italic;font-size:12.5px;font-weight:600;color:var(--brand);margin-left:6px;}
+.irow .detail{font-size:13.5px;color:#4a4d44;line-height:1.55;margin-top:4px;}
+.irow .tline{font-size:clamp(14px,.95vw,15.5px);line-height:1.48;}
+.irow .tline .cat{font-family:var(--serif);font-style:italic;font-weight:700;color:var(--brand);margin-right:6px;}
+.irow .tline .txt{font-weight:600;color:#171916;}
+b{font-weight:700;}
+i{font-style:italic;}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
