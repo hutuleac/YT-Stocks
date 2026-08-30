@@ -182,27 +182,27 @@
  "takeaways": [
   {
    "icon": "💰",
-   "tag": "Model the lag, not just the payback",
+   "tag": "Markets",
    "title": "A one-year payback still leaves a $100–200B financing gap at an 8 GW/year pace — size the working capital, not the ROI."
   },
   {
    "icon": "📡",
-   "tag": "Watch for a third site announcement",
+   "tag": "Energy",
    "title": "Colossus 2 is nearly out of land; a new major site announcement is the tell that the 5–10 GW guidance is real."
   },
   {
    "icon": "⚡",
-   "tag": "Track the gas build, not the GPU count",
+   "tag": "Energy",
    "title": "Power generation is the binding constraint — dozens to hundreds of gas generators is the actual schedule risk."
   },
   {
    "icon": "🔍",
-   "tag": "Separate demand from price",
+   "tag": "Markets",
    "title": "Bull and bear here agree on volume and disagree on price per token — treat those as two different questions in any AI-capex model."
   },
   {
    "icon": "🤖",
-   "tag": "Judge models on questions asked",
+   "tag": "AI",
    "title": "Both speakers rate AI by whether it interrogates before answering — a usable proxy for whether a model is ready for real-world tasks."
   }
  ],

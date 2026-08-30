@@ -164,11 +164,11 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F4B0", "tag": "Model the lag, not just the payback", "title": "A one-year payback still leaves a $100–200B financing gap at an 8 GW/year pace — size the working capital, not the ROI."},
-    {"icon": "\U0001F4E1", "tag": "Watch for a third site announcement", "title": "Colossus 2 is nearly out of land; a new major site announcement is the tell that the 5–10 GW guidance is real."},
-    {"icon": "\U000026A1", "tag": "Track the gas build, not the GPU count", "title": "Power generation is the binding constraint — dozens to hundreds of gas generators is the actual schedule risk."},
-    {"icon": "\U0001F50D", "tag": "Separate demand from price", "title": "Bull and bear here agree on volume and disagree on price per token — treat those as two different questions in any AI-capex model."},
-    {"icon": "\U0001F916", "tag": "Judge models on questions asked", "title": "Both speakers rate AI by whether it interrogates before answering — a usable proxy for whether a model is ready for real-world tasks."},
+    {"icon": "\U0001F4B0", "tag": "Markets", "title": "A one-year payback still leaves a $100–200B financing gap at an 8 GW/year pace — size the working capital, not the ROI."},
+    {"icon": "\U0001F4E1", "tag": "Energy", "title": "Colossus 2 is nearly out of land; a new major site announcement is the tell that the 5–10 GW guidance is real."},
+    {"icon": "\U000026A1", "tag": "Energy", "title": "Power generation is the binding constraint — dozens to hundreds of gas generators is the actual schedule risk."},
+    {"icon": "\U0001F50D", "tag": "Markets", "title": "Bull and bear here agree on volume and disagree on price per token — treat those as two different questions in any AI-capex model."},
+    {"icon": "\U0001F916", "tag": "AI", "title": "Both speakers rate AI by whether it interrogates before answering — a usable proxy for whether a model is ready for real-world tasks."},
 ]
 
 RISKS = [

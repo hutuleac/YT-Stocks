@@ -170,7 +170,7 @@
   },
   {
    "icon": "🔗",
-   "tag": "Strategy",
+   "tag": "Markets",
    "title": "Track Hugging Face's inference-routing product for early signs of an Nvidia-run cloud business."
   },
   {
@@ -180,12 +180,12 @@
   },
   {
    "icon": "🚕",
-   "tag": "Autonomy",
+   "tag": "Robotics",
    "title": "Compare Waymo's per-city ride volume against Cyber Cab's September 3 multi-city launch over the next month, not just sticker hardware cost."
   },
   {
    "icon": "📊",
-   "tag": "Skepticism",
+   "tag": "AI",
    "title": "Discount usage charts about private AI labs (Anthropic, OpenAI) that don't cite a verifiable data source."
   }
  ],

@@ -198,7 +198,12 @@ sponsor material and continue capturing the surrounding content normally.
 - `SNAPSHOT` — 5-8 scannable bullets, the one-paragraph read of the whole video (unchanged from
   before; this is a bulleted list, never one dense paragraph).
 - `TAKEAWAYS` — 4-6 short, imperative, DISTINCT actions. If a takeaway just restates a theme's
-  bullet verbatim, cut it — takeaways are the "so what do I do" layer, not a recap.
+  bullet verbatim, cut it — takeaways are the "so what do I do" layer, not a recap. `tag` is a
+  short topic category (1-3 words: "Markets", "Macro", "AI ethics", "Health", "Energy",
+  "Geopolitics", "Crypto", "Robotics", "Space", "Policy", "Careers" — coin another short category
+  when none fit, but keep it a topic label, not an action verb like "Watch" or "Track"; the
+  imperative verb belongs in `title` itself). It renders inline, leading the takeaway text on the
+  same line ("Markets: Track RSP and IGV first...") — never a separate line below.
 - `RISKS` — meta caveats about trusting THIS source (sponsorships, self-reported claims, auto-
   caption errors, conflicts of interest). Don't repeat a theme's own `watch` flag here — that's
   a different kind of caveat (about the claim), this one is about the source.

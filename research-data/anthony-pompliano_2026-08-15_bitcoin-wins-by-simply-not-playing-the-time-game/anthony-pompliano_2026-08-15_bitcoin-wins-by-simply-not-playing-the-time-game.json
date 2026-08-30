@@ -241,32 +241,32 @@
  "takeaways": [
   {
    "icon": "🔄",
-   "tag": "Method",
+   "tag": "Markets",
    "title": "Reprice on new information, not on your entry price — buying back higher than you sold is rational when the thesis changed"
   },
   {
    "icon": "📉",
-   "tag": "Valuation",
+   "tag": "Markets",
    "title": "Watch second-derivative growth, not absolute revenue — the derating hits when the growth rate slows, not when the number misses"
   },
   {
    "icon": "⏱️",
-   "tag": "Reframe",
+   "tag": "Markets",
    "title": "Treat ARR and year-over-year as human-time conventions that AI is breaking, not as neutral measurement"
   },
   {
    "icon": "🏦",
-   "tag": "Positioning",
+   "tag": "Markets",
    "title": "Judge incumbents on convertible speed, not balance sheet — the relative-short case against banks is bureaucracy, not credit"
   },
   {
    "icon": "🧭",
-   "tag": "Context",
+   "tag": "Macro",
    "title": "Read inflation against what conditions imply, not against the 2% target — the surprise is the gap, not the level"
   },
   {
    "icon": "🔇",
-   "tag": "Discipline",
+   "tag": "Markets",
    "title": "Filter politics out of the thesis entirely — ask only whether the data centers are still being plugged in"
   }
  ],

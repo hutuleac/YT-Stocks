@@ -170,11 +170,11 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F9EC", "tag": "Longevity", "title": "Watch the XPRIZE Healthspan finalists' human-trial data over the next 1-2 years — it's the closest thing to a validated, real-world leaderboard for which longevity approaches actually work."},
-    {"icon": "\U0001F3AC", "tag": "Filmmaking", "title": "If building in AI video/film, study Hicksfield's openly published 10-step production workflow — the cost/speed gap versus traditional production is now public and replicable."},
-    {"icon": "\U0001F4B5", "tag": "Compute investing", "title": "Before treating AI compute deals as bond-like fixed income, price in architecture-obsolescence risk explicitly via hedging rather than assuming GPU cash flows are as predictable as they're being marketed."},
+    {"icon": "\U0001F9EC", "tag": "Health", "title": "Watch the XPRIZE Healthspan finalists' human-trial data over the next 1-2 years — it's the closest thing to a validated, real-world leaderboard for which longevity approaches actually work."},
+    {"icon": "\U0001F3AC", "tag": "AI tools", "title": "If building in AI video/film, study Hicksfield's openly published 10-step production workflow — the cost/speed gap versus traditional production is now public and replicable."},
+    {"icon": "\U0001F4B5", "tag": "Markets", "title": "Before treating AI compute deals as bond-like fixed income, price in architecture-obsolescence risk explicitly via hedging rather than assuming GPU cash flows are as predictable as they're being marketed."},
     {"icon": "\U0001F9EA", "tag": "AI safety", "title": "Track physical chokepoints (DNA/RNA synthesizers, GPU export controls) rather than model-capability caps as the more enforceable lever in AI biosecurity debates."},
-    {"icon": "\U0001F916", "tag": "Model selection", "title": "If evaluating xAI's Grok for coding/agent work, weigh its price advantage ($2-6/M tokens) against reasoning-trace catch-up limits — it may match but not yet exceed frontier reasoning models."},
+    {"icon": "\U0001F916", "tag": "AI tools", "title": "If evaluating xAI's Grok for coding/agent work, weigh its price advantage ($2-6/M tokens) against reasoning-trace catch-up limits — it may match but not yet exceed frontier reasoning models."},
 ]
 
 RISKS = [

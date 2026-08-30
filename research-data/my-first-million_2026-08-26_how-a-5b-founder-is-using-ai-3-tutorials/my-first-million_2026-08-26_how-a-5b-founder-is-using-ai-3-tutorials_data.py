@@ -116,10 +116,10 @@ THEMES = [
 
 TAKEAWAYS = [
     {"icon": "\U0001F5D3️", "tag": "Workflow", "title": "Build a deterministic morning-brief / evening-wrap-up agent pair before anything fancier — the evening version that drafts follow-ups and logs your day is where the real time savings shows up, not the morning report."},
-    {"icon": "\U0001F4DD", "tag": "Configuration", "title": "Write an explicit \"argue back with me\" instruction file (agents.md / Claude.md) for your daily AI tool — left unconfigured, models default to placating you rather than challenging your thinking."},
-    {"icon": "\U0001F465", "tag": "Decision-making", "title": "For high-stakes calls, try a multi-persona adversarial review (Foster's public \"War Council\" skill) instead of a single AI opinion — standing skeptic personas plus a couple dynamically generated for the specific question."},
+    {"icon": "\U0001F4DD", "tag": "AI tools", "title": "Write an explicit \"argue back with me\" instruction file (agents.md / Claude.md) for your daily AI tool — left unconfigured, models default to placating you rather than challenging your thinking."},
+    {"icon": "\U0001F465", "tag": "Workflow", "title": "For high-stakes calls, try a multi-persona adversarial review (Foster's public \"War Council\" skill) instead of a single AI opinion — standing skeptic personas plus a couple dynamically generated for the specific question."},
     {"icon": "\U0001F3AF", "tag": "Hiring", "title": "Before layering on personality tests, filter first for a content-free signal: has this person actually done something exceptional themselves, not as part of a team."},
-    {"icon": "\U0001F916", "tag": "Tool choice", "title": "Pick AI tools partly on task-fit personality, not just benchmark capability — a model that's excellent for heads-down engineering work may be actively unpleasant to use for back-and-forth thinking, and vice versa."},
+    {"icon": "\U0001F916", "tag": "AI tools", "title": "Pick AI tools partly on task-fit personality, not just benchmark capability — a model that's excellent for heads-down engineering work may be actively unpleasant to use for back-and-forth thinking, and vice versa."},
 ]
 
 RISKS = [

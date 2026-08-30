@@ -214,11 +214,11 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F4C9", "tag": "Leverage discipline", "title": "Treat Leopold's blowup as a position-sizing lesson, not a thesis rejection — the memory call itself is still working."},
-    {"icon": "\U0001F440", "tag": "Watch", "title": "Track SanDisk's high-bandwidth-flash backlog and the next SK Hynix print as the real tell on whether memory demand is structural or topping."},
-    {"icon": "\U0001F50C", "tag": "Sub-thesis", "title": "Treat photonics/optics (Coherent, Astera Labs, Ciena) as its own trade distinct from generic memory or GPU exposure."},
-    {"icon": "\U0001F9ED", "tag": "Contrarian angle", "title": "If Alphabet/Amazon/TSMC/SpaceX are consensus-crowded, look for edge in less-watched layers — power/energy buildout and AI-agent payment rails were the two flagged."},
-    {"icon": "\U0001F4C4", "tag": "Follow-up", "title": "Watch for Leopold's next 13F to see whether — and how much — he rebuilds."},
+    {"icon": "\U0001F4C9", "tag": "Markets", "title": "Treat Leopold's blowup as a position-sizing lesson, not a thesis rejection — the memory call itself is still working."},
+    {"icon": "\U0001F440", "tag": "Semis", "title": "Track SanDisk's high-bandwidth-flash backlog and the next SK Hynix print as the real tell on whether memory demand is structural or topping."},
+    {"icon": "\U0001F50C", "tag": "Markets", "title": "Treat photonics/optics (Coherent, Astera Labs, Ciena) as its own trade distinct from generic memory or GPU exposure."},
+    {"icon": "\U0001F9ED", "tag": "Markets", "title": "If Alphabet/Amazon/TSMC/SpaceX are consensus-crowded, look for edge in less-watched layers — power/energy buildout and AI-agent payment rails were the two flagged."},
+    {"icon": "\U0001F4C4", "tag": "Markets", "title": "Watch for Leopold's next 13F to see whether — and how much — he rebuilds."},
 ]
 
 RISKS = [

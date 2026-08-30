@@ -200,22 +200,22 @@
  "takeaways": [
   {
    "icon": "🧮",
-   "tag": "Consciousness research",
+   "tag": "AI ethics",
    "title": "Read AI self-reports on consciousness as prompt-shaped output, not evidence of inner experience — the same model can be dialed from 2.17 to 7 on a mind-attribution scale."
   },
   {
    "icon": "📐",
-   "tag": "Math/science",
+   "tag": "AI",
    "title": "Expect the 'bulk-solving' pattern (Astra) to hit adjacent fields — physics is the next domain the panel expects a breakthrough in within weeks to months."
   },
   {
    "icon": "💸",
-   "tag": "Open weights",
+   "tag": "AI",
    "title": "Track Qwen 27B and similar sub-16GB-RAM models as a two-sided story: cheap capability for builders, and a new swarm-cyberattack surface for defenders."
   },
   {
    "icon": "🚀",
-   "tag": "SpaceX",
+   "tag": "Space",
    "title": "Treat SpaceX's trillion-dollar-by-2030 target and the Terrafab as a single vertical-integration thesis, not two separate bets — chips, compute, and launch are converging under one balance sheet."
   },
   {
@@ -225,7 +225,7 @@
   },
   {
    "icon": "💼",
-   "tag": "Startup structuring",
+   "tag": "Markets",
    "title": "When a well-capitalized founder launches an adjacent company at a high starting valuation, weigh the recapitalization/equity angle alongside the stated product thesis."
   }
  ],

@@ -146,10 +146,10 @@ THEMES = [
 
 TAKEAWAYS = [
     {"icon": "\U0001F4C8", "tag": "Markets", "title": "Nvidia's guidance raise (44%→70% YoY for 2028) is the number to watch next quarter, not the historical print."},
-    {"icon": "\U0001F517", "tag": "Strategy", "title": "Track Hugging Face's inference-routing product for early signs of an Nvidia-run cloud business."},
+    {"icon": "\U0001F517", "tag": "Markets", "title": "Track Hugging Face's inference-routing product for early signs of an Nvidia-run cloud business."},
     {"icon": "\U0001F1E8\U0001F1F3", "tag": "Geopolitics", "title": "Watch whether Chinese silicon moves from inference-only to training-capable — that's the real inflection point, not this week's giveaway."},
-    {"icon": "\U0001F695", "tag": "Autonomy", "title": "Compare Waymo's per-city ride volume against Cyber Cab's September 3 multi-city launch over the next month, not just sticker hardware cost."},
-    {"icon": "\U0001F4CA", "tag": "Skepticism", "title": "Discount usage charts about private AI labs (Anthropic, OpenAI) that don't cite a verifiable data source."},
+    {"icon": "\U0001F695", "tag": "Robotics", "title": "Compare Waymo's per-city ride volume against Cyber Cab's September 3 multi-city launch over the next month, not just sticker hardware cost."},
+    {"icon": "\U0001F4CA", "tag": "AI", "title": "Discount usage charts about private AI labs (Anthropic, OpenAI) that don't cite a verifiable data source."},
 ]
 
 RISKS = [

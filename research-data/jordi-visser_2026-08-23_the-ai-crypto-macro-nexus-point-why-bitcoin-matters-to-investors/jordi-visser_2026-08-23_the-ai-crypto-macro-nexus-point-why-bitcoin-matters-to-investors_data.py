@@ -281,11 +281,11 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F4C9", "tag": "Signal to watch", "title": "Track whether Bitcoin holds above its 200-day moving average — Visser's own stated line for staying bullish vs. going quiet."},
-    {"icon": "\U0001F4DA", "tag": "Reading list", "title": "Read Mark Andreessen's 'Why Bitcoin Matters' (2014), the original Bitcoin white paper, and Reminiscences of a Stock Operator if unfamiliar — all three are referenced as load-bearing to this thesis."},
-    {"icon": "\U0001F9EA", "tag": "Sector watch", "title": "If holding pharma, watch Eli Lilly and Moderna as live tests of the AI-driven drug-discovery re-rating thesis, not just obesity-drug momentum."},
+    {"icon": "\U0001F4C9", "tag": "Crypto", "title": "Track whether Bitcoin holds above its 200-day moving average — Visser's own stated line for staying bullish vs. going quiet."},
+    {"icon": "\U0001F4DA", "tag": "Crypto", "title": "Read Mark Andreessen's 'Why Bitcoin Matters' (2014), the original Bitcoin white paper, and Reminiscences of a Stock Operator if unfamiliar — all three are referenced as load-bearing to this thesis."},
+    {"icon": "\U0001F9EA", "tag": "Health", "title": "If holding pharma, watch Eli Lilly and Moderna as live tests of the AI-driven drug-discovery re-rating thesis, not just obesity-drug momentum."},
     {"icon": "\U0001F916", "tag": "AI tools", "title": "If already running one AI coding/research agent solo, consider a chief-of-staff-plus-specialist-bot structure (Grokbot-style) instead of one flat agent."},
-    {"icon": "\U0001F3DB️", "tag": "Policy watch", "title": "Track Clarity Act passage and the Genius Act rulemaking comment period — both are treated here as near-term crypto-market catalysts, not settled law."},
+    {"icon": "\U0001F3DB️", "tag": "Policy", "title": "Track Clarity Act passage and the Genius Act rulemaking comment period — both are treated here as near-term crypto-market catalysts, not settled law."},
 ]
 
 RISKS = [

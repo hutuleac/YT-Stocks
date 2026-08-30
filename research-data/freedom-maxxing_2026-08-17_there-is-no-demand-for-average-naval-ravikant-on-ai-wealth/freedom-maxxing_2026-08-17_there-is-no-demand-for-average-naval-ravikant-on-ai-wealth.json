@@ -142,27 +142,27 @@
  "takeaways": [
   {
    "icon": "🛠",
-   "tag": "Build",
+   "tag": "Strategy",
    "title": "Don't fund or build on a software-only moat — assume any specifiable software gets one-shot within a year"
   },
   {
    "icon": "🚀",
-   "tag": "Create",
+   "tag": "Careers",
    "title": "If you're creative and articulate but non-technical, this is the window to build your own niche/custom app — nobody is standing in between you and shipping"
   },
   {
    "icon": "💸",
-   "tag": "Spend",
+   "tag": "AI tools",
    "title": "Stop rationing tokens against a budget mindset — measure cost against your time saved, not against token counts"
   },
   {
    "icon": "🎯",
-   "tag": "Position",
+   "tag": "Careers",
    "title": "Build toward being a verifier/handler of AI output (taste + judgment + accountability), not just a producer of it"
   },
   {
    "icon": "🧠",
-   "tag": "Watch",
+   "tag": "AI",
    "title": "Treat model \"agreement\" skeptically — it's optimized to please you, not to independently push back, so it will rarely contradict you even when you're wrong"
   }
  ],

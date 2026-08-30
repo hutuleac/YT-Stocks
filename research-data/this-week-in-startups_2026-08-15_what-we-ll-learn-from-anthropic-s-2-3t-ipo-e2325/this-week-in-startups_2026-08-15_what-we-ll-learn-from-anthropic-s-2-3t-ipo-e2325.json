@@ -147,27 +147,27 @@
  "takeaways": [
   {
    "icon": "📉",
-   "tag": "IPO timing",
+   "tag": "Markets",
    "title": "Don't buy Anthropic (or any hyped) IPO at the open — wait for the post-pop pullback before building a position."
   },
   {
    "icon": "📄",
-   "tag": "Read the filing",
+   "tag": "Markets",
    "title": "When the S-1 lands, focus on compute cost, chip depreciation method, and customer concentration — that's the real story behind the headline valuation."
   },
   {
    "icon": "🤝",
-   "tag": "M&A as a signal",
+   "tag": "Markets",
    "title": "Track small-scale acquisitions (like Decart) at trillion-dollar companies as a liquidity/M&A-thaw signal, not just deal-specific news."
   },
   {
    "icon": "🛠️",
-   "tag": "Weight the backlog",
+   "tag": "Robotics",
    "title": "For automation/robotics startups, weight contracted pipeline (Grit's ~6M-panel backlog) and team pedigree over how viral the demo video looks."
   },
   {
    "icon": "🎤",
-   "tag": "Dictate, don't type",
+   "tag": "AI tools",
    "title": "Use a wireless lav mic and 2-3 minutes of stream-of-consciousness dictation into your LLM instead of short typed prompts."
   }
  ],

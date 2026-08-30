@@ -140,9 +140,9 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F4F1", "tag": "AI spend", "title": "Treat a company's rising (not falling) AI spend as a competitiveness signal, not a red flag — per the cited SemiAnalysis logic, cutting AI budget to hit a fixed dollar target is the actual danger sign."},
+    {"icon": "\U0001F4F1", "tag": "Markets", "title": "Treat a company's rising (not falling) AI spend as a competitiveness signal, not a red flag — per the cited SemiAnalysis logic, cutting AI budget to hit a fixed dollar target is the actual danger sign."},
     {"icon": "\U0001F4BE", "tag": "Semis", "title": "Distinguish leverage-driven corrections (Micron/Samsung/SK Hynix) from fundamentals-driven ones by checking earnings trajectory before reading a 20%+ drawdown as a bubble bursting."},
-    {"icon": "₿", "tag": "Bitcoin", "title": "Watch for a confirmed break above the 200-day moving average (~$76-77k at time of taping) as Visser's stated second-stage confirmation for the bottom thesis, not just the initial short-covering bounce."},
+    {"icon": "₿", "tag": "Crypto", "title": "Watch for a confirmed break above the 200-day moving average (~$76-77k at time of taping) as Visser's stated second-stage confirmation for the bottom thesis, not just the initial short-covering bounce."},
     {"icon": "\U0001F3E6", "tag": "Policy", "title": "Read Bessent's Treasury/economic-club speeches directly for administration signals on tokenization and stablecoins — Visser treats this as a structural tailwind, not noise."},
     {"icon": "\U0001F916", "tag": "Robotics", "title": "Track dexterous-manipulation demos (like 1X's hand) as a leading indicator for humanoid robot timelines — Visser frames the hand, not locomotion, as the historically hardest unsolved problem."},
 ]

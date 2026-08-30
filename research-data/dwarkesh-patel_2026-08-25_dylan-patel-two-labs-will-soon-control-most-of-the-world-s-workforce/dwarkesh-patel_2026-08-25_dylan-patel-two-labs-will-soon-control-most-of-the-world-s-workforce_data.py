@@ -166,11 +166,11 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F4CA", "tag": "Watch", "title": "Track OpenAI/Anthropic's share of incremental world compute (Dylan's ~40-50% next-year figure) as the number that confirms or breaks his centralization thesis."},
-    {"icon": "\U0001F504", "tag": "Signal", "title": "Watch for ARR growth plateauing while compute keeps climbing — Dylan's tell that a lab is quietly shifting margin from inference into internal R&D."},
-    {"icon": "\U0001F4B0", "tag": "Re-examine", "title": "Revisit memory-chip multiples (Micron, SK Hynix, Kioxia at 2-3x earnings) as a market bet on whether AI reshapes the whole economy, not just a cyclical chip call."},
-    {"icon": "\U0001F4C8", "tag": "Watch", "title": "Track hyperscaler bond yields (Meta's recent 5-6% deal) — a move toward 8% is Dylan's marker that credit markets are pricing in real crowding-out risk."},
-    {"icon": "\U0001F3DB️", "tag": "Watch", "title": "Track state-level data-center regulation (NY's ban, TX's moratoriums, OH's property-tax proposal) as the leading indicator for whether US regulation, not compute or chips, becomes the binding constraint on lab progress."},
+    {"icon": "\U0001F4CA", "tag": "AI", "title": "Track OpenAI/Anthropic's share of incremental world compute (Dylan's ~40-50% next-year figure) as the number that confirms or breaks his centralization thesis."},
+    {"icon": "\U0001F504", "tag": "Markets", "title": "Watch for ARR growth plateauing while compute keeps climbing — Dylan's tell that a lab is quietly shifting margin from inference into internal R&D."},
+    {"icon": "\U0001F4B0", "tag": "Semis", "title": "Revisit memory-chip multiples (Micron, SK Hynix, Kioxia at 2-3x earnings) as a market bet on whether AI reshapes the whole economy, not just a cyclical chip call."},
+    {"icon": "\U0001F4C8", "tag": "Macro", "title": "Track hyperscaler bond yields (Meta's recent 5-6% deal) — a move toward 8% is Dylan's marker that credit markets are pricing in real crowding-out risk."},
+    {"icon": "\U0001F3DB️", "tag": "Policy", "title": "Track state-level data-center regulation (NY's ban, TX's moratoriums, OH's property-tax proposal) as the leading indicator for whether US regulation, not compute or chips, becomes the binding constraint on lab progress."},
 ]
 
 RISKS = [

@@ -150,10 +150,10 @@ THEMES = [
 
 TAKEAWAYS = [
     {"icon": "\U0001F4CA", "tag": "Crypto", "title": "Track whether Ethereum/Solana keep outperforming Bitcoin over the next few months as the real test of Visser's rotation thesis."},
-    {"icon": "\U0001F4C9", "tag": "Nvidia", "title": "Separate Nvidia's growth rate from its stock's muted return — the gap is about market-cap size and long-run scarcity, not weak fundamentals."},
+    {"icon": "\U0001F4C9", "tag": "Markets", "title": "Separate Nvidia's growth rate from its stock's muted return — the gap is about market-cap size and long-run scarcity, not weak fundamentals."},
     {"icon": "\U0001F4B5", "tag": "Macro", "title": "Watch dollar/yen, not equities, for the real signal on whether Bessent and Warsh are coordinated on rates."},
-    {"icon": "\U0001F9E0", "tag": "Framework", "title": "Size a personal crypto allocation to your own estimated probability of AI disrupting your other assets, per Visser's framework."},
-    {"icon": "\U0001F4F0", "tag": "Habits", "title": "Read Annie Duke's 'Thinking in Bets' if you want the Bayesian, real-time-updating mindset Visser says the current market rewards."},
+    {"icon": "\U0001F9E0", "tag": "Crypto", "title": "Size a personal crypto allocation to your own estimated probability of AI disrupting your other assets, per Visser's framework."},
+    {"icon": "\U0001F4F0", "tag": "Method", "title": "Read Annie Duke's 'Thinking in Bets' if you want the Bayesian, real-time-updating mindset Visser says the current market rewards."},
 ]
 
 RISKS = [

@@ -169,32 +169,32 @@
  "takeaways": [
   {
    "icon": "📊",
-   "tag": "Speaker's own framework",
+   "tag": "Markets",
    "title": "Track Visser's 50-day/50%-rate-of-change signal on his AI thematic portfolio going forward — it's his stated replacement for index-put hedging, though it can't be replicated exactly without his own index."
   },
   {
    "icon": "🔎",
-   "tag": "Needs independent verification",
+   "tag": "Markets",
    "title": "Verify the Gavin Baker compute-pricing figures (B200 rental near $4/GPU-hour, GPU/DRAM pricing trends) against the original interview before treating them as confirmed data points."
   },
   {
    "icon": "📉",
-   "tag": "Analyst interpretation",
+   "tag": "Markets",
    "title": "Watch hyperscaler free-cash-flow trajectory against the Goldman Sachs timeline Visser cites — a widening capex-vs-product-revenue gap is the specific risk he's flagging, not the AI trade itself."
   },
   {
    "icon": "🧠",
-   "tag": "Analyst interpretation",
+   "tag": "Semis",
    "title": "Follow the memory supply/demand story (Micron and peers) as a distinct trade from GPU compute — Visser's thesis is that compute alone doesn't solve the bottleneck without more memory supply."
   },
   {
    "icon": "💱",
-   "tag": "Needs independent verification",
+   "tag": "Macro",
    "title": "Watch the September FOMC and BOJ decisions together, not separately — Visser's framing links the yen intervention and Fed guidance via interest-rate differentials."
   },
   {
    "icon": "⚠️",
-   "tag": "Analyst interpretation",
+   "tag": "Crypto",
    "title": "If following the debasement trade (gold/silver/platinum/Bitcoin), note Visser considers Bitcoin technically still in a bear market pending an unspecified breakout level — treat it as the least-confirmed leg of that basket right now."
   }
  ],

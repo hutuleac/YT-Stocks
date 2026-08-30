@@ -178,32 +178,32 @@
  "takeaways": [
   {
    "icon": "🎯",
-   "tag": "Speaker's stated favorites",
+   "tag": "Markets",
    "title": "Kevin's declared ranking is Nvidia, then Marvell, then Lattice Semiconductor — track those three first if following this thesis."
   },
   {
    "icon": "📈",
-   "tag": "Needs independent verification",
+   "tag": "Markets",
    "title": "Watch Nvidia's Q4 2026 guidance for confirmation that the 13,000-rack GB300 order is flowing through to revenue as projected."
   },
   {
    "icon": "⚖️",
-   "tag": "Analyst interpretation",
+   "tag": "Markets",
    "title": "Treat the 68,800-rack SemiAnalysis bull case skeptically — Kevin himself flags an internal pricing inconsistency in that specific figure."
   },
   {
    "icon": "🔎",
-   "tag": "Needs independent verification",
+   "tag": "Markets",
    "title": "Before buying Eaton on the data-center-order story, independently check its current balance sheet (debt vs. cash) — the red flag here is specific and quantified, not vague."
   },
   {
    "icon": "📰",
-   "tag": "Needs independent verification",
+   "tag": "Markets",
    "title": "Confirm whether Wells Fargo's Dell-disintermediation report (SpaceX ordering direct from Foxconn) firms up in coming quarters before weighting Dell in this thesis."
   },
   {
    "icon": "🕐",
-   "tag": "Analyst interpretation",
+   "tag": "Markets",
    "title": "Enphase and ARM are explicitly framed as longer-dated optionality (2027-2028 catalysts), not near-term momentum plays — size accordingly relative to Nvidia/Marvell/Lattice."
   }
  ],

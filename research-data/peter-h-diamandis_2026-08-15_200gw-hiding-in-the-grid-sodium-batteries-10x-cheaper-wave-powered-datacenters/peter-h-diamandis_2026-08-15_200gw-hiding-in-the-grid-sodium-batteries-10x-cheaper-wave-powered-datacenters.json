@@ -276,32 +276,32 @@
  "takeaways": [
   {
    "icon": "⏱️",
-   "tag": "Reframe",
+   "tag": "Energy",
    "title": "Screen energy plays on speed-to-power, not cost per MWh — the buyer will pay 2x to skip a five-year queue"
   },
   {
    "icon": "🔌",
-   "tag": "Near term",
+   "tag": "Energy",
    "title": "The 2026–28 trade is grid flexibility and behind-the-meter, not new generation: interruptible load, on-site batteries, EV load-shaping, turbines"
   },
   {
    "icon": "📉",
-   "tag": "Correction",
+   "tag": "Energy",
    "title": "Halve your enthusiasm for another 1000x solar decline — Wright's law leaves 4–8x; and double your GPU power estimates for rest-of-rack and cooling"
   },
   {
    "icon": "🔄",
-   "tag": "Structural",
+   "tag": "Energy",
    "title": "Prefer factory-built over field-assembled in every energy bet — manufacturing gets cheap, construction never does"
   },
   {
    "icon": "🗺️",
-   "tag": "Geography",
+   "tag": "Energy",
    "title": "Site new compute where the energy is: equatorial deserts, Australia, Chile, Mexico — and treat winter latitude, not nighttime, as the disqualifier"
   },
   {
    "icon": "⚠️",
-   "tag": "Discipline",
+   "tag": "Energy",
    "title": "Discount every SMR, fusion and orbital date you're quoted — the speaker's own portfolio companies included"
   }
  ],

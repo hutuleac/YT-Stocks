@@ -152,12 +152,12 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F6E0️", "tag": "Harness", "title": "Replace long Claude.md/steering instruction documents with deterministic tools (linters, complexity scorers, mutation testing) run in an enforced fix-until-pass loop — instructions decay with context length, tool output doesn't."},
+    {"icon": "\U0001F6E0️", "tag": "AI tools", "title": "Replace long Claude.md/steering instruction documents with deterministic tools (linters, complexity scorers, mutation testing) run in an enforced fix-until-pass loop — instructions decay with context length, tool output doesn't."},
     {"icon": "\U0001F9EA", "tag": "Testing", "title": "If you have a coverage/complexity scorer or mutation tester that was once 'too slow to be worth it,' reconsider it for agent use now that the cost of running it repeatedly is near zero."},
-    {"icon": "\U0001F517", "tag": "Pipeline design", "title": "Split a feature build into narrow, single-purpose, short-lived agent stages (spec -> implement -> clean -> harden -> verify) rather than one broad agent or many persistent 'personality' agents — it keeps each context window small and its trajectory clean."},
+    {"icon": "\U0001F517", "tag": "Workflow", "title": "Split a feature build into narrow, single-purpose, short-lived agent stages (spec -> implement -> clean -> harden -> verify) rather than one broad agent or many persistent 'personality' agents — it keeps each context window small and its trajectory clean."},
     {"icon": "\U0001F4D0", "tag": "Architecture", "title": "Invest in module boundaries with small, deep interfaces before leaning harder on agents — it's the highest-leverage lever for both agent and human comprehension, and worth a dependency-direction checker if you can build one."},
-    {"icon": "⚖️", "tag": "Process", "title": "Don't force human process disciplines (strict TDD cadence, heavy upfront spec-driven planning) onto an agent just because they work for you — separate the underlying value (test coverage, low complexity) from the specific human workflow used to get there."},
-    {"icon": "\U0001F393", "tag": "Career", "title": "If you're new to the field, still spend real time writing code by hand before directing agents, and treat older books (DeMarco, Yourdon, The Pragmatic Programmer) as a shortcut to strategic judgment the fast agent feedback loop can't teach on its own."},
+    {"icon": "⚖️", "tag": "Workflow", "title": "Don't force human process disciplines (strict TDD cadence, heavy upfront spec-driven planning) onto an agent just because they work for you — separate the underlying value (test coverage, low complexity) from the specific human workflow used to get there."},
+    {"icon": "\U0001F393", "tag": "Careers", "title": "If you're new to the field, still spend real time writing code by hand before directing agents, and treat older books (DeMarco, Yourdon, The Pragmatic Programmer) as a shortcut to strategic judgment the fast agent feedback loop can't teach on its own."},
 ]
 
 RISKS = [

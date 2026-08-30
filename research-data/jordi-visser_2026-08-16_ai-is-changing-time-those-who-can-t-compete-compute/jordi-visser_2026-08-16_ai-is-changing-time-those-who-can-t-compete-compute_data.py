@@ -184,11 +184,11 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F4DD", "tag": "Reusable tool", "title": "Try Visser's conviction-tracking prompt (out this weekend) on transcripts from any analyst or podcast you follow regularly, not just his own."},
-    {"icon": "\U0001F440", "tag": "Watch", "title": "Track whether Jeff Dean or Demis Hassabis actually leave Google — Visser ties that directly to multiple compression for the stock."},
-    {"icon": "\U0001F4B0", "tag": "New thesis", "title": "Start researching stablecoin/tokenization infrastructure (Figure, agent payment rails) now — Visser stakes his next 12 months of credibility on this being the binding constraint."},
-    {"icon": "\U0001F947", "tag": "Positioning", "title": "If buying the debasement trade, note gold and silver have already re-rated by his own read — Bitcoin is the lagging leg, not confirmed to follow."},
-    {"icon": "\U0001F6F0", "tag": "Follow-up", "title": "Watch SpaceX's actual 2027 data-center build-out against the 6-10GW guidance as the real test of the Terrabase thesis."},
+    {"icon": "\U0001F4DD", "tag": "AI tools", "title": "Try Visser's conviction-tracking prompt (out this weekend) on transcripts from any analyst or podcast you follow regularly, not just his own."},
+    {"icon": "\U0001F440", "tag": "AI", "title": "Track whether Jeff Dean or Demis Hassabis actually leave Google — Visser ties that directly to multiple compression for the stock."},
+    {"icon": "\U0001F4B0", "tag": "Crypto", "title": "Start researching stablecoin/tokenization infrastructure (Figure, agent payment rails) now — Visser stakes his next 12 months of credibility on this being the binding constraint."},
+    {"icon": "\U0001F947", "tag": "Macro", "title": "If buying the debasement trade, note gold and silver have already re-rated by his own read — Bitcoin is the lagging leg, not confirmed to follow."},
+    {"icon": "\U0001F6F0", "tag": "Space", "title": "Watch SpaceX's actual 2027 data-center build-out against the 6-10GW guidance as the real test of the Terrabase thesis."},
 ]
 
 RISKS = [

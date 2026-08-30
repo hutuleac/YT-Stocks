@@ -153,12 +153,12 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F6D1", "tag": "Skills", "title": "Stop doing the ~30-40% of your job AI already automates well; invest the freed time in the 60-70% it can't (judgment calls, customer context, taste)."},
-    {"icon": "\U0001F393", "tag": "Learning", "title": "Don't lean on university curricula for current AI skills — supplement with Coursera, DeepLearning.AI, or Udemy, since faculty/curriculum committees move far slower than the field."},
-    {"icon": "\U0001F9E0", "tag": "Retention", "title": "If you need to actually remember an answer (not just ship it once), attempt the problem yourself before asking AI — cognitive offloading measurably hurts long-term retention."},
-    {"icon": "\U0001F6E0️", "tag": "Building", "title": "Build small internal tools yourself even outside engineering — Ng's marketing, finance, and recruiting teams all ship their own scripts and apps now."},
+    {"icon": "\U0001F6D1", "tag": "Careers", "title": "Stop doing the ~30-40% of your job AI already automates well; invest the freed time in the 60-70% it can't (judgment calls, customer context, taste)."},
+    {"icon": "\U0001F393", "tag": "Careers", "title": "Don't lean on university curricula for current AI skills — supplement with Coursera, DeepLearning.AI, or Udemy, since faculty/curriculum committees move far slower than the field."},
+    {"icon": "\U0001F9E0", "tag": "Careers", "title": "If you need to actually remember an answer (not just ship it once), attempt the problem yourself before asking AI — cognitive offloading measurably hurts long-term retention."},
+    {"icon": "\U0001F6E0️", "tag": "AI tools", "title": "Build small internal tools yourself even outside engineering — Ng's marketing, finance, and recruiting teams all ship their own scripts and apps now."},
     {"icon": "\U0001F512", "tag": "Privacy", "title": "For sensitive or material non-public data, default to a hyperscaler with airtight terms of service or a local open-weight model (Llama, Qwen) — not a lesser-known AI vendor."},
-    {"icon": "\U0001F3AF", "tag": "Strategy", "title": "Treat deciding what to build, not how to code it, as the real bottleneck now that building with AI is cheap — talk to customers before you build."},
+    {"icon": "\U0001F3AF", "tag": "Careers", "title": "Treat deciding what to build, not how to code it, as the real bottleneck now that building with AI is cheap — talk to customers before you build."},
 ]
 
 RISKS = [

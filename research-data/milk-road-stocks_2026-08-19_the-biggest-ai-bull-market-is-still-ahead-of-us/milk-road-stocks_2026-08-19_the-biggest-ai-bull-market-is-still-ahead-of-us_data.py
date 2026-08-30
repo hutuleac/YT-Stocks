@@ -135,10 +135,10 @@ THEMES = [
 
 TAKEAWAYS = [
     {"icon": "\U0001F4CA", "tag": "Macro", "title": "Watch Kalshi/Polymarket Fed-hike odds, not just CPI — the market is already pricing holds through January"},
-    {"icon": "\U0001F4B0", "tag": "Earnings", "title": "Track Anthropic/OpenAI run-rate growth as the clearest read on whether the AI-stack ROI thesis is still intact"},
-    {"icon": "⚖️", "tag": "Portfolio", "title": "Consider a barbell of infrastructure basket + application-layer earners rather than betting on a single AI layer"},
-    {"icon": "\U0001F63C", "tag": "Timing", "title": "Use investor-sentiment/fear signals to time entries — Kyle's biggest calls came during selloffs, not at highs"},
-    {"icon": "\U0001F916", "tag": "Watch next", "title": "Watch for the demand-wave handoff from enterprise agents to consumer agents (Apple/Google) late 2026, then physical AI"},
+    {"icon": "\U0001F4B0", "tag": "Markets", "title": "Track Anthropic/OpenAI run-rate growth as the clearest read on whether the AI-stack ROI thesis is still intact"},
+    {"icon": "⚖️", "tag": "Markets", "title": "Consider a barbell of infrastructure basket + application-layer earners rather than betting on a single AI layer"},
+    {"icon": "\U0001F63C", "tag": "Markets", "title": "Use investor-sentiment/fear signals to time entries — Kyle's biggest calls came during selloffs, not at highs"},
+    {"icon": "\U0001F916", "tag": "AI", "title": "Watch for the demand-wave handoff from enterprise agents to consumer agents (Apple/Google) late 2026, then physical AI"},
 ]
 
 RISKS = [

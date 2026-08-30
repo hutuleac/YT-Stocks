@@ -159,11 +159,11 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F4C9", "tag": "Position sizing", "title": "Size your equity/crypto exposure to the dollar drawdown you can actually stomach, not the percentage you claim to tolerate on paper."},
-    {"icon": "\U0001F3E6", "tag": "Liquidity, not sentiment", "title": "Watch US broad liquidity growth (currently ~4% vs. an ~8% need) as the real gate on a crypto/risk-asset re-acceleration, not headline sentiment."},
-    {"icon": "\U0001F4B0", "tag": "Debt quality over debt size", "title": "When assessing hyperscaler risk, separate the core cash-generative players from leveraged special-purpose vehicles (CoreWeave-style structures) instead of treating 'AI debt' as one bucket."},
-    {"icon": "\U0001F947", "tag": "Cash as ammunition", "title": "Hold a deliberate cash allocation specifically earmarked to buy into a 50%+ drawdown, rather than trying to time an exit and re-entry."},
-    {"icon": "\U0001F6D1", "tag": "No leverage", "title": "Avoid leverage into secular growth themes — Raoul's repeated warning is that leverage, not the drawdown itself, is what actually wipes people out."},
+    {"icon": "\U0001F4C9", "tag": "Markets", "title": "Size your equity/crypto exposure to the dollar drawdown you can actually stomach, not the percentage you claim to tolerate on paper."},
+    {"icon": "\U0001F3E6", "tag": "Macro", "title": "Watch US broad liquidity growth (currently ~4% vs. an ~8% need) as the real gate on a crypto/risk-asset re-acceleration, not headline sentiment."},
+    {"icon": "\U0001F4B0", "tag": "Markets", "title": "When assessing hyperscaler risk, separate the core cash-generative players from leveraged special-purpose vehicles (CoreWeave-style structures) instead of treating 'AI debt' as one bucket."},
+    {"icon": "\U0001F947", "tag": "Markets", "title": "Hold a deliberate cash allocation specifically earmarked to buy into a 50%+ drawdown, rather than trying to time an exit and re-entry."},
+    {"icon": "\U0001F6D1", "tag": "Markets", "title": "Avoid leverage into secular growth themes — Raoul's repeated warning is that leverage, not the drawdown itself, is what actually wipes people out."},
 ]
 
 RISKS = [

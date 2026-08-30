@@ -142,10 +142,10 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F4DD", "tag": "Compliance", "title": "If shipping Claude-generated client deliverables, expect a C2PA watermark and plan for how you disclose that to customers."},
-    {"icon": "\U0001F50D", "tag": "Distillation", "title": "Watch whether Meta's actions (not just its manifesto) start matching its pro-distillation stance — that's the actual tell, not the essay."},
-    {"icon": "\U0001F3D7️", "tag": "Infrastructure", "title": "If building a Texas data center, structure it as BYOE (on-site power) to sidestep the grid-connection moratorium entirely."},
-    {"icon": "\U0001F4B0", "tag": "Pricing", "title": "Consider hybrid per-seat + outcome-based pricing for AI products selling into skeptical enterprise buyers — Tax GPT's model is a working reference point."},
+    {"icon": "\U0001F4DD", "tag": "AI ethics", "title": "If shipping Claude-generated client deliverables, expect a C2PA watermark and plan for how you disclose that to customers."},
+    {"icon": "\U0001F50D", "tag": "AI", "title": "Watch whether Meta's actions (not just its manifesto) start matching its pro-distillation stance — that's the actual tell, not the essay."},
+    {"icon": "\U0001F3D7️", "tag": "Energy", "title": "If building a Texas data center, structure it as BYOE (on-site power) to sidestep the grid-connection moratorium entirely."},
+    {"icon": "\U0001F4B0", "tag": "Markets", "title": "Consider hybrid per-seat + outcome-based pricing for AI products selling into skeptical enterprise buyers — Tax GPT's model is a working reference point."},
     {"icon": "\U0001F916", "tag": "Hiring", "title": "Reframe software engineering hiring around judgment and agent management, not code-reading — that shift is already happening at Exa."},
 ]
 

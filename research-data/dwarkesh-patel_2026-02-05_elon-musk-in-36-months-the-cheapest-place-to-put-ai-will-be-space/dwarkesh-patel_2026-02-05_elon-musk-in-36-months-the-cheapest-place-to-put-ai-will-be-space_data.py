@@ -217,11 +217,11 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F680", "tag": "Watch", "title": "Track SpaceX's actual Starship launch cadence against the 10,000-launches-a-year target — that's the single number that would confirm or break the space-compute timeline."},
-    {"icon": "\U0001F50C", "tag": "Watch", "title": "Watch for real-world signs of the \"chips outpacing power\" crunch Musk predicts for late this year — large clusters sitting idle for lack of electricity would be the tell."},
-    {"icon": "\U0001F9BE", "tag": "Watch", "title": "Watch Starship's heat-shield reusability specifically, not just successful landings — Musk names it as the one unsolved problem standing between current Starship and real reusability."},
-    {"icon": "\U0001F916", "tag": "Watch", "title": "Watch for Optimus Academy self-play data actually closing the sim-to-real gap — this is the substitute Tesla is building for the massive real-world driving dataset its car fleet already has."},
-    {"icon": "\U0001F4CA", "tag": "Verify", "title": "Treat Musk's DOGE fraud figures skeptically against the cited 2024 IG report's much smaller number — this is a live, unresolved discrepancy from the interview itself, not settled fact."},
+    {"icon": "\U0001F680", "tag": "Space", "title": "Track SpaceX's actual Starship launch cadence against the 10,000-launches-a-year target — that's the single number that would confirm or break the space-compute timeline."},
+    {"icon": "\U0001F50C", "tag": "Energy", "title": "Watch for real-world signs of the \"chips outpacing power\" crunch Musk predicts for late this year — large clusters sitting idle for lack of electricity would be the tell."},
+    {"icon": "\U0001F9BE", "tag": "Space", "title": "Watch Starship's heat-shield reusability specifically, not just successful landings — Musk names it as the one unsolved problem standing between current Starship and real reusability."},
+    {"icon": "\U0001F916", "tag": "Robotics", "title": "Watch for Optimus Academy self-play data actually closing the sim-to-real gap — this is the substitute Tesla is building for the massive real-world driving dataset its car fleet already has."},
+    {"icon": "\U0001F4CA", "tag": "Policy", "title": "Treat Musk's DOGE fraud figures skeptically against the cited 2024 IG report's much smaller number — this is a live, unresolved discrepancy from the interview itself, not settled fact."},
 ]
 
 RISKS = [

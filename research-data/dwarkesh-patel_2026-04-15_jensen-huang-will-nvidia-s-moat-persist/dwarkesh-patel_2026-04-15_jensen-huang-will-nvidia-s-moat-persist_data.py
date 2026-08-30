@@ -166,11 +166,11 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F4CA", "tag": "Watch", "title": "Track Nvidia's reported market-share trend directly — Jensen's central defense against the TPU/ASIC threat is the claim that Nvidia's share is growing, not shrinking."},
-    {"icon": "\U0001F4B0", "tag": "Watch", "title": "Watch for confirmation of the full scale of Nvidia's OpenAI (~$30B) and Anthropic (~$10B) stakes — these are reported figures Jensen doesn't precisely confirm or deny in the conversation."},
-    {"icon": "\U0001F3ED", "tag": "Track", "title": "Track CoWoS/HBM packaging capacity expansion as the real-time test of Jensen's \"no bottleneck lasts more than 2-3 years\" claim."},
-    {"icon": "\U0001F1E8\U0001F1F3", "tag": "Watch", "title": "Watch for any US export-policy shift on China chip sales — this is the one thread in the interview where Jensen is actively lobbying for a policy change, not just describing Nvidia's business."},
-    {"icon": "\U0001F4B5", "tag": "Watch", "title": "Watch for wider rollout of premium, latency-based inference pricing tiers (the Groq-adjacent move) as a signal that Nvidia's per-token economics are shifting beyond flat throughput pricing."},
+    {"icon": "\U0001F4CA", "tag": "Markets", "title": "Track Nvidia's reported market-share trend directly — Jensen's central defense against the TPU/ASIC threat is the claim that Nvidia's share is growing, not shrinking."},
+    {"icon": "\U0001F4B0", "tag": "Markets", "title": "Watch for confirmation of the full scale of Nvidia's OpenAI (~$30B) and Anthropic (~$10B) stakes — these are reported figures Jensen doesn't precisely confirm or deny in the conversation."},
+    {"icon": "\U0001F3ED", "tag": "Semis", "title": "Track CoWoS/HBM packaging capacity expansion as the real-time test of Jensen's \"no bottleneck lasts more than 2-3 years\" claim."},
+    {"icon": "\U0001F1E8\U0001F1F3", "tag": "Geopolitics", "title": "Watch for any US export-policy shift on China chip sales — this is the one thread in the interview where Jensen is actively lobbying for a policy change, not just describing Nvidia's business."},
+    {"icon": "\U0001F4B5", "tag": "AI", "title": "Watch for wider rollout of premium, latency-based inference pricing tiers (the Groq-adjacent move) as a signal that Nvidia's per-token economics are shifting beyond flat throughput pricing."},
 ]
 
 RISKS = [

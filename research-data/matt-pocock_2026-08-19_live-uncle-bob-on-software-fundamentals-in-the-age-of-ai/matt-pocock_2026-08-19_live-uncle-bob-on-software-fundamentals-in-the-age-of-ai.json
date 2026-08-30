@@ -173,7 +173,7 @@
  "takeaways": [
   {
    "icon": "🛠️",
-   "tag": "Harness",
+   "tag": "AI tools",
    "title": "Replace long Claude.md/steering instruction documents with deterministic tools (linters, complexity scorers, mutation testing) run in an enforced fix-until-pass loop — instructions decay with context length, tool output doesn't."
   },
   {
@@ -183,7 +183,7 @@
   },
   {
    "icon": "🔗",
-   "tag": "Pipeline design",
+   "tag": "Workflow",
    "title": "Split a feature build into narrow, single-purpose, short-lived agent stages (spec -> implement -> clean -> harden -> verify) rather than one broad agent or many persistent 'personality' agents — it keeps each context window small and its trajectory clean."
   },
   {
@@ -193,12 +193,12 @@
   },
   {
    "icon": "⚖️",
-   "tag": "Process",
+   "tag": "Workflow",
    "title": "Don't force human process disciplines (strict TDD cadence, heavy upfront spec-driven planning) onto an agent just because they work for you — separate the underlying value (test coverage, low complexity) from the specific human workflow used to get there."
   },
   {
    "icon": "🎓",
-   "tag": "Career",
+   "tag": "Careers",
    "title": "If you're new to the field, still spend real time writing code by hand before directing agents, and treat older books (DeMarco, Yourdon, The Pragmatic Programmer) as a shortcut to strategic judgment the fast agent feedback loop can't teach on its own."
   }
  ],

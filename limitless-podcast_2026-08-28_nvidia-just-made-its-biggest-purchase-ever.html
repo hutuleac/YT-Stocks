@@ -75,6 +75,9 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .icard .title{font-weight:600;font-size:clamp(14px,.95vw,15.5px);color:#171916;line-height:1.42;margin-bottom:5px;}
 .icard .tag{display:inline-block;font-family:var(--serif);font-style:italic;font-size:13px;font-weight:600;color:var(--brand);}
 .icard .detail{font-size:13.5px;color:#4a4d44;line-height:1.55;margin-top:4px;}
+.icard .tline{font-size:clamp(14px,.95vw,15.5px);line-height:1.48;}
+.icard .tline .cat{font-family:var(--serif);font-style:italic;font-weight:700;color:var(--brand);margin-right:6px;}
+.icard .tline .txt{font-weight:600;color:#171916;}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
@@ -225,7 +228,7 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
     <section class="sec">
       <div class="sec-eye">What to do with this</div>
       <h2>Best Actionable Takeaways</h2>
-      <div style="margin-top:16px;"><div class="icard"><div class="ic">📈</div><div><div class="title">Nvidia's guidance raise (44%→70% YoY for 2028) is the number to watch next quarter, not the historical print.</div><div class="tag">Markets</div></div></div><div class="icard"><div class="ic">🔗</div><div><div class="title">Track Hugging Face's inference-routing product for early signs of an Nvidia-run cloud business.</div><div class="tag">Strategy</div></div></div><div class="icard"><div class="ic">🇨🇳</div><div><div class="title">Watch whether Chinese silicon moves from inference-only to training-capable — that's the real inflection point, not this week's giveaway.</div><div class="tag">Geopolitics</div></div></div><div class="icard"><div class="ic">🚕</div><div><div class="title">Compare Waymo's per-city ride volume against Cyber Cab's September 3 multi-city launch over the next month, not just sticker hardware cost.</div><div class="tag">Autonomy</div></div></div><div class="icard"><div class="ic">📊</div><div><div class="title">Discount usage charts about private AI labs (Anthropic, OpenAI) that don't cite a verifiable data source.</div><div class="tag">Skepticism</div></div></div></div>
+      <div style="margin-top:16px;"><div class="icard"><div class="ic">📈</div><div class="tline"><span class="cat">Markets:</span> <span class="txt">Nvidia's guidance raise (44%→70% YoY for 2028) is the number to watch next quarter, not the historical print.</span></div></div><div class="icard"><div class="ic">🔗</div><div class="tline"><span class="cat">Markets:</span> <span class="txt">Track Hugging Face's inference-routing product for early signs of an Nvidia-run cloud business.</span></div></div><div class="icard"><div class="ic">🇨🇳</div><div class="tline"><span class="cat">Geopolitics:</span> <span class="txt">Watch whether Chinese silicon moves from inference-only to training-capable — that's the real inflection point, not this week's giveaway.</span></div></div><div class="icard"><div class="ic">🚕</div><div class="tline"><span class="cat">Robotics:</span> <span class="txt">Compare Waymo's per-city ride volume against Cyber Cab's September 3 multi-city launch over the next month, not just sticker hardware cost.</span></div></div><div class="icard"><div class="ic">📊</div><div class="tline"><span class="cat">AI:</span> <span class="txt">Discount usage charts about private AI labs (Anthropic, OpenAI) that don't cite a verifiable data source.</span></div></div></div>
     </section>
 
     <section class="sec">

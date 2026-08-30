@@ -200,22 +200,22 @@
   },
   {
    "icon": "💰",
-   "tag": "Earnings",
+   "tag": "Markets",
    "title": "Track Anthropic/OpenAI run-rate growth as the clearest read on whether the AI-stack ROI thesis is still intact"
   },
   {
    "icon": "⚖️",
-   "tag": "Portfolio",
+   "tag": "Markets",
    "title": "Consider a barbell of infrastructure basket + application-layer earners rather than betting on a single AI layer"
   },
   {
    "icon": "😼",
-   "tag": "Timing",
+   "tag": "Markets",
    "title": "Use investor-sentiment/fear signals to time entries — Kyle's biggest calls came during selloffs, not at highs"
   },
   {
    "icon": "🤖",
-   "tag": "Watch next",
+   "tag": "AI",
    "title": "Watch for the demand-wave handoff from enterprise agents to consumer agents (Apple/Google) late 2026, then physical AI"
   }
  ],

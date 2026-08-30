@@ -122,11 +122,11 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F4C9", "tag": "IPO timing", "title": "Don't buy Anthropic (or any hyped) IPO at the open — wait for the post-pop pullback before building a position."},
-    {"icon": "\U0001F4C4", "tag": "Read the filing", "title": "When the S-1 lands, focus on compute cost, chip depreciation method, and customer concentration — that's the real story behind the headline valuation."},
-    {"icon": "\U0001F91D", "tag": "M&A as a signal", "title": "Track small-scale acquisitions (like Decart) at trillion-dollar companies as a liquidity/M&A-thaw signal, not just deal-specific news."},
-    {"icon": "\U0001F6E0️", "tag": "Weight the backlog", "title": "For automation/robotics startups, weight contracted pipeline (Grit's ~6M-panel backlog) and team pedigree over how viral the demo video looks."},
-    {"icon": "\U0001F3A4", "tag": "Dictate, don't type", "title": "Use a wireless lav mic and 2-3 minutes of stream-of-consciousness dictation into your LLM instead of short typed prompts."},
+    {"icon": "\U0001F4C9", "tag": "Markets", "title": "Don't buy Anthropic (or any hyped) IPO at the open — wait for the post-pop pullback before building a position."},
+    {"icon": "\U0001F4C4", "tag": "Markets", "title": "When the S-1 lands, focus on compute cost, chip depreciation method, and customer concentration — that's the real story behind the headline valuation."},
+    {"icon": "\U0001F91D", "tag": "Markets", "title": "Track small-scale acquisitions (like Decart) at trillion-dollar companies as a liquidity/M&A-thaw signal, not just deal-specific news."},
+    {"icon": "\U0001F6E0️", "tag": "Robotics", "title": "For automation/robotics startups, weight contracted pipeline (Grit's ~6M-panel backlog) and team pedigree over how viral the demo video looks."},
+    {"icon": "\U0001F3A4", "tag": "AI tools", "title": "Use a wireless lav mic and 2-3 minutes of stream-of-consciousness dictation into your LLM instead of short typed prompts."},
 ]
 
 RISKS = [

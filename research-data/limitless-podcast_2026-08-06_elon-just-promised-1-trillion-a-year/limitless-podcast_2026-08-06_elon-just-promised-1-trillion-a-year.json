@@ -153,27 +153,27 @@
  "takeaways": [
   {
    "icon": "📈",
-   "tag": "Needs independent verification",
+   "tag": "Markets",
    "title": "Track the next unlock tranches (319M shares Aug 12; >4B cumulative by year-end) for whether real sell-side pressure shows up, versus the muted reaction to the first tranche."
   },
   {
    "icon": "🎯",
-   "tag": "Speaker claim",
+   "tag": "Space",
    "title": "Watch Q3/Q4 2026 earnings for confirmation of the 10GW-by-2027 compute buildout — it's the single number the entire $1T thesis is built on top of."
   },
   {
    "icon": "🔗",
-   "tag": "Analyst interpretation",
+   "tag": "Markets",
    "title": "Cross-reference SpaceX's Nvidia-exclusive stance against Anthropic's parallel AMD deal — the AI-compute vendor market isn't consolidating industry-wide, even where SpaceX itself is going all-in on one supplier."
   },
   {
    "icon": "📊",
-   "tag": "Analyst interpretation",
+   "tag": "Markets",
    "title": "Track Starlink ARPU next quarter — the ~22% YoY decline is the one metric here that doesn't fit the bullish narrative and deserves a follow-up check."
   },
   {
    "icon": "⚖️",
-   "tag": "Analyst interpretation",
+   "tag": "Markets",
    "title": "When sizing the opportunity, separate the near-certain (Starlink growth, the already-signed $50B compute backlog) from the speculative (in-space data centers, a SpaceX-Tesla merger, the full $1T target) — the hosts draw this line themselves but it's easy to lose in the overall bullish tone."
   }
  ],

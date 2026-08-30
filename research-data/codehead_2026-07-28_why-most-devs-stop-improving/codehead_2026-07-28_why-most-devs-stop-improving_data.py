@@ -79,10 +79,10 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F6E0️", "tag": "Stack", "title": "Deliberately touch one tool or framework you've been avoiding for non-technical reasons — notice if the resistance is judgment or just discomfort."},
-    {"icon": "\U0001F9E9", "tag": "Problem-solving", "title": "Before opening an AI assistant on your next problem, spend a fixed few minutes attempting it yourself first — the struggle is reportedly where the retained learning happens."},
-    {"icon": "\U0001F4CA", "tag": "Career", "title": "If you're the senior dev solving everything the same way as year one, treat that as a structural incentive signal to investigate, not just a personal failing to feel bad about."},
-    {"icon": "\U0001F50D", "tag": "Research", "title": "Track down the actual study behind the 'AI reliance degrades unaided performance' claim before citing it yourself — this video doesn't name it."},
+    {"icon": "\U0001F6E0️", "tag": "Careers", "title": "Deliberately touch one tool or framework you've been avoiding for non-technical reasons — notice if the resistance is judgment or just discomfort."},
+    {"icon": "\U0001F9E9", "tag": "Careers", "title": "Before opening an AI assistant on your next problem, spend a fixed few minutes attempting it yourself first — the struggle is reportedly where the retained learning happens."},
+    {"icon": "\U0001F4CA", "tag": "Careers", "title": "If you're the senior dev solving everything the same way as year one, treat that as a structural incentive signal to investigate, not just a personal failing to feel bad about."},
+    {"icon": "\U0001F50D", "tag": "Method", "title": "Track down the actual study behind the 'AI reliance degrades unaided performance' claim before citing it yourself — this video doesn't name it."},
 ]
 
 RISKS = [

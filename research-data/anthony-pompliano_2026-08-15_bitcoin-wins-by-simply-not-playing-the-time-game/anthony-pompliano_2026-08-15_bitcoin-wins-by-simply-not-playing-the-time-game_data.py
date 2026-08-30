@@ -184,12 +184,12 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001f504", "tag": "Method", "title": "Reprice on new information, not on your entry price — buying back higher than you sold is rational when the thesis changed"},
-    {"icon": "\U0001f4c9", "tag": "Valuation", "title": "Watch second-derivative growth, not absolute revenue — the derating hits when the growth rate slows, not when the number misses"},
-    {"icon": "⏱️", "tag": "Reframe", "title": "Treat ARR and year-over-year as human-time conventions that AI is breaking, not as neutral measurement"},
-    {"icon": "\U0001f3e6", "tag": "Positioning", "title": "Judge incumbents on convertible speed, not balance sheet — the relative-short case against banks is bureaucracy, not credit"},
-    {"icon": "\U0001f9ed", "tag": "Context", "title": "Read inflation against what conditions imply, not against the 2% target — the surprise is the gap, not the level"},
-    {"icon": "\U0001f507", "tag": "Discipline", "title": "Filter politics out of the thesis entirely — ask only whether the data centers are still being plugged in"},
+    {"icon": "\U0001f504", "tag": "Markets", "title": "Reprice on new information, not on your entry price — buying back higher than you sold is rational when the thesis changed"},
+    {"icon": "\U0001f4c9", "tag": "Markets", "title": "Watch second-derivative growth, not absolute revenue — the derating hits when the growth rate slows, not when the number misses"},
+    {"icon": "⏱️", "tag": "Markets", "title": "Treat ARR and year-over-year as human-time conventions that AI is breaking, not as neutral measurement"},
+    {"icon": "\U0001f3e6", "tag": "Markets", "title": "Judge incumbents on convertible speed, not balance sheet — the relative-short case against banks is bureaucracy, not credit"},
+    {"icon": "\U0001f9ed", "tag": "Macro", "title": "Read inflation against what conditions imply, not against the 2% target — the surprise is the gap, not the level"},
+    {"icon": "\U0001f507", "tag": "Markets", "title": "Filter politics out of the thesis entirely — ask only whether the data centers are still being plugged in"},
 ]
 
 RISKS = [

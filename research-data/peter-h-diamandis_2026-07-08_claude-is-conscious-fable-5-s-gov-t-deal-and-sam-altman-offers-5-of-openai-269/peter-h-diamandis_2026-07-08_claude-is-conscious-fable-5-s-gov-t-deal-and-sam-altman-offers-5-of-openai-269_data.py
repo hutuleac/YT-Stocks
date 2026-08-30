@@ -166,11 +166,11 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F4C4", "tag": "Regulation", "title": "Track whether other frontier labs get offered the same 'standing duty' government-access terms Anthropic accepted for Fable 5 — this may become the template, not a one-off."},
-    {"icon": "\U0001F9E0", "tag": "Interpretability", "title": "Watch for follow-up research testing whether JSpace-style monitoring generalizes to catching more serious deception, not just the single fabricated-data example shown here."},
+    {"icon": "\U0001F4C4", "tag": "Policy", "title": "Track whether other frontier labs get offered the same 'standing duty' government-access terms Anthropic accepted for Fable 5 — this may become the template, not a one-off."},
+    {"icon": "\U0001F9E0", "tag": "AI safety", "title": "Watch for follow-up research testing whether JSpace-style monitoring generalizes to catching more serious deception, not just the single fabricated-data example shown here."},
     {"icon": "\U0001F4B0", "tag": "Policy", "title": "Treat the OpenAI equity/hyper-tithe idea as speculative until multiple labs actually commit — right now it's one company's floated proposal, not an agreed framework."},
     {"icon": "\U0001F512", "tag": "Enterprise AI", "title": "If evaluating token-based AI vendors for sensitive workloads, ask Karp's specific questions directly: who owns the data, where is it cached, are prompts secure from being used against you."},
-    {"icon": "\U0001F4CB", "tag": "IP strategy", "title": "Don't rely on patents as a primary moat for AI-era inventions — the panel's own read is that AI-accelerated prior-art discovery is shrinking the effective protection window faster than the law can adapt."},
+    {"icon": "\U0001F4CB", "tag": "Policy", "title": "Don't rely on patents as a primary moat for AI-era inventions — the panel's own read is that AI-accelerated prior-art discovery is shrinking the effective protection window faster than the law can adapt."},
 ]
 
 RISKS = [

@@ -127,11 +127,11 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F6E0", "tag": "Build", "title": "Don't fund or build on a software-only moat — assume any specifiable software gets one-shot within a year"},
-    {"icon": "\U0001F680", "tag": "Create", "title": "If you're creative and articulate but non-technical, this is the window to build your own niche/custom app — nobody is standing in between you and shipping"},
-    {"icon": "\U0001F4B8", "tag": "Spend", "title": "Stop rationing tokens against a budget mindset — measure cost against your time saved, not against token counts"},
-    {"icon": "\U0001F3AF", "tag": "Position", "title": "Build toward being a verifier/handler of AI output (taste + judgment + accountability), not just a producer of it"},
-    {"icon": "\U0001F9E0", "tag": "Watch", "title": "Treat model \"agreement\" skeptically — it's optimized to please you, not to independently push back, so it will rarely contradict you even when you're wrong"},
+    {"icon": "\U0001F6E0", "tag": "Strategy", "title": "Don't fund or build on a software-only moat — assume any specifiable software gets one-shot within a year"},
+    {"icon": "\U0001F680", "tag": "Careers", "title": "If you're creative and articulate but non-technical, this is the window to build your own niche/custom app — nobody is standing in between you and shipping"},
+    {"icon": "\U0001F4B8", "tag": "AI tools", "title": "Stop rationing tokens against a budget mindset — measure cost against your time saved, not against token counts"},
+    {"icon": "\U0001F3AF", "tag": "Careers", "title": "Build toward being a verifier/handler of AI output (taste + judgment + accountability), not just a producer of it"},
+    {"icon": "\U0001F9E0", "tag": "AI", "title": "Treat model \"agreement\" skeptically — it's optimized to please you, not to independently push back, so it will rarely contradict you even when you're wrong"},
 ]
 
 RISKS = [

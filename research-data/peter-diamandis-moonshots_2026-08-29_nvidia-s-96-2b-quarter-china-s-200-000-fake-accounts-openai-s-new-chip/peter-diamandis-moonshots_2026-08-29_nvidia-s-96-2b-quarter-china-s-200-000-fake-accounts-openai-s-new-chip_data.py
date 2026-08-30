@@ -297,11 +297,11 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F50D", "tag": "Watch", "title": "Watch whether Nvidia's inference-compute share erodes as OpenAI's Jalapeño chip and similar custom silicon scale — training stays Nvidia's moat, inference is now the contested market."},
-    {"icon": "\U0001F4B0", "tag": "Watch", "title": "Track disclosure on Nvidia's vendor-financing exposure — how much AI infra demand is Nvidia-backstopped is the single data point that would most change the bubble debate."},
-    {"icon": "⏱️", "tag": "Calibrate", "title": "Treat Elon's SpaceX and lunar-economy revenue figures as directional scale calls, not modeled forecasts — timeline slippage of a couple years has been the historical pattern, not the magnitude."},
-    {"icon": "\U0001F4CA", "tag": "Reference", "title": "Use the Principal Financial Group survey (4% expect AI to cut staff, 31% expect to add) as a better real-world jobs gauge than pundit commentary — it's actual small-business survey data."},
-    {"icon": "⚖️", "tag": "Watch", "title": "Watch state-by-state regulation of AI companion apps as an early test of US algorithmic-intimacy policy — expect a patchwork, not a federal standard."},
+    {"icon": "\U0001F50D", "tag": "Markets", "title": "Watch whether Nvidia's inference-compute share erodes as OpenAI's Jalapeño chip and similar custom silicon scale — training stays Nvidia's moat, inference is now the contested market."},
+    {"icon": "\U0001F4B0", "tag": "Markets", "title": "Track disclosure on Nvidia's vendor-financing exposure — how much AI infra demand is Nvidia-backstopped is the single data point that would most change the bubble debate."},
+    {"icon": "⏱️", "tag": "Space", "title": "Treat Elon's SpaceX and lunar-economy revenue figures as directional scale calls, not modeled forecasts — timeline slippage of a couple years has been the historical pattern, not the magnitude."},
+    {"icon": "\U0001F4CA", "tag": "Careers", "title": "Use the Principal Financial Group survey (4% expect AI to cut staff, 31% expect to add) as a better real-world jobs gauge than pundit commentary — it's actual small-business survey data."},
+    {"icon": "⚖️", "tag": "Policy", "title": "Watch state-by-state regulation of AI companion apps as an early test of US algorithmic-intimacy policy — expect a patchwork, not a federal standard."},
 ]
 
 RISKS = [

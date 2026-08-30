@@ -137,12 +137,12 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F4CA", "tag": "Needs independent verification", "title": "If following the \"buy at all-time highs\" framework, note it's the host's own backtest posted on X (since 1950), not an independently published study — check the underlying methodology before leaning on it."},
-    {"icon": "\U0001F4C9", "tag": "Analyst interpretation", "title": "Track Mercado Libre's margin trajectory next quarter — the entire near-term bear case hinges on the 6.7% operating margin the market didn't like; a rebound there would likely resolve the post-earnings selloff."},
-    {"icon": "\U0001F50E", "tag": "Needs independent verification", "title": "Verify Uber's real growth rate (gross bookings, trips) directly from the 10-Q rather than the headline revenue growth number, since the host's whole bull case for Uber depends on the UK VAT/tax reclassification explanation holding up."},
-    {"icon": "⚖️", "tag": "Analyst interpretation", "title": "If considering AppLovin, separate the fundamentals question (strong, per every metric cited) from the sentiment question (the host's explicit, admitted reason for not buying) — they point in different directions here."},
-    {"icon": "\U0001F9E9", "tag": "Needs independent verification", "title": "Confirm the DataDog/OpenAI/Anthropic \"almost exclusive\" observability claim independently before treating it as a durable moat — it's stated as fact by the host but not sourced to a company disclosure."},
-    {"icon": "⛽", "tag": "Analyst interpretation", "title": "Watch oil prices and Fed rate-path commentary as the connective tissue for the K-shaped economy thesis — the host's own framing ties consumer-discretionary weakness (Celsius, Wingstop) directly to gas-price-driven inflation pressure."},
+    {"icon": "\U0001F4CA", "tag": "Markets", "title": "If following the \"buy at all-time highs\" framework, note it's the host's own backtest posted on X (since 1950), not an independently published study — check the underlying methodology before leaning on it."},
+    {"icon": "\U0001F4C9", "tag": "Markets", "title": "Track Mercado Libre's margin trajectory next quarter — the entire near-term bear case hinges on the 6.7% operating margin the market didn't like; a rebound there would likely resolve the post-earnings selloff."},
+    {"icon": "\U0001F50E", "tag": "Markets", "title": "Verify Uber's real growth rate (gross bookings, trips) directly from the 10-Q rather than the headline revenue growth number, since the host's whole bull case for Uber depends on the UK VAT/tax reclassification explanation holding up."},
+    {"icon": "⚖️", "tag": "Markets", "title": "If considering AppLovin, separate the fundamentals question (strong, per every metric cited) from the sentiment question (the host's explicit, admitted reason for not buying) — they point in different directions here."},
+    {"icon": "\U0001F9E9", "tag": "Markets", "title": "Confirm the DataDog/OpenAI/Anthropic \"almost exclusive\" observability claim independently before treating it as a durable moat — it's stated as fact by the host but not sourced to a company disclosure."},
+    {"icon": "⛽", "tag": "Macro", "title": "Watch oil prices and Fed rate-path commentary as the connective tissue for the K-shaped economy thesis — the host's own framing ties consumer-discretionary weakness (Celsius, Wingstop) directly to gas-price-driven inflation pressure."},
 ]
 
 RISKS = [

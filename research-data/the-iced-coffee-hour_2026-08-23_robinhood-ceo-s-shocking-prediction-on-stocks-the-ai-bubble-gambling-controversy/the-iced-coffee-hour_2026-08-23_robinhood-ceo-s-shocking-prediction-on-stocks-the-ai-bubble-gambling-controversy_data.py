@@ -209,9 +209,9 @@ THEMES = [
 TAKEAWAYS = [
     {"icon": "\U0001F916", "tag": "AI tools", "title": "If you use Claude/an AI agent, have it audit your portfolio for redundant high-fee funds before assuming your allocation is optimal."},
     {"icon": "\U0001F4B0", "tag": "Retirement", "title": "Check whether your employer 401(k) match is fully captured — Tenev calls it the single biggest lever that moved US ownership rates historically."},
-    {"icon": "\U0001F30E", "tag": "Private markets", "title": "Track Robinhood Ventures Fund 2 (seed/Series A via YC) if you want early-stage private exposure without accredited-investor status."},
-    {"icon": "\U0001F4CA", "tag": "Sentiment signal", "title": "Watch for sudden shifts in what average retail investors are asking for (e.g. a specific foreign market) as a rough, informal overheating indicator."},
-    {"icon": "\U0001F3DB️", "tag": "Policy risk", "title": "If you hold concentrated founder/executive equity in a high-tax state, model a wealth-tax scenario now rather than after a referendum passes."},
+    {"icon": "\U0001F30E", "tag": "Markets", "title": "Track Robinhood Ventures Fund 2 (seed/Series A via YC) if you want early-stage private exposure without accredited-investor status."},
+    {"icon": "\U0001F4CA", "tag": "Markets", "title": "Watch for sudden shifts in what average retail investors are asking for (e.g. a specific foreign market) as a rough, informal overheating indicator."},
+    {"icon": "\U0001F3DB️", "tag": "Policy", "title": "If you hold concentrated founder/executive equity in a high-tax state, model a wealth-tax scenario now rather than after a referendum passes."},
 ]
 
 RISKS = [

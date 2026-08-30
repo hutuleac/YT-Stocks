@@ -43,6 +43,9 @@ THEMES = [
 
 TAKEAWAYS = [
     # {"icon": "\U0001F3AF", "tag": "...", "title": "..."} × 4-6, imperative and distinct
+    # tag = short topic category (1-3 words: "Markets", "Macro", "AI ethics", "Health", "Energy",
+    # "Geopolitics", "Crypto", "Robotics", "Space", "Policy", "Careers", ...) — not an action verb.
+    # Renders inline, leading the line: "Markets: Track RSP and IGV first..." — title carries the verb.
 ]
 
 RISKS = [

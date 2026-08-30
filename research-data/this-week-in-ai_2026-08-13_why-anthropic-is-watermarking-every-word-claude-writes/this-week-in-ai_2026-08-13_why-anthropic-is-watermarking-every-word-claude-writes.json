@@ -169,22 +169,22 @@
  "takeaways": [
   {
    "icon": "📝",
-   "tag": "Compliance",
+   "tag": "AI ethics",
    "title": "If shipping Claude-generated client deliverables, expect a C2PA watermark and plan for how you disclose that to customers."
   },
   {
    "icon": "🔍",
-   "tag": "Distillation",
+   "tag": "AI",
    "title": "Watch whether Meta's actions (not just its manifesto) start matching its pro-distillation stance — that's the actual tell, not the essay."
   },
   {
    "icon": "🏗️",
-   "tag": "Infrastructure",
+   "tag": "Energy",
    "title": "If building a Texas data center, structure it as BYOE (on-site power) to sidestep the grid-connection moratorium entirely."
   },
   {
    "icon": "💰",
-   "tag": "Pricing",
+   "tag": "Markets",
    "title": "Consider hybrid per-seat + outcome-based pricing for AI products selling into skeptical enterprise buyers — Tax GPT's model is a working reference point."
   },
   {

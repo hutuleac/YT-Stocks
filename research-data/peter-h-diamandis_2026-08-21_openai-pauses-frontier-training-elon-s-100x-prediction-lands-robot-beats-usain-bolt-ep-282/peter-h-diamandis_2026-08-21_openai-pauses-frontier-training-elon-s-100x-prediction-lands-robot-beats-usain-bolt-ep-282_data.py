@@ -187,11 +187,11 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F9EA", "tag": "Read the fine print", "title": "Treat OpenAI's 'pause' as scoped to some post-training RL, not pre-training — the labs most likely to slow down are the ones with the least to lose from looking cautious right now."},
-    {"icon": "\U0001F4BE", "tag": "Watch the input, not the chip", "title": "If you're tracking AI infrastructure exposure, weight memory supply (SK Hynix, Solidigm, Micron-type names) alongside GPU makers — memory is already a third of AI infra spend and heading toward half."},
-    {"icon": "\U0001F9EC", "tag": "Track the platform, not just the trial", "title": "Moderna's mRNA cancer-vaccine result and the IDO cell simulator are both platform technologies — expect more disease categories to follow the same personalized-antigen or in-silico pipeline rather than treating this as a one-off."},
-    {"icon": "\U0001F916", "tag": "Expect robot-class regulation", "title": "As humanoid robots hit superhuman speed/strength benchmarks, expect road-style tiering by power/torque density rather than an outright ban — plan product or investment bets accordingly."},
-    {"icon": "\U0001F4E6", "tag": "Watch the aggregator-vs-supplier fight", "title": "In autonomous delivery and mobility, track whether platforms like Uber stay neutral aggregators or whether suppliers like Zipline/Waymo go direct to consumers — that split determines who captures the margin."},
+    {"icon": "\U0001F9EA", "tag": "AI", "title": "Treat OpenAI's 'pause' as scoped to some post-training RL, not pre-training — the labs most likely to slow down are the ones with the least to lose from looking cautious right now."},
+    {"icon": "\U0001F4BE", "tag": "Semis", "title": "If you're tracking AI infrastructure exposure, weight memory supply (SK Hynix, Solidigm, Micron-type names) alongside GPU makers — memory is already a third of AI infra spend and heading toward half."},
+    {"icon": "\U0001F9EC", "tag": "Health", "title": "Moderna's mRNA cancer-vaccine result and the IDO cell simulator are both platform technologies — expect more disease categories to follow the same personalized-antigen or in-silico pipeline rather than treating this as a one-off."},
+    {"icon": "\U0001F916", "tag": "Robotics", "title": "As humanoid robots hit superhuman speed/strength benchmarks, expect road-style tiering by power/torque density rather than an outright ban — plan product or investment bets accordingly."},
+    {"icon": "\U0001F4E6", "tag": "Robotics", "title": "In autonomous delivery and mobility, track whether platforms like Uber stay neutral aggregators or whether suppliers like Zipline/Waymo go direct to consumers — that split determines who captures the margin."},
 ]
 
 RISKS = [

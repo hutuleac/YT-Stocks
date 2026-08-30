@@ -135,12 +135,12 @@
   },
   {
    "icon": "📝",
-   "tag": "Configuration",
+   "tag": "AI tools",
    "title": "Write an explicit \"argue back with me\" instruction file (agents.md / Claude.md) for your daily AI tool — left unconfigured, models default to placating you rather than challenging your thinking."
   },
   {
    "icon": "👥",
-   "tag": "Decision-making",
+   "tag": "Workflow",
    "title": "For high-stakes calls, try a multi-persona adversarial review (Foster's public \"War Council\" skill) instead of a single AI opinion — standing skeptic personas plus a couple dynamically generated for the specific question."
   },
   {
@@ -150,7 +150,7 @@
   },
   {
    "icon": "🤖",
-   "tag": "Tool choice",
+   "tag": "AI tools",
    "title": "Pick AI tools partly on task-fit personality, not just benchmark capability — a model that's excellent for heads-down engineering work may be actively unpleasant to use for back-and-forth thinking, and vice versa."
   }
  ],

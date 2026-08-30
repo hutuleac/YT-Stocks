@@ -217,17 +217,17 @@
  "takeaways": [
   {
    "icon": "📉",
-   "tag": "Signal to watch",
+   "tag": "Crypto",
    "title": "Track whether Bitcoin holds above its 200-day moving average — Visser's own stated line for staying bullish vs. going quiet."
   },
   {
    "icon": "📚",
-   "tag": "Reading list",
+   "tag": "Crypto",
    "title": "Read Mark Andreessen's 'Why Bitcoin Matters' (2014), the original Bitcoin white paper, and Reminiscences of a Stock Operator if unfamiliar — all three are referenced as load-bearing to this thesis."
   },
   {
    "icon": "🧪",
-   "tag": "Sector watch",
+   "tag": "Health",
    "title": "If holding pharma, watch Eli Lilly and Moderna as live tests of the AI-driven drug-discovery re-rating thesis, not just obesity-drug momentum."
   },
   {
@@ -237,7 +237,7 @@
   },
   {
    "icon": "🏛️",
-   "tag": "Policy watch",
+   "tag": "Policy",
    "title": "Track Clarity Act passage and the Genius Act rulemaking comment period — both are treated here as near-term crypto-market catalysts, not settled law."
   }
  ],

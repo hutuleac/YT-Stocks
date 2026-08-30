@@ -155,12 +155,12 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F9EE", "tag": "Consciousness research", "title": "Read AI self-reports on consciousness as prompt-shaped output, not evidence of inner experience — the same model can be dialed from 2.17 to 7 on a mind-attribution scale."},
-    {"icon": "\U0001F4D0", "tag": "Math/science", "title": "Expect the 'bulk-solving' pattern (Astra) to hit adjacent fields — physics is the next domain the panel expects a breakthrough in within weeks to months."},
-    {"icon": "\U0001F4B8", "tag": "Open weights", "title": "Track Qwen 27B and similar sub-16GB-RAM models as a two-sided story: cheap capability for builders, and a new swarm-cyberattack surface for defenders."},
-    {"icon": "\U0001F680", "tag": "SpaceX", "title": "Treat SpaceX's trillion-dollar-by-2030 target and the Terrafab as a single vertical-integration thesis, not two separate bets — chips, compute, and launch are converging under one balance sheet."},
+    {"icon": "\U0001F9EE", "tag": "AI ethics", "title": "Read AI self-reports on consciousness as prompt-shaped output, not evidence of inner experience — the same model can be dialed from 2.17 to 7 on a mind-attribution scale."},
+    {"icon": "\U0001F4D0", "tag": "AI", "title": "Expect the 'bulk-solving' pattern (Astra) to hit adjacent fields — physics is the next domain the panel expects a breakthrough in within weeks to months."},
+    {"icon": "\U0001F4B8", "tag": "AI", "title": "Track Qwen 27B and similar sub-16GB-RAM models as a two-sided story: cheap capability for builders, and a new swarm-cyberattack surface for defenders."},
+    {"icon": "\U0001F680", "tag": "Space", "title": "Treat SpaceX's trillion-dollar-by-2030 target and the Terrafab as a single vertical-integration thesis, not two separate bets — chips, compute, and launch are converging under one balance sheet."},
     {"icon": "\U0001F3DB", "tag": "Policy", "title": "Don't assume the US AI evaluation framework is meaningfully restrictive — it's voluntary, secret, and explicitly exempts open-weight models."},
-    {"icon": "\U0001F4BC", "tag": "Startup structuring", "title": "When a well-capitalized founder launches an adjacent company at a high starting valuation, weigh the recapitalization/equity angle alongside the stated product thesis."},
+    {"icon": "\U0001F4BC", "tag": "Markets", "title": "When a well-capitalized founder launches an adjacent company at a high starting valuation, weigh the recapitalization/equity angle alongside the stated product thesis."},
 ]
 
 RISKS = [

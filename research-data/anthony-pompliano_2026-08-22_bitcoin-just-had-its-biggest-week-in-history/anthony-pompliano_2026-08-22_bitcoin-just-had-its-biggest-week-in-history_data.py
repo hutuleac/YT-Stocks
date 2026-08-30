@@ -318,15 +318,15 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F4C8", "tag": "Signal", "title": "Watch the 200-day moving average, not the headline "
+    {"icon": "\U0001F4C8", "tag": "Crypto", "title": "Watch the 200-day moving average, not the headline "
      "percentage — Visser's own rule for turning bullish on Bitcoin"},
-    {"icon": "\U0001F9EE", "tag": "Sizing", "title": "Size any Bitcoin allocation to your honest probability "
+    {"icon": "\U0001F9EE", "tag": "Crypto", "title": "Size any Bitcoin allocation to your honest probability "
      "estimate for the thesis, not a borrowed rule of thumb"},
-    {"icon": "\U0001F50D", "tag": "Watchlist", "title": "Track the Stripe/Ramp router land grab — it's a "
+    {"icon": "\U0001F50D", "tag": "Markets", "title": "Track the Stripe/Ramp router land grab — it's a "
      "leading indicator for how much pricing power frontier labs keep"},
-    {"icon": "\U0001F9E0", "tag": "Mindset", "title": "Treat your own views as bets to revise, not fixed "
+    {"icon": "\U0001F9E0", "tag": "Markets", "title": "Treat your own views as bets to revise, not fixed "
      "conclusions — especially on fast-moving AI and crypto narratives"},
-    {"icon": "\U0001F48A", "tag": "Sector", "title": "Don't write off pharma as a no-growth defensive sector "
+    {"icon": "\U0001F48A", "tag": "Health", "title": "Don't write off pharma as a no-growth defensive sector "
      "— AI-accelerated discovery is an underpriced application-layer story"},
 ]
 

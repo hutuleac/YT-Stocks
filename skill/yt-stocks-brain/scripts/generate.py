@@ -180,6 +180,9 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .icard .title{font-weight:600;font-size:clamp(14px,.95vw,15.5px);color:#171916;line-height:1.42;margin-bottom:5px;}
 .icard .tag{display:inline-block;font-family:var(--serif);font-style:italic;font-size:13px;font-weight:600;color:var(--brand);}
 .icard .detail{font-size:13.5px;color:#4a4d44;line-height:1.55;margin-top:4px;}
+.icard .tline{font-size:clamp(14px,.95vw,15.5px);line-height:1.48;}
+.icard .tline .cat{font-family:var(--serif);font-style:italic;font-weight:700;color:var(--brand);margin-right:6px;}
+.icard .tline .txt{font-weight:600;color:#171916;}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
@@ -328,12 +331,19 @@ def render_theme(t):
 """
 
 
-def render_icards(items, icon_default="\U0001F4CC", with_tag_detail=False):
+def render_icards(items, icon_default="\U0001F4CC", with_tag_detail=False, inline_tag=False):
     if not items:
         return '<p class="empty">Nothing notable found in this category for this video.</p>'
     out = []
     for it in items:
-        if with_tag_detail:
+        if inline_tag:
+            tag = esc(it.get("tag", ""))
+            cat = f'<span class="cat">{tag}:</span> ' if tag else ""
+            out.append(
+                f'<div class="icard"><div class="ic">{it.get("icon", icon_default)}</div>'
+                f'<div class="tline">{cat}<span class="txt">{esc(it["title"])}</span></div></div>'
+            )
+        elif with_tag_detail:
             out.append(
                 f'<div class="icard"><div class="ic">{it.get("icon", icon_default)}</div>'
                 f'<div><div class="title">{esc(it["title"])}</div>'
@@ -412,7 +422,7 @@ def build_html(data):
     <section class="sec">
       <div class="sec-eye">What to do with this</div>
       <h2>Best Actionable Takeaways</h2>
-      <div style="margin-top:16px;">{render_icards(data.TAKEAWAYS, with_tag_detail=False)}</div>
+      <div style="margin-top:16px;">{render_icards(data.TAKEAWAYS, inline_tag=True)}</div>
     </section>
 
     <section class="sec">

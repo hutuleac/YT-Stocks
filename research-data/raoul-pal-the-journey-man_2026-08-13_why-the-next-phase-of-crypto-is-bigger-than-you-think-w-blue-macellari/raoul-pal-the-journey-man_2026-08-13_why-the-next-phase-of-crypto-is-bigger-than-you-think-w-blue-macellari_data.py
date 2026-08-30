@@ -162,11 +162,11 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F4C8", "tag": "Liquidity", "title": "Track whether AI capital rotation reverses — that's the leading signal for crypto's marginal buyer coming back, more than any single crypto-specific catalyst."},
-    {"icon": "\U0001F310", "tag": "Stablecoins", "title": "Evaluate stablecoin/payments plays on backend-abstraction UX, not which chain or coalition they're built on — that's where the eventual winner separates from the pack."},
-    {"icon": "\U0001F3E2", "tag": "Tokenization", "title": "Before backing any tokenization narrative, ask who the actual buyer is and whether liquidity is being created or just relabeled — the real estate/retail mismatch is the cautionary case."},
-    {"icon": "\U0001F6A2", "tag": "Adoption signal", "title": "Watch commodity/trading-firm stablecoin adoption as a laggard indicator — it hasn't happened yet despite an obvious efficiency case, and a breakout there would be a real signal."},
-    {"icon": "\U0001F194", "tag": "AI/identity", "title": "Track whether any major tech platforms actually converge on shared digital-ID/provenance standards — as of 2021 they agreed on the problem but explicitly refused to agree on the standard."},
+    {"icon": "\U0001F4C8", "tag": "Crypto", "title": "Track whether AI capital rotation reverses — that's the leading signal for crypto's marginal buyer coming back, more than any single crypto-specific catalyst."},
+    {"icon": "\U0001F310", "tag": "Crypto", "title": "Evaluate stablecoin/payments plays on backend-abstraction UX, not which chain or coalition they're built on — that's where the eventual winner separates from the pack."},
+    {"icon": "\U0001F3E2", "tag": "Crypto", "title": "Before backing any tokenization narrative, ask who the actual buyer is and whether liquidity is being created or just relabeled — the real estate/retail mismatch is the cautionary case."},
+    {"icon": "\U0001F6A2", "tag": "Crypto", "title": "Watch commodity/trading-firm stablecoin adoption as a laggard indicator — it hasn't happened yet despite an obvious efficiency case, and a breakout there would be a real signal."},
+    {"icon": "\U0001F194", "tag": "Policy", "title": "Track whether any major tech platforms actually converge on shared digital-ID/provenance standards — as of 2021 they agreed on the problem but explicitly refused to agree on the standard."},
 ]
 
 RISKS = [

@@ -195,12 +195,12 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "⏱️", "tag": "Reframe", "title": "Screen energy plays on speed-to-power, not cost per MWh — the buyer will pay 2x to skip a five-year queue"},
-    {"icon": "\U0001f50c", "tag": "Near term", "title": "The 2026–28 trade is grid flexibility and behind-the-meter, not new generation: interruptible load, on-site batteries, EV load-shaping, turbines"},
-    {"icon": "\U0001f4c9", "tag": "Correction", "title": "Halve your enthusiasm for another 1000x solar decline — Wright's law leaves 4–8x; and double your GPU power estimates for rest-of-rack and cooling"},
-    {"icon": "\U0001f504", "tag": "Structural", "title": "Prefer factory-built over field-assembled in every energy bet — manufacturing gets cheap, construction never does"},
-    {"icon": "\U0001f5fa️", "tag": "Geography", "title": "Site new compute where the energy is: equatorial deserts, Australia, Chile, Mexico — and treat winter latitude, not nighttime, as the disqualifier"},
-    {"icon": "⚠️", "tag": "Discipline", "title": "Discount every SMR, fusion and orbital date you're quoted — the speaker's own portfolio companies included"},
+    {"icon": "⏱️", "tag": "Energy", "title": "Screen energy plays on speed-to-power, not cost per MWh — the buyer will pay 2x to skip a five-year queue"},
+    {"icon": "\U0001f50c", "tag": "Energy", "title": "The 2026–28 trade is grid flexibility and behind-the-meter, not new generation: interruptible load, on-site batteries, EV load-shaping, turbines"},
+    {"icon": "\U0001f4c9", "tag": "Energy", "title": "Halve your enthusiasm for another 1000x solar decline — Wright's law leaves 4–8x; and double your GPU power estimates for rest-of-rack and cooling"},
+    {"icon": "\U0001f504", "tag": "Energy", "title": "Prefer factory-built over field-assembled in every energy bet — manufacturing gets cheap, construction never does"},
+    {"icon": "\U0001f5fa️", "tag": "Energy", "title": "Site new compute where the energy is: equatorial deserts, Australia, Chile, Mexico — and treat winter latitude, not nighttime, as the disqualifier"},
+    {"icon": "⚠️", "tag": "Energy", "title": "Discount every SMR, fusion and orbital date you're quoted — the speaker's own portfolio companies included"},
 ]
 
 RISKS = [

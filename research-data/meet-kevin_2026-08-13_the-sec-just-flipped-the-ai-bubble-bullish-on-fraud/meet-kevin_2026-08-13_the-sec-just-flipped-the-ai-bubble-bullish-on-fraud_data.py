@@ -129,12 +129,12 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F3AF", "tag": "Speaker's actual buys", "title": "Track RSP and IGV first — these are Kevin's two explicitly-stated conviction vehicles for the rest of 2026, not just commentary."},
-    {"icon": "\U0001F4C8", "tag": "Speaker's stated favorites", "title": "Within the software leg of the thesis, Microsoft, Palantir, and Axon are the named buy-alert stocks — verify each independently before following."},
-    {"icon": "\U000026A0\U0000FE0F", "tag": "Needs independent verification", "title": "Before touching CoreWeave (CRWV), independently verify the $18B-debt-vs-$6B-cash gap and the WACC-vs-discounted-loan-yield math against its actual filings."},
-    {"icon": "\U0001F50E", "tag": "Analyst interpretation", "title": "Treat Nvidia (NVDA) as the biggest indirect beneficiary of the SEC rule change and the $500B financing vehicle (~40% per Kevin's estimate), even though it isn't named as a fresh buy in this specific video."},
-    {"icon": "\U0001F6AB", "tag": "Analyst interpretation", "title": "Don't chase SpaceX-driven market euphoria directly — it's private. Treat Elon's spending comments as a macro tailwind for AI-adjacent names, not a ticker to buy."},
-    {"icon": "\U0000269B\U0000FE0F", "tag": "Speaker's own framing", "title": "Size any new AI-exposure positions to Kevin's own split: short-term bullish (through Q3/Q4 2026), explicitly more cautious about 2027."},
+    {"icon": "\U0001F3AF", "tag": "Markets", "title": "Track RSP and IGV first — these are Kevin's two explicitly-stated conviction vehicles for the rest of 2026, not just commentary."},
+    {"icon": "\U0001F4C8", "tag": "Markets", "title": "Within the software leg of the thesis, Microsoft, Palantir, and Axon are the named buy-alert stocks — verify each independently before following."},
+    {"icon": "\U000026A0\U0000FE0F", "tag": "Markets", "title": "Before touching CoreWeave (CRWV), independently verify the $18B-debt-vs-$6B-cash gap and the WACC-vs-discounted-loan-yield math against its actual filings."},
+    {"icon": "\U0001F50E", "tag": "Markets", "title": "Treat Nvidia (NVDA) as the biggest indirect beneficiary of the SEC rule change and the $500B financing vehicle (~40% per Kevin's estimate), even though it isn't named as a fresh buy in this specific video."},
+    {"icon": "\U0001F6AB", "tag": "Markets", "title": "Don't chase SpaceX-driven market euphoria directly — it's private. Treat Elon's spending comments as a macro tailwind for AI-adjacent names, not a ticker to buy."},
+    {"icon": "\U0000269B\U0000FE0F", "tag": "Markets", "title": "Size any new AI-exposure positions to Kevin's own split: short-term bullish (through Q3/Q4 2026), explicitly more cautious about 2027."},
 ]
 
 RISKS = [

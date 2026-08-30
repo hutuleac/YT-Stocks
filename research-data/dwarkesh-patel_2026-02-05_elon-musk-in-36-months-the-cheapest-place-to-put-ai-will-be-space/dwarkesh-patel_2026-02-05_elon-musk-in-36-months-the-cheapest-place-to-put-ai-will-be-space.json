@@ -279,27 +279,27 @@
  "takeaways": [
   {
    "icon": "🚀",
-   "tag": "Watch",
+   "tag": "Space",
    "title": "Track SpaceX's actual Starship launch cadence against the 10,000-launches-a-year target — that's the single number that would confirm or break the space-compute timeline."
   },
   {
    "icon": "🔌",
-   "tag": "Watch",
+   "tag": "Energy",
    "title": "Watch for real-world signs of the \"chips outpacing power\" crunch Musk predicts for late this year — large clusters sitting idle for lack of electricity would be the tell."
   },
   {
    "icon": "🦾",
-   "tag": "Watch",
+   "tag": "Space",
    "title": "Watch Starship's heat-shield reusability specifically, not just successful landings — Musk names it as the one unsolved problem standing between current Starship and real reusability."
   },
   {
    "icon": "🤖",
-   "tag": "Watch",
+   "tag": "Robotics",
    "title": "Watch for Optimus Academy self-play data actually closing the sim-to-real gap — this is the substitute Tesla is building for the massive real-world driving dataset its car fleet already has."
   },
   {
    "icon": "📊",
-   "tag": "Verify",
+   "tag": "Policy",
    "title": "Treat Musk's DOGE fraud figures skeptically against the cited 2024 IG report's much smaller number — this is a live, unresolved discrepancy from the interview itself, not settled fact."
   }
  ],

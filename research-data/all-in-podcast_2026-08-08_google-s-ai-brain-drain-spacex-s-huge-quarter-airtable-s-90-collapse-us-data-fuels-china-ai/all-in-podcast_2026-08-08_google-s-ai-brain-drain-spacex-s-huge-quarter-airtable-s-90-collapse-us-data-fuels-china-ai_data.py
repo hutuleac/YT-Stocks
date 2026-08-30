@@ -140,12 +140,12 @@ THEMES = [
 ]
 
 TAKEAWAYS = [
-    {"icon": "\U0001F4CA", "tag": "Needs independent verification", "title": "Track whether Anthropic actually hits its revised $110-120B ARR guide by year-end — the panel's whole \"duopoly premium\" thesis for frontier labs rests on that trajectory holding."},
-    {"icon": "\U0001F4B0", "tag": "Analyst interpretation", "title": "Watch SpaceX's Q3 disclosures for how it finances the jump from ~2GW to 5-10GW of compute next year — debt vs. dilutive equity vs. continued Nvidia vendor financing will reveal how sustainable today's ~1-year-payback spot pricing really is."},
-    {"icon": "\U0001F50D", "tag": "Analyst interpretation", "title": "If evaluating other struggling no-code/SaaS names post-Airtable, check quota attainment and PLG-vs-sales-led motion specifically — that single metric (30% quota attainment) was the panel's real diagnostic signal, not the headline valuation drop."},
-    {"icon": "⚖️", "tag": "Analyst interpretation", "title": "Don't extrapolate Airtable's outcome to all of SaaS — the panel explicitly separates deeply embedded, compliance-locked enterprise software (Microsoft, Salesforce) from exposed no-code tools, citing IGV, Snowflake, and Databricks as counter-evidence."},
-    {"icon": "\U0001F9EA", "tag": "Needs independent verification", "title": "Independently verify the Forbes/Surge AI/Mercor China-data-selling claims before treating them as confirmed — both Sacks and Brad question whether the underlying data is genuinely proprietary or replicable domestically in China."},
-    {"icon": "\U0001F4C9", "tag": "Analyst interpretation", "title": "Watch how CoreWeave and semiconductor/AI-infrastructure stocks react to any future \"cheap open-source model\" scares (like July's Kimi selloff) as a real-time gauge of how fragile sentiment is around AI-infrastructure demand durability."},
+    {"icon": "\U0001F4CA", "tag": "Markets", "title": "Track whether Anthropic actually hits its revised $110-120B ARR guide by year-end — the panel's whole \"duopoly premium\" thesis for frontier labs rests on that trajectory holding."},
+    {"icon": "\U0001F4B0", "tag": "Markets", "title": "Watch SpaceX's Q3 disclosures for how it finances the jump from ~2GW to 5-10GW of compute next year — debt vs. dilutive equity vs. continued Nvidia vendor financing will reveal how sustainable today's ~1-year-payback spot pricing really is."},
+    {"icon": "\U0001F50D", "tag": "Markets", "title": "If evaluating other struggling no-code/SaaS names post-Airtable, check quota attainment and PLG-vs-sales-led motion specifically — that single metric (30% quota attainment) was the panel's real diagnostic signal, not the headline valuation drop."},
+    {"icon": "⚖️", "tag": "Markets", "title": "Don't extrapolate Airtable's outcome to all of SaaS — the panel explicitly separates deeply embedded, compliance-locked enterprise software (Microsoft, Salesforce) from exposed no-code tools, citing IGV, Snowflake, and Databricks as counter-evidence."},
+    {"icon": "\U0001F9EA", "tag": "Geopolitics", "title": "Independently verify the Forbes/Surge AI/Mercor China-data-selling claims before treating them as confirmed — both Sacks and Brad question whether the underlying data is genuinely proprietary or replicable domestically in China."},
+    {"icon": "\U0001F4C9", "tag": "Markets", "title": "Watch how CoreWeave and semiconductor/AI-infrastructure stocks react to any future \"cheap open-source model\" scares (like July's Kimi selloff) as a real-time gauge of how fragile sentiment is around AI-infrastructure demand durability."},
 ]
 
 RISKS = [

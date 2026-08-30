@@ -184,12 +184,12 @@
  "takeaways": [
   {
    "icon": "📄",
-   "tag": "Regulation",
+   "tag": "Policy",
    "title": "Track whether other frontier labs get offered the same 'standing duty' government-access terms Anthropic accepted for Fable 5 — this may become the template, not a one-off."
   },
   {
    "icon": "🧠",
-   "tag": "Interpretability",
+   "tag": "AI safety",
    "title": "Watch for follow-up research testing whether JSpace-style monitoring generalizes to catching more serious deception, not just the single fabricated-data example shown here."
   },
   {
@@ -204,7 +204,7 @@
   },
   {
    "icon": "📋",
-   "tag": "IP strategy",
+   "tag": "Policy",
    "title": "Don't rely on patents as a primary moat for AI-era inventions — the panel's own read is that AI-accelerated prior-art discovery is shrinking the effective protection window faster than the law can adapt."
   }
  ],
