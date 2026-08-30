@@ -81,6 +81,11 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:2px 18px 2px 28px;}
+.riskbox::before{content:"";position:absolute;left:11px;top:14px;bottom:14px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox .ritem{font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;padding:13px 0;}
+.riskbox .ritem+.ritem{border-top:1px solid var(--line);}
 .riskcard.takecard::before{background:#6d4b9c;}
 .riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(16px,1.3vw,19px);line-height:1.5;}
 .riskcard cite{display:inline;margin-left:6px;font-size:11px;color:#8a8d81;font-style:normal;white-space:nowrap;}
@@ -234,7 +239,7 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
     <section class="sec">
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
-      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">Host Peter Diamandis explicitly states optimism-promotion as part of the show's mission ('keep you optimistic about the future'), which may bias story selection and framing toward positive interpretations.</div></div><div class="riskcard"><div class="txt">Several technical claims (GPT-5.6 benchmark rumors, METER's reward-hacking findings) are relayed from public reporting and rumor, not primary sources verified within this brief.</div></div><div class="riskcard"><div class="txt">The RAMP/Ravelin Labs jobs study is described secondhand in the episode; the study's own authors are quoted as cautioning correlation is not causation, a caveat the panel's optimistic framing partially glosses over.</div></div><div class="riskcard"><div class="txt">This is a fast-moving, four-person crosstalk-heavy panel with significant technical jargon (mechanistic interpretability, Jacobians); auto-generated captions may misattribute short interjections or mistranscribe technical terms.</div></div></div>
+      <div style="margin-top:16px;"><div class="riskbox"><div class="ritem">Host Peter Diamandis explicitly states optimism-promotion as part of the show's mission ('keep you optimistic about the future'), which may bias story selection and framing toward positive interpretations.</div><div class="ritem">Several technical claims (GPT-5.6 benchmark rumors, METER's reward-hacking findings) are relayed from public reporting and rumor, not primary sources verified within this brief.</div><div class="ritem">The RAMP/Ravelin Labs jobs study is described secondhand in the episode; the study's own authors are quoted as cautioning correlation is not causation, a caveat the panel's optimistic framing partially glosses over.</div><div class="ritem">This is a fast-moving, four-person crosstalk-heavy panel with significant technical jargon (mechanistic interpretability, Jacobians); auto-generated captions may misattribute short interjections or mistranscribe technical terms.</div></div></div>
     </section>
 
     <section class="sec">

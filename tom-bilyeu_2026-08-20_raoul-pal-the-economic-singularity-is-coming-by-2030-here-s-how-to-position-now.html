@@ -81,6 +81,11 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:2px 18px 2px 28px;}
+.riskbox::before{content:"";position:absolute;left:11px;top:14px;bottom:14px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox .ritem{font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;padding:13px 0;}
+.riskbox .ritem+.ritem{border-top:1px solid var(--line);}
 .riskcard.takecard::before{background:#6d4b9c;}
 .riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(16px,1.3vw,19px);line-height:1.5;}
 .riskcard cite{display:inline;margin-left:6px;font-size:11px;color:#8a8d81;font-style:normal;white-space:nowrap;}
@@ -234,7 +239,7 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
     <section class="sec">
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
-      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">Raoul runs Real Vision and Global Macro Investor and is discussing views he sells as research products — his framework and his business incentives point the same direction, which is worth keeping in mind while weighing his conviction.</div></div><div class="riskcard"><div class="txt">Figures like the ~4% hyperscaler debt-to-market-cap ratio, the ~30% capex build-out completion, and the liquidity growth percentages are his working numbers, quoted in conversation rather than read off a cited report.</div></div><div class="riskcard"><div class="txt">His 30-year personal relationship with Scott Bessent (and past professional overlap) is disclosed in the conversation itself and colors his read of current Treasury/Fed policy as well-intentioned and competent.</div></div><div class="riskcard"><div class="txt">Auto-generated captions on proper nouns (policy names, smaller company names) were cleaned up where the reference was unambiguous; anything not confidently identifiable was left out of the structured index rather than guessed.</div></div><div class="riskcard"><div class="txt">The 'universal code' segment is explicitly self-described by Raoul as heuristic speculation outside his stated expertise, not a vetted scientific model.</div></div></div>
+      <div style="margin-top:16px;"><div class="riskbox"><div class="ritem">Raoul runs Real Vision and Global Macro Investor and is discussing views he sells as research products — his framework and his business incentives point the same direction, which is worth keeping in mind while weighing his conviction.</div><div class="ritem">Figures like the ~4% hyperscaler debt-to-market-cap ratio, the ~30% capex build-out completion, and the liquidity growth percentages are his working numbers, quoted in conversation rather than read off a cited report.</div><div class="ritem">His 30-year personal relationship with Scott Bessent (and past professional overlap) is disclosed in the conversation itself and colors his read of current Treasury/Fed policy as well-intentioned and competent.</div><div class="ritem">Auto-generated captions on proper nouns (policy names, smaller company names) were cleaned up where the reference was unambiguous; anything not confidently identifiable was left out of the structured index rather than guessed.</div><div class="ritem">The 'universal code' segment is explicitly self-described by Raoul as heuristic speculation outside his stated expertise, not a vetted scientific model.</div></div></div>
     </section>
 
     <section class="sec">

@@ -81,6 +81,11 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:2px 18px 2px 28px;}
+.riskbox::before{content:"";position:absolute;left:11px;top:14px;bottom:14px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox .ritem{font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;padding:13px 0;}
+.riskbox .ritem+.ritem{border-top:1px solid var(--line);}
 .riskcard.takecard::before{background:#6d4b9c;}
 .riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(16px,1.3vw,19px);line-height:1.5;}
 .riskcard cite{display:inline;margin-left:6px;font-size:11px;color:#8a8d81;font-style:normal;white-space:nowrap;}
@@ -291,7 +296,7 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
     <section class="sec">
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
-      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">This episode was sponsored by Mercury, Jane Street, and Labelbox — those segments are excluded from this brief entirely.</div></div><div class="riskcard"><div class="txt">Nearly every forward timeline here (the 30-36 month space-compute prediction, digital human emulation "solved by end of this year," the Terafab's 2030 wafer target) is Musk's own prediction about businesses he runs and financially benefits from being believed.</div></div><div class="riskcard"><div class="txt">The DOGE fraud figures are actively disputed within the conversation itself — Musk's implied scale runs well above a 2024 Inspector General report Dwarkesh directly cites for the specific mechanism Musk describes.</div></div><div class="riskcard"><div class="txt">Musk repeatedly flags his own numbers as rough approximations ("give or take an order of magnitude," "roughly") rather than precise figures — treat specific quantities here as directionally stated in conversation, not modeled.</div></div><div class="riskcard"><div class="txt">Reported/informal business details (a possible SpaceX IPO, informal revenue figures for OpenAI/Anthropic/xAI) are discussed casually rather than confirmed via filings; Musk explicitly declines to elaborate on pre-IPO company specifics.</div></div></div>
+      <div style="margin-top:16px;"><div class="riskbox"><div class="ritem">This episode was sponsored by Mercury, Jane Street, and Labelbox — those segments are excluded from this brief entirely.</div><div class="ritem">Nearly every forward timeline here (the 30-36 month space-compute prediction, digital human emulation "solved by end of this year," the Terafab's 2030 wafer target) is Musk's own prediction about businesses he runs and financially benefits from being believed.</div><div class="ritem">The DOGE fraud figures are actively disputed within the conversation itself — Musk's implied scale runs well above a 2024 Inspector General report Dwarkesh directly cites for the specific mechanism Musk describes.</div><div class="ritem">Musk repeatedly flags his own numbers as rough approximations ("give or take an order of magnitude," "roughly") rather than precise figures — treat specific quantities here as directionally stated in conversation, not modeled.</div><div class="ritem">Reported/informal business details (a possible SpaceX IPO, informal revenue figures for OpenAI/Anthropic/xAI) are discussed casually rather than confirmed via filings; Musk explicitly declines to elaborate on pre-IPO company specifics.</div></div></div>
     </section>
 
     <section class="sec">

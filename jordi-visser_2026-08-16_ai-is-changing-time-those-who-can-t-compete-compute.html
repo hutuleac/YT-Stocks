@@ -81,6 +81,11 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:2px 18px 2px 28px;}
+.riskbox::before{content:"";position:absolute;left:11px;top:14px;bottom:14px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox .ritem{font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;padding:13px 0;}
+.riskbox .ritem+.ritem{border-top:1px solid var(--line);}
 .riskcard.takecard::before{background:#6d4b9c;}
 .riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(16px,1.3vw,19px);line-height:1.5;}
 .riskcard cite{display:inline;margin-left:6px;font-size:11px;color:#8a8d81;font-style:normal;white-space:nowrap;}
@@ -234,7 +239,7 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
     <section class="sec">
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
-      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">Visser explicitly discloses his own portfolio positioning and long-standing bullish bias throughout — his own thematic portfolios are levered to the exact compute/AI/crypto themes he's describing, so treat the framing as a disclosed, not neutral, lens.</div></div><div class="riskcard"><div class="txt">Several figures (Fed rate-cut odds, PCE methodology commentary, Figure's volume numbers) are relayed secondhand from Bill Dudley, Louis Gave, and company earnings releases rather than verified against primary filings inside this video.</div></div><div class="riskcard"><div class="txt">A macro strategist's name is caption-garbled across the transcript ('Lewis Gau,' 'Gavka') — resolved here with high confidence to Louis-Vincent Gave of Gavekal Research given the exact contextual fit (his firm name, his known yen/AI/debt commentary), consistent with the skill's guidance on resolving obvious cases rather than leaving a clearly-identifiable source unnamed.</div></div><div class="riskcard"><div class="txt">The video opens with an unrelated personal segment (Maine, a 9/11 remembrance) and a scam warning — Visser states he never DMs trades via WhatsApp, X, or LinkedIn, which is useful context for evaluating any message claiming to be from him but isn't a stock-related claim.</div></div></div>
+      <div style="margin-top:16px;"><div class="riskbox"><div class="ritem">Visser explicitly discloses his own portfolio positioning and long-standing bullish bias throughout — his own thematic portfolios are levered to the exact compute/AI/crypto themes he's describing, so treat the framing as a disclosed, not neutral, lens.</div><div class="ritem">Several figures (Fed rate-cut odds, PCE methodology commentary, Figure's volume numbers) are relayed secondhand from Bill Dudley, Louis Gave, and company earnings releases rather than verified against primary filings inside this video.</div><div class="ritem">A macro strategist's name is caption-garbled across the transcript ('Lewis Gau,' 'Gavka') — resolved here with high confidence to Louis-Vincent Gave of Gavekal Research given the exact contextual fit (his firm name, his known yen/AI/debt commentary), consistent with the skill's guidance on resolving obvious cases rather than leaving a clearly-identifiable source unnamed.</div><div class="ritem">The video opens with an unrelated personal segment (Maine, a 9/11 remembrance) and a scam warning — Visser states he never DMs trades via WhatsApp, X, or LinkedIn, which is useful context for evaluating any message claiming to be from him but isn't a stock-related claim.</div></div></div>
     </section>
 
     <section class="sec">

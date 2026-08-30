@@ -81,6 +81,11 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:2px 18px 2px 28px;}
+.riskbox::before{content:"";position:absolute;left:11px;top:14px;bottom:14px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox .ritem{font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;padding:13px 0;}
+.riskbox .ritem+.ritem{border-top:1px solid var(--line);}
 .riskcard.takecard::before{background:#6d4b9c;}
 .riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(16px,1.3vw,19px);line-height:1.5;}
 .riskcard cite{display:inline;margin-left:6px;font-size:11px;color:#8a8d81;font-style:normal;white-space:nowrap;}
@@ -234,7 +239,7 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
     <section class="sec">
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
-      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">This is a five-person panel podcast with strong pre-existing positions (Alex is an outspoken AI-consciousness/personhood advocate; Peter/Dave are SpaceX shareholders/bulls) — treat 'hot takes' explicitly labeled as such as opinion, not confirmed reporting.</div></div><div class="riskcard"><div class="txt">Several headline claims (the free-electron-laser EUV interpretation of the Terrafab, the Hark recapitalization theory, the 'DeepMind won a knife fight with Google Brain' account of Jeff Dean's exit) are the panel's own speculative reconstruction from public signals, not confirmed by Google, SpaceX, or Hark.</div></div><div class="riskcard"><div class="txt">Auto-generated captions were used to produce this brief; names (e.g. Corey Kavukcuoglu, Discovery Loop, Terrafab) and technical terms may contain transcription errors despite cross-checking against context.</div></div><div class="riskcard"><div class="txt">The episode contains two sponsor segments (Google for Startups, Blitzy) and a Fountain Life health-sponsor interview — treat product/benchmark claims in those segments as marketing content, not independent panel analysis.</div></div></div>
+      <div style="margin-top:16px;"><div class="riskbox"><div class="ritem">This is a five-person panel podcast with strong pre-existing positions (Alex is an outspoken AI-consciousness/personhood advocate; Peter/Dave are SpaceX shareholders/bulls) — treat 'hot takes' explicitly labeled as such as opinion, not confirmed reporting.</div><div class="ritem">Several headline claims (the free-electron-laser EUV interpretation of the Terrafab, the Hark recapitalization theory, the 'DeepMind won a knife fight with Google Brain' account of Jeff Dean's exit) are the panel's own speculative reconstruction from public signals, not confirmed by Google, SpaceX, or Hark.</div><div class="ritem">Auto-generated captions were used to produce this brief; names (e.g. Corey Kavukcuoglu, Discovery Loop, Terrafab) and technical terms may contain transcription errors despite cross-checking against context.</div><div class="ritem">The episode contains two sponsor segments (Google for Startups, Blitzy) and a Fountain Life health-sponsor interview — treat product/benchmark claims in those segments as marketing content, not independent panel analysis.</div></div></div>
     </section>
 
     <section class="sec">

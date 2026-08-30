@@ -81,6 +81,11 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:2px 18px 2px 28px;}
+.riskbox::before{content:"";position:absolute;left:11px;top:14px;bottom:14px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox .ritem{font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;padding:13px 0;}
+.riskbox .ritem+.ritem{border-top:1px solid var(--line);}
 .riskcard.takecard::before{background:#6d4b9c;}
 .riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(16px,1.3vw,19px);line-height:1.5;}
 .riskcard cite{display:inline;margin-left:6px;font-size:11px;color:#8a8d81;font-style:normal;white-space:nowrap;}
@@ -386,7 +391,7 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
     <section class="sec">
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
-      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">This episode was sponsored by Google for Startups, Blitzy, and Fountain Life — those segments are excluded from this brief entirely, but note Fountain Life is host Peter Diamandis's own company.</div></div><div class="riskcard"><div class="txt">Many of the largest figures here (SpaceX's $3.5T, Star Mine's implied $2 quadrillion/year) are Elon Musk's own public predictions or tweets, repeated and extrapolated by the panel in conversation rather than independently modeled.</div></div><div class="riskcard"><div class="txt">Several numbers are quick back-of-envelope host estimates made live (Tesla robotaxi revenue, the lunar-economy compute-to-revenue calculation) rather than formal projections.</div></div><div class="riskcard"><div class="txt">Auto-generated captions garbled several names (OpenAI's chip rendered as "Jalapino"/"Halleluino," the uranium startup "Actonide," a source "Basil Hopper"-style pattern); names here are resolved only where context made them unambiguous.</div></div><div class="riskcard"><div class="txt">Dave Blundin discloses SpaceX as his largest personal financial position, and the show separately promotes Diamandis's own ventures (Fountain Life, X-Prize) — worth keeping that overlap in mind alongside the bullish framing.</div></div></div>
+      <div style="margin-top:16px;"><div class="riskbox"><div class="ritem">This episode was sponsored by Google for Startups, Blitzy, and Fountain Life — those segments are excluded from this brief entirely, but note Fountain Life is host Peter Diamandis's own company.</div><div class="ritem">Many of the largest figures here (SpaceX's $3.5T, Star Mine's implied $2 quadrillion/year) are Elon Musk's own public predictions or tweets, repeated and extrapolated by the panel in conversation rather than independently modeled.</div><div class="ritem">Several numbers are quick back-of-envelope host estimates made live (Tesla robotaxi revenue, the lunar-economy compute-to-revenue calculation) rather than formal projections.</div><div class="ritem">Auto-generated captions garbled several names (OpenAI's chip rendered as "Jalapino"/"Halleluino," the uranium startup "Actonide," a source "Basil Hopper"-style pattern); names here are resolved only where context made them unambiguous.</div><div class="ritem">Dave Blundin discloses SpaceX as his largest personal financial position, and the show separately promotes Diamandis's own ventures (Fountain Life, X-Prize) — worth keeping that overlap in mind alongside the bullish framing.</div></div></div>
     </section>
 
     <section class="sec">

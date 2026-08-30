@@ -81,6 +81,11 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:2px 18px 2px 28px;}
+.riskbox::before{content:"";position:absolute;left:11px;top:14px;bottom:14px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox .ritem{font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;padding:13px 0;}
+.riskbox .ritem+.ritem{border-top:1px solid var(--line);}
 .riskcard.takecard::before{background:#6d4b9c;}
 .riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(16px,1.3vw,19px);line-height:1.5;}
 .riskcard cite{display:inline;margin-left:6px;font-size:11px;color:#8a8d81;font-style:normal;white-space:nowrap;}
@@ -215,7 +220,7 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
     <section class="sec">
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
-      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">Foster is describing and demonstrating his own company's product (Zapier's AI/agent features) on a podcast appearance — the entire technical walkthrough doubles as a sales pitch, which the hosts openly acknowledge ("sell me this pen" framing) rather than treat as neutral.</div></div><div class="riskcard"><div class="txt">Productivity and outcome claims (2 hours to 15 minutes, the 90-day day-quality pattern, improved hiring-panel dynamics) are Foster's own self-reported experience with a system he built, not independently measured.</div></div><div class="riskcard"><div class="txt">The $5B valuation is a 2021 secondary-sale figure Foster himself calls "paper worth," not current liquid value or a recent formal valuation event.</div></div><div class="riskcard"><div class="txt">Several proper nouns and one book author's name are garbled in auto-captions (e.g. the philosophy-professor author of "The Score") and are presented here as best-effort transcriptions, not verified spellings.</div></div></div>
+      <div style="margin-top:16px;"><div class="riskbox"><div class="ritem">Foster is describing and demonstrating his own company's product (Zapier's AI/agent features) on a podcast appearance — the entire technical walkthrough doubles as a sales pitch, which the hosts openly acknowledge ("sell me this pen" framing) rather than treat as neutral.</div><div class="ritem">Productivity and outcome claims (2 hours to 15 minutes, the 90-day day-quality pattern, improved hiring-panel dynamics) are Foster's own self-reported experience with a system he built, not independently measured.</div><div class="ritem">The $5B valuation is a 2021 secondary-sale figure Foster himself calls "paper worth," not current liquid value or a recent formal valuation event.</div><div class="ritem">Several proper nouns and one book author's name are garbled in auto-captions (e.g. the philosophy-professor author of "The Score") and are presented here as best-effort transcriptions, not verified spellings.</div></div></div>
     </section>
 
     <section class="sec">

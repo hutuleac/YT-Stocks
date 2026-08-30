@@ -186,6 +186,11 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:2px 18px 2px 28px;}
+.riskbox::before{content:"";position:absolute;left:11px;top:14px;bottom:14px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox .ritem{font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;padding:13px 0;}
+.riskbox .ritem+.ritem{border-top:1px solid var(--line);}
 .riskcard.takecard::before{background:#6d4b9c;}
 .riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(16px,1.3vw,19px);line-height:1.5;}
 .riskcard cite{display:inline;margin-left:6px;font-size:11px;color:#8a8d81;font-style:normal;white-space:nowrap;}
@@ -362,7 +367,8 @@ def render_icards(items, icon_default="\U0001F4CC", with_tag_detail=False, inlin
 def render_risks(items):
     if not items:
         return '<p class="empty">No specific caveats flagged for this source.</p>'
-    return "".join(f'<div class="riskcard"><div class="txt">{esc(r)}</div></div>' for r in items)
+    rows = "".join(f'<div class="ritem">{esc(r)}</div>' for r in items)
+    return f'<div class="riskbox">{rows}</div>'
 
 
 def render_hot_takes(items):

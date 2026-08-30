@@ -81,6 +81,11 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:2px 18px 2px 28px;}
+.riskbox::before{content:"";position:absolute;left:11px;top:14px;bottom:14px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox .ritem{font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;padding:13px 0;}
+.riskbox .ritem+.ritem{border-top:1px solid var(--line);}
 .riskcard.takecard::before{background:#6d4b9c;}
 .riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(16px,1.3vw,19px);line-height:1.5;}
 .riskcard cite{display:inline;margin-left:6px;font-size:11px;color:#8a8d81;font-style:normal;white-space:nowrap;}
@@ -234,7 +239,7 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
     <section class="sec">
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
-      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">This episode is sponsored by Ledger (an AI-agent security tooling company); that sponsor segment is excluded from this brief entirely.</div></div><div class="riskcard"><div class="txt">Several figures (Waymo/Cyber Cab hardware costs, Sam Altman's watch valuation, Mac Studio pricing) are the hosts' verbal estimates stated in real time, not verified specs or receipts.</div></div><div class="riskcard"><div class="txt">The 'Nvidia building a cloud business via Hugging Face' theory is explicitly labeled speculation by the hosts, not a claim from Nvidia.</div></div><div class="riskcard"><div class="txt">Claims about Chinese silicon's capabilities are relayed from public announcements the hosts reacted to on-air, not independently benchmarked by them.</div></div><div class="riskcard"><div class="txt">Auto-generated captions were used as the transcript source; some names (e.g. the Sam Altman watchmaker brand) could not be confidently resolved and are described rather than named.</div></div></div>
+      <div style="margin-top:16px;"><div class="riskbox"><div class="ritem">This episode is sponsored by Ledger (an AI-agent security tooling company); that sponsor segment is excluded from this brief entirely.</div><div class="ritem">Several figures (Waymo/Cyber Cab hardware costs, Sam Altman's watch valuation, Mac Studio pricing) are the hosts' verbal estimates stated in real time, not verified specs or receipts.</div><div class="ritem">The 'Nvidia building a cloud business via Hugging Face' theory is explicitly labeled speculation by the hosts, not a claim from Nvidia.</div><div class="ritem">Claims about Chinese silicon's capabilities are relayed from public announcements the hosts reacted to on-air, not independently benchmarked by them.</div><div class="ritem">Auto-generated captions were used as the transcript source; some names (e.g. the Sam Altman watchmaker brand) could not be confidently resolved and are described rather than named.</div></div></div>
     </section>
 
     <section class="sec">

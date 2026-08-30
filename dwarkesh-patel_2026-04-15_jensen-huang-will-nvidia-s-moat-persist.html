@@ -81,6 +81,11 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:2px 18px 2px 28px;}
+.riskbox::before{content:"";position:absolute;left:11px;top:14px;bottom:14px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox .ritem{font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;padding:13px 0;}
+.riskbox .ritem+.ritem{border-top:1px solid var(--line);}
 .riskcard.takecard::before{background:#6d4b9c;}
 .riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(16px,1.3vw,19px);line-height:1.5;}
 .riskcard cite{display:inline;margin-left:6px;font-size:11px;color:#8a8d81;font-style:normal;white-space:nowrap;}
@@ -234,7 +239,7 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
     <section class="sec">
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
-      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">This episode was sponsored by Crusoe, Cursor, and Jane Street — those segments are excluded from this brief entirely.</div></div><div class="riskcard"><div class="txt">This is a CEO defending his own company's competitive position; every moat, margin, and market-share claim here is Jensen's own framing, not independently verified.</div></div><div class="riskcard"><div class="txt">Financial figures repeated in the conversation (up to $30B into OpenAI, $10B into Anthropic, $100-250B in purchase commitments) are as reported by outside analysts and media, not precisely confirmed by Jensen on the record.</div></div><div class="riskcard"><div class="txt">The China chip-capability comparisons (Huawei shipment volumes, H200-vs-910C flop/bandwidth ratios, researcher-count estimates) are competing back-of-envelope figures from both speakers in live conversation, not sourced from an audited dataset.</div></div><div class="riskcard"><div class="txt">Some technical names are caption-resolved with reasonable but not certain confidence (the silicon-photonics partners "Lum and Coherent," read here as Lumentum and Coherent Corp; the neocloud "NBS," read here as Nebius).</div></div></div>
+      <div style="margin-top:16px;"><div class="riskbox"><div class="ritem">This episode was sponsored by Crusoe, Cursor, and Jane Street — those segments are excluded from this brief entirely.</div><div class="ritem">This is a CEO defending his own company's competitive position; every moat, margin, and market-share claim here is Jensen's own framing, not independently verified.</div><div class="ritem">Financial figures repeated in the conversation (up to $30B into OpenAI, $10B into Anthropic, $100-250B in purchase commitments) are as reported by outside analysts and media, not precisely confirmed by Jensen on the record.</div><div class="ritem">The China chip-capability comparisons (Huawei shipment volumes, H200-vs-910C flop/bandwidth ratios, researcher-count estimates) are competing back-of-envelope figures from both speakers in live conversation, not sourced from an audited dataset.</div><div class="ritem">Some technical names are caption-resolved with reasonable but not certain confidence (the silicon-photonics partners "Lum and Coherent," read here as Lumentum and Coherent Corp; the neocloud "NBS," read here as Nebius).</div></div></div>
     </section>
 
     <section class="sec">

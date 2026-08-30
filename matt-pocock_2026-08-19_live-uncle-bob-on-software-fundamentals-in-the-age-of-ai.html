@@ -81,6 +81,11 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:2px 18px 2px 28px;}
+.riskbox::before{content:"";position:absolute;left:11px;top:14px;bottom:14px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox .ritem{font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;padding:13px 0;}
+.riskbox .ritem+.ritem{border-top:1px solid var(--line);}
 .riskcard.takecard::before{background:#6d4b9c;}
 .riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(16px,1.3vw,19px);line-height:1.5;}
 .riskcard cite{display:inline;margin-left:6px;font-size:11px;color:#8a8d81;font-style:normal;white-space:nowrap;}
@@ -253,7 +258,7 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
     <section class="sec">
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
-      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">Nearly every specific number in this brief (CRAP thresholds of 4 vs. 6-8, the ~4-5x productivity multiplier, the ~1hr pipeline runtime, the ~1-year junior ramp estimate) is Martin's own working figure from personal experimentation, quoted in conversation rather than published or peer-reviewed.</div></div><div class="riskcard"><div class="txt">This is a single practitioner's evolving personal workflow as of the interview date, not a documented or open-sourced framework the audience can currently install — Martin says explicitly not to try to reuse his own tools verbatim, only the approach.</div></div><div class="riskcard"><div class="txt">The 'lost in the middle' and 'trajectory' mechanisms are presented as Martin's and Pocock's working mental models of model behavior, not citations to specific published research.</div></div><div class="riskcard"><div class="txt">Long, informal live-conversation format on auto-generated captions — some phrasing (e.g., tool names, acronym pronunciations) may be imprecisely transcribed; verify exact wording against the video before quoting directly.</div></div></div>
+      <div style="margin-top:16px;"><div class="riskbox"><div class="ritem">Nearly every specific number in this brief (CRAP thresholds of 4 vs. 6-8, the ~4-5x productivity multiplier, the ~1hr pipeline runtime, the ~1-year junior ramp estimate) is Martin's own working figure from personal experimentation, quoted in conversation rather than published or peer-reviewed.</div><div class="ritem">This is a single practitioner's evolving personal workflow as of the interview date, not a documented or open-sourced framework the audience can currently install — Martin says explicitly not to try to reuse his own tools verbatim, only the approach.</div><div class="ritem">The 'lost in the middle' and 'trajectory' mechanisms are presented as Martin's and Pocock's working mental models of model behavior, not citations to specific published research.</div><div class="ritem">Long, informal live-conversation format on auto-generated captions — some phrasing (e.g., tool names, acronym pronunciations) may be imprecisely transcribed; verify exact wording against the video before quoting directly.</div></div></div>
     </section>
 
     <section class="sec">

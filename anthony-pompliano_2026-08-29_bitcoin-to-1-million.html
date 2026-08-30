@@ -81,6 +81,11 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:2px 18px 2px 28px;}
+.riskbox::before{content:"";position:absolute;left:11px;top:14px;bottom:14px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox .ritem{font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;padding:13px 0;}
+.riskbox .ritem+.ritem{border-top:1px solid var(--line);}
 .riskcard.takecard::before{background:#6d4b9c;}
 .riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(16px,1.3vw,19px);line-height:1.5;}
 .riskcard cite{display:inline;margin-left:6px;font-size:11px;color:#8a8d81;font-style:normal;white-space:nowrap;}
@@ -215,7 +220,7 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
     <section class="sec">
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
-      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">Two sponsor segments (Arch Public, an automated trading platform; Simple Mining, a Bitcoin mining hosting company) have been excluded from this brief entirely.</div></div><div class="riskcard"><div class="txt">Jordi Visser holds a long position in the crypto and AI-infrastructure names he discusses and says outright he has been buying more Bitcoin and Ethereum — his framing throughout is that of an active market participant, not a neutral analyst.</div></div><div class="riskcard"><div class="txt">Visser's specific price targets (Bitcoin at $600K-$1M, crypto at $100 trillion, corporate tax hikes tied to humanoids) are his own long-run scenario math stated in conversation, not projections from a published model.</div></div><div class="riskcard"><div class="txt">The characterization of the Bessent-Warsh-Druckenmiller relationship and the idea that the WSJ op-ed was coordinated is Visser's own speculation — he says directly there's no way to confirm it.</div></div><div class="riskcard"><div class="txt">Auto-generated captions were the transcript source for this brief.</div></div></div>
+      <div style="margin-top:16px;"><div class="riskbox"><div class="ritem">Two sponsor segments (Arch Public, an automated trading platform; Simple Mining, a Bitcoin mining hosting company) have been excluded from this brief entirely.</div><div class="ritem">Jordi Visser holds a long position in the crypto and AI-infrastructure names he discusses and says outright he has been buying more Bitcoin and Ethereum — his framing throughout is that of an active market participant, not a neutral analyst.</div><div class="ritem">Visser's specific price targets (Bitcoin at $600K-$1M, crypto at $100 trillion, corporate tax hikes tied to humanoids) are his own long-run scenario math stated in conversation, not projections from a published model.</div><div class="ritem">The characterization of the Bessent-Warsh-Druckenmiller relationship and the idea that the WSJ op-ed was coordinated is Visser's own speculation — he says directly there's no way to confirm it.</div><div class="ritem">Auto-generated captions were the transcript source for this brief.</div></div></div>
     </section>
 
     <section class="sec">

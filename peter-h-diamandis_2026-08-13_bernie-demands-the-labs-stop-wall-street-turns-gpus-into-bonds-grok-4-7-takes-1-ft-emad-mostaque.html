@@ -81,6 +81,11 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:2px 18px 2px 28px;}
+.riskbox::before{content:"";position:absolute;left:11px;top:14px;bottom:14px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox .ritem{font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;padding:13px 0;}
+.riskbox .ritem+.ritem{border-top:1px solid var(--line);}
 .riskcard.takecard::before{background:#6d4b9c;}
 .riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(16px,1.3vw,19px);line-height:1.5;}
 .riskcard cite{display:inline;margin-left:6px;font-size:11px;color:#8a8d81;font-style:normal;white-space:nowrap;}
@@ -234,7 +239,7 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
     <section class="sec">
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
-      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">Multiple panelists (especially Alex Wissner-Gross, who discloses financial interest in compute-securitization and post-transformer-architecture ventures) are discussing markets and companies they are personally invested in.</div></div><div class="riskcard"><div class="txt">Several figures (GLP-1 LEV percentages, Grok's exact cost figures, the '$10B for Cursor data' number, CyberGym scores) are relayed verbally from memory during a live discussion and are explicitly caveated by the speakers themselves as rough or unverified in places.</div></div><div class="riskcard"><div class="txt">A recurring product name transcribed as 'Fable' appears throughout the video (used interchangeably with 'its competitors,' priced around $50-60 vs. Grok's $6-8) that could not be confidently identified from context — likely an auto-caption artifact for another frontier AI product name; treat these specific mentions with caution.</div></div><div class="riskcard"><div class="txt">Auto-generated captions on a 3-hour, 6-person crosstalk-heavy panel are prone to misattributed speakers and mistranscribed names or figures.</div></div></div>
+      <div style="margin-top:16px;"><div class="riskbox"><div class="ritem">Multiple panelists (especially Alex Wissner-Gross, who discloses financial interest in compute-securitization and post-transformer-architecture ventures) are discussing markets and companies they are personally invested in.</div><div class="ritem">Several figures (GLP-1 LEV percentages, Grok's exact cost figures, the '$10B for Cursor data' number, CyberGym scores) are relayed verbally from memory during a live discussion and are explicitly caveated by the speakers themselves as rough or unverified in places.</div><div class="ritem">A recurring product name transcribed as 'Fable' appears throughout the video (used interchangeably with 'its competitors,' priced around $50-60 vs. Grok's $6-8) that could not be confidently identified from context — likely an auto-caption artifact for another frontier AI product name; treat these specific mentions with caution.</div><div class="ritem">Auto-generated captions on a 3-hour, 6-person crosstalk-heavy panel are prone to misattributed speakers and mistranscribed names or figures.</div></div></div>
     </section>
 
     <section class="sec">

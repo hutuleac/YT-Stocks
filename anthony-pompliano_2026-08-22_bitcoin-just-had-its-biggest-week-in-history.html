@@ -81,6 +81,11 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:2px 18px 2px 28px;}
+.riskbox::before{content:"";position:absolute;left:11px;top:14px;bottom:14px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox .ritem{font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;padding:13px 0;}
+.riskbox .ritem+.ritem{border-top:1px solid var(--line);}
 .riskcard.takecard::before{background:#6d4b9c;}
 .riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(16px,1.3vw,19px);line-height:1.5;}
 .riskcard cite{display:inline;margin-left:6px;font-size:11px;color:#8a8d81;font-style:normal;white-space:nowrap;}
@@ -253,7 +258,7 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
     <section class="sec">
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
-      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">This is a single-guest conversation carrying forward-looking opinion and Visser's own trading positions (he discloses holdings in Micron, Marvell, Eli Lilly, silver, and Bitcoin) — these are his working views in real time, not audited research.</div></div><div class="riskcard"><div class="txt">The '$78 billion' Stripe/Open Router acquisition figure and the exact scale of the professor's AI safety credentials are as stated in conversation; auto-captions can mangle numbers and names, so treat unverifiable specifics as Visser's recollection rather than confirmed fact.</div></div><div class="riskcard"><div class="txt">Visser is a repeat guest with a standing bullish thesis on Bitcoin and is actively building paid subscriber content around this exact call — worth knowing before weighting his conviction.</div></div><div class="riskcard"><div class="txt">Two sponsor segments (Figure Markets crypto-backed loans; a testosterone supplement) were excluded entirely from this brief per standing policy.</div></div></div>
+      <div style="margin-top:16px;"><div class="riskbox"><div class="ritem">This is a single-guest conversation carrying forward-looking opinion and Visser's own trading positions (he discloses holdings in Micron, Marvell, Eli Lilly, silver, and Bitcoin) — these are his working views in real time, not audited research.</div><div class="ritem">The '$78 billion' Stripe/Open Router acquisition figure and the exact scale of the professor's AI safety credentials are as stated in conversation; auto-captions can mangle numbers and names, so treat unverifiable specifics as Visser's recollection rather than confirmed fact.</div><div class="ritem">Visser is a repeat guest with a standing bullish thesis on Bitcoin and is actively building paid subscriber content around this exact call — worth knowing before weighting his conviction.</div><div class="ritem">Two sponsor segments (Figure Markets crypto-backed loans; a testosterone supplement) were excluded entirely from this brief per standing policy.</div></div></div>
     </section>
 
     <section class="sec">

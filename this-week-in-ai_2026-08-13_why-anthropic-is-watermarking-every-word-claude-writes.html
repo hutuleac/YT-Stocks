@@ -81,6 +81,11 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:2px 18px 2px 28px;}
+.riskbox::before{content:"";position:absolute;left:11px;top:14px;bottom:14px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox .ritem{font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;padding:13px 0;}
+.riskbox .ritem+.ritem{border-top:1px solid var(--line);}
 .riskcard.takecard::before{background:#6d4b9c;}
 .riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(16px,1.3vw,19px);line-height:1.5;}
 .riskcard cite{display:inline;margin-left:6px;font-size:11px;color:#8a8d81;font-style:normal;white-space:nowrap;}
@@ -215,7 +220,7 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
     <section class="sec">
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
-      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">This is a panel of founders discussing their own and adjacent companies (Exa, Aragon, Tax GPT) and Jason's portfolio investments — commentary on competitors and regulation may reflect commercial incentives.</div></div><div class="riskcard"><div class="txt">Figures like the $1.5B Anthropic settlement, the 474 GW Texas figure, and manifesto quotes are relayed verbally from news items read on air, not independently verified against primary sources in this brief.</div></div><div class="riskcard"><div class="txt">Auto-generated captions can misattribute speakers in fast, overlapping panel crosstalk; some quotes/attributions in this brief are best-effort based on context.</div></div><div class="riskcard"><div class="txt">Jason Calacanis has a direct financial relationship with two of the three guests (Aragon, Tax GPT) as an investor, which may shape the tenor of discussion.</div></div></div>
+      <div style="margin-top:16px;"><div class="riskbox"><div class="ritem">This is a panel of founders discussing their own and adjacent companies (Exa, Aragon, Tax GPT) and Jason's portfolio investments — commentary on competitors and regulation may reflect commercial incentives.</div><div class="ritem">Figures like the $1.5B Anthropic settlement, the 474 GW Texas figure, and manifesto quotes are relayed verbally from news items read on air, not independently verified against primary sources in this brief.</div><div class="ritem">Auto-generated captions can misattribute speakers in fast, overlapping panel crosstalk; some quotes/attributions in this brief are best-effort based on context.</div><div class="ritem">Jason Calacanis has a direct financial relationship with two of the three guests (Aragon, Tax GPT) as an investor, which may shape the tenor of discussion.</div></div></div>
     </section>
 
     <section class="sec">

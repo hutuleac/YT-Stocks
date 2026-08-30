@@ -81,6 +81,11 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:2px 18px 2px 28px;}
+.riskbox::before{content:"";position:absolute;left:11px;top:14px;bottom:14px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox .ritem{font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;padding:13px 0;}
+.riskbox .ritem+.ritem{border-top:1px solid var(--line);}
 .riskcard.takecard::before{background:#6d4b9c;}
 .riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(16px,1.3vw,19px);line-height:1.5;}
 .riskcard cite{display:inline;margin-left:6px;font-size:11px;color:#8a8d81;font-style:normal;white-space:nowrap;}
@@ -253,7 +258,7 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
     <section class="sec">
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
-      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">This episode is a five-person panel riffing in real time; claims about internal-only models, Hugging Face's alleged self-hack, and internal Anthropic meeting comments are explicitly flagged by the speakers themselves as inference or secondhand ('reading between the lines,' 'not validated') rather than confirmed fact.</div></div><div class="riskcard"><div class="txt">Several figures (10% of compute on RL monitoring, 6% of companies seeing AI ROI, 40% of OpenAI staff watching the podcast, the $1.5T SK Hynix capacity-expansion cost) come from the hosts' private conversations and meetings rather than published sources, and are presented as such.</div></div><div class="riskcard"><div class="txt">Auto-generated captions garbled several proper nouns (e.g. the melanoma vaccine's brand name, a cited researcher's surname); names that couldn't be confidently resolved were described by role rather than guessed.</div></div><div class="riskcard"><div class="txt">The panel has a direct stake in several topics discussed — Peter runs Abundance/XPRIZE/Moonshots events referenced in the episode, and multiple panelists disclose personal investments, family ties (Dave's daughter works at Moderna), or missed-investment regrets (Etched) relevant to the stocks and companies covered.</div></div></div>
+      <div style="margin-top:16px;"><div class="riskbox"><div class="ritem">This episode is a five-person panel riffing in real time; claims about internal-only models, Hugging Face's alleged self-hack, and internal Anthropic meeting comments are explicitly flagged by the speakers themselves as inference or secondhand ('reading between the lines,' 'not validated') rather than confirmed fact.</div><div class="ritem">Several figures (10% of compute on RL monitoring, 6% of companies seeing AI ROI, 40% of OpenAI staff watching the podcast, the $1.5T SK Hynix capacity-expansion cost) come from the hosts' private conversations and meetings rather than published sources, and are presented as such.</div><div class="ritem">Auto-generated captions garbled several proper nouns (e.g. the melanoma vaccine's brand name, a cited researcher's surname); names that couldn't be confidently resolved were described by role rather than guessed.</div><div class="ritem">The panel has a direct stake in several topics discussed — Peter runs Abundance/XPRIZE/Moonshots events referenced in the episode, and multiple panelists disclose personal investments, family ties (Dave's daughter works at Moderna), or missed-investment regrets (Etched) relevant to the stocks and companies covered.</div></div></div>
     </section>
 
     <section class="sec">

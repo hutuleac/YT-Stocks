@@ -81,6 +81,11 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:2px 18px 2px 28px;}
+.riskbox::before{content:"";position:absolute;left:11px;top:14px;bottom:14px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox .ritem{font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;padding:13px 0;}
+.riskbox .ritem+.ritem{border-top:1px solid var(--line);}
 .riskcard.takecard::before{background:#6d4b9c;}
 .riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(16px,1.3vw,19px);line-height:1.5;}
 .riskcard cite{display:inline;margin-left:6px;font-size:11px;color:#8a8d81;font-style:normal;white-space:nowrap;}
@@ -215,7 +220,7 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
     <section class="sec">
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
-      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">Jason discloses he is personally negotiating an equity stake in Wisewell — his on-air enthusiasm for the product carries a direct financial conflict of interest.</div></div><div class="riskcard"><div class="txt">Ramp's enterprise-AI-spend percentages are drawn from card/subscription transaction data, not an independent, audited market census.</div></div><div class="riskcard"><div class="txt">Anthropic's IPO valuation, ARR figure, and the Decart deal terms are all pre-announcement reporting (Financial Times sourcing, described as insider conversations), not confirmed regulatory filings.</div></div><div class="riskcard"><div class="txt">Wisewell's microplastics, fertility, and dementia-cadaver figures are the founder's own conversational summary of existing research, not citations shown or verified on screen.</div></div><div class="riskcard"><div class="txt">One M&amp;A example Jason cites in passing — 'Cursor bought... for $60 billion' — is an offhand aside during the show that doesn't clearly match public reporting; treat it as his conversational claim rather than a confirmed deal.</div></div><div class="riskcard"><div class="txt">Sponsor segments (Ro, PayPal/Launch, CLA, Odoo) are excluded from this brief entirely, per standing policy on paid ad reads.</div></div></div>
+      <div style="margin-top:16px;"><div class="riskbox"><div class="ritem">Jason discloses he is personally negotiating an equity stake in Wisewell — his on-air enthusiasm for the product carries a direct financial conflict of interest.</div><div class="ritem">Ramp's enterprise-AI-spend percentages are drawn from card/subscription transaction data, not an independent, audited market census.</div><div class="ritem">Anthropic's IPO valuation, ARR figure, and the Decart deal terms are all pre-announcement reporting (Financial Times sourcing, described as insider conversations), not confirmed regulatory filings.</div><div class="ritem">Wisewell's microplastics, fertility, and dementia-cadaver figures are the founder's own conversational summary of existing research, not citations shown or verified on screen.</div><div class="ritem">One M&amp;A example Jason cites in passing — 'Cursor bought... for $60 billion' — is an offhand aside during the show that doesn't clearly match public reporting; treat it as his conversational claim rather than a confirmed deal.</div><div class="ritem">Sponsor segments (Ro, PayPal/Launch, CLA, Odoo) are excluded from this brief entirely, per standing policy on paid ad reads.</div></div></div>
     </section>
 
     <section class="sec">

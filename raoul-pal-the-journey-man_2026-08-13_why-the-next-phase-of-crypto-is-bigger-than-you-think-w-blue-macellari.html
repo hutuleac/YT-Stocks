@@ -81,6 +81,11 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
 .riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
   padding:14px 18px 14px 28px;margin:11px 0;}
 .riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:2px 18px 2px 28px;}
+.riskbox::before{content:"";position:absolute;left:11px;top:14px;bottom:14px;width:7px;border-radius:5px;background:#a23f22;}
+.riskbox .ritem{font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;padding:13px 0;}
+.riskbox .ritem+.ritem{border-top:1px solid var(--line);}
 .riskcard.takecard::before{background:#6d4b9c;}
 .riskcard.takecard .txt{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(16px,1.3vw,19px);line-height:1.5;}
 .riskcard cite{display:inline;margin-left:6px;font-size:11px;color:#8a8d81;font-style:normal;white-space:nowrap;}
@@ -234,7 +239,7 @@ section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
     <section class="sec">
       <div class="sec-eye">Where this could be wrong</div>
       <h2>Risks &amp; Caveats on This Source</h2>
-      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">Single-guest interview; Macellari's employer, T. Rowe Price, has a direct commercial interest in the tokenization and institutional-crypto-adoption narrative she's describing.</div></div><div class="riskcard"><div class="txt">Specific figures cited in conversation (T. Rowe's $1.8T AUM, '15-20 board presentations in 6 months,' the ~$15M/2.5-year historical tokenization cost) are self-reported and not independently verified in this brief.</div></div><div class="riskcard"><div class="txt">The Imperial War College AI wargame study and the characterization of AI labs' self-reporting practices are both recalled from memory mid-conversation, with no named source, publication, or link given in the interview.</div></div><div class="riskcard"><div class="txt">This is a long, free-flowing 63-minute conversation with frequent cross-talk between two speakers; auto-generated captions can misattribute short interjections.</div></div></div>
+      <div style="margin-top:16px;"><div class="riskbox"><div class="ritem">Single-guest interview; Macellari's employer, T. Rowe Price, has a direct commercial interest in the tokenization and institutional-crypto-adoption narrative she's describing.</div><div class="ritem">Specific figures cited in conversation (T. Rowe's $1.8T AUM, '15-20 board presentations in 6 months,' the ~$15M/2.5-year historical tokenization cost) are self-reported and not independently verified in this brief.</div><div class="ritem">The Imperial War College AI wargame study and the characterization of AI labs' self-reporting practices are both recalled from memory mid-conversation, with no named source, publication, or link given in the interview.</div><div class="ritem">This is a long, free-flowing 63-minute conversation with frequent cross-talk between two speakers; auto-generated captions can misattribute short interjections.</div></div></div>
     </section>
 
     <section class="sec">
