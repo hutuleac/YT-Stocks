@@ -118,6 +118,94 @@
    ]
   },
   {
+   "html": "peter-h-diamandis_2026-09-02_openai-cuts-off-elon-s-cursor-humanity-s-first-star-probe-and-trump-s-nuclear-mars-ship.html",
+   "title": "OpenAI Cuts Off Elon's Cursor, Humanity's First Star Probe, and Trump's Nuclear Mars Ship",
+   "channel": "Peter H. Diamandis",
+   "date": "2026-09-02",
+   "speakers": "Peter Diamandis (host), Dave Blundin, Alex Wissner-Gross — with guests Philip Johnston (StarCloud) and Matt Pines (Physical Super Intelligence)",
+   "thread_line": "6 threads · humanity's first interstellar probe, OpenAI's cutoff-of-Cursor drama, a 4-month AGI claim, outcome-based AI pricing, an AI-designed chip threatening Nvidia, and Elon's energy-and-geoengineering week",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "StarCloud",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Physical Super Intelligence",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "OpenAI",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "SpaceX",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Salesforce",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "OpenAI",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Architect Labs",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Nvidia",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Tesla",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "SpaceX",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    }
+   ]
+  },
+  {
    "html": "all-in-podcast_2026-08-29_nvidia-s-historic-quarter-saas-comeback-bessent-vs-druck-america-s-debt-crisis-cancer-vaccine.html",
    "title": "Nvidia's Historic Quarter, SaaS Comeback, Bessent vs Druck, America's Debt Crisis, Cancer Vaccine",
    "channel": "All-In Podcast",
