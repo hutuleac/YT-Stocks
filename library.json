@@ -2,6 +2,122 @@
  "generated_from": "youtube-research-brief generate.py --reindex",
  "briefs": [
   {
+   "html": "this-week-in-ai_2026-09-03_the-real-danger-is-the-gap-between-two-robots-e29.html",
+   "title": "The real danger is the gap BETWEEN two robots | E29",
+   "channel": "This Week in AI",
+   "date": "2026-09-03",
+   "speakers": "Jason Calacanis (host), Lon Harris (news), Gotham Nagi (Gatik), Russ D'Sa (LiveKit), Billy Craft (Path)",
+   "thread_line": "6 threads · OpenClaw 2.0's multiplayer bet, Gatik's $200M round vs. Waymo's bad week, Perplexity's local-Mac compute, Slack's enterprise moat, MCP for hardware, and whether Pangram actually catches AI writing",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "Gatik",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "PepsiCo",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Kroger",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Waymo",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Tesla",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Uber",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Lyft",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "DoorDash",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Perplexity",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Apple",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "OpenAI",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Salesforce",
+     "stance": "Structural critique",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "Structural critique",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Nvidia",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Unitree",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    }
+   ]
+  },
+  {
    "html": "all-in-podcast_2026-08-29_nvidia-s-historic-quarter-saas-comeback-bessent-vs-druck-america-s-debt-crisis-cancer-vaccine.html",
    "title": "Nvidia's Historic Quarter, SaaS Comeback, Bessent vs Druck, America's Debt Crisis, Cancer Vaccine",
    "channel": "All-In Podcast",
